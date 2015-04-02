@@ -1,0 +1,260 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@charset "utf-8";
+
+$muted:#7A7A7A;
+$highlight:#FFFB00;
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+
+  //@media(max-width:767px) { background-color:red;}
+  //@media(min-width:768px) { background-color:yellow;}
+  //@media(min-width:992px) { background-color:green;}
+  //@media(min-width:1200px){ background-color:blue;}
+}
+
+
+.backdrop.location{
+  background: url('../images/estacion_central.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h2{
+  font-weight: 300;
+  line-height: 110px;
+}
+
+h3{
+  font-weight: 300;
+}
+
+h4{
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.text-muted{
+  font-weight: 300;
+  color: $muted;
+}
+
+.light{
+  font-weight: 300;
+}
+
+a.highlight{
+  font-weight: bold;
+  color:$highlight;
+}
+
+.navbar-inverse.mainMenu {
+  background-color: #090909;
+  border-color: #090909;
+  height: 115px;
+
+  ul.nav{
+    margin-top: 38px;
+  }
+
+  ul li a{
+    text-transform: uppercase;
+  }
+}
+
+.intro{
+  height: 90vh !important;
+  background: url('../images/santiago.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 160px;
+
+  h1 {color:#fff;}
+  h2 {color:$highlight; line-height: 32px;}
+  p  {
+    color:#fff;
+    padding-top: 15px;
+    padding-bottom: 23px;
+  }
+  a.bigBtn{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    color:#000;
+    background-color: $highlight;
+    border-radius: 2px;
+  }
+  .pricing img{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.mainSpeakers{
+  .col-lg-3,.col-sm-6{
+    margin-bottom: 75px;
+  }
+
+  .col-xs-12{
+    margin-bottom: 35px;
+  }
+
+  .photo{
+    border-radius: 85px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h4{
+    line-height: 43px;
+  }
+
+  p {
+    font-style: italic;
+    color: $muted;
+  }
+}
+
+.localSpeakers{
+  .photo{
+    max-width: 75px;
+    border-radius: 40px;
+    float: left;
+    margin: 18px 10px 35px 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  p {
+    font-style: italic;
+    color: $muted;
+  }
+  .col-xs-12{
+    padding-bottom: 20px;
+  }
+  .col-xs-12 img{
+    max-width: 65px;
+    margin-bottom: 35px;
+    margin-right: 5px;
+    margin-top: 15px;
+    border-radius: 0;
+  }
+}
+
+.seeAllSpeakers{
+  padding-top: 30px;
+  padding-bottom: 40px;
+  h3{
+    @media(max-width:767px) {font-size: 17px;}
+  }
+}
+
+.location{
+  color:#FFF;
+  font-weight: 300;
+
+  .col-sm-12{
+    h2{
+      font-size: 28px;
+    }
+  }
+
+  p.descLocation{
+    padding-bottom: 10px;
+  }
+
+  #map_canvas {
+    margin: 0;
+    padding: 0;
+    height: 400px;
+  }
+
+  .infoLocation{
+    .col-lg-4{
+      padding-top: 50px;
+      padding-bottom: 45px;
+
+      h4{
+        line-height: 32px;
+      }
+
+      a{
+        text-decoration: underline;
+        color: inherit;
+
+        &:hover{
+          color:$highlight;
+        }
+      }
+    }
+
+    .col-sm-12{
+      @media(min-width:768px) and (max-width: 1200px) { padding-top: 0 !important; }
+    }
+
+  }
+
+}
+
+.sponsors{
+  .premium .col-lg-4 {
+    padding-bottom: 25px;
+  }
+  .gold .col-lg-5ths {
+    padding-top: 25px;
+    padding-bottom: 50px;
+  }
+}
+
+.gallery{
+  background-color: #000;
+  color:#fff;
+  .col-xs-3, .col-sm-2, .col-lg-1{
+    padding: 2px !important;
+  }
+}
+
+.footer{
+  background-color: #000;
+  color:#fff;
+
+  .col-lg-12{
+    line-height: 128px;
+
+    img{
+      height: 50px;
+      position: absolute;
+      left: 0;
+      top:33px;
+    }
+
+    p{
+      font-weight: 300;
+    }
+  }
+}
+
+
+/*extend bootstrap for 5 columns layout*/
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {.col-sm-5ths {width: 20%;float: left;}}
+@media (min-width: 992px) {.col-md-5ths {width: 20%;float: left;}}
+@media (min-width: 1200px) {.col-lg-5ths {width: 20%;float: left;}}
