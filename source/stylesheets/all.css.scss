@@ -30,6 +30,12 @@ body {
 h2{
   font-weight: 300;
   line-height: 110px;
+
+  @media(max-width:767px) {
+    line-height: 27px;
+    font-size: 27px;
+    padding: 20px 0;
+  }
 }
 
 h3{
@@ -60,13 +66,45 @@ a.highlight{
   border-color: #090909;
   height: 115px;
 
+  @media(max-width:767px) {
+    height: inherit;
+  }
+
+  .navbar-brand{
+    img{
+      @media(max-width:767px) {
+        width: 140px;
+        margin-top: -13px;
+      }
+    }
+  }
+
   ul.nav{
     margin-top: 38px;
+    @media(max-width:767px) {margin: 0px -15px;}
   }
 
   ul li a{
     text-transform: uppercase;
+    @media(max-width:767px) {
+      color: #000;
+      font-weight: 400;
+      text-align: center;
+      border-bottom: 2px solid black;
+    }
   }
+
+  .navbar-toggle{
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+  }
+
+  .navbar-collapse{
+    @media(max-width:767px) {background-color:$highlight;}
+    @media(min-width:992px) {float: right;}
+  }
+
 }
 
 
@@ -205,6 +243,11 @@ a.highlight{
       padding-top: 50px;
       padding-bottom: 45px;
 
+      @media(max-width:767px) {
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+
       h4{
         line-height: 32px;
       }
@@ -228,10 +271,10 @@ a.highlight{
 }
 
 .sponsors{
-  .premium .col-lg-4 {
+  .premium .col-xs-4 {
     padding-bottom: 25px;
   }
-  .gold .col-lg-5ths {
+  .gold .col-md-3{
     padding-top: 25px;
     padding-bottom: 50px;
   }

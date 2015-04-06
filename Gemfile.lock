@@ -10,6 +10,8 @@ GEM
     autoprefixer-rails (5.1.7)
       execjs
       json
+    bootstrap-navbar (2.2.3)
+      gem_config (~> 0.3)
     bootstrap-sass (3.3.3)
       autoprefixer-rails (>= 5.0.0.1)
       sass (>= 3.2.19)
@@ -39,6 +41,7 @@ GEM
     eventmachine (1.0.7)
     execjs (2.4.0)
     ffi (1.9.8)
+    gem_config (0.3.1)
     haml (4.0.6)
       tilt
     hike (1.2.3)
@@ -64,6 +67,9 @@ GEM
       middleman-sprockets (>= 3.1.2)
       sass (>= 3.4.0, < 4.0)
       uglifier (~> 2.5)
+    middleman-bootstrap-navbar (2.0.0)
+      bootstrap-navbar (~> 2.0)
+      middleman-core (>= 3.0)
     middleman-core (3.3.10)
       activesupport (~> 4.1.0)
       bundler (~> 1.1)
@@ -131,6 +137,7 @@ PLATFORMS
 DEPENDENCIES
   bootstrap-sass (~> 3.3.3)
   middleman (~> 3.3.10)
+  middleman-bootstrap-navbar
   middleman-livereload (~> 3.1.0)
   tzinfo-data
   wdm (~> 0.1.0)
