@@ -69,6 +69,7 @@ a.highlight{
   }
 }
 
+
 .intro{
   height: 90vh !important;
   background: url('../images/santiago.jpg') no-repeat center center;
@@ -99,7 +100,7 @@ a.highlight{
   }
 }
 
-.mainSpeakers{
+.mainSpeakers, .mainSponsors{
   .col-lg-3,.col-sm-6{
     margin-bottom: 75px;
   }
@@ -124,7 +125,19 @@ a.highlight{
   }
 }
 
-.localSpeakers{
+.mainSponsors{
+  padding-top: 100px;
+  h2{ line-height: 70px;  margin-bottom: 0;}
+  h3{ line-height: 50px;  margin-top: 0;}
+  h4.titleSection{ padding-bottom: 40px;}
+
+  .col-lg-4{
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+}
+
+.localSpeakers, .secondarySponsors{
   .photo{
     max-width: 75px;
     border-radius: 40px;
@@ -145,7 +158,17 @@ a.highlight{
     margin-bottom: 35px;
     margin-right: 5px;
     margin-top: 15px;
-    border-radius: 0;
+    //border-radius: 0;
+  }
+}
+
+.secondarySponsors{
+  h4{
+    padding-bottom: 0px;
+    line-height: 15px;
+  }
+  img{
+    margin-top: 0px;
   }
 }
 

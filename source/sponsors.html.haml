@@ -25,38 +25,29 @@
         %li
           %a{:href => "#contact"} STC 2011
 
-.container-fluid.intro
-  .row-fluid
-    .col-lg-12.text-center
-      %h1 NOVIEMBRE 15 Y 16, 2015
-      %h2 El evento de tecnología más importante de Chile<br>y uno de los más importantes de Sudamérica
-      %p La conferencia que une a estrellas mundiales en desarrollo de<br>software y expertos locales para hablar de UX, Programación, Móvil,<br>Negocios, Cultura Innvación y Emprendimiento.
-      %a.btn.bigBtn{href:'#'} Regístrate Online
-      .pricing
-        %img.img-responsive{src:'images/pricing.png'}
-
-
-.container
+.container.mainSponsors
   .row-fluid
     .col-lg-12
-      %h2.text-center Los mejores ya confirmaron que estarán con nosotros:
-  .row-fluid.mainSpeakers.OK
-    .col-xs-12.col-sm-6.col-lg-3.text-center
-      %img.img-responsive.photo{src:'../images/speaker.jpg'}
-      %h4 Lucinda Robertson
-      %p Autor de “RabbitMQ in action” y desarrollador del NYTimes, Ex-PivotalTracker
-    .col-xs-12.col-sm-6.col-lg-3.text-center
-      %img.img-responsive.photo{src:'../images/speaker.jpg'}
-      %h4 Lucinda Robertson
-      %p Autor de “RabbitMQ in action” y desarrollador del NYTimes, Ex-PivotalTracker
-    .col-xs-12.col-sm-6.col-lg-3.text-center
-      %img.img-responsive.photo{src:'../images/speaker.jpg'}
-      %h4 Lucinda Robertson
-      %p Autor de “RabbitMQ in action” y desarrollador del NYTimes, Ex-PivotalTracker
-    .col-xs-12.col-sm-6.col-lg-3.text-center
-      %img.img-responsive.photo{src:'../images/speaker.jpg'}
-      %h4 Lucinda Robertson
-      %p Autor de “RabbitMQ in action” y desarrollador del NYTimes, Ex-PivotalTracker
+      %h2.text-center Organizadores
+      %h3.text-center Los visionarios detrás de la iniciativa STC 2015
+  .row-fluid
+    .col-xs-4.col-sm-4.col-lg-4.text-center
+      %img.img-responsive.photo{src:'../images/sponsor1.png'}
+      %h4 Synaptic
+      %p Proveedores de soluciones tecnológicas innovadoras, especializadas y escalables.
+    .col-xs-4.col-sm-4.col-lg-4.text-center
+      %img.img-responsive.photo{src:'../images/sponsor1.png'}
+      %h4 Synaptic
+      %p Proveedores de soluciones tecnológicas innovadoras, especializadas y escalables.
+    .col-xs-4.col-sm-4.col-lg-4.text-center
+      %img.img-responsive.photo{src:'../images/sponsor1.png'}
+      %h4 Synaptic
+      %p Proveedores de soluciones tecnológicas innovadoras, especializadas y escalables.
+
+  .row
+    .col-lg-12
+      %h4.titleSection.text-center La Startechconf 2015 no sería posible sin la organización, ayuda y paciencia de:
+
 
   .row-fluid.localSpeakers.OK
     .col-xs-12.col-sm-6.col-lg-3
@@ -92,65 +83,80 @@
       %img.photo{src:'../images/speaker.jpg'}
       %h4 Lucinda Robertson
       %p Autor de “RabbitMQ in action” y desarrollador del NYTimes, Ex-PivotalTracker
+  .row-fluid.localSpeakers
+    .col-xs-12.col-sm-6.col-lg-3
+      %img.photo{src:'../images/speaker.jpg'}
+      %h4 Lucinda Robertson
+      %p Autor de “RabbitMQ in action” y desarrollador del NYTimes, Ex-PivotalTracker
+    .col-xs-12.col-sm-6.col-lg-3
+      %img.photo{src:'../images/speaker.jpg'}
+      %h4 Lucinda Robertson
+      %p Autor de “RabbitMQ in action” y desarrollador del NYTimes, Ex-PivotalTracker
+    .col-xs-12.col-sm-6.col-lg-3
+      %img.photo{src:'../images/speaker.jpg'}
+      %h4 Lucinda Robertson
+      %p Autor de “RabbitMQ in action” y desarrollador del NYTimes, Ex-PivotalTracker
+    .col-xs-12.col-sm-6.col-lg-3
+      %img.photo{src:'../images/speaker.jpg'}
+      %h4 Lucinda Robertson
+      %p Autor de “RabbitMQ in action” y desarrollador del NYTimes, Ex-PivotalTracker
 
-
-  .row-fluid
-    .col-lg-12.text-center.seeAllSpeakers
-      %h3
-        %i.fa.fa-th-large
-        Ver todos los charlistas en el programa
-      %p.text-muted ¡Tengo una charla interesante!
-
-
-.backdrop.location
-  .container
-    .row-fluid
-      .col-lg-12.col-sm-12.text-center
-        %h2 Acompañanos en el Centro Cultural Estación Mapocho
-    .row-fluid
-      .col-lg-3.light
-        %p.descLocation
-          Con una historia y ubicación privilegiada en Santiago, el Centro Cultural tiene 33 espacios diferentes disponibles: plaza exterior, Hall de acceso, gran nave (Plaza Alta y Baja), foyer y 9 salas implementadas. Además, cuenta con 2 restoranes, 1 cafetería, 5 boleterías, 160 estacionamientos y 140 metros cuadrados de servicios higiénicos.
-      .col-lg-9
-        #map_canvas
-    .row-fluid.infoLocation
-      .col-sm-6.col-lg-4
-        %h4 Donde hospedarme
-        %img{src:'images/hostal.png'}
-        %p El Hotel Crown Plaza es el hotel preferido por la Startechconf 2015, al momento de registrarte muestra tu comprobante de pago y accede a nuestra tarifa especial STC.
-      .col-sm-6.col-lg-4
-        %h4 Restaurantes
-        %p Alrededor de la Estación Mapocho encontrarás desde restaurantes ultra económicos (como en el mercado Tirso de Molina) hasta los no-tan-económicos y exclusivos, a solo pasos y con la mayor variedad posible.
-        %p (¡Obvio tambien hay hamburguesas cerca!)
-      .col-sm-12.col-lg-4
-        %h4 Transporte
-        %p Santiago es una de las capitales sudamericanas con mejor movilidad, sea en metro, micro o taxi; la Estación Mapocho está ubicada a solo 98 metros de la estación de metro Puente Cal y Canto y sobre una de las arterias principales de la ciudad.
-        %p
-          %a{href:'#'} Explora la red de Metro de Santiago
-
-.container.sponsors
   .row
-    .col-lg-12.text-center
-      %h2 Con el gentíl auspicio de:
-  .row.premium
-    .col-xs-4.text-center
-      %img.img-responsive{src:"../images/bci_logo.png"}
-    .col-xs-4.text-center
-      %img.img-responsive{src:"../images/google_logo.png"}
-    .col-xs-4.text-center
-      %img.img-responsive{src:"../images/crowne_plaza_logo.png"}
-  .row
-    .col-lg-12.text-center
-      %h3 Auspiciadores Gold
-  .row.gold
-    .col-xs-6.col-md-3.text-center
-      %img.img-responsive{src:"../images/groupon_logo.png"}
-    .col-xs-6.col-md-3.text-center
-      %img.img-responsive{src:"../images/get_on_board_logo.png"}
-    .col-xs-6.col-md-3.text-center
-      %img.img-responsive{src:"../images/heroku_logo.png"}
-    .col-xs-6.col-md-3.text-center
-      %img.img-responsive{src:"../images/str_logo.png"}
+    .col-lg-12
+      %h4.titleSection.text-center …y el valioso trabajo y dedicación de:
+
+
+  .row-fluid.secondarySponsors
+    .col-xs-12.col-sm-6.col-lg-3
+      %img.photo{src:'../images/speaker.jpg'}
+      %h4 Lucinda Robertson
+      %p @lucyRobertson
+    .col-xs-12.col-sm-6.col-lg-3
+      %img.photo{src:'../images/speaker.jpg'}
+      %h4 Lucinda Robertson
+      %p @lucyRobertson
+    .col-xs-12.col-sm-6.col-lg-3
+      %img.photo{src:'../images/speaker.jpg'}
+      %h4 Lucinda Robertson
+      %p @lucyRobertson
+    .col-xs-12.col-sm-6.col-lg-3
+      %img.photo{src:'../images/speaker.jpg'}
+      %h4 Lucinda Robertson
+      %p @lucyRobertson
+  .row-fluid.secondarySponsors
+    .col-xs-12.col-sm-6.col-lg-3
+      %img.photo{src:'../images/speaker.jpg'}
+      %h4 Lucinda Robertson
+      %p @lucyRobertson
+    .col-xs-12.col-sm-6.col-lg-3
+      %img.photo{src:'../images/speaker.jpg'}
+      %h4 Lucinda Robertson
+      %p @lucyRobertson
+    .col-xs-12.col-sm-6.col-lg-3
+      %img.photo{src:'../images/speaker.jpg'}
+      %h4 Lucinda Robertson
+      %p @lucyRobertson
+    .col-xs-12.col-sm-6.col-lg-3
+      %img.photo{src:'../images/speaker.jpg'}
+      %h4 Lucinda Robertson
+      %p @lucyRobertson
+  .row-fluid.secondarySponsors
+    .col-xs-12.col-sm-6.col-lg-3
+      %img.photo{src:'../images/speaker.jpg'}
+      %h4 Lucinda Robertson
+      %p @lucyRobertson
+    .col-xs-12.col-sm-6.col-lg-3
+      %img.photo{src:'../images/speaker.jpg'}
+      %h4 Lucinda Robertson
+      %p @lucyRobertson
+    .col-xs-12.col-sm-6.col-lg-3
+      %img.photo{src:'../images/speaker.jpg'}
+      %h4 Lucinda Robertson
+      %p @lucyRobertson
+    .col-xs-12.col-sm-6.col-lg-3
+      %img.photo{src:'../images/speaker.jpg'}
+      %h4 Lucinda Robertson
+      %p @lucyRobertson
 
 .container-fluid.gallery
   .row-fluid
