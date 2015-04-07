@@ -1,0 +1,26 @@
+%nav.navbar.navbar-inverse.navbar-fixed-top.mainMenu
+  .container-fluid
+    .navbar-header
+      %button.navbar-toggle.collapsed{"aria-controls" => "navbar", "aria-expanded" => "false", "data-target" => "#navbar", "data-toggle" => "collapse", :type => "button"}
+        %span.sr-only Toggle navigation
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      %a.navbar-brand{:href => "/"}
+        %img{src:'images/startechconf_logo.png'}
+    #navbar.collapse.navbar-collapse
+      %ul.nav.navbar-nav
+        %li
+          %a{:href => "#about"} Blog
+        %li
+          %a{:href => "/sponsors.html"} Organizadores
+        %li
+          %a{:href => "#contact"} Charlistas
+        %li
+          %a{:href => "#contact"} Programa
+        %li
+          %a{:href => "#contact"} Código de Conducta
+        %li
+          %a{:href => "#contact"} STC 2013
+        %li
+          %a{:href => "#contact"} STC 2011

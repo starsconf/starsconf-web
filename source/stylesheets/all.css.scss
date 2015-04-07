@@ -1,3 +1,4 @@
+$grid-float-breakpoint:1200px;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @charset "utf-8";
@@ -81,17 +82,18 @@ a.highlight{
 
   ul.nav{
     margin-top: 38px;
-    @media(max-width:767px) {margin: 0px -15px;}
+    @media(max-width:1199px) {margin: 0px -15px;}
   }
 
   ul li a{
     text-transform: uppercase;
-    @media(max-width:767px) {
+    @media(max-width:1199px) {
       color: #000;
       font-weight: 400;
       text-align: center;
       border-bottom: 2px solid black;
     }
+
   }
 
   .navbar-toggle{
@@ -101,7 +103,7 @@ a.highlight{
   }
 
   .navbar-collapse{
-    @media(max-width:767px) {background-color:$highlight;}
+    @media(max-width:1199px) {background-color:$highlight;}
     @media(min-width:992px) {float: right;}
   }
 
@@ -109,7 +111,6 @@ a.highlight{
 
 
 .intro{
-  height: 90vh !important;
   background: url('../images/santiago.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -117,10 +118,27 @@ a.highlight{
   background-size: cover;
   padding-top: 160px;
 
-  h1 {color:#fff;}
-  h2 {color:$highlight; line-height: 32px;}
+  @media(max-width:767px) { height: 92vh; padding-top: 67px; }
+  @media(min-width:768px) { height: 70vh;}
+  @media(min-width:992px) { height: 90vh;}
+
+
+  h1 {
+    color:#fff;
+    @media(max-width:767px) {font-size: 21px;}
+  }
+  h2 {
+    color:$highlight;
+    line-height: 32px;
+    @media(max-width:767px) {
+      font-size: 16px;
+      line-height: 22px;
+      padding: inherit;
+    }
+  }
   p  {
     color:#fff;
+    font-weight: 300;
     padding-top: 15px;
     padding-bottom: 23px;
   }
@@ -131,10 +149,14 @@ a.highlight{
     color:#000;
     background-color: $highlight;
     border-radius: 2px;
+    @media(max-width:767px) {
+      border-radius: 35px;
+    }
   }
   .pricing img{
     margin-left: auto;
     margin-right: auto;
+    margin-top: 35px;
   }
 }
 
@@ -170,8 +192,8 @@ a.highlight{
   h4.titleSection{ padding-bottom: 40px;}
 
   .col-lg-4{
-    padding-top: 50px;
-    padding-bottom: 100px;
+    padding-top: 60px;
+    padding-bottom: 30px;
   }
 }
 
@@ -274,10 +296,18 @@ a.highlight{
   .premium .col-xs-4 {
     padding-bottom: 25px;
   }
-  .gold .col-md-3{
-    padding-top: 25px;
-    padding-bottom: 50px;
+  .gold {
+    .col-md-3{
+      padding-top: 25px;
+      padding-bottom: 50px;
+      height: 120px;
+    }
+    img{
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
+
 }
 
 .gallery{
@@ -293,13 +323,16 @@ a.highlight{
   color:#fff;
 
   .col-lg-12{
-    line-height: 128px;
+    padding: 55px 0;
 
     img{
       height: 50px;
       position: absolute;
       left: 0;
       top:33px;
+      @media(max-width:767px) {
+        position: static;
+      }
     }
 
     p{

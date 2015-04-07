@@ -1,29 +1,4 @@
-%nav.navbar.navbar-inverse.navbar-fixed-top.mainMenu
-  .container-fluid
-    .navbar-header
-      %button.navbar-toggle.collapsed{"aria-controls" => "navbar", "aria-expanded" => "false", "data-target" => "#navbar", "data-toggle" => "collapse", :type => "button"}
-        %span.sr-only Toggle navigation
-        %span.icon-bar
-        %span.icon-bar
-        %span.icon-bar
-      %a.navbar-brand{:href => "/"}
-        %img{src:'images/startechconf_logo.svg'}
-    #navbar.collapse.navbar-collapse
-      %ul.nav.navbar-nav
-        %li
-          %a{:href => "#about"} Blog
-        %li
-          %a{:href => "/sponsors.html"} Organizadores
-        %li
-          %a{:href => "#contact"} Charlistas
-        %li
-          %a{:href => "#contact"} Programa
-        %li
-          %a{:href => "#contact"} Código de Conducta
-        %li
-          %a{:href => "#contact"} STC 2013
-        %li
-          %a{:href => "#contact"} STC 2011
+= partial "menu"
 
 .container.mainSponsors
   .row-fluid
@@ -47,7 +22,6 @@
   .row
     .col-lg-12
       %h4.titleSection.text-center La Startechconf 2015 no sería posible sin la organización, ayuda y paciencia de:
-
 
   .row-fluid.localSpeakers.OK
     .col-xs-12.col-sm-6.col-lg-3
@@ -158,132 +132,5 @@
       %h4 Lucinda Robertson
       %p @lucyRobertson
 
-.container-fluid.gallery
-  .row-fluid
-    .col-lg-12.text-center
-      %h2 ¿Tu primera vez? mira que bien la pasamos antes…
-
-  .row-fluid
-    .col-xs-3.col-sm-2.col-lg-1
-      %a{:href => "http://www.flickr.com/photos/continuumchile/8390680472/in/set-72157632543758999/lightbox/", :target => "_blank"}
-      %img.img-responsive{:src => "http://farm9.staticflickr.com/8473/8390680472_25d58a0414_q.jpg"}
-
-    .col-xs-3.col-sm-2.col-lg-1
-      %a{:href => "http://www.flickr.com/photos/continuumchile/8390613518/in/set-72157632543758999/lightbox/", :target => "_blank"}
-      %img.img-responsive{:src => "http://farm9.staticflickr.com/8235/8390613518_a3b1753853_q.jpg"}
-
-    .col-xs-3.col-sm-2.col-lg-1
-      %a{:href => "http://www.flickr.com/photos/continuumchile/8390678292/in/set-72157632543758999/lightbox/", :target => "_blank"}
-      %img.img-responsive{:src => "http://farm9.staticflickr.com/8078/8390678292_166b1eca4f_q.jpg"}
-
-    .col-xs-3.col-sm-2.col-lg-1
-      %a{:href => "http://www.flickr.com/photos/continuumchile/8389528811/in/set-72157632543758999/lightbox/", :target => "_blank"}
-      %img.img-responsive{:src => "http://farm9.staticflickr.com/8372/8389528811_b4fcb5ae94_q.jpg"}
-
-    .col-xs-3.col-sm-2.col-lg-1
-      %a{:href => "http://www.flickr.com/photos/continuumchile/8390676428/in/set-72157632543758999/lightbox/", :target => "_blank"}
-      %img.img-responsive{:src => "http://farm9.staticflickr.com/8077/8390676428_ffb9bf1dd2_q.jpg"}
-
-    .col-xs-3.col-sm-2.col-lg-1
-      %a{:href => "http://www.flickr.com/photos/continuumchile/8390611920/in/set-72157632543758999/lightbox/", :target => "_blank"}
-      %img.img-responsive{:src => "http://farm9.staticflickr.com/8080/8390611920_60e69fa59b_q.jpg"}
-
-    .col-xs-3.col-sm-2.col-lg-1
-      %a{:href => "http://www.flickr.com/photos/continuumchile/8390672474/in/set-72157632543758999/lightbox/", :target => "_blank"}
-      %img.img-responsive{:src => "http://farm9.staticflickr.com/8226/8390672474_eaab1de0b7_q.jpg"}
-
-    .col-xs-3.col-sm-2.col-lg-1
-      %a{:href => "http://www.flickr.com/photos/continuumchile/8390670224/in/set-72157632543758999/lightbox/", :target => "_blank"}
-      %img.img-responsive{:src => "http://farm9.staticflickr.com/8217/8390670224_fd040bf3d7_q.jpg"}
-
-    .col-xs-3.col-sm-2.col-lg-1
-      %a{:href => "http://www.flickr.com/photos/continuumchile/8390667714/in/set-72157632543758999/lightbox/", :target => "_blank"}
-      %img.img-responsive{:src => "http://farm9.staticflickr.com/8475/8390667714_267519450d_q.jpg"}
-
-    .col-xs-3.col-sm-2.col-lg-1
-      %a{:href => "http://www.flickr.com/photos/continuumchile/8389579713/in/set-72157632543758999/lightbox/", :target => "_blank"}
-      %img.img-responsive{:src => "http://farm9.staticflickr.com/8085/8389579713_24d421d3f5_q.jpg"}
-
-    .col-xs-3.col-sm-2.col-lg-1
-      %a{:href => "http://www.flickr.com/photos/continuumchile/8390663526/in/set-72157632543758999/lightbox/", :target => "_blank"}
-      %img.img-responsive{:src => "http://farm9.staticflickr.com/8187/8390663526_4f73a87c2b_q.jpg"}
-
-    .col-xs-3.col-sm-2.col-lg-1
-      %a{:href => "http://www.flickr.com/photos/continuumchile/8389575191/in/set-72157632543758999/lightbox/", :target => "_blank"}
-      %img.img-responsive{:src => "http://farm9.staticflickr.com/8365/8389575191_56d360f256_q.jpg"}
-
-  .row-fluid
-    .col-xs-3.col-sm-2.col-lg-1
-      %a{:href => "http://www.flickr.com/photos/continuumchile/8389553859/in/set-72157632543758999/lightbox/", :target => "_blank"}
-      %img.img-responsive{:src => "http://farm9.staticflickr.com/8085/8389553859_b2221fdb71_q.jpg"}
-
-    .col-xs-3.col-sm-2.col-lg-1
-      %a{:href => "http://www.flickr.com/photos/continuumchile/8390657126/in/set-72157632543758999/lightbox/", :target => "_blank"}
-      %img.img-responsive{:src => "http://farm9.staticflickr.com/8234/8390657126_cf6d4c45ab_q.jpg"}
-
-    .col-xs-3.col-sm-2.col-lg-1
-      %a{:href => "http://www.flickr.com/photos/continuumchile/8390654426/in/set-72157632543758999/lightbox/", :target => "_blank"}
-      %img.img-responsive{:src => "http://farm9.staticflickr.com/8372/8390654426_3c98364fd8_q.jpg"}
-
-    .col-xs-3.col-sm-2.col-lg-1
-      %a{:href => "http://www.flickr.com/photos/continuumchile/8389565825/in/set-72157632543758999/lightbox/", :target => "_blank"}
-      %img.img-responsive{:src => "http://farm9.staticflickr.com/8077/8389565825_a958b0d91d_q.jpg"}
-
-    .col-xs-3.col-sm-2.col-lg-1
-      %a{:href => "http://www.flickr.com/photos/continuumchile/8390649080/in/set-72157632543758999/lightbox/", :target => "_blank"}
-      %img.img-responsive{:src => "http://farm9.staticflickr.com/8324/8390649080_a1202b341c_q.jpg"}
-
-    .col-xs-3.col-sm-2.col-lg-1
-      %a{:href => "http://www.flickr.com/photos/continuumchile/8390646496/in/set-72157632543758999/lightbox/", :target => "_blank"}
-      %img.img-responsive{:src => "http://farm9.staticflickr.com/8218/8390646496_031c07072a_q.jpg"}
-
-    .col-xs-3.col-sm-2.col-lg-1
-      %a{:href => "http://www.flickr.com/photos/continuumchile/8389559703/in/set-72157632543758999/lightbox/", :target => "_blank"}
-      %img.img-responsive{:src => "http://farm9.staticflickr.com/8083/8389559703_f4e66a5385_q.jpg"}
-
-    .col-xs-3.col-sm-2.col-lg-1
-      %a{:href => "http://www.flickr.com/photos/continuumchile/8389525069/in/set-72157632543758999/lightbox/", :target => "_blank"}
-      %img.img-responsive{:src => "http://farm9.staticflickr.com/8232/8389525069_b2602cf064_q.jpg"}
-
-    .col-xs-3.col-sm-2.col-lg-1
-      %a{:href => "http://www.flickr.com/photos/continuumchile/8390644636/in/set-72157632543758999/lightbox/", :target => "_blank"}
-      %img.img-responsive{:src => "http://farm9.staticflickr.com/8235/8390644636_1c72ed92cf_q.jpg"}
-
-    .col-xs-3.col-sm-2.col-lg-1
-      %a{:href => "http://www.flickr.com/photos/continuumchile/8390643714/in/set-72157632543758999/lightbox/", :target => "_blank"}
-      %img.img-responsive{:src => "http://farm9.staticflickr.com/8098/8390643714_31d1c4d61b_q.jpg"}
-
-    .col-xs-3.col-sm-2.col-lg-1
-      %a{:href => "http://www.flickr.com/photos/continuumchile/8390642624/in/set-72157632543758999/lightbox/", :target => "_blank"}
-      %img.img-responsive{:src => "http://farm9.staticflickr.com/8468/8390642624_93f87bf21c_q.jpg"}
-
-    .col-xs-3.col-sm-2.col-lg-1
-      %a{:href => "http://www.flickr.com/photos/continuumchile/8389555695/in/set-72157632543758999/lightbox/", :target => "_blank"}
-      %img.img-responsive{:src => "http://farm9.staticflickr.com/8093/8389555695_6c3659afb0_q.jpg"}
-
-
-.container-fluid.footer
-  .row-fluid
-    .col-lg-12.text-center
-      %img{src:'images/startechconf_logo.svg'}
-      %p
-        Si quieres saber algo más y no lo encuentras en este sitio escríbenos a
-        %a.highlight{href:'mailto:contact@startechconf.com'} contact@startechconf.com
-
-%script{:src => "https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"}
-:javascript
-  var map;
-  function initialize() {
-    var mapOptions = {
-      zoom: 16,
-      center: new google.maps.LatLng(-33.4321115,-70.6544476),
-      mapTypeId: google.maps.MapTypeId.ROADMAP
-    };
-    map = new google.maps.Map(document.getElementById('map_canvas'),
-        mapOptions);
-  }
-
-  google.maps.event.addDomListener(window, 'load', initialize);
-
-
-
+= partial "gallery"
+= partial "footer"
