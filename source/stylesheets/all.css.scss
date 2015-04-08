@@ -91,10 +91,11 @@ a.highlight{
   ul li a{
     text-transform: uppercase;
     @media(max-width:1199px) {
-      color: #000;
-      font-weight: 400;
+      color: #5F5F5F;
+      font-weight: 300;
+      font-size: 30px;
       text-align: center;
-      border-bottom: 2px solid black;
+      border-bottom: 2px solid rgba(150, 150, 150, 0.27);
     }
 
   }
@@ -106,7 +107,7 @@ a.highlight{
   }
 
   .navbar-collapse{
-    @media(max-width:1199px) {background-color:$highlight;}
+    @media(max-width:1199px) {background-color:$highlight; margin-top: 10px;}
     @media(min-width:992px) {float: right;}
   }
 
