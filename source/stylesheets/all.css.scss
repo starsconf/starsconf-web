@@ -412,17 +412,17 @@ a.highlight{
 
   li{
     a{
-      font-size: 20px;
+      font-size: 16px;
       color: #D5D5D5;
       line-height: 32px;
-      font-weight: 300;
+      font-weight: 400;
       border-radius: 0;
       border:none;
+      text-transform: uppercase;
     }
     &.active{
       a{
-        color:#000;
-        //background-color: $highlight;
+        color:#494949;
         -webkit-transition: background 1s ease;
         -moz-transition: background 1s ease;
         -ms-transition: background 1s ease;

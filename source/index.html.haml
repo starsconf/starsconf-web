@@ -18,25 +18,33 @@
   .row-fluid
     .col-lg-12
       %h2.text-center Los mejores ya confirmaron que estarán con nosotros:
-  .row-fluid.mainSpeakers.OK
-    .col-xs-12.col-sm-6.col-lg-3.text-center
+  .row-fluid.mainSpeakers
+    .col-xs-12.col-sm-4.col-lg-2.text-center
       %img.img-responsive.photo{src:'../images/speaker1.jpg'}
       %h4 Lucinda Robertson
       %p Autor de “RabbitMQ in action” y desarrollador del NYTimes, Ex-PivotalTracker
-    .col-xs-12.col-sm-6.col-lg-3.text-center
+    .col-xs-12.col-sm-4.col-lg-2.text-center
       %img.img-responsive.photo{src:'../images/speaker2.jpg'}
       %h4 Lucinda Robertson
       %p Autor de “RabbitMQ in action” y desarrollador del NYTimes, Ex-PivotalTracker
-    .col-xs-12.col-sm-6.col-lg-3.text-center
+    .col-xs-12.col-sm-4.col-lg-2.text-center
       %img.img-responsive.photo{src:'../images/speaker3.jpg'}
       %h4 Lucinda Robertson
       %p Autor de “RabbitMQ in action” y desarrollador del NYTimes, Ex-PivotalTracker
-    .col-xs-12.col-sm-6.col-lg-3.text-center
+    .col-xs-12.col-sm-4.col-lg-2.text-center
       %img.img-responsive.photo{src:'../images/speaker4.jpg'}
       %h4 Lucinda Robertson
       %p Autor de “RabbitMQ in action” y desarrollador del NYTimes, Ex-PivotalTracker
+    .col-xs-12.col-sm-4.col-lg-2.text-center
+      %img.img-responsive.photo{src:'../images/speaker1.jpg'}
+      %h4 Lucinda Robertson
+      %p Autor de “RabbitMQ in action” y desarrollador del NYTimes, Ex-PivotalTracker
+    .col-xs-12.col-sm-4.col-lg-2.text-center
+      %img.img-responsive.photo{src:'../images/speaker2.jpg'}
+      %h4 Lucinda Robertson
+      %p Autor de “RabbitMQ in action” y desarrollador del NYTimes, Ex-PivotalTracker
 
-  .row-fluid.localSpeakers.OK
+  .row-fluid.localSpeakers
     .col-xs-12.col-sm-6.col-lg-3
       %img.photo{src:'../images/speaker4.jpg'}
       %h4 Lucinda Robertson
@@ -84,7 +92,7 @@
   .container
     .row-fluid
       .col-lg-12.col-sm-12.text-center
-        %h2 Acompañanos en el Centro Cultural Estación Mapocho
+        %h2 Acompañanos en la USM, sede San Joaquín
     .row-fluid
       .col-lg-3.light
         %p.descLocation
@@ -137,7 +145,7 @@
   function initialize() {
     var mapOptions = {
       zoom: 16,
-      center: new google.maps.LatLng(-33.4321115,-70.6544476),
+      center: new google.maps.LatLng(-33.490096,-70.618445),
       mapTypeId: google.maps.MapTypeId.ROADMAP
     };
     map = new google.maps.Map(document.getElementById('map_canvas'),
@@ -145,6 +153,3 @@
   }
 
   google.maps.event.addDomListener(window, 'load', initialize);
-
-
-
