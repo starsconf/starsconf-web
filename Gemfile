@@ -2,6 +2,10 @@
 # the following line to use "http://" instead
 source 'https://rubygems.org'
 
+gem "thin"
+
+gem "rack-rewrite"
+
 gem "middleman", "~>3.3.10"
 
 # Live-reloading plugin
