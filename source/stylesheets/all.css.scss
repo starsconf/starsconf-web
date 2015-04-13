@@ -457,7 +457,12 @@ a.highlight{
 .conduct{
   p {
     font-weight: 300;
+    max-width: 600px;
   }
+}
+
+.mainSpeakers .photo {
+    height: 150px;
 }
 
 /*extend bootstrap for 5 columns layout*/
