@@ -1,0 +1,20 @@
+
+/*	GENERALES
+–––––––––––––––––––––––––––*/
+body {
+	font-family: 'Open Sans', Arial, sans-serif, ;
+	color: #555;
+	font-size: 100%;
+	line-height: 1.5;
+	background-color: #111;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* ------ Normalize ----- */
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
