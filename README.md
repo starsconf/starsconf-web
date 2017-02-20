@@ -1,3 +1,6 @@
+# Static Webpage with Jade/Pug (HTML Preprocessador), SCSS, Gulp/Watch.
+
+
 # Requerimientos
   - Node > 4
 
