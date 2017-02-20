@@ -4,10 +4,9 @@
   - Node > 4
 
 ### Para correr el cuento
-- Execute `npm install` from this directory to install dev dependencies.
-- Execute `gulp` to run all tasks, launch the browser sync local server and watch for changes.
+- Primero `npm install` en el directorio para descargar las dependencias.
+- Luego `gulp` para correr la web en el local server y ver los cambios.
 
-Para extraer una versión compilada: `gulp build`
 
 ## Notas
 Jade ahora se llama Pug 
