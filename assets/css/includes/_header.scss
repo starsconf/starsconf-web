@@ -34,6 +34,7 @@
     }
   }
   h2 {
+    font-family: 'Quicksand', Arial, sans-serif;
     font-weight: 100;
     text-align: center;
     font-size: 2.6em;
@@ -42,6 +43,7 @@
     margin: 0 auto 80px auto;
     line-height: 140%;
     strong{
+      font-family: 'Lato', sans-serif;
       font-size: 1.8em;
       margin-bottom: 1px;
       display: block;
@@ -82,6 +84,8 @@
     }
   }
   .call-to-action{
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
     text-align: center;
     a{
       display: inline-block;

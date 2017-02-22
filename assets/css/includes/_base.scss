@@ -2,7 +2,7 @@
 /*	GENERALES
 –––––––––––––––––––––––––––*/
 body {
-	font-family: 'Open Sans', Arial, sans-serif, ;
+	font-family: 'Quicksand', Arial, sans-serif;
 	color: #fff;
 	font-size: 100%;
 	line-height: 1.5;
@@ -23,6 +23,10 @@ a{
 	transition: all .25s ease-in-out;
 }
 
+h1,h2, h3, h4, h5, h6{
+	font-family: 'Lato', sans-serif;
+}
+
 /* ------ Home ----- */
 
 .main-content{
@@ -38,5 +42,9 @@ $main-color-low: #fffcea;
 
 .alert.alert-sc{
 	background-color: $main-color-low;
+	border: 1px solid $main-color;
+	border-radius: 0px;
+	padding: 20px;
+	margin: 20px auto;
 	color: #555;
 }
