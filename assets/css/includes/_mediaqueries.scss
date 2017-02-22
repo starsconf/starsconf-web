@@ -1,8 +1,93 @@
 /* Portrait and Landscape */
+@media (max-width: 375px){
+  .header{
+    .logo{
+      width: 110px;
+      padding: 10px 0;
+    }
+    .button-collapse{
+      position: absolute;
+      right: 20px;
+      top: 35px;
+      color: #fff;
+      cursor: pointer;
+      &:hover,
+      &:focus{
+        color: $main-color;
+      }
+    }
+    &.home-header{
+      height: initial;
+      .top-header{
+        background-color: black;
+        height: initial;
+      }
+    }
+    .call-to-action a{
+      padding: 14px;
+      font-size: 1.6em;
+      width: 100%;
+    }
+    h2{
+      font-size: 1.6em;
+      margin: 0;
+      width: 100%;
+      margin-bottom: 10%;
+      strong{
+        font-size: 1.4em;
+      }
+    }
+  }
 
-@media (max-width: 990px) {
   .header .home-bottom-header{
-    padding: 40% 0;
+    padding: 50% 0 20% 0;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 990px) {
+  .header{
+    .logo{
+      width: 22%;
+      padding: 10px 0;
+    }
+    .button-collapse{
+      position: absolute;
+      right: 20px;
+      top: 40%;
+      color: #fff;
+      cursor: pointer;
+      &:hover,
+      &:focus{
+        color: $main-color;
+      }
+      i{
+        font-size: 300%;
+      }
+    }
+    &.home-header{
+      .top-header{
+        background-color: black;
+        height: initial;
+      }
+    }
+    .call-to-action a{
+      padding: 14px;
+      font-size: 220%;
+      width: 95%;
+    }
+    h2{
+      font-size: 220%;
+      margin: 0;
+      width: 100%;
+      margin-bottom: 10%;
+      strong{
+        font-size: 150%;
+      }
+    }
+  }
+
+  .header .home-bottom-header{
     font-size: 80%;
+    padding: 50% 0 20% 0;
   }
 }

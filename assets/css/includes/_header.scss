@@ -106,10 +106,29 @@
 #sidenav-overlay{
   z-index: 0;
 }
-.side-nav{
+.side-nav,
+ul.side-nav{
   z-index: 100;
-  a{
-    color: black !important;
+  background: #444;
+  box-shadow: -4px 0 40px rgba(0,0,0,0.8);
+  li{
+    float: none;
+    line-height: 100%;
+    a{
+      color: #fff;
+      padding: 30px;
+      height: auto;
+      line-height: 120%;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      border-bottom: 1px solid rgba(0,0,0,0.3);
+      &:hover,
+      &:focus,
+      &:active{
+        background-color: #333;
+        border-bottom-width: 1px;
+        border-top-color: $main-color;
+      }
+    }
   }
 }
 

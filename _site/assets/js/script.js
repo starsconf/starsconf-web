@@ -13,12 +13,12 @@ var images = Array(
     "assets/img/wallpaper-site_9.jpg",
     "assets/img/wallpaper-site_6.jpg",
     "assets/img/wallpaper-site_5.jpg",
-    "assets/img/wallpaper-site_8.jpg",
+    "assets/img/wallpaper-site_3.jpg",
     "assets/img/wallpaper-site_7.jpg",
     "assets/img/wallpaper-site_10.jpg",
     "assets/img/wallpaper-site_11.jpg",
     "assets/img/wallpaper-site_8.jpg",
-    "assets/img/wallpaper-site_9.jpg",
+    "assets/img/wallpaper-site_2.jpg",
     "assets/img/wallpaper-site_14.jpg",
     "assets/img/wallpaper-site_15.jpg",
     "assets/img/wallpaper-site_16.jpg",
@@ -35,7 +35,7 @@ var currimg = 0;
 
 $(document).ready(function(){
    //CHANGE BACKGROUND IMAGES
-   
+   /*
     function loadimg(){   
        $('#background').animate({ opacity: 1 }, 800,function(){
             //finished animating, minifade out and fade new back in           
@@ -60,7 +60,7 @@ $(document).ready(function(){
      }
      setTimeout(loadimg,4000);
      
-
+*/
      //Fix header
     $(window).scroll(function() {
         if ($(this).scrollTop() > 80) {
