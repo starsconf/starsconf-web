@@ -1,5 +1,6 @@
 //Preload images first 
-/*$.fn.preload = function() {
+
+$.fn.preload = function() {
     this.each(function(){
         $('<img/>')[0].src = this;
     });
@@ -30,11 +31,11 @@ $([images[0],images[1],images[2],images[3],images[4],images[5],images[6],images[
 // Usage:
 
 var currimg = 0;
-*/
+
 
 $(document).ready(function(){
    //CHANGE BACKGROUND IMAGES
-   /*
+   
     function loadimg(){   
        $('#background').animate({ opacity: 1 }, 800,function(){
             //finished animating, minifade out and fade new back in           
@@ -58,7 +59,7 @@ $(document).ready(function(){
         });
      }
      setTimeout(loadimg,4000);
-     */
+     
 
      //Fix header
     $(window).scroll(function() {
