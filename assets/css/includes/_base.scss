@@ -33,3 +33,10 @@ a{
 –––––––––––––––––––––––––––*/
 
 $main-color: #FFDD00;
+$main-color-low: #fffcea;
+
+
+.alert.alert-sc{
+	background-color: $main-color-low;
+	color: #555;
+}

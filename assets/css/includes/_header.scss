@@ -18,12 +18,12 @@
     z-index: 1;
   }
   .home-bottom-header{
-    padding: 16% 0;
+    padding: 18% 0;
   }
   &.home-header{
     background-size: cover;
     background-color: rgba(0,0,0,0.70);
-    background-image: url('../img/wallpaper-site_1.jpg');
+    background-image: url('../img/wallpaper-site_13.jpg');
     background-attachment: fixed;
     height: 100vh;
     .top-header{
@@ -108,9 +108,9 @@
 }
 .side-nav,
 ul.side-nav{
-  z-index: 100;
-  background: #444;
-  box-shadow: -4px 0 40px rgba(0,0,0,0.8);
+  z-index: 1000;
+  background: #333;
+  //box-shadow: -4px 0 40px rgba(0,0,0,0.8);
   li{
     float: none;
     line-height: 100%;
