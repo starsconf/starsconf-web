@@ -1,0 +1,12 @@
+/*HEADER*
+------------------------*/
+.main-content{
+	background: #f1f1f1;
+	color: #000;
+	.title{
+		background: black;
+		color: $main-color;
+		display: inline-block;
+		padding: 20px;
+	}
+}

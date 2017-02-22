@@ -1,13 +1,59 @@
 {
-	
-	"title": "Starsconf 2017",
-	"description": "El evento de desarrollo, diseño e innovación tecnológica más grande de Chile y uno de los más importantes de Sudamérica",
-	"description_home": "El evento de desarrollo, diseño e innovación que une a estrellas mundiales y expertos locales para hablar de UX, Programación, Web, Móvil, Negocios, Cultura, Innovación y Emprendimiento.",
-	"autores": "Starsconf, ContinuumHQ, Synaptic, Linets",
-	"fecha": "6 y 7 de noviembre 2017",
+	"base": {
+		"title": "Starsconf 2017",
+		"description": "El evento de desarrollo, diseño e innovación tecnológica más grande de Chile y uno de los más importantes de Sudamérica",
+		"autores": "Starsconf, ContinuumHQ, Synaptic, Linets"
+	},
 
-	"link_buy_tickets": "#",
-	"button_buy_tickets": "Asegura tu entrada Early Bird",
-
-	"footer_text": "Este es el footer"
+	"header": {
+		"menu_options": {
+			"option1": "De qué se trata",
+			"option2": "Keynoters",
+			"option3": "Lugar",
+			"option4": "Programa",
+			"option5": "Auspiciadores y Organizadores",
+			"option6": {
+				"texto": "Blog",
+				"url": "https://medium.com/starsconf"
+			},
+			"option7": {
+				"texto": "Cod. Conducta",
+				"url": "codigo-conducta.html"
+			}
+		},
+		"logo": {
+			"url": "/"
+		}
+	},
+	"homepage": {
+		"fecha": "6 y 7 de noviembre 2017",
+		"description_home": "El evento de desarrollo, diseño e innovación que une a estrellas mundiales y expertos locales para hablar de UX, Programación, Web, Móvil, Negocios, Cultura, Innovación y Emprendimiento.",
+		"link_buy_tickets": "#",
+		"button_buy_tickets": "Compra tu entrada ahora",
+		"section_one": {
+			"title": "Precio de Entradas"
+		},
+		"section_two": {
+			"title": ""
+		}
+	},
+	"codigo_conducta": {
+		"title": "Código de Conducta",
+		"description": "<p>Se requiere que todos los asistentes, ponentes, patrocinadores y voluntarios de nuestra conferencia acepten el siguiente código de conducta. Los organizadores harán cumplir este código a lo largo del evento. Esperamos la colaboración de todos los participantes para ayudar a asegurar un ambiente seguro para todos.</p><p><i>Resumiendo: no seas idiota</i></p>",
+		"short_version": {
+			"title": "La Versión Rápida",
+			"body": "Nuestra conferencia se dedica a ofrecer una experiencia libre de abusos para todos, independientemente de su género, orientación sexual, discapacidad, apariencia física, talla, raza o religión. No toleramos abusos de los participantes de la conferencia en ninguna de sus formas. El lenguaje e imágenes sexuales no son apropiados para ninguna sala de la conferencia, incluyendo charlas, talleres, fiestas, Twitter y otros medios online. Los participantes de la conferencia que violen estas reglas pueden ser sancionados o expulsados de la misma sin reembolso a discreción de los organizadores."
+		},
+		"mid_version": {
+			"title": "La Versión Menos corta",
+			"body": "<p>Nuestra conferencia se dedica a ofrecer una experiencia libre de abusos para todos, independientemente de su género, orientación sexual, discapacidad, apariencia física, talla, raza o religión.</p> <p>No toleramos abusos de los participantes de la conferencia en ninguna de sus formas.</p> <p>El lenguaje e imágenes sexuales no son apropiados para ninguna sala de la conferencia, incluyendo charlas, talleres, fiestas, Twitter y otros medios online.</p><p>Los participantes de la conferencia que violen estas reglas pueden ser sancionados o expulsados de la misma sin reembolso a discreción de los organizadores.</p>"
+		},
+		"help": {
+			"title": "¿Necesitas ayuda?",
+			"body": "<p>Si estás sufriendo algún abuso, adviertes abusos sobre otra persona, o tienes alguna otra preocupación, por favor contacta con algún miembro del personal de la conferencia inmediatamente. El personal de la conferencia puede ser fácilmente identificado, ya que vestirán camisetas del evento.</p><p>Si el problema es urgente podrás contactar a los números de teléfono que publicaremos en esta misma página prontamente.</p><p>El personal de la conferencia estará contento de ayudar a los participates a contactar con la seguridad del hotel/sala o con las autoridades locales, proveer escolta o asistir de otra manera a aquellos que estén sufriendo abusos para que se sientan seguros mientras dure la conferencia. Valoramos tu asistencia.</p><p><strong>Recuerda que siempre puedes decir que no a algo que no quieras hacer o escuchar. Si no te escuchan, te ayudamos.</strong></p>"
+		}
+	},
+	"footer": {
+		"texto1": "Este es el footer"
+	}
 }

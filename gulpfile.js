@@ -34,7 +34,8 @@ function requireUncached( $module ) {
 gulp.task('jade', function () {
 	return gulp.src('*.jade')
 		.pipe(data(function (file) {
-			return requireUncached('./_data/' + path.basename(file.path) + '.json');
+			//return requireUncached('./_data/' + path.basename(file.path) + '.json');
+			return requireUncached('./_data/index.jade.json');
 		}))
 		.pipe(jade())
 		.pipe(gulp.dest(settings.publicDir));

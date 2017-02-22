@@ -2,15 +2,35 @@ extends _layouts/app
 
 block head_end
 block content
-	include _partials/header
+  .containter-fluid.header.home-header#background
+    include _partials/header
+    .container
+      .row
+        .col-md-12
+          h2
+            strong= homepage.fecha
+            br
+            = homepage.description_home
+        .col-md-12.call-to-action
+          a(href= homepage.link_buy_tickets, title= homepage.button_buy_tickets)= homepage.button_buy_tickets
 
-	.containter-fluid.main-content
-		.container
-			.row
-				.col-md-12
-					h2 Bienvenido a la página de la conferencia
+  .containter-fluid.main-content
+    .container
+      .row
+        .col-md-12
+          h2.title Compra tus entradas
+      .row.tickets
+        .col-md-4
+          | Early Bird
+        .col-md-4
+          | Early Bird
+        .col-md-4
+          | Early Bird
+        .col-md-4
+          | Early Bird
 
 
-	include _partials/footer
+
+  include _partials/footer
 
 block body_end

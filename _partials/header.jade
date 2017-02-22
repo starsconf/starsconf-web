@@ -1,27 +1,24 @@
-.containter-fluid.header
-    .container-fluid.top-header
-      .row
-        .col-md-2
-          .logo
-            img(src="assets/img/logo-starsconf-transparent-2017.svg")
-        .col-md-10
-          ul
-            li
-              a(href="#") auspiciadores
-            li
-              a(href="#") organizadores
-            li
-              a(href="#") blog
-            li
-              a(href="#") código de conducta
-    .container
-      .row
-        .col-md-12
-          h2
-            strong= fecha
-            br
-            = description_home
-        .col-md-12.call-to-action
-          a(href= link_buy_tickets, title="Comprar Tickets")= button_buy_tickets
+.container-fluid.top-header
+  .row
+    .col-md-2
+      .logo
+        a(href=header.logo.url, title=base.title)
+          img(src="assets/img/logo-starsconf-transparent-2017.svg")
+    .col-md-10
+      ul
+        li
+          a(href="#")= header.menu_options.option1
+        //li
+          a(href="#")= header.menu_options.option2
+        li
+          a(href="#")= header.menu_options.option3
+        //li
+          a(href="#")= header.menu_options.option4
+        li
+          a(href="#")= header.menu_options.option5
+        li
+          a(href= header.menu_options.option6.url, target="_blank")= header.menu_options.option6.texto
+        li
+          a(href= header.menu_options.option7.url)= header.menu_options.option7.texto
 
   

@@ -2,20 +2,28 @@
 ------------------------*/
 .header {
   padding: 0;
-  background: url('../img/wallpaper-site.jpg') #000;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100vh;
+  background-image: url('../img/header-bg.jpg');
+  background-position: 0 0;
+  background-color: rgba(0,0,0,0.50);
+  background-blend-mode: multiply;
+  &.home-header{
+    background-size: cover;
+    background-color: rgba(0,0,0,0.70);
+    background-image: url('../img/wallpaper-site_1.jpg');
+    background-attachment: fixed;
+    height: 100vh;
+  }
   .top-header{
     background: rgba(0,0,0,0.4);
+    height: 140px;
   }
-  &:before{
+  /*&:before{
     content: '';
     width: 100%;
     height: 100vh;
     background: rgba(0,0,0,0.6);
     position: absolute;
-  }
+  }*/
   h2 {
     font-weight: 100;
     text-align: center;
@@ -51,12 +59,14 @@
         color: #fff;
         text-transform: uppercase;
         font-size: 1.3em;
-        padding: 55px 20px;
+        padding: 60px 18px;
+        height: 140px;
         &:hover,
         &:focus{
           text-decoration: none;
-          color: #FFDD00;
-          background: rgba(0,0,0,0.4);
+          color: $main-color;
+          border-bottom: 4px solid $main-color;
+          //background: rgba(0,0,0,0.1);
           cursor: pointer;
         }
       }
@@ -70,13 +80,14 @@
       border: 1px solid #FFDD00;
       color: #FFDD00;
       font-size: 2em;
+      font-weight: 600;
       border-radius: 3px;
       cursor: pointer;
-      &:hover{
+      &:hover,
+      &:focus{
         text-decoration: none;
-        color: yellow;
-        border-color: yellow;
-        background: rgba(0,0,0,0.2);
+        color: #111;
+        background-color: yellow;
         //box-shadow: 0 -2px 16px rgba(0,0,0,0.9);
       }
     }
