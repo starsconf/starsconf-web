@@ -4,7 +4,7 @@ block head_end
 block content
   .containter-fluid.header.home-header#background
     include _partials/header
-    .container
+    .container.home-bottom-header
       .row
         .col-md-12
           h2
@@ -14,7 +14,7 @@ block content
         .col-md-12.call-to-action
           a(href= homepage.link_buy_tickets, title= homepage.button_buy_tickets)= homepage.button_buy_tickets
 
-  .containter-fluid.main-content
+  .containter-fluid.main-content(style="display: none")
     .container
       .row
         .col-md-12

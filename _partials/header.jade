@@ -4,16 +4,34 @@
       .logo
         a(href=header.logo.url, title=base.title)
           img(src="assets/img/logo-starsconf-transparent-2017.svg")
+      a.button-collapse.visible-xs.visible-sm(href='#', data-activates='slide-out')
+        i.material-icons menu
     .col-md-10
-      ul
+      ul.hidden-xs.hidden-sm
         li
           a(href="#")= header.menu_options.option1
         //li
-          a(href="#")= header.menu_options.option2
+            a(href="#")= header.menu_options.option2
         li
           a(href="#")= header.menu_options.option3
         //li
-          a(href="#")= header.menu_options.option4
+            a(href="#")= header.menu_options.option4
+        li
+          a(href="#")= header.menu_options.option5
+        li
+          a(href= header.menu_options.option6.url, target="_blank")= header.menu_options.option6.texto
+        li
+          a(href= header.menu_options.option7.url)= header.menu_options.option7.texto
+
+      ul#slide-out.side-nav
+        li
+          a(href="#")= header.menu_options.option1
+        //li
+            a(href="#")= header.menu_options.option2
+        li
+          a(href="#")= header.menu_options.option3
+        //li
+            a(href="#")= header.menu_options.option4
         li
           a(href="#")= header.menu_options.option5
         li

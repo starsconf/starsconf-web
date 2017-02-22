@@ -4,33 +4,42 @@
   padding: 0;
   background-image: url('../img/header-bg.jpg');
   background-position: 0 0;
-  background-color: rgba(0,0,0,0.50);
+  background-color: #000;
   background-blend-mode: multiply;
+  .top-header{
+    background-image: url('../img/header-bg.jpg');
+    background-position: 0 0;
+    background-color: rgba(0,0,0,0.70);
+    background-blend-mode: multiply;
+    height: 140px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  .home-bottom-header{
+    padding: 16% 0;
+  }
   &.home-header{
     background-size: cover;
     background-color: rgba(0,0,0,0.70);
     background-image: url('../img/wallpaper-site_1.jpg');
     background-attachment: fixed;
     height: 100vh;
+    .top-header{
+      background: none;
+      &.bg-scroll-header{
+        background-color: rgba(0,0,0,0.7);
+      }
+    }
   }
-  .top-header{
-    background: rgba(0,0,0,0.4);
-    height: 140px;
-  }
-  /*&:before{
-    content: '';
-    width: 100%;
-    height: 100vh;
-    background: rgba(0,0,0,0.6);
-    position: absolute;
-  }*/
   h2 {
     font-weight: 100;
     text-align: center;
     font-size: 2.6em;
     display: block;
     width: 80%;
-    margin: 13% auto;
+    margin: 0 auto 80px auto;
     line-height: 140%;
     strong{
       font-size: 1.8em;
@@ -92,4 +101,18 @@
       }
     }
   }
+}
+
+#sidenav-overlay{
+  z-index: 0;
+}
+.side-nav{
+  z-index: 100;
+  a{
+    color: black !important;
+  }
+}
+
+.drag-target{
+  z-index: 10;
 }
