@@ -40,7 +40,7 @@ $(document).ready(function(){
 
     if (!isMobile()) {
         //CHANGE BACKGROUND IMAGES
-       /*
+       
         function loadimg(){   
            $('#background').animate({ opacity: 1 }, 800,function(){
                 //finished animating, minifade out and fade new back in           
@@ -64,7 +64,7 @@ $(document).ready(function(){
             });
          }
          setTimeout(loadimg,4000);
-         */
+         
     
 
     }
