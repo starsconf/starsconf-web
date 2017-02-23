@@ -1,5 +1,21 @@
-.containter-fluid.footer
-  .container
-    .row
-      .col-md-12
-        h3= footer_text
+.container-fluid.footer
+  .row
+    .col-md-12.social
+      h3 Síguenos
+      ul
+        li
+          a.facebook(href= footer.social.facebook, title="Facebook", target="_blank")
+        li
+          a.twitter(href= footer.social.twitter, title="Twitter", target="_blank")
+        li
+          a.vimeo(href= footer.social.vimeo, title="Vimeo", target="_blank")
+        li
+          a.instagram(href= footer.social.instagram, title="Instagram", target="_blank")
+
+  .row
+    .col-md-12.contact
+      = footer.contact.text  
+      a(href= footer.contact.link) 
+        = footer.contact.link
+      br
+      = footer.copyright

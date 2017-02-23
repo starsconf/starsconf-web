@@ -1,10 +1,54 @@
 /*HEADER*
 ------------------------*/
-footer {
-  h1 {
-    font-weight: 300;
+.footer {
+  background: #444;
+  font-size: 1.3em;
+  color: #999;
+  .row{
+    margin-bottom: 0;
+  }
+  .social{
     text-align: center;
-    font-size: 60px;
-    margin-top: 180px;
+    padding: 20px;
+    h3 {
+      font-weight: 300;
+      font-size: 2em;
+      color: #ccc;
+    }
+    ul{
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      li{
+        display: inline-block;
+        margin: 4px 10px;
+        a{
+          display: block;
+          width: 40px;
+          height: 40px;
+          background: url('../img/sprite_social.svg') no-repeat;
+          &.facebook{
+            background-position: 0 0;
+          }
+          &.twitter{
+            background-position: -46px 0;
+          }
+          &.vimeo{
+            background-position: -93px 0;
+          }
+          &.instagram{
+            background-position: -144px 0;
+          }
+        }
+      }
+    }
+  }
+  .contact{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    a{
+      color: #ccc;
+    }
   }
 }

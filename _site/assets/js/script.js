@@ -71,16 +71,17 @@ $(document).ready(function(){
      //Fix header
     $(window).scroll(function() {
         if ($(this).scrollTop() > 80) {
-            $('.top-header').addClass('bg-scroll-header').fadeIn();
+            $('.top-header').addClass('bg-scroll-header').fadeIn('slow');
         } else {
             $('.top-header').removeClass('bg-scroll-header');
         }
     });
 
+    //Sidenav Responsive
     $(".button-collapse").sideNav({
-      menuWidth: 300, // Default is 300
-      edge: 'right', // Choose the horizontal origin
-      closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
-      draggable: true // Choose whether you can drag to open on touch screens
+      menuWidth: 300,
+      edge: 'right',
+      closeOnClick: true,
+      draggable: true
     });
 });

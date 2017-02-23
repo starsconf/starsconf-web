@@ -8,7 +8,7 @@
 	"header": {
 		"menu_options": {
 			"option1": "De qué se trata",
-			"option2": "Keynoters",
+			"option2": "Charlistas",
 			"option3": "Lugar",
 			"option4": "Programa",
 			"option5": "Auspiciadores y Organizadores",
@@ -26,7 +26,7 @@
 		}
 	},
 	"homepage": {
-		"fecha": "6 y 7 de noviembre 2017",
+		"fecha": "3 y 4 de noviembre 2017",
 		"description_home": "El evento de desarrollo, diseño e innovación tecnológica más grande de Chile y uno de los más importantes de Sudamérica que une a estrellas mundiales y expertos locales para hablar de UX, Programación, Web, Móvil, Negocios, Cultura, Innovación y Emprendimiento.",
 		"link_buy_tickets": "#",
 		"button_buy_tickets": "Asegura tu entrada ahora",
@@ -38,14 +38,14 @@
 		}
 	},
 	"codigo_conducta": {
-		"title": "Código de Conducta",
+		"title": "Código de conducta",
 		"description": "<p>Se requiere que todos los asistentes, ponentes, patrocinadores y voluntarios de nuestra conferencia acepten el siguiente código de conducta.</p> <p>Los organizadores harán cumplir este código a lo largo del evento.</p> <p>Esperamos la colaboración de todos los participantes para ayudar a asegurar un ambiente seguro para todos.</p><p><i>Resumiendo: <u><strong>¡No seas idiota!</strong></u></i></p>",
 		"short_version": {
-			"title": "La Versión Rápida",
+			"title": "La versión corta",
 			"body": "<p>Nuestra conferencia se dedica a ofrecer una experiencia libre de abusos para todos, independientemente de su género, orientación sexual, discapacidad, apariencia física, talla, raza o religión.</p> <p>No toleramos abusos de los participantes de la conferencia en ninguna de sus formas.</p> <p>El lenguaje e imágenes sexuales no son apropiados para ninguna sala de la conferencia, incluyendo charlas, talleres, fiestas, Twitter y otros medios online.</p> <p>Los participantes de la conferencia que violen estas reglas pueden ser sancionados o expulsados de la misma sin reembolso a discreción de los organizadores.</p>"
 		},
 		"mid_version": {
-			"title": "La Versión Menos corta",
+			"title": "La versión menos corta",
 			"body": "<p>Los abusos incluyen: comentarios ofensivos relativos a género, orientación sexual, discapacidad, apariencia física, talla, raza, religión, imágenes sexuales en espacios públicos, intimidación deliberada, acoso, persecución, fotografía o grabación de abusos, interrupciones continuadas de charlas u otros eventos, contacto físico inapropiado y atención sexual no deseada.</p> <p>Se espera que los participantes instados a parar cualquier comportamiento abusivo obedezcan inmediatamente.</p> <p>Los patrocinadores también están sujetos a la política contra abusos. En particular, los patrocinadores no deberían utilizar imágenes, actividades u otro material con contenido sexual. El personal de los puestos (voluntarios incluidos) no deberían usar ropa/uniformes/disfraces sexualizados, o que de otra manera creen un ambiente sexualizado.</p> <p>Si un participante incurre en un comportamiento abusivo, los organizadores de la conferencia pueden tomar cualquier acción que estimen oportuna, incluyendo advertencias al ofensor o su expulsión de la conferencia sin reembolso.</p> <p>Esperamos que los participantes sigan estas reglas en la la conferencia, talleres y eventos sociales relacionados con la conferencia.</p>"
 		},
 		"help": {
@@ -56,6 +56,17 @@
 		"creditos": "<ul class='credits'><li>Fuente original y créditos:<br> <a href='http://2012.jsconf.us/#/about'>http://2012.jsconf.us/#/about</a> & <a href='http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy'>The Ada Initiative</a></li><li>Por favor, ayuda traduciendo o mejorando: <br><a href='http://github.com/leftlogic/confcodeofconduct.com'>github.com/leftlogic/confcodeofconduct.com</a></li><li>Este trabajo está licenciado bajo <a>Creative Commons Atribución 3.0 Unported License</a>"
 	},
 	"footer": {
-		"texto1": "Este es el footer"
+		"social": {
+			"facebook": "https://www.facebook.com/StarsConf/",
+			"twitter": "https://twitter.com/starsconf",
+			"vimeo": "https://vimeo.com/channels/startechconf2015",
+			"instagram": "https://instagram.com/starsconf"
+		},
+		"contact": {
+			"text": "Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto con nosotros",
+			"link": "team@starsconf.com"
+		},
+		"copyright": "Copyright © 2011-2017 StarsConf, Chile"
+
 	}
 }
