@@ -1,19 +1,15 @@
-/*HEADER*
+/*HOME*
 ------------------------*/
 .main-content{
   background: #fff;
   color: #777;
   font-size: 2em;
   font-weight: 100;
-  padding-top: 180px;
   padding-bottom: 80px;
   line-height: 150%;
   letter-spacing: -0.01em;
-  .title{
-    background: black;
-    color: $main-color;
-    display: inline-block;
-    padding: 20px;
+  &.single-page{
+    padding-top: 180px;
   }
   .section{
     margin: 10px 0 30px 0;
@@ -33,6 +29,64 @@
     }
     h3{
       font-size: 1.6em;
+    }
+  }
+}
+
+/*TICKETS*
+------------------------*/
+
+ .tickets{
+  background: #f1f1f1;
+  padding-top: 40px;
+  .section{
+    h2{
+      margin-bottom: 0;
+      font-size: 2.2em;
+      text-align: center;
+      display: block;
+      color: #666;
+    }
+    p{
+      font-size: 1em;
+      text-align: center;
+    }
+  }
+  .title,
+  .title .section{
+    background: none;
+    margin-bottom: 0;
+  }
+  .prices{
+    margin-bottom: 50px;
+    div{
+      text-align: center;
+      &.deactivate,
+      &.deactivate h3{
+        opacity: 0.2;
+      }
+      h3{
+        color: #fff;
+        background: #555;
+        text-transform: uppercase;
+        display: block;
+        padding: 15px 0;
+        //border-bottom: 3px dotted #fd0;
+      }
+      .card{
+        //box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+        background: #fffecc;
+        color: #222;
+      }
+    }
+    .price{
+      padding: 30px 0;
+      font-size: 2em;
+      height: 120px;
+      color: #444;
+      &.txt{
+        font-size: 1.5em;
+      }
     }
   }
 }

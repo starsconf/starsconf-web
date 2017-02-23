@@ -30,7 +30,7 @@
     .top-header{
       background: none;
       &.bg-scroll-header{
-        background-color: rgba(0,0,0,0.7);
+        background-color: rgba(0,0,0,0.85);
       }
     }
   }
@@ -78,7 +78,7 @@
           text-decoration: none;
           color: $main-color;
           border-bottom: 4px solid $main-color;
-          //background: rgba(0,0,0,0.1);
+          background: rgba(0,0,0,0.2);
           cursor: pointer;
         }
       }

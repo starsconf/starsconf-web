@@ -13,22 +13,13 @@ block content
             = homepage.description_home
         .col-md-12.call-to-action
           a(href= homepage.link_buy_tickets, title= homepage.button_buy_tickets)= homepage.button_buy_tickets
-
-  .containter-fluid.main-content(style="display: none")
-    .container
-      .row
-        .col-md-12
-          h2.title Compra tus entradas
-      .row.tickets
-        .col-md-4
-          | Early Bird
-        .col-md-4
-          | Early Bird
-        .col-md-4
-          | Early Bird
-        .col-md-4
-          | Early Bird
-
+    
+  //include _partials/section_what
+  //include _partials/section_keynoters
+  //include _partials/section_place
+  //include _partials/section_sponsors
+  include _partials/section_tickets
+  //include _partials/section_photos
 
   include _partials/footer
 

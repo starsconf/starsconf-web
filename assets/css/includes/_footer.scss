@@ -27,6 +27,9 @@
           width: 40px;
           height: 40px;
           background: url('../img/sprite_social.svg') no-repeat;
+          &:hover{
+            filter:brightness(140%);
+          }
           &.facebook{
             background-position: 0 0;
           }
