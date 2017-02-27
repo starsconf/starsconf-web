@@ -1,4 +1,12 @@
-.containter-fluid.main-content
+.containter-fluid.main-content.place
+  .row.title
+    .col-md-12.section
+      h2.title.scrollspy#place= homepage.section_two.title
+
+  .container
     .row
-      .col-md-12
-        h2.title Dónde?
+      .col-md-12.col-xs-12
+        .map.card
+          iframe(style="border: 0;" src= homepage.section_two.src_mapa, allowfullscreen="allowfullscreen", frameborder='0')
+      .col-md-12.col-xs-12.section
+        != homepage.section_two.bajada

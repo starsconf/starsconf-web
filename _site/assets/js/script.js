@@ -34,6 +34,8 @@ var currimg = 0;
 
 
 $(document).ready(function(){
+    $('.scrollspy').scrollSpy();
+    
     function isMobile() {
         return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
     }
@@ -64,18 +66,19 @@ $(document).ready(function(){
             });
          }
          setTimeout(loadimg,4000);
-         
-    
+
 
     }
      //Fix header
     $(window).scroll(function() {
         if ($(this).scrollTop() > 110) {
             $('.top-header').addClass('bg-scroll-header').fadeIn('slow');
-        } else {
+        }
+        else {
             $('.top-header').removeClass('bg-scroll-header');
         }
     });
+
 
     //Sidenav Responsive
     $(".button-collapse").sideNav({

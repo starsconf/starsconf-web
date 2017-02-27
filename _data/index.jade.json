@@ -9,7 +9,10 @@
     "menu_options": {
       "option1": "De qué se trata",
       "option2": "Charlistas",
-      "option3": "Lugar",
+      "option3": {
+        "texto": "Lugar",
+        "url": "#place"
+      },
       "option4": "Programa",
       "option5": "Auspiciadores y Organizadores",
       "option6": {
@@ -29,13 +32,28 @@
   "homepage": {
     "fecha": "3 y 4 de noviembre 2017",
     "description_home": "El evento de desarrollo, diseño e innovación tecnológica más grande de Chile y uno de los más importantes de Sudamérica que une a estrellas mundiales y expertos locales para hablar de UX, Programación, Web, Móvil, Negocios, Cultura, Innovación y Emprendimiento.",
-    "link_buy_tickets": "#entradas",
+    "link_buy_tickets": "#tickets",
     "button_buy_tickets": "Asegura tu entrada ahora",
     "section_one": {
-      "title": "Precio de Entradas"
+      "title": "Precio de Entradas",
+      "bajada": "No te quedes fuera de este tremendo evento, asegura tu entrada con los valores de preventa.",
+      "fase_uno": "Preventa",
+      "fase_uno_price": "100USD",
+      "fase_dos": "Fase Inicial",
+      "fase_dos_price": "150USD",
+      "fase_tres": "Fase Final",
+      "fase_tres_price": "200USD",
+      "especial": "Estudiantes",
+      "especial_price": "Mitad de precio",
+      "button_text": "Comprar aquí",
+      "button_link": "http://welcu.com",
+      "bajada_inicial": "Los estudiantes pagan la mitad del precio actual.",
+      "bajada_final": "Todas las entradas incluyen: <strong>Entrada para ambos días, acceso a Drink-up (ambos dias) y una polera del evento.</strong>"
     },
     "section_two": {
-      "title": ""
+      "title": "Lugar",
+      "bajada": "<p>Este año nos cambiamos de casa al Centro de Extensión de la Pontificia Universidad Católica</p><p>Ubicada en Av. Libertador Bernardo O'Higgins 328, Santiago.</p><p>Metro Universidad Católica, Línea 1</p>",
+      "src_mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.314058968094!2d-70.64298198510046!3d-33.44112340441915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c59e8c508d1f%3A0xd7d97f8d3bd83116!2sPontificia+Universidad+Cat%C3%B3lica+de+Chile!5e0!3m2!1ses!2scl!4v1473131040232"
     }
   },
 
