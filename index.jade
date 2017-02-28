@@ -2,24 +2,14 @@ extends _layouts/app
 
 block head_end
 block content
-  .containter-fluid.header.home-header#background
-    include _partials/header
-    .container.home-bottom-header
-      .row
-        .col-md-12
-          h2
-            strong= homepage.fecha
-            br
-            = homepage.description_home
-        .col-md-12.call-to-action
-          a(href= homepage.link_buy_tickets, title= homepage.button_buy_tickets)= homepage.button_buy_tickets
-    
-  //include _partials/section_what
+  include _partials/header
+  include _partials/section_presentation  
   include _partials/section_keynoters
   include _partials/section_place
-  //include _partials/section_sponsors
+  include _partials/section_sponsors
+  include _partials/section_what
+  include _partials/section_photos
   include _partials/section_tickets
-  //include _partials/section_photos
 
   include _partials/footer
 

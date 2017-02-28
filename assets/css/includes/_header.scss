@@ -6,33 +6,12 @@
   background-position: 0 0;
   background-color: #000;
   background-blend-mode: multiply;
-  .top-header{
+  .top-header,
+  .top-header.full-bg{
     background-image: url('../img/header-bg.jpg');
-    background-position: 0 0;
-    background-color: rgba(0,0,0,0.70);
+    background-color: rgba(0,0,0,0.6);
     background-blend-mode: multiply;
-    height: 140px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-  }
-  .home-bottom-header{
-    padding: 18% 0 10% 0;
-  }
-  &.home-header{
-    background-size: cover;
-    background-color: rgba(0,0,0,0.70);
-    background-image: url('../img/wallpaper-site_13.jpg');
-    background-attachment: fixed;
-    //height: 100vh;
-    //overflow: hidden;
-    .top-header{
-      background: none;
-      &.bg-scroll-header{
-        background-color: rgba(0,0,0,0.85);
-      }
-    }
+    background-position: 0 0;
   }
   h2 {
     font-family: 'Quicksand', Arial, sans-serif;
@@ -51,13 +30,42 @@
       text-transform: uppercase;
     }
   }
-  .logo{
-    display: block;
-    width: 200px;
-    padding: 10px 10px 20px;
-    img{
-      width: 100%;
+  .call-to-action{
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    a{
+      display: inline-block;
+      padding: 20px;
+      border: 1px solid #FFDD00;
+      color: #FFDD00;
+      font-size: 2em;
+      font-weight: 600;
+      border-radius: 3px;
+      cursor: pointer;
+      &:hover,
+      &:focus{
+        text-decoration: none;
+        color: #111;
+        background-color: #FFDD00;
+      }
     }
+  }
+}
+
+.top-header{
+  background-color: none;
+  height: 140px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  &.not-bg{
+    background-color: rgba(0,0,0,0.6);
+    background-blend-mode: multiply;
+  }
+  &.full-bg{
+    background-color: #000;
   }
   ul{
     float: right;
@@ -84,26 +92,29 @@
       }
     }
   }
-  .call-to-action{
-    font-family: 'Lato', sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-    a{
-      display: inline-block;
-      padding: 20px;
-      border: 1px solid #FFDD00;
-      color: #FFDD00;
-      font-size: 2em;
-      font-weight: 600;
-      border-radius: 3px;
-      cursor: pointer;
-      &:hover,
-      &:focus{
-        text-decoration: none;
-        color: #111;
-        background-color: yellow;
-        //box-shadow: 0 -2px 16px rgba(0,0,0,0.9);
-      }
+  .logo{
+    display: block;
+    width: 200px;
+    padding: 10px 10px 20px;
+    img{
+      width: 100%;
+    }
+  }
+}
+.home-bottom-header{
+  padding: 18% 0 10% 0;
+}
+&.home-header{
+  background-size: cover;
+  background-color: rgba(0,0,0,0.70);
+  background-image: url('../img/wallpaper-site_13.jpg');
+  background-attachment: fixed;
+  //height: 100vh;
+  //overflow: hidden;
+  .top-header{
+    background: none;
+    &.bg-scroll-header{
+      background-color: rgba(0,0,0,0.85);
     }
   }
 }
@@ -115,7 +126,6 @@
 ul.side-nav{
   z-index: 1000;
   background: #333;
-  //box-shadow: -4px 0 40px rgba(0,0,0,0.8);
   li{
     float: none;
     line-height: 100%;

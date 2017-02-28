@@ -6,9 +6,9 @@ $.fn.preload = function() {
     });
 }
 var images = Array(
-    "assets/img/wallpaper-site_1.jpg",
+    "assets/img/wallpaper-site_16.jpg",
     "assets/img/wallpaper-site_12.jpg",
-    "assets/img/wallpaper-site_13.jpg",
+    "assets/img/wallpaper-site_1.jpg",
     "assets/img/wallpaper-site_4.jpg",
     "assets/img/wallpaper-site_9.jpg",
     "assets/img/wallpaper-site_6.jpg",
@@ -21,7 +21,7 @@ var images = Array(
     "assets/img/wallpaper-site_2.jpg",
     "assets/img/wallpaper-site_14.jpg",
     "assets/img/wallpaper-site_15.jpg",
-    "assets/img/wallpaper-site_16.jpg",
+    "assets/img/wallpaper-site_13.jpg",
     "assets/img/wallpaper-site_17.jpg"
     )
 ;
@@ -69,16 +69,25 @@ $(document).ready(function(){
 
 
     }
-     //Fix header
+
+    //Fix header
+
+    
     $(window).scroll(function() {
-        if ($(this).scrollTop() > 110) {
-            $('.top-header').addClass('bg-scroll-header').fadeIn('slow');
+        var scrollTopx = $(this).scrollTop();
+        if (scrollTopx > 600) {
+            console.log('410')
+            $('.top-header').addClass('full-bg').fadeIn('slow');
+        }
+        else if (scrollTopx > 110) {
+            console.log('110')
+            $('.top-header').addClass('not-bg').fadeIn('slow');
         }
         else {
-            $('.top-header').removeClass('bg-scroll-header');
+            $('.top-header').removeClass('not-bg');
+            $('.top-header').removeClass('full-bg');
         }
     });
-
 
     //Sidenav Responsive
     $(".button-collapse").sideNav({

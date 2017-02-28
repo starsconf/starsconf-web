@@ -7,14 +7,26 @@
 
   "header": {
     "menu_options": {
-      "option1": "De qué se trata",
-      "option2": "Charlistas",
+      "option1": {
+        "texto": "De qué se trata",
+        "url": "#what"
+      },
+      "option2": {
+        "texto": "Charlistas",
+        "url": "#keynoters"
+      },
       "option3": {
         "texto": "Lugar",
         "url": "#place"
       },
-      "option4": "Programa",
-      "option5": "Auspiciadores y Organizadores",
+      "option4": {
+        "texto": "Programa",
+        "url": "#schedule"
+      },
+      "option5": {
+        "texto": "Auspiciadores y Organizadores",
+        "url": "#sponsors"
+      },
       "option6": {
         "texto": "Blog",
         "url": "https://medium.com/starsconf"
@@ -38,16 +50,18 @@
       "title": "Precio de Entradas",
       "bajada": "No te quedes fuera de este tremendo evento, asegura tu entrada con los valores de preventa.",
       "fase_uno": "Preventa",
-      "fase_uno_price": "100USD",
-      "fase_dos": "Fase Inicial",
-      "fase_dos_price": "150USD",
-      "fase_tres": "Fase Final",
-      "fase_tres_price": "200USD",
+      "fase_uno_price": "100 USD",
+      "fase_uno_subprice": "(Sólo 100 cupos)",
+      "fase_dos": "Venta Temprana",
+      "fase_dos_price": "150 USD",
+      "fase_dos_subprice": "(200 cupos)",
+      "fase_tres": "Venta Final",
+      "fase_tres_price": "200 USD",
       "especial": "Estudiantes",
       "especial_price": "Mitad de precio",
       "button_text": "Comprar aquí",
       "button_link": "http://welcu.com",
-      "bajada_inicial": "Los estudiantes pagan la mitad del precio actual.",
+      "bajada_inicial": "Estudiantes pagan la mitad del precio vigente.",
       "bajada_final": "Todas las entradas incluyen: <strong>Entrada para ambos días, acceso a Drink-up (ambos dias) y una polera del evento.</strong>"
     },
     "section_two": {

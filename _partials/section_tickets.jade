@@ -1,28 +1,32 @@
 .containter-fluid.main-content.tickets
   .container
-    .row.title.scrollspy#tickets
-      .col-md-12.section
+    .row.title
+      .col-md-12.section.scrollspy#tickets
         h2= homepage.section_one.title
         p= homepage.section_one.bajada
     .row.prices
       .col-md-4.col-xs-12
+        //Cuando se agote un precio, agregar las clases .deactivate y .soldout al .col
         .card
           h3= homepage.section_one.fase_uno
           h4.price= homepage.section_one.fase_uno_price
+          h5.subprice= homepage.section_one.fase_uno_subprice
       .col-md-4.col-xs-12.deactivate
         .card
           h3= homepage.section_one.fase_dos
           h4.price= homepage.section_one.fase_dos_price
+          h5.subprice= homepage.section_one.fase_dos_subprice
       .col-md-4.col-xs-12.deactivate
         .card
           h3= homepage.section_one.fase_tres
           h4.price= homepage.section_one.fase_tres_price
     
+
+    .row
+      .col-md-12.section
+        h5= homepage.section_one.bajada_inicial
+        p!= homepage.section_one.bajada_final
+
     .row
       .col-md-12.center
         a.btn.main-fill-btn(href= homepage.section_one.button_link, title= homepage.section_one.button_text, target="_blank")= homepage.section_one.button_text
-
-    .row.title
-      .col-md-12.section
-        p= homepage.section_one.bajada_inicial
-        p!= homepage.section_one.bajada_final
