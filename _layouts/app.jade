@@ -1,30 +1,39 @@
 doctype html
 html(lang="es")
-	head
-		title= base.title
-		meta(charset="utf-8")
-		meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no")
-		meta(name='description', content= base.description)
-		meta(name='author', content= base.autores)
-		title base.title
-		link(rel='icon', type='image/x-icon', href='favicon.ico')
-		
-		link(rel='stylesheet', href='//cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css')
-		link(rel='stylesheet', href='//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css', integrity='sha256-916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=', crossorigin='anonymous')
-		
-		link(rel='stylesheet', href='//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css')
-		link(rel='stylesheet', href='//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Lato:700|Open+Sans+Condensed:300|Paytone+One|Quicksand')
-		link(href='//fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
-		
-		link(rel="stylesheet" href="assets/css/style.css")
-		block head_end
-	
-	body
-		block content
-		
-		script(src='//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js', integrity='sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=', crossorigin='anonymous')
-		script(src='//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js', integrity='sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=', crossorigin='anonymous')
-		script(src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js", crossorigin='anonymous')
-		script(type="text/javascript", src="assets/js/script.js")
+  head
+    title= base.title
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no")
+    meta(name='description', content= base.description)
+    meta(name='author', content= base.autores)
+    meta(property='og:title', content= base.title)
+    meta(property='og:description', content= base.description)
+    meta(property='og:image', content='https://starsconf-dev.herokuapp.com/assets/img/wallpaper-site_6.jpg')
+    meta(property='og:url', content='http://starsconf.com')
+    meta(name='twitter:title', content= base.title)
+    meta(name='twitter:description', content= base.description)
+    meta(name='twitter:image', content='https://starsconf-dev.herokuapp.com/assets/img/wallpaper-site_6.jpg')
+    meta(name='twitter:card', content='summary_large_image')
+    title base.title
+    link(rel='icon', type='image/x-icon', href='favicon.ico')
+    
+    link(rel='stylesheet', href='//cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css')
+    link(rel='stylesheet', href='//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css', integrity='sha256-916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=', crossorigin='anonymous')
+    
+    link(rel='stylesheet', href='//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css')
+    link(rel='stylesheet', href='//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Lato:700|Open+Sans+Condensed:300|Paytone+One|Quicksand')
+    link(href='//fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
+    
+    link(rel="stylesheet" href="assets/css/style.css")
+    block head_end
+  
+  body
+    block content
+    
+    script(src='//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js', integrity='sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=', crossorigin='anonymous')
+    script(src='//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js', integrity='sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=', crossorigin='anonymous')
+    script(src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js", crossorigin='anonymous')
+    script(type="text/javascript", src="assets/js/spectragram.min.js")
+    script(type="text/javascript", src="assets/js/script.js")
 
-		block body_end
+    block body_end

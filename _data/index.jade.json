@@ -1,7 +1,7 @@
 {
   "base": {
     "title": "Starsconf 2017",
-    "description": "El evento de desarrollo, diseño e innovación tecnológica más grande de Chile y uno de los más importantes de Sudamérica",
+    "description": "3 y 4 de noviembre 2017. El evento de desarrollo, diseño e innovación tecnológica más grande de Chile y uno de los más importantes de Sudamérica",
     "autores": "Starsconf, ContinuumHQ, Synaptic, Linets"
   },
 
@@ -68,6 +68,91 @@
       "title": "Lugar",
       "bajada": "<p>Este año nos cambiamos de casa al Centro de Extensión de la Pontificia Universidad Católica</p><p>Ubicada en Av. Libertador Bernardo O'Higgins 328, Santiago.</p><p>Metro Universidad Católica, Línea 1</p>",
       "src_mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.314058968094!2d-70.64298198510046!3d-33.44112340441915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c59e8c508d1f%3A0xd7d97f8d3bd83116!2sPontificia+Universidad+Cat%C3%B3lica+de+Chile!5e0!3m2!1ses!2scl!4v1473131040232"
+    },
+    "section_three": {
+      "title": "Charlistas",
+      "bajada": "Las estrellas que ya confirmaron que estarán con nosotros este año",
+      "keynoters": {
+        "keynoter1": {
+          "foto": "assets/img/keynoters/rebecca_parsons.png",
+          "nombre": "Rebecca Parsons",
+          "bio": "CTO en ThoughtWorks. Ph.D. in Computer Science from Rice University",
+          "contacto": "<a href='https://twitter.com/rebeccaparsons'>@rebeccaparsons</a>",
+          "switch": "on"
+        },
+        "keynoter2": {
+          "foto": "assets/img/keynoters/donovan_brown.jpg",
+          "nombre": "Donovan L. Brown",
+          "bio": "Principal DevOps Program Manager for Microsoft.",
+          "contacto": "<a href='https://twitter.com/@DonovanBrown'>@DonovanBrown</a>",
+          "switch": "on"
+        },
+        "keynoter3": {
+          "foto": "assets/img/keynoters/nobody.jpg",
+          "nombre": "Próximamente...",
+          "bio": "",
+          "contacto": "",
+          "switch": "off"
+        },
+        "keynoter4": {
+          "foto": "assets/img/keynoters/nobody.jpg",
+          "nombre": "Próximamente...",
+          "bio": "",
+          "contacto": "",
+          "switch": "off"
+        },
+        "keynoter5": {
+          "foto": "assets/img/keynoters/nobody.jpg",
+          "nombre": "Próximamente...",
+          "bio": "",
+          "contacto": "",
+          "switch": "off"
+        },
+        "keynoter6": {
+          "foto": "assets/img/keynoters/nobody.jpg",
+          "nombre": "Próximamente...",
+          "bio": "",
+          "contacto": "",
+          "switch": "off"
+        },
+        "keynoter7": {
+          "foto": "assets/img/keynoters/nobody.jpg",
+          "nombre": "Próximamente...",
+          "bio": "",
+          "contacto": "",
+          "switch": "off"
+        },
+        "keynoter8": {
+          "foto": "assets/img/keynoters/nobody.jpg",
+          "nombre": "Próximamente...",
+          "bio": "",
+          "contacto": "",
+          "switch": "off"
+        }
+      }
+    },
+    "section_four": {
+      "title1": "Auspiciadores",
+      "title2": "Organizadores",
+      "bajada": "<p>Este año nos cambiamos de casa al Centro de Extensión de la Pontificia Universidad Católica</p><p>Ubicada en Av. Libertador Bernardo O'Higgins 328, Santiago.</p><p>Metro Universidad Católica, Línea 1</p>",
+      "src_mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.314058968094!2d-70.64298198510046!3d-33.44112340441915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c59e8c508d1f%3A0xd7d97f8d3bd83116!2sPontificia+Universidad+Cat%C3%B3lica+de+Chile!5e0!3m2!1ses!2scl!4v1473131040232"
+    },
+    "section_five": {
+      "texto": "Síguenos en <a href='https://instagram.com/starsconfcom' title='Starsconf'>instagram </a>y ve como lo pasamos en las <a href='http://2015.starsconf.com' target='_blank'>ediciones anteriores</a>.",
+      "images": {
+        "img1": "16585471_1378779718852828_5879668180770619392_n.jpg",
+        "img2": "16908926_1766376493691125_7773672677255938048_n.jpg",
+        "img3": "16908741_1933387956894076_5641826476899696640_n.jpg",
+        "img4": "16906971_717272261787338_4264514766690582528_n.jpg",
+        "img5": "16790085_1243206842461153_3264166486305931264_n.jpg",
+        "img6": "16908686_799589330180468_2659587704102060032_n.jpg",
+        "img7": "16790039_418552965153943_7717496600968298496_n.jpg",
+        "img8": "16906574_173863509782462_3557280613935349760_n.jpg",
+        "img9": "16908418_1843507695908900_8571431632370663424_n.jpg",
+        "img10": "16907978_1849701281954616_2722287595194155008_n.jpg",
+        "img11": "16790232_1810386299286999_3859165816402477056_n.jpg",
+        "img12": "16906453_1388264607911669_8371414090567909376_n.jpg"
+      }
     }
   },
 

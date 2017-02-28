@@ -1,4 +1,15 @@
 .containter-fluid.main-content.keynoters
   .row.title
     .col-md-12.section
-        h2.title Keynoters
+        h2.scrollspy#keynoters= homepage.section_three.title
+        p= homepage.section_three.bajada
+  .container
+    .row.people
+      - each keynoter in homepage.section_three.keynoters
+        .col-md-3.col-xs-6.keynoter(class= keynoter.switch)
+          .image
+            img(src= keynoter.foto)
+          .data
+            p= keynoter.nombre
+            span= keynoter.bio
+            span!= keynoter.contacto

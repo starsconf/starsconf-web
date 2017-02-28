@@ -1,4 +1,10 @@
-//Preload images first 
+//Instagram Photos
+/*$.fn.spectragram.accessData = {
+    accessToken: 'your-instagram-access-token',
+    clientID: 'your-instagram-application-clientID'
+};*/
+
+//Preload home images first 
 
 $.fn.preload = function() {
     this.each(function(){
