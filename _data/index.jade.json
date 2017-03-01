@@ -179,9 +179,34 @@
       }
     },
     "section_six": {
-      "title": "De qué se trata la conferencia",
-      "subtitle": "Estos son los temas clave que se tratarán"
-
+      "title": "¿De qué se trata la conferencia?",
+      "subtitle": "Estos son los temas clave que se abordarán entre diferentes presentaciones y talleres.",
+      "temas": {
+        "tema1": {
+          "title": "UX & Design",
+          "description": "Diferenciador clave en el mundo digital. Ejemplificado por líderes como Apple, AirBnb, Uber y muchos otros, el diseño y la preocupación por la experiencia de usuario se ha transformado en una de las disciplinas indispensables en todo equipo tecnológico."
+        },
+        "tema2": {
+          "title": "DataViz & BigData",
+          "description": "La visualización de datos es el proceso de búsqueda, interpretación, contrastación y comparación de datos que permite un conocimiento en profundidad y detalle de los mismos de tal forma que se transformen en información comprensible para el usuario."
+        },
+        "tema3": {
+          "title": "Startups e Innovación",
+          "description": "El mundo se mueve de un paradigma a otro con cada vez mayor velocidad. Las startups aprovechan la disrupción de nuevos mercados y los incumbentes recurren a la innovación para mantenerse vigentes."
+        },
+        "tema4": {
+          "title": "Mobile",
+          "description": "El computador personal ha llegado a todo el mundo: Smartphones, tablets y wearables. ¿Cómo aprovechar estas plataformas con las ventajas y particulares desafíos que presentan?"
+        },
+        "tema5": {
+          "title": "Web",
+          "description": "La web es la base de la gran revolución en conectividad, accesibilidad y tecnología de los últimos años. ¿Ha llegado para quedarse o pasará a un rol de infraestructura con los últimos desarrollos? De cualquier manera, la web sigue con nosotros y gigantes como Google y Facebook siguen apostando y aportando con frameworks para construir tecnología sobre ella."
+        },
+        "tema6": {
+          "title": "People, Teams & Culture",
+          "description": "Toda tecnología es (aún) creada por personas. Organizar equipos de alto rendimiento es un desafío en sí mismo, lo que sumado a la complejidad de utilizar las últimas herramientas y oportunidades crea un desafío aún más complejo. De allí surgen metodologías, herramientas, principios que permitan superar estos desafíos e idealmente crear una cultura de innovación y excelencia en las organizaciones."
+        }
+      }
     }
   },
 

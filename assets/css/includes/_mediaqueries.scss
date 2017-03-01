@@ -1,6 +1,7 @@
 /* Portrait and Landscape */
 @media (max-width: 375px){
-  .header{
+  .top-header{
+    height: initial;
     .logo{
       width: 110px;
       padding: 10px 0;
@@ -17,8 +18,29 @@
         color: $main-color;
       }
     }
+  }
+
+  .header{
+    .home-bottom-header{
+      padding: 50% 0 20% 0;
+      h2{
+        font-size: 1.6em;
+        margin: 0;
+        width: 100%;
+        margin-bottom: 10%;
+        strong{
+          font-size: 1.4em;
+        }
+      }
+      .call-to-action a{
+        padding: 14px;
+        font-size: 1.6em;
+        width: 100%;
+      }
+    }
     &.home-header{
       height: initial;
+      min-height: initial;
       .top-header{
         background-color: black;
         height: initial;
@@ -27,28 +49,6 @@
         }
       }
     }
-    .call-to-action a{
-      padding: 14px;
-      font-size: 1.6em;
-      width: 100%;
-    }
-    h2{
-      font-size: 1.6em;
-      margin: 0;
-      width: 100%;
-      margin-bottom: 10%;
-      strong{
-        font-size: 1.4em;
-      }
-    }
-  }
-
-  .header .top-header{
-    height: initial;
-  }
-
-  .header .home-bottom-header{
-    padding: 50% 0 20% 0;
   }
 
   .main-content{
@@ -91,7 +91,10 @@
 }
 
 @media (min-width: 376px) and (max-width: 990px) {
-  .header{
+  .top-header{
+    &.bg-scroll-header{
+      background-color: #000;
+    }
     .logo{
       width: 22%;
       padding: 10px 0;
@@ -111,7 +114,32 @@
         font-size: 300%;
       }
     }
+  }
+
+  .header{
+    height: initial;
+    min-height: initial;
+    .home-bottom-header{
+      font-size: 80%;
+      padding: 50% 0 20% 0;
+      .call-to-action a{
+        padding: 14px;
+        font-size: 220%;
+        width: 95%;
+      }
+      h2{
+        font-size: 220%;
+        margin: 0;
+        width: 100%;
+        margin-bottom: 10%;
+        strong{
+          font-size: 150%;
+        }
+      }
+    }
     &.home-header{
+      height: initial;
+      min-height: initial;
       .top-header{
         background-color: black;
         height: initial;
@@ -120,29 +148,6 @@
         }
       }
     }
-    .call-to-action a{
-      padding: 14px;
-      font-size: 220%;
-      width: 95%;
-    }
-    h2{
-      font-size: 220%;
-      margin: 0;
-      width: 100%;
-      margin-bottom: 10%;
-      strong{
-        font-size: 150%;
-      }
-    }
-  }
-  
-  .header .top-header{
-    height: initial;
-  }
-
-  .header .home-bottom-header{
-    font-size: 80%;
-    padding: 50% 0 20% 0;
   }
 
   .main-content{

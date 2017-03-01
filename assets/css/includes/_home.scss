@@ -277,3 +277,24 @@
     }
   }
 }
+
+/*WHAT*
+------------------------*/
+
+.what{
+  .tema{
+    min-height: 340px;
+    line-height: 130%;
+    h3{
+      margin-bottom: 30px;
+      background: $main-color;
+      color: black;
+      padding: 12px;
+      text-align: center;
+      display: inline-block;
+    }
+    p{
+      font-size: 0.9em;
+    }
+  }
+}
