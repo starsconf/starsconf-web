@@ -3,33 +3,47 @@
     .row.title
       .col-md-12.section
         h2.scrollspy#sponsors= homepage.section_four.title1
-    .row.platinuum
-      .col-md-12.col-xs-12
-        h4= homepage.section_four.sponsors.categoria1
-      - each logo in homepage.section_four.sponsors.platinum
-        .col-md-3.col-xs-6
-          !=logo
+    
+    - var colsClasses = ['hide-class', 'col-md-12 col-xs-12', 'col-md-6 col-xs-6']
 
-    //.row.gold
-      .col-md-12.col-xs-12
-        h4= homepage.section_four.sponsors.categoria2
-      - each logo in homepage.section_four.sponsors.gold
-        .col-md-3.col-xs-6
-          !=logo
+    - var platinums = homepage.section_four.sponsors.platinum
+    - var totalplatinums = Object.keys(platinums).length
 
-    .row.silver
-      .col-md-12.col-xs-12
-        h4= homepage.section_four.sponsors.categoria3
-
-      - var silvers = homepage.section_four.sponsors.silver
-      - each logo in silvers
+    if totalplatinums != 0
+      .row.platinuum
         .col-md-12.col-xs-12
-          !=logo
-          
+            h4= homepage.section_four.sponsors.categoria1
+        each logo in platinums
+          div(class="#{colsClasses[totalplatinums] || 'col-md-3 col-xs-3'}")
+            !=logo
 
+
+    - var goldens = homepage.section_four.sponsors.gold
+    - var totalgoldens = Object.keys(goldens).length
+
+    if totalgoldens != 0
+      .row.gold
+        .col-md-12.col-xs-12
+            h4= homepage.section_four.sponsors.categoria2
+        each logo in goldens
+          div(class="#{colsClasses[totalgoldens] || 'col-md-3 col-xs-3'}")
+            !=logo
+
+
+    - var silvers = homepage.section_four.sponsors.silver
+    - var totalsilvers = Object.keys(silvers).length
+
+    if totalsilvers != 0
+      .row.silver
+        .col-md-12.col-xs-12
+            h4= homepage.section_four.sponsors.categoria3
+        each logo in silvers
+          div(class="#{colsClasses[totalsilvers] || 'col-md-3 col-xs-3'}")
+            !=logo
+        
     .row.title.organizadores
       .col-md-12.section
-        h3= homepage.section_four.title2
+        h2= homepage.section_four.title2
       - each organizador in homepage.section_four.sponsors.organizadores
         .col-md-4.col-xs-4
           != organizador

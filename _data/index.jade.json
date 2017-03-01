@@ -56,12 +56,12 @@
       "bajada": "No te quedes fuera de este tremendo evento, asegura tu entrada con los valores de preventa.",
       "fase_uno": "Preventa",
       "fase_uno_price": "100 USD",
-      "fase_uno_subprice": "(Sólo 100 cupos)",
+      "fase_uno_subprice": "(Sólo 150 cupos)",
       "fase_dos": "Venta Temprana",
       "fase_dos_price": "150 USD",
-      "fase_dos_subprice": "(200 cupos)",
+      "fase_dos_subprice": "(150 cupos)",
       "fase_tres": "Venta Final",
-      "fase_tres_price": "200 USD",
+      "fase_tres_price": "250 USD",
       "especial": "Estudiantes",
       "especial_price": "Mitad de precio",
       "button_text": "Comprar aquí",
@@ -138,19 +138,17 @@
     },
     "section_four": {
       "title1": "Auspiciadores",
-      "title2": "Organiza",
+      "title2": "Organizan",
       "sponsors": {
         "categoria1": "Platinum",
         "categoria2": "Gold",
         "categoria3": "Silver",
         "platinum": {
           "logo1": "<img src='assets/img/sponsors/bci-logo.svg' alt='Bci'>",
-          "logo2": "<img src='assets/img/sponsors/thoughtworks-logo.svg' alt='ThoughtWorks'>",
-          "logo3": "<img src='assets/img/sponsors/globant-logo.svg' alt='Globant'>",
-          "logo4": "<img src='assets/img/sponsors/telefonica-logo.svg' alt='Telefónica I+D'>"
+          "logo2": "<img src='assets/img/sponsors/thoughtworks-logo.svg' alt='ThoughtWorks'>"
         },
         "gold": {
-          "logo1": "<img src='assets/img/sponsors/synaptic-logo.svg' alt='Synaptic'>"
+
         },
         "silver": {
           "logo1": "<img src='assets/img/sponsors/miti-logo.svg' alt='Miti'>"
@@ -158,7 +156,7 @@
         "organizadores": {
           "organizador1": "<img src='assets/img/sponsors/synaptic-logo.svg' alt='Synaptic'>",
           "organizador2": "<img src='assets/img/sponsors/continuum-logo.svg' alt='ContinuumHQ'>",
-          "organizador3": "<img src='assets/img/sponsors/linets-logo.png' alt='Linets'>"
+          "organizador3": "<img src='assets/img/sponsors/linets-logo.svg' alt='Linets'>"
         }
       }
       
@@ -179,6 +177,11 @@
         "img11": "16790232_1810386299286999_3859165816402477056_n.jpg",
         "img12": "16906453_1388264607911669_8371414090567909376_n.jpg"
       }
+    },
+    "section_six": {
+      "title": "De qué se trata la conferencia",
+      "subtitle": "Estos son los temas clave que se tratarán"
+
     }
   },
 

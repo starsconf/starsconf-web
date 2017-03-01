@@ -246,9 +246,12 @@
 
 .sponsors{
   h4{
-    margin: 10px 0 30px;
+    margin: 10px 0 0;
     padding-bottom: 10px;
     text-align: center;
+    border-bottom: 2px solid #ccc;
+    padding: 10px 30px;
+    display: inline;
   }
   .platinuum,
   .gold,
@@ -257,22 +260,20 @@
     div{
       text-align: center;
       img{
-        width: 90%;
+        width: 370px;
         mix-blend-mode: multiply;
       }
     }
   }
-  .gold div img{
-    width: 75%;
-  }
   .silver div img,
   .organizadores div img{
-    width: 250px;
+    width: 200px;
   }
   .organizadores{
     margin-top: 40px;
     h3{
       font-size: 1.4em;
+      margin-bottom: 40px;
     }
   }
 }
