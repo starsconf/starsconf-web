@@ -82,11 +82,9 @@ $(document).ready(function(){
     $(window).scroll(function() {
         var scrollTopx = $(this).scrollTop();
         if (scrollTopx > 600) {
-            console.log('410')
             $('.top-header').addClass('full-bg').fadeIn('slow');
         }
         else if (scrollTopx > 110) {
-            console.log('110')
             $('.top-header').addClass('not-bg').fadeIn('slow');
         }
         else {

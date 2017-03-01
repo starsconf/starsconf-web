@@ -9,30 +9,35 @@
     "menu_options": {
       "option1": {
         "texto": "De qué se trata",
-        "url": "#what"
+        "url": "#what",
+        "url2": "/#what"
       },
       "option2": {
         "texto": "Charlistas",
-        "url": "#keynoters"
+        "url": "#keynoters",
+        "url2": "/#keynoters"
       },
       "option3": {
         "texto": "Lugar",
-        "url": "#place"
+        "url": "#place",
+        "url2": "/#place"
       },
       "option4": {
         "texto": "Programa",
-        "url": "#schedule"
+        "url": "#schedule",
+        "url2": "/#schedule"
       },
       "option5": {
         "texto": "Auspiciadores y Organizadores",
-        "url": "#sponsors"
+        "url": "#sponsors",
+        "url2": "/#sponsors"
       },
       "option6": {
         "texto": "Blog",
         "url": "https://medium.com/starsconf"
       },
       "option7": {
-        "texto": "Cod. Conducta",
+        "texto": "Código de conducta",
         "url": "codigo-conducta.html"
       }
     },
@@ -77,14 +82,14 @@
           "foto": "assets/img/keynoters/rebecca_parsons.png",
           "nombre": "Rebecca Parsons",
           "bio": "CTO en ThoughtWorks. Ph.D. in Computer Science from Rice University",
-          "contacto": "<a href='https://twitter.com/rebeccaparsons'>@rebeccaparsons</a>",
+          "contacto": "<a href='https://twitter.com/rebeccaparsons' target='_blank'>@rebeccaparsons</a>",
           "switch": "on"
         },
         "keynoter2": {
           "foto": "assets/img/keynoters/donovan_brown.jpg",
           "nombre": "Donovan L. Brown",
           "bio": "Principal DevOps Program Manager for Microsoft.",
-          "contacto": "<a href='https://twitter.com/@DonovanBrown'>@DonovanBrown</a>",
+          "contacto": "<a href='https://twitter.com/@DonovanBrown' target='_blank'>@DonovanBrown</a>",
           "switch": "on"
         },
         "keynoter3": {
@@ -133,9 +138,30 @@
     },
     "section_four": {
       "title1": "Auspiciadores",
-      "title2": "Organizadores",
-      "bajada": "<p>Este año nos cambiamos de casa al Centro de Extensión de la Pontificia Universidad Católica</p><p>Ubicada en Av. Libertador Bernardo O'Higgins 328, Santiago.</p><p>Metro Universidad Católica, Línea 1</p>",
-      "src_mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.314058968094!2d-70.64298198510046!3d-33.44112340441915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c59e8c508d1f%3A0xd7d97f8d3bd83116!2sPontificia+Universidad+Cat%C3%B3lica+de+Chile!5e0!3m2!1ses!2scl!4v1473131040232"
+      "title2": "Organiza",
+      "sponsors": {
+        "categoria1": "Platinum",
+        "categoria2": "Gold",
+        "categoria3": "Silver",
+        "platinum": {
+          "logo1": "<img src='assets/img/sponsors/bci-logo.svg' alt='Bci'>",
+          "logo2": "<img src='assets/img/sponsors/thoughtworks-logo.svg' alt='ThoughtWorks'>",
+          "logo3": "<img src='assets/img/sponsors/globant-logo.svg' alt='Globant'>",
+          "logo4": "<img src='assets/img/sponsors/telefonica-logo.svg' alt='Telefónica I+D'>"
+        },
+        "gold": {
+          "logo1": "<img src='assets/img/sponsors/synaptic-logo.svg' alt='Synaptic'>"
+        },
+        "silver": {
+          "logo1": "<img src='assets/img/sponsors/miti-logo.svg' alt='Miti'>"
+        },
+        "organizadores": {
+          "organizador1": "<img src='assets/img/sponsors/synaptic-logo.svg' alt='Synaptic'>",
+          "organizador2": "<img src='assets/img/sponsors/continuum-logo.svg' alt='ContinuumHQ'>",
+          "organizador3": "<img src='assets/img/sponsors/linets-logo.png' alt='Linets'>"
+        }
+      }
+      
     },
     "section_five": {
       "texto": "Síguenos en <a href='https://instagram.com/starsconfcom' title='Starsconf'>instagram </a>y ve como lo pasamos en las <a href='http://2015.starsconf.com' target='_blank'>ediciones anteriores</a>.",
@@ -172,20 +198,19 @@
       "body": "<p>Si estás sufriendo algún abuso, adviertes abusos sobre otra persona, o tienes alguna otra preocupación, por favor contacta con algún miembro del personal de la conferencia inmediatamente. El personal de la conferencia puede ser fácilmente identificado, ya que vestirán camisetas del evento.</p><p>Si el problema es urgente podrás contactar a los números de teléfono que publicaremos en esta misma página prontamente.</p><p>El personal de la conferencia estará contento de ayudar a los participates a contactar con la seguridad del hotel/sala o con las autoridades locales, proveer escolta o asistir de otra manera a aquellos que estén sufriendo abusos para que se sientan seguros mientras dure la conferencia. Valoramos tu asistencia.</p>",
       "adv": "<strong>Recuerda</strong> que siempre puedes decir que no a algo que no quieras hacer o escuchar. Si no te escuchan, te ayudamos."
     },
-    "creditos": "<ul class='credits'><li>Fuente original y créditos:<br> <a href='http://2012.jsconf.us/#/about'>http://2012.jsconf.us/#/about</a> & <a href='http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy'>The Ada Initiative</a></li><li>Por favor, ayuda traduciendo o mejorando: <br><a href='http://github.com/leftlogic/confcodeofconduct.com'>github.com/leftlogic/confcodeofconduct.com</a></li><li>Este trabajo está licenciado bajo <a>Creative Commons Atribución 3.0 Unported License</a>"
+    "creditos": "<ul class='credits'><li>Fuente original y créditos:<br> <a href='http://2012.jsconf.us/#/about' target='_blank'>http://2012.jsconf.us/#/about</a> & <a href='http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy'>The Ada Initiative</a></li><li>Por favor, ayuda traduciendo o mejorando: <br><a href='http://github.com/leftlogic/confcodeofconduct.com'>github.com/leftlogic/confcodeofconduct.com</a></li><li>Este trabajo está licenciado bajo <a>Creative Commons Atribución 3.0 Unported License</a>"
   },
 
   "footer": {
     "social": {
-      "title":"Síguenos",
+      "title":"Síguenos y mantente al tanto",
       "facebook": "https://www.facebook.com/StarsConf/",
       "twitter": "https://twitter.com/starsconf",
       "vimeo": "https://vimeo.com/channels/startechconf2015",
       "instagram": "https://instagram.com/starsconfcom"
     },
     "contact": {
-      "text": "Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto con nosotros",
-      "link": "team@starsconf.com"
+      "text": "Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto con nosotros <a href='mailto:team@starsconf.com'>team@starsconf.com</a>"
     },
     "copyright": "Copyright © 2011-2017 StarsConf, Chile"
   }

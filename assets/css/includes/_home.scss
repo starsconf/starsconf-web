@@ -173,10 +173,11 @@
       padding: 1px;
       margin: 0;
       overflow: hidden;
-      height: 290px;
+      height: 16,666%;
       opacity: 0.5;
       img{
         width: 100%;
+        height: 100%;
       }
     }
   }
@@ -186,7 +187,7 @@
     top: 35%;
     z-index: 1;
     color: #fff;
-    font-size: 1.2em;
+    font-size: 85%;
     a{
       color: $main-color;
       text-decoration: underline;
@@ -201,10 +202,11 @@
   .people{
     padding: 20px 0;
     .keynoter{
-      min-height: 430px;
+      min-height: 420px;
+      overflow: hidden;
       .image{
         width: 100%;
-        height: 270px;
+        height: 260px;
         overflow: hidden;
         border: 8px solid $main-color;
         border-radius: 50%;
@@ -243,5 +245,34 @@
 ------------------------*/
 
 .sponsors{
-  
+  h4{
+    margin: 10px 0 30px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .platinuum,
+  .gold,
+  .silver,
+  .organizadores{
+    div{
+      text-align: center;
+      img{
+        width: 90%;
+        mix-blend-mode: multiply;
+      }
+    }
+  }
+  .gold div img{
+    width: 75%;
+  }
+  .silver div img,
+  .organizadores div img{
+    width: 250px;
+  }
+  .organizadores{
+    margin-top: 40px;
+    h3{
+      font-size: 1.4em;
+    }
+  }
 }
