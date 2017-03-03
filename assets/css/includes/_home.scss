@@ -205,8 +205,9 @@
       min-height: 420px;
       overflow: hidden;
       .image{
-        width: 100%;
-        height: 260px;
+        width: 220px;
+        height: 220px;
+        margin: 0 auto;
         overflow: hidden;
         border: 8px solid $main-color;
         border-radius: 50%;
@@ -259,15 +260,31 @@
   .organizadores{
     div{
       text-align: center;
+      min-height: 160px;
       img{
-        width: 370px;
+        width: 80%;
         mix-blend-mode: multiply;
       }
+    }
+    .col-xs-12 img{
+      width: 30%;
+    }
+    .col-md-6 img{
+      width: 60%;
+    }
+    .col-md-4 img{
+      width: 80%;
+    }
+    .col-md-3 img{
+      width: 90%;
+    }
+    .title{
+      min-height: auto;
     }
   }
   .silver div img,
   .organizadores div img{
-    width: 200px;
+    width: 300px;
   }
   .organizadores{
     margin-top: 40px;
