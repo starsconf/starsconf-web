@@ -26,7 +26,7 @@
         .col-md-12.col-xs-12.title
             h4= homepage.section_four.sponsors.categoria2
         each logo in goldens
-          div(class="#{colsClasses[totalgoldens] || 'col-md-6 col-xs-12'}")
+          div(class="#{colsClasses[totalgoldens] || 'col-md-6 col-xs-6'}")
             !=logo
 
 
@@ -38,7 +38,7 @@
         .col-md-12.col-xs-12.title
             h4= homepage.section_four.sponsors.categoria3
         each logo in silvers
-          div(class="#{colsClasses[totalsilvers] || 'col-md-6 col-xs-3'}")
+          div(class="#{colsClasses[totalsilvers] || 'col-md-6 col-xs-6'}")
             !=logo
     
     - var organizers = homepage.section_four.sponsors.organizadores
