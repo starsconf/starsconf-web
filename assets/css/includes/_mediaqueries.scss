@@ -276,11 +276,15 @@
             min-height: 260px;
           .image{
             height: 170px;
+            width: 170px;
             border-width: 4px;
             img{
               height: initial;
               width: 100%;
             }
+          }
+          .data{
+            font-size: 130%;
           }
           &.off{
             display: none;
