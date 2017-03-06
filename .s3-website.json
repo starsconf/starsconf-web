@@ -1,0 +1,10 @@
+{
+   "index": "index.html",
+   "region": "sa-east-1",
+   "uploadDir": "_site/",
+   "prefix": "",
+   "corsConfiguration": [],
+   "enableCloudfront": false,
+   "retries": 20,
+   "domain": "www.starsconf.com"
+}

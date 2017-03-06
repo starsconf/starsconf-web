@@ -20,7 +20,7 @@
     "gulp-jade": "^1.0.1",
     "gulp-sass": "^2.0.4"
   },
-	"repository": {
+  "repository": {
     "type": "git",
     "url": "https://github.com/azemoh/gulp-jade-sass-starter.git"
   },
@@ -29,5 +29,8 @@
     "gulp",
     "sass",
     "browsersync"
-  ]
+  ],
+  "dependencies": {
+    "s3-website": "^3.0.0"
+  }
 }
