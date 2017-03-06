@@ -143,15 +143,11 @@
         "categoria1": "Platinum",
         "categoria2": "Gold",
         "categoria3": "Silver",
-        "platinum": {
-          "logo1": "<img src='assets/img/sponsors/bci-logo.svg' alt='Bci'>",
-          "logo2": "<img src='assets/img/sponsors/thoughtworks-logo.svg' alt='ThoughtWorks'>"
-        },
+        "platinum": {},
         "gold": {
 
         },
         "silver": {
-          "logo1": "<img src='assets/img/sponsors/miti-logo.svg' alt='Miti'>"
         },
         "organizadores": {
           "organizador1": "<img src='assets/img/sponsors/synaptic-logo.svg' alt='Synaptic'>",
