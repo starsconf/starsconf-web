@@ -79,18 +79,18 @@
       "bajada": "Las estrellas que ya confirmaron que estarán con nosotros este año",
       "keynoters": {
         "keynoter1": {
-          "foto": "assets/img/keynoters/rebecca_parsons.png",
-          "nombre": "Rebecca Parsons",
-          "bio": "CTO en ThoughtWorks. Ph.D. in Computer Science from Rice University",
-          "contacto": "<a href='https://twitter.com/rebeccaparsons' target='_blank'>@rebeccaparsons</a>",
-          "switch": "on"
+          "foto": "assets/img/keynoters/nobody.jpg",
+          "nombre": "Próximamente...",
+          "bio": "",
+          "contacto": "",
+          "switch": "off"
         },
         "keynoter2": {
-          "foto": "assets/img/keynoters/donovan_brown.jpg",
-          "nombre": "Donovan L. Brown",
-          "bio": "Principal DevOps Program Manager for Microsoft.",
-          "contacto": "<a href='https://twitter.com/@DonovanBrown' target='_blank'>@DonovanBrown</a>",
-          "switch": "on"
+          "foto": "assets/img/keynoters/nobody.jpg",
+          "nombre": "Próximamente...",
+          "bio": "",
+          "contacto": "",
+          "switch": "off"
         },
         "keynoter3": {
           "foto": "assets/img/keynoters/nobody.jpg",
