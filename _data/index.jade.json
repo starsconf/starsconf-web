@@ -13,7 +13,7 @@
         "url2": "/#what"
       },
       "option2": {
-        "texto": "Charlistas",
+        "texto": "Keynoters",
         "url": "#keynoters",
         "url2": "/#keynoters"
       },
@@ -79,11 +79,11 @@
       "bajada": "Las estrellas que ya confirmaron que estarán con nosotros este año",
       "keynoters": {
         "keynoter1": {
-            "foto": "assets/img/keynoters/rebecca_parsons.png",
-            "nombre": "Rebecca Parsons",
-            "bio": "CTO en ThoughtWorks. Directora en Agile Alliance",
-            "contacto": "<a href='https://twitter.com/rebeccaparsons' target='_blank'>@rebeccaparsons</a>",
-            "switch": "on"
+          "foto": "assets/img/keynoters/rebecca_parsons.png",
+          "nombre": "Rebecca Parsons",
+          "bio": "CTO en ThoughtWorks. Directora en Agile Alliance",
+          "contacto": "<a href='https://twitter.com/rebeccaparsons' target='_blank'>@rebeccaparsons</a>",
+          "switch": "on"
         },
         "keynoter2": {
           "foto": "assets/img/keynoters/nobody.jpg",
