@@ -13,7 +13,7 @@
         "url2": "/#what"
       },
       "option2": {
-        "texto": "Charlistas",
+        "texto": "Keynoters",
         "url": "#keynoters",
         "url2": "/#keynoters"
       },
@@ -75,15 +75,15 @@
       "src_mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.314058968094!2d-70.64298198510046!3d-33.44112340441915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c59e8c508d1f%3A0xd7d97f8d3bd83116!2sPontificia+Universidad+Cat%C3%B3lica+de+Chile!5e0!3m2!1ses!2scl!4v1473131040232"
     },
     "section_three": {
-      "title": "Charlistas",
-      "bajada": "Aquí anunciaremos a las estrellas que estarán con nosotros este año",
+      "title": "Keynoters",
+      "bajada": "Las estrellas que ya confirmaron que estarán con nosotros este año",
       "keynoters": {
         "keynoter1": {
-          "foto": "assets/img/keynoters/nobody.jpg",
-          "nombre": "Próximamente...",
-          "bio": "",
-          "contacto": "",
-          "switch": "off"
+          "foto": "assets/img/keynoters/rebecca_parsons.png",
+          "nombre": "Rebecca Parsons",
+          "bio": "CTO en ThoughtWorks. Directora en Agile Alliance",
+          "contacto": "<a href='https://twitter.com/rebeccaparsons' target='_blank'>@rebeccaparsons</a>",
+          "switch": "on"
         },
         "keynoter2": {
           "foto": "assets/img/keynoters/nobody.jpg",
