@@ -1,5 +1,7 @@
 /* Portrait and Landscape */
-@media (max-width: 375px){
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px){
   .top-header{
     height: initial;
     .logo{
@@ -22,9 +24,10 @@
 
   .header{
     .home-bottom-header{
-      padding: 50% 0 20% 0;
+      padding: 40% 0 20% 0;
+      font-size: 75%;
       h2{
-        font-size: 1.6em;
+        font-size: 200%;
         margin: 0;
         width: 100%;
         margin-bottom: 10%;
@@ -41,7 +44,9 @@
     &.home-header{
       height: initial;
       min-height: initial;
-      background-size: auto 100%;
+      background-size: cover;
+      background-image: url(../img/wallpaper-site_5.jpg);
+      background-blend-mode: multiply;
       .top-header{
         background-color: black;
         height: initial;
@@ -92,8 +97,8 @@
     }
     &.keynoters{
       .people{
-         .keynoter{
-            min-height: 260px;
+        .keynoter{
+          min-height: 180px;
           .image{
             height: 120px;
             width: 120px;
@@ -105,6 +110,9 @@
           }
           &.off{
             display: none;
+            &:nth-child(1){
+              display: block;
+            }
           }
         }
       }
@@ -156,12 +164,13 @@
     &.tickets{
       .prices{
         .card{
-          height: 160px;
+          height: initial;
+          min-height: 160px;
           .price{
             padding-top: 15px;
           }
           h3{
-            font-size: 110%;
+            font-size: 90%;
           }
         }
       }
@@ -172,9 +181,24 @@
     margin: 0;
     width: 100%;
   }
+  .footer .social h3{
+    font-size: 160% !important;
+  }
+  .hidden-xs,
+  .hidden-sm{
+    display: none;
+  }
+  .col-xs-4{
+    width: 33.33333333%;
+    height: 33.33333333%;
+    float: left;
+    padding: 0 !important;
+  }
 }
 
-@media (min-width: 376px) and (max-width: 767px) {
+@media only screen 
+and (min-device-width : 376px) 
+and (max-device-width : 767px) {
   .top-header{
     &.bg-scroll-header{
       background-color: #000;
@@ -201,8 +225,6 @@
   }
 
   .header{
-    height: initial;
-    min-height: initial;
     .home-bottom-header{
       font-size: 80%;
       padding: 50% 0 20% 0;
@@ -222,9 +244,6 @@
       }
     }
     &.home-header{
-      height: initial;
-      min-height: initial;
-      background-size: auto 100%;
       .top-header{
         background-color: black;
         height: initial;
@@ -359,6 +378,10 @@
       margin: 0;
       width: 100%;
     }
+  }
+  .hidden-xs,
+  .hidden-sm{
+    display: none;
   }
 }
 
