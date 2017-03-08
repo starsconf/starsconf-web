@@ -180,31 +180,31 @@
       "temas": {
         "tema1": {
           "title": "UX & Design",
-          "description": "La vara es alta cuando tus usuarios conviven a diario con experiencias del nivel de Apple, AirBnb, Uber, etc. Es también la oportunidad de conectar profundamente con tus usuarios, diferenciarte y demostrarles por qué deben preferirte"
+          "description": "La vara es alta cuando tus usuarios conviven a diario con experiencias del nivel de Apple, AirBnb, Uber, etc. Conoce casos de éxito, metodologías y experiencias de los líderes de la industria en Experiencia de Usuario y Service Design."
         },
         "tema2": {
           "title": "Data Analysis & Visualization",
-          "description": "El valor de la data no está dado por cuánta acumulas, sino por obtener de ella la mayor información posible. El análisis y la visualización de los datos que tienes (sean 'big' o no) son parte fundamental en ese proceso de transformación"
+          "description": "¿Big data? ¿Small data? El valor de los datos no está dado por cuántos acumulas, sino por obtener de ellos la mayor información posible. Descubre cómo los equipos de vanguardia analizan, visualizan y extraen inteligencia de sus datasets."
         },
         "tema3": {
           "title": "Web & Mobile",
-          "description": "Todo es mobile. Todo pasa por la web. Con más vigencia que nunca, el desarrollo y diseño tanto web como mobile (y sus últimas tendencias y prácticas) vuelven a ser protagonistas de una nueva edición de nuestra conferencia."
+          "description": "Todo es más móvil, pero las tecnologías web contraatacan más vigentes que nunca; lo que sabías hace unos años necesita renovarse por completo. Conoce las tendencias clave en las tecnologías detrás de cualquier canal digital."
         },
         "tema4": {
           "title": "Cloud & DevOps",
-          "description": "Tus servicios están (o debieran estar) en la nube, donde la automatización es clave. Ya no hay 'pasos a producción' sino que delivery continuo y evolución rápida de tus productos. DevOps es la fórmula no-tan-secreta que permite que todo eso funcione"
+          "description": "La nube, la automatización y el delivery continuo reemplazan los 'pasos a producción’ y la operación manual, acelerando tus productos. Conéctate con DevOps, el conjunto de prácticas y técnicas que permite que todo funcione."
         },
         "tema5": {
           "title": "Startups e Innovación",
-          "description": "Nos gusta escuchar historias reales de innovadores y emprendedores. Porque la globalización no para, el software se sigue comiendo el mundo, y cada día surgen oportunidades para quien sepa aprovecharlas"
+          "description": "Comerse el mundo con tecnología no tiene por qué ocurrir sólo en Silicon Valley. Conoce los aprendizajes y las historias de innovadores y emprendedores que han encontrado su propia receta para innovar y generar nuevos negocios y mercados."
         },
         "tema6": {
           "title": "Developer Tools",
-          "description": "Un tópico especialmente dedicado a esos Lenguajes, Frameworks, Editores, etc. que permiten que algo haga el trabajo tedioso por tí. Y así puedas <strike>leer HackerNews y Twitter</strike> enfocarte en los problemas realmente claves de tu desarrollo"
+          "description": "Un tópico especialmente dedicado a esos Lenguajes, Frameworks, Editores, etc. que permiten que algo haga el trabajo tedioso por tí. Y así puedas <strike>leer HackerNews o Twitter</strike> enfocarte en los problemas realmente claves de tu desarrollo."
         },
         "tema7": {
           "title": "Teams & Culture",
-          "description": "Metodologías, herramientas, principios y experiencias en torno a organizar equipos creativos de alto rendimiento. Desafío gigante pero ineludible: sin una buena (¡y ágil!) ejecución, las ideas más brillantes quedan en nada"
+          "description": "Sin ejecución, las ideas no valen nada. Y con un equipo que trabaja ágil y creativamente, un pensamiento se transforma velozmente en un producto. Aprende de las metodologías, principios, herramientas y experiencias que te ayudarán a organizar equipos de alto rendimiento."
         }
       }
     }
