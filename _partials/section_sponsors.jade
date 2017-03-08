@@ -11,7 +11,7 @@
     if (totalplatinums + totalgoldens + totalsilvers) != 0
       .row.title
         .col-md-12.section
-          h2.scrollspy#sponsors= homepage.section_four.title1
+          h2= homepage.section_four.title1
 
     if totalplatinums != 0
       .row.platinuum
@@ -43,7 +43,7 @@
     if totalorganizers != 0
       .row.title.organizadores
         .col-md-12.section.title
-          h2= homepage.section_four.title2
+          h2.scrollspy#sponsors= homepage.section_four.title2
         each organizador in organizers
           .col-md-4.col-xs-12
             != organizador
