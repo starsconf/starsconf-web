@@ -50,7 +50,7 @@
     "fecha": "3 y 4 de noviembre 2017",
     "description_home": "El evento de desarrollo, diseño e innovación tecnológica más grande de Chile y uno de los más importantes de Sudamérica. Unimos a estrellas mundiales y expertos locales para hablar de UX, Programación, Data, Innovación, Web, DevOps, Metodologías y Mobile.",
     "link_buy_tickets": "#tickets",
-    "button_buy_tickets": "Muy pronto venta de entradas",
+    "button_buy_tickets": "Asegura tu entrada ahora",
     "section_one": {
       "title": "Precio de Entradas",
       "bajada": "No te quedes fuera de este tremendo evento, asegura tu entrada con los valores de preventa.",
@@ -64,8 +64,8 @@
       "fase_tres_price": "250 USD",
       "especial": "Estudiantes",
       "especial_price": "Mitad de precio",
-      "button_text": "Pronto venta aquí",
-      "button_link": "#",
+      "button_text": "Comprar aquí",
+      "button_link": "https://welcu.com/startechconf/starsconf-2017#tickets",
       "bajada_inicial": "Estudiantes pagan la mitad del precio vigente.",
       "bajada_final": "Ticket incluye: <strong>Entrada para ambos días, acceso a Drink-up (ambos dias) y una polera del evento.</strong>"
     },
