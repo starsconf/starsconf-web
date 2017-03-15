@@ -86,11 +86,11 @@
           "switch": "on"
         },
         "keynoter2": {
-          "foto": "assets/img/keynoters/nobody.jpg",
-          "nombre": "Próximamente...",
-          "bio": "",
-          "contacto": "",
-          "switch": "off"
+          "foto": "assets/img/keynoters/donovan_brown.jpg",
+          "nombre": "Donovan L. Brown",
+          "bio": "Principal DevOps Program Manager for Microsoft.",
+          "contacto": "<a href='https://twitter.com/@DonovanBrown' target='_blank'>@DonovanBrown</a>",
+          "switch": "on"
         },
         "keynoter3": {
           "foto": "assets/img/keynoters/nobody.jpg",
