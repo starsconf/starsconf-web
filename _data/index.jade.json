@@ -93,11 +93,11 @@
           "switch": "on"
         },
         "keynoter3": {
-          "foto": "assets/img/keynoters/nobody.jpg",
-          "nombre": "Próximamente...",
-          "bio": "",
-          "contacto": "",
-          "switch": "off"
+          "foto": "assets/img/keynoters/una_kravets.jpg",
+          "nombre": "Una Kravets",
+          "bio": "UI Designer en Digital Ocean",
+          "contacto": "<a href='https://twitter.com/una' target='_blank'>@Una</a>",
+          "switch": "on"
         },
         "keynoter4": {
           "foto": "assets/img/keynoters/nobody.jpg",
@@ -143,11 +143,20 @@
         "categoria1": "Platinum",
         "categoria2": "Gold",
         "categoria3": "Silver",
-        "platinum": {},
+        "platinum": {
+           "logo1": "<img src='assets/img/sponsors/bci-logo.svg' alt='Bci'>",
+           "logo2": "<img src='assets/img/sponsors/globant-logo.svg' alt='Globant'>",
+           "logo3": "<img src='assets/img/sponsors/telefonica-logo.svg' alt='Telefónica I+D'>",
+           "logo4": "<img src='assets/img/sponsors/thoughtworks-logo.svg' alt='Thoughtworks'>"
+        },
         "gold": {
-
+          "logo1": "<img src='assets/img/sponsors/miti-logo.svg' alt='MITI'>",
+          "logo2": "<img src='assets/img/sponsors/welcu-logo.svg' alt='Welcu'>",
+          "logo3": "<img src='assets/img/sponsors/mercadopago-logo.svg' alt='MercadoPago'>",
+          "logo4": "<img src='assets/img/sponsors/mercadolibre-logo.svg' alt='MercadoLibre'>"
         },
         "silver": {
+
         },
         "organizadores": {
           "organizador1": "<img src='assets/img/sponsors/synaptic-logo.svg' alt='Synaptic'>",
