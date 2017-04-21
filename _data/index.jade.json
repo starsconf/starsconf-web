@@ -100,18 +100,18 @@
           "switch": "on"
         },
         "keynoter4": {
-          "foto": "assets/img/keynoters/nobody.jpg",
-          "nombre": "Próximamente...",
-          "bio": "",
-          "contacto": "",
-          "switch": "off"
+          "foto": "assets/img/keynoters/russ_unger.jpg",
+          "nombre": "Russ Unger",
+          "bio": "Experience Design Director at 18F, co-author of the books: A Project Guide to UX Design and others.",
+          "contacto": "<a href='https://twitter.com/russu' target='_blank'>@russu</a>",
+          "switch": "on"
         },
         "keynoter5": {
-          "foto": "assets/img/keynoters/nobody.jpg",
-          "nombre": "Próximamente...",
-          "bio": "",
-          "contacto": "",
-          "switch": "off"
+          "foto": "assets/img/keynoters/daniel_may.jpg",
+          "nombre": "Daniel May",
+          "bio": "Co-Founder de LIFX, emprendedor serial",
+          "contacto": "<a href='https://twitter.com/thedanielmay' target='_blank'>@thedanielmay</a>",
+          "switch": "on"
         },
         "keynoter6": {
           "foto": "assets/img/keynoters/nobody.jpg",
