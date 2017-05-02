@@ -88,7 +88,7 @@
         "keynoter2": {
           "foto": "assets/img/keynoters/donovan_brown.jpg",
           "nombre": "Donovan L. Brown",
-          "bio": "Principal DevOps del Program Manager de Microsoft.",
+          "bio": "Principal DevOps Program Manager en Microsoft.",
           "contacto": "<a href='https://twitter.com/@DonovanBrown' target='_blank'>@DonovanBrown</a>",
           "switch": "on"
         },
@@ -102,14 +102,14 @@
         "keynoter4": {
           "foto": "assets/img/keynoters/russ_unger.jpg",
           "nombre": "Russ Unger",
-          "bio": "Experience Design Director en 18F, co-autor de libros como: A Project Guide to UX Design y otros.",
+          "bio": "Experience Design Director en 18F, co-autor de 'A Project Guide to UX Design'",
           "contacto": "<a href='https://twitter.com/russu' target='_blank'>@russu</a>",
           "switch": "on"
         },
         "keynoter5": {
           "foto": "assets/img/keynoters/daniel_may.jpg",
           "nombre": "Daniel May",
-          "bio": "Co-Foundador de LIFX, Emprendedor serial",
+          "bio": "Co-Fundador de LIFX, Emprendedor serial",
           "contacto": "<a href='https://twitter.com/thedanielmay' target='_blank'>@thedanielmay</a>",
           "switch": "on"
         },
