@@ -114,11 +114,11 @@
           "switch": "on"
         },
         "keynoter6": {
-          "foto": "assets/img/keynoters/nobody.jpg",
-          "nombre": "Próximamente...",
-          "bio": "",
-          "contacto": "",
-          "switch": "off"
+          "foto": "assets/img/keynoters/noah_iliinsky.jpg",
+          "nombre": "Noah Iliinsky",
+          "bio": "Sr. UX Architect en Amazon Web Services. Es co-autor de Designing Data Visualizations publicado por O’Reilly Media",
+          "contacto": "<a href='https://twitter.com/noahi' target='_blank'>@noahi</a>",
+          "switch": "on"
         },
         "keynoter7": {
           "foto": "assets/img/keynoters/nobody.jpg",
@@ -143,6 +143,7 @@
         "categoria1": "Platinum",
         "categoria2": "Gold",
         "categoria3": "Silver",
+        "categoria4": "Mediapartners",
         "platinum": {
            "logo1": "<img src='assets/img/sponsors/bci-logo.svg' alt='Bci'>",
            "logo2": "<img src='assets/img/sponsors/globant-logo.svg' alt='Globant'>",
@@ -156,7 +157,10 @@
           "logo4": "<img src='assets/img/sponsors/mercadolibre-logo.svg' alt='MercadoLibre'>"
         },
         "silver": {
-
+          "logo1": "<img src='assets/img/sponsors/nic-logo.png' alt='Nic Chile'>"
+        },
+        "mediapartners": {
+          "logo1": "<img src='assets/img/sponsors/gob-logo.svg' alt='Getonboard'>"
         },
         "organizadores": {
           "organizador1": "<img src='assets/img/sponsors/synaptic-logo.svg' alt='Synaptic'>",

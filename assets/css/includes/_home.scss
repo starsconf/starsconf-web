@@ -256,6 +256,7 @@
   .platinuum,
   .gold,
   .silver,
+  .media,
   .organizadores{
     div{
       text-align: center;
@@ -282,8 +283,10 @@
     }
   }
   .silver div img,
+  .media div img,
   .organizadores div img{
     width: 300px;
+    mix-blend-mode: multiply;
   }
   .organizadores{
     margin-top: 40px;
