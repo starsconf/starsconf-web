@@ -114,6 +114,27 @@
           "switch": "on"
         },
         "keynoter6": {
+          "foto": "assets/img/keynoters/noah_iliinsky.jpg",
+          "nombre": "Noah Iliinsky",
+          "bio": "Sr. UX Architect en Amazon Web Services. Es co-autor de Designing Data Visualizations publicado por O’Reilly Media",
+          "contacto": "<a href='https://twitter.com/noahi' target='_blank'>@noahi</a>",
+          "switch": "on"
+        },
+        "keynoter7": {
+          "foto": "assets/img/keynoters/nobody.jpg",
+          "nombre": "Próximamente...",
+          "bio": "",
+          "contacto": "",
+          "switch": "off"
+        },
+        "keynoter8": {
+          "foto": "assets/img/keynoters/nobody.jpg",
+          "nombre": "Próximamente...",
+          "bio": "",
+          "contacto": "",
+          "switch": "off"
+        },
+        "keynoter9": {
           "foto": "assets/img/keynoters/nobody.jpg",
           "nombre": "Próximamente...",
           "bio": "",
@@ -216,6 +237,7 @@
         "categoria1": "Platinum",
         "categoria2": "Gold",
         "categoria3": "Silver",
+        "categoria4": "Mediapartners",
         "platinum": {
            "logo1": "<img src='assets/img/sponsors/bci-logo.svg' alt='Bci'>",
            "logo2": "<img src='assets/img/sponsors/globant-logo.svg' alt='Globant'>",
@@ -229,17 +251,18 @@
           "logo4": "<img src='assets/img/sponsors/mercadolibre-logo.svg' alt='MercadoLibre'>"
         },
         "silver": {
-          "logo1": "<img src='assets/img/sponsors/coredevx-logo.png' alt='CoreDevX'>",
-          "logo2": "<img src='assets/img/sponsors/groupon-logo.svg' alt='Groupon'>"
+          "logo1": "<img src='assets/img/sponsors/nic-logo.png' alt='Nic Chile'>",
+          "logo2": "<img src='assets/img/sponsors/coredevx-logo.png' alt='CoreDevX'>",
+          "logo3": "<img src='assets/img/sponsors/groupon-logo.svg' alt='Groupon'>"
+        },
+        "mediapartners": {
+          "logo1": "<img src='assets/img/sponsors/gob-logo.svg' alt='Getonboard'>",
+          "partner2": "<img src='assets/img/sponsors/ixda-scl-logo.svg' alt='IXDA Santiago'>"
         },
         "organizadores": {
           "organizador1": "<img src='assets/img/sponsors/synaptic-logo.svg' alt='Synaptic'>",
           "organizador2": "<img src='assets/img/sponsors/continuum-logo.svg' alt='ContinuumHQ'>",
           "organizador3": "<img src='assets/img/sponsors/linets-logo.svg' alt='Linets'>"
-        },
-        "partners": {
-          "partner1": "<img src='assets/img/sponsors/getonboard-logo.svg' alt='Get on Board'>",
-          "partner2": "<img src='assets/img/sponsors/ixda-scl-logo.svg' alt='IXDA Santiago'>"
         }
       }
 
