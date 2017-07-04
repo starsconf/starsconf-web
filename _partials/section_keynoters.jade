@@ -14,3 +14,13 @@
             p= keynoter.nombre
             span= keynoter.bio
             span!= keynoter.contacto
+
+    .row.people
+      - each keynoter in homepage.section_three.keynoters2
+        .col-md-3.col-xs-6.keynoter2(class= keynoter.switch)
+          .image
+            img(src= keynoter.foto)
+          .data
+            p= keynoter.nombre
+            span= keynoter.bio
+            span!= keynoter.contacto
