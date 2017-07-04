@@ -61,3 +61,14 @@
         each organizador in organizers
           .col-md-4.col-xs-12
             != organizador
+
+    - var partners = homepage.section_four.sponsors.partners
+    - var totalpartners = Object.keys(partners).length
+
+    if totalpartners != 0
+      .row.title.partners
+        .col-md-12.section.title
+          h2= homepage.section_four.title3
+        each partner in partners
+          .col-md-6.col-xs-12
+            != partner
