@@ -200,8 +200,9 @@
 .keynoters{
   .people{
     padding: 20px 0;
-    .keynoter{
-      min-height: 420px;
+    .keynoter,
+    .keynoter2{
+      min-height: 380px;
       overflow: hidden;
       .image{
         width: 220px;
@@ -238,6 +239,19 @@
         }
       }
     }
+    .keynoter2{
+      min-height: 290px;
+      .image{
+        width: 140px;
+        height: 140px;
+        border-width: 6px;
+      }
+      .data{
+        p, span{
+          font-size: 0.7em;
+        }
+      }
+    }
   }
 }
 
@@ -257,7 +271,8 @@
   .gold,
   .silver,
   .media,
-  .organizadores{
+  .organizadores,
+  .partners{
     div{
       text-align: center;
       min-height: 160px;
@@ -293,6 +308,13 @@
     h3{
       font-size: 1.4em;
       margin-bottom: 40px;
+    }
+  }
+  .partners{
+    div{
+      img{
+        width: 40% !important;
+      }
     }
   }
 }
