@@ -119,15 +119,87 @@
           "bio": "",
           "contacto": "",
           "switch": "off"
+        }
+      },
+      "keynoters2": {
+        "keynoter1": {
+          "foto": "assets/img/keynoters/davidlohr_bueso.jpg",
+          "nombre": "Davidlohr Bueso",
+          "bio": "Desarrollador del Kernel de Linux",
+          "contacto": "<a href='https://twitter.com/davidlohr' target='_blank'>@davidlohr</a>",
+          "switch": "on"
+        },
+        "keynoter2": {
+          "foto": "assets/img/keynoters/fausto_delatorre.jpg",
+          "nombre": "Fausto de la Torre",
+          "bio": "Head of Technology / Senior Consultant en ThoughtWorks",
+          "contacto": "<a href='https://twitter.com/faustodelatog' target='_blank'>@faustodelatog</a>",
+          "switch": "on"
+        },
+        "keynoter3": {
+          "foto": "assets/img/keynoters/francisco_diaz.jpg",
+          "nombre": "Francisco Díaz",
+          "bio": "iOS Developer en Airbnb.",
+          "contacto": "<a href='https://twitter.com/fco_diaz' target='_blank'>@fco_diaz</a>",
+          "switch": "on"
+        },
+        "keynoter4": {
+          "foto": "assets/img/keynoters/agustin_villena.png",
+          "nombre": "Agustín Villena",
+          "bio": "Líder en LeanSight, Developer, profesor. Fundador de “ChileAgil”. ",
+          "contacto": "<a href='https://twitter.com/agustinvillena' target='_blank'>@agustinvillena</a>",
+          "switch": "on"
+        },
+        "keynoter5": {
+          "foto": "assets/img/keynoters/fausto_castaneda.jpg",
+          "nombre": "Fausto Castañeda",
+          "bio": "Consultor, Developer y Quality Advocate en ThoughtWorks.",
+          "contacto": "<a href='https://twitter.com/asf' target='_blank'>@asf</a>",
+          "switch": "on"
+        },
+        "keynoter6": {
+          "foto": "assets/img/keynoters/gustavo_soto.jpg",
+          "nombre": "Gustavo Soto",
+          "bio": "Head UX en WOM Chile. Co‐fundador de UXD en Chile.",
+          "contacto": "<a href='https://twitter.com/gusoto' target='_blank'>@gusoto</a>",
+          "switch": "on"
         },
         "keynoter7": {
+          "foto": "assets/img/keynoters/eduardo_graells.jpg",
+          "nombre": "Eduardo Graells‐Garrido",
+          "bio": "Investigador en el Inst. de Data Science de la UDD, antes en Yahoo Labs.",
+          "contacto": "<a href='https://twitter.com/carnby' target='_blank'>@carnby</a>",
+          "switch": "on"
+        },
+        "keynoter8": {
+          "foto": "assets/img/keynoters/ricardo_alfaro.jpg",
+          "nombre": "Ricardo Alfaro",
+          "bio": "Lider UX y Frontend en ContinuumChile. Co-Fundador de OpenD",
+          "contacto": "<a href='https://twitter.com/diablogris' target='_blank'>@diablogris</a>",
+          "switch": "on"
+        },
+        "keynoter9": {
+          "foto": "assets/img/keynoters/alejandro_salinas.jpg",
+          "nombre": "Alejandro Salinas",
+          "bio": "Senior Manager Global Network Operations en Groupon.",
+          "contacto": "<a href='https://twitter.com/asf' target='_blank'>@asf</a>",
+          "switch": "on"
+        },
+        "keynoter10": {
           "foto": "assets/img/keynoters/nobody.jpg",
           "nombre": "Próximamente...",
           "bio": "",
           "contacto": "",
           "switch": "off"
         },
-        "keynoter8": {
+        "keynoter11": {
+          "foto": "assets/img/keynoters/nobody.jpg",
+          "nombre": "Próximamente...",
+          "bio": "",
+          "contacto": "",
+          "switch": "off"
+        },
+        "keynoter12": {
           "foto": "assets/img/keynoters/nobody.jpg",
           "nombre": "Próximamente...",
           "bio": "",
@@ -139,6 +211,7 @@
     "section_four": {
       "title1": "Auspiciadores",
       "title2": "Organizan",
+      "title3": "Partners",
       "sponsors": {
         "categoria1": "Platinum",
         "categoria2": "Gold",
@@ -156,12 +229,17 @@
           "logo4": "<img src='assets/img/sponsors/mercadolibre-logo.svg' alt='MercadoLibre'>"
         },
         "silver": {
-
+          "logo1": "<img src='assets/img/sponsors/coredevx-logo.png' alt='CoreDevX'>",
+          "logo2": "<img src='assets/img/sponsors/groupon-logo.svg' alt='Groupon'>"
         },
         "organizadores": {
           "organizador1": "<img src='assets/img/sponsors/synaptic-logo.svg' alt='Synaptic'>",
           "organizador2": "<img src='assets/img/sponsors/continuum-logo.svg' alt='ContinuumHQ'>",
           "organizador3": "<img src='assets/img/sponsors/linets-logo.svg' alt='Linets'>"
+        },
+        "partners": {
+          "partner1": "<img src='assets/img/sponsors/getonboard-logo.svg' alt='Get on Board'>",
+          "partner2": "<img src='assets/img/sponsors/ixda-scl-logo.svg' alt='IXDA Santiago'>"
         }
       }
 
