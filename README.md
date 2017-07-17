@@ -8,7 +8,7 @@
 
 ### Para correr el cuento
 - Primero `npm install` en el directorio para descargar las dependencias.
-- Luego `gulp serve` para correr la web en el local server y ver los cambios.
+- Luego `gulp` para correr la web en el local server y ver los cambios.
 
 ### Para modificar el contenido de la página
  - Se edita el archivo `index.jade.json`
@@ -23,9 +23,6 @@
 - Jade ahora se llama [Pug project](https://github.com/azemoh/gulp-pug-sass-seed/).
 - Y aquí hay documentación https://pugjs.org/api/getting-started.html
 - El proyecto usa [gulp-data](https://github.com/colynb/gulp-data)
-
-### Errores a corregir
- - El `gulpfile.js` no está compilando los assets `js`y `img` por lo que es necesario agregarlos manualmente dentro de la carpeta `_site` hasta corregir esa configuración y borrar esto del README
 
 
 
