@@ -18,11 +18,9 @@
 
 ### Sitio compilado
  - El html con sus assets, se compilan dentro de la carpera `_site`, como se encuentra configurado en el `gulpfile.js`
+ - Si solo deseas hacer la compilación del proyecto, sin necesidad del levantar el servidor estático, puedes utilizar el comando `gulp build`
 
 ### Notas especiales
 - Jade ahora se llama [Pug project](https://github.com/azemoh/gulp-pug-sass-seed/).
 - Y aquí hay documentación https://pugjs.org/api/getting-started.html
 - El proyecto usa [gulp-data](https://github.com/colynb/gulp-data)
-
-
-
