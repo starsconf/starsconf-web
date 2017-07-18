@@ -1,103 +1,141 @@
-//Instagram Photos
-/*$.fn.spectragram.accessData = {
-    accessToken: 'your-instagram-access-token',
-    clientID: 'your-instagram-application-clientID'
-};*/
+// Auto invoked function
+(function($) {
+  'use strict';
 
-//Preload home images first 
-
-$.fn.preload = function() {
-    this.each(function(){
-        $('<img/>')[0].src = this;
-    });
-}
-var images = Array(
-    "assets/img/wallpaper-site_16.jpg",
-    "assets/img/wallpaper-site_12.jpg",
-    "assets/img/wallpaper-site_1.jpg",
-    "assets/img/wallpaper-site_4.jpg",
-    "assets/img/wallpaper-site_9.jpg",
-    "assets/img/wallpaper-site_6.jpg",
-    "assets/img/wallpaper-site_5.jpg",
-    "assets/img/wallpaper-site_3.jpg",
-    "assets/img/wallpaper-site_7.jpg",
-    "assets/img/wallpaper-site_10.jpg",
-    "assets/img/wallpaper-site_11.jpg",
-    "assets/img/wallpaper-site_8.jpg",
-    "assets/img/wallpaper-site_2.jpg",
-    "assets/img/wallpaper-site_14.jpg",
-    "assets/img/wallpaper-site_15.jpg",
-    "assets/img/wallpaper-site_13.jpg",
-    "assets/img/wallpaper-site_17.jpg"
-    )
-;
-
-$([images[0],images[1],images[2],images[3],images[4],images[5],images[6],images[7],images[8],images[9],images[10],images[11],images[12],images[13],images[14],images[15],images[16]]).preload();
-
-// Usage:
-
-var currimg = 0;
-
-
-$(document).ready(function(){
-    $('.scrollspy').scrollSpy();
-    
+    // Check if the user agent is mobile
     function isMobile() {
         return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
     }
 
-    if (!isMobile()) {
-        //CHANGE BACKGROUND IMAGES
-       
-        function loadimg(){   
-           $('#background').animate({ opacity: 1 }, 800,function(){
-                //finished animating, minifade out and fade new back in           
-                $('#background').animate({ opacity: 0.7 }, 400,function(){ 
-                    currimg++;
-                    if(currimg > images.length-1){
-                        currimg=0;
-                    }
-                    var newimage = images[currimg];
-                
-                    //swap out bg src                
-                    $('#background').css("background-image", "url("+newimage+")"); 
-                    //animate fully back in
-                    $('#background').animate({ opacity: 1 }, 800,function(){
-                        //set timer for next
-                        setTimeout(loadimg,4000);
-                    });
+    // Check if the element is visible in the viewport
+    function isInViewport(element) {
+        var bounds = element.getBoundingClientRect();
 
-                });
-            
-            });
-         }
-         setTimeout(loadimg,4000);
-
-
+        return (
+            bounds.top < window.innerHeight && 
+            bounds.bottom > 0
+        );
     }
 
-    //Fix header
+    // Image preloader
+    function preloader(arr) {
+        var img = new Image();
+        for (var i = 0; i < arr.length; i++) {
+            img.src = arr[i];
+        }
+    }
 
-    
-    $(window).scroll(function() {
-        var scrollTopx = $(this).scrollTop();
-        if (scrollTopx > 600) {
-            $('.top-header').addClass('full-bg').fadeIn('slow');
+    // Array of slideshow images
+    var slides = [
+        'assets/img/wallpaper-site_16.jpg',
+        'assets/img/wallpaper-site_12.jpg',
+        'assets/img/wallpaper-site_1.jpg',
+        'assets/img/wallpaper-site_4.jpg',
+        'assets/img/wallpaper-site_9.jpg',
+        'assets/img/wallpaper-site_6.jpg',
+        'assets/img/wallpaper-site_5.jpg',
+        'assets/img/wallpaper-site_3.jpg',
+        'assets/img/wallpaper-site_7.jpg',
+        'assets/img/wallpaper-site_10.jpg',
+        'assets/img/wallpaper-site_11.jpg',
+        'assets/img/wallpaper-site_8.jpg',
+        'assets/img/wallpaper-site_2.jpg',
+        'assets/img/wallpaper-site_14.jpg',
+        'assets/img/wallpaper-site_15.jpg',
+        'assets/img/wallpaper-site_13.jpg',
+        'assets/img/wallpaper-site_17.jpg'
+    ];
+
+    // Preload images
+    preloader(slides);
+
+    // Image Slideshow
+    var slideshow = document.getElementById('background');
+    var slideAnimate;
+    var slideState = true;
+    // Store last active slide
+    var current = 0;
+
+    // Play slideshow
+    function playSlideshow(el, images) {
+        el.style.transition = 'background-color 1s ease-out';
+
+        slideAnimate = setInterval(function() {
+            current = (current != images.length - 1) ? current + 1 : 0;
+            for (var i = 0; i < images.length; i++) {
+                el.style.backgroundColor="black";
+                setTimeout(function() {
+                    el.style.backgroundColor="rgba(0,0,0,0.7)";
+                    el.style.backgroundImage="url('" + images[current] + "')";
+                }, 700)
+            }
+        }, 6000);
+    }
+
+    // Stop slideshow
+    function stopSlideshow() {
+        clearInterval(slideAnimate);
+    }
+
+    // Initialize slideshow only if isn't mobile
+    if (!isMobile()) {
+       playSlideshow(slideshow, slides); 
+    }
+
+    // Fix navbar
+    function stickyNavbar() {
+        var scroll = window.scrollY;
+        var navbar = document.querySelector('.top-header');
+        var header = document.querySelector('.home-header');
+
+        if (navbar && header) {
+            var navbarHeight = navbar.offsetHeight;
+            var headerHeight = header.offsetHeight - navbarHeight;
+
+            if (scroll > (navbarHeight / 2) && scroll < headerHeight) {
+                navbar.classList.remove('full-bg');
+                navbar.classList.add('not-bg');
+            } else if (scroll > headerHeight) {
+                navbar.classList.add('full-bg');
+            } else {
+                navbar.classList.remove('full-bg', 'not-bg');
+            }
         }
-        else if (scrollTopx > 110) {
-            $('.top-header').addClass('not-bg').fadeIn('slow');
+    }
+
+    // Listen to scroll event with throttle
+    window.addEventListener('scroll', _.throttle(function() {
+
+        // Sticky navbar on scroll
+        stickyNavbar();
+
+        // Disable slideshow when out of the viewport
+        if (isInViewport(slideshow)) {
+            if (!slideState && !isMobile()) {
+                playSlideshow(slideshow, slides);
+                slideState = true;
+            }
+        } else {
+            stopSlideshow();
+            slideState = false;
         }
-        else {
-            $('.top-header').removeClass('not-bg');
-            $('.top-header').removeClass('full-bg');
-        }
-    });
+    }, 100), false);
+
+    /*
+    **********************************************
+    * jQuery stuff
+    **********************************************
+    */
 
     //Sidenav Responsive
     $(".button-collapse").sideNav({
-      menuWidth: 300,
-      edge: 'right',
-      closeOnClick: true,
-      draggable: true
+        menuWidth: 300,
+        edge: 'right',
+        closeOnClick: true,
+        draggable: true
     });
-});
+
+    // Scrollspy
+    $('.scrollspy').scrollSpy();
+
+})(jQuery);
