@@ -74,6 +74,7 @@ gulp.task('jade', () => {
 gulp.task('sass', () => {
 	del([paths.sass.clean]);
 	gulp.src(paths.sass.src)
+		.pipe($.plumber())
 		.pipe($.sass({
 			includePaths: [paths.sass.base],
 			outputStyle: 'compressed'
@@ -83,6 +84,7 @@ gulp.task('sass', () => {
             browsers: ['last 2 versions'],
             cascade: false
         }))
+        .pipe($.plumber.stop())
 		.pipe(gulp.dest(paths.sass.dist))
 		.pipe(browserSync.stream());
 });
@@ -93,8 +95,10 @@ gulp.task('scripts', () => {
 	gulp.src(paths.js.base)
 		.pipe(gulp.dest(paths.js.dist))
 	gulp.src(paths.js.src)
+		.pipe($.plumber())
 		.pipe($.uglify())
 		.pipe($.rename({ suffix: '.min' }))
+		.pipe($.plumber.stop())
 		.pipe(gulp.dest(paths.js.dist))
 		.pipe(browserSync.stream());
 });
@@ -102,6 +106,7 @@ gulp.task('scripts', () => {
 // Optimize and compress images
 gulp.task('images', () => {
 	gulp.src(paths.images.src)
+		.pipe($.plumber())
 		.pipe($.newer(paths.images.dist))
 		.pipe($.imagemin([
 			$.imagemin.gifsicle({interlaced: true}),
@@ -109,6 +114,7 @@ gulp.task('images', () => {
 			$.imagemin.optipng({optimizationLevel: 5}),
 			$.imagemin.svgo({plugins: [{removeViewBox: true}]})
 		]))
+		.pipe($.plumber.stop())
 		.pipe(gulp.dest(paths.images.dist));
 });
 
