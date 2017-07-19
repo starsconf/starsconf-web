@@ -1,97 +1,138 @@
-/*global require*/
-"use strict";
+'use strict';
 
-var gulp = require('gulp'),
-	path = require('path'),
-	data = require('gulp-data'),
-	jade = require('gulp-jade'),
-	prefix = require('gulp-autoprefixer'),
-	sass = require('gulp-sass'),
-	browserSync = require('browser-sync');
+const gulp = require('gulp');
+const path = require('path');
+const del = require('del');
+const $ = require('gulp-load-plugins')();
+const browserSync = require('browser-sync');
 
-/*
-* Change directories here
-*/
-var settings = {
-	publicDir: '_site',
-	sassDir: 'assets/css',
-	cssDir: '_site/assets/css',
-	imagesDir: '_site/assets/images'
+// Directory paths
+const paths = {
+	public: '_site',
+	sass: {
+		base: 'assets/css',
+		src: 'assets/css/*.scss',
+		dist: '_site/assets/css',
+		clean: '_site/assets/css/*'
+	},
+	jade: {
+		base: '**/*.jade',
+		src: '*.jade',
+		dist: '_site',
+		data: './_data/index.jade.json'
+	},
+	js: {
+		base: 'assets/js/*.js',
+		src: ['assets/js/*.js', '!assets/js/*.min.js'],
+		dist: '_site/assets/js',
+		clean: '_site/assets/js/*'
+	},
+	images: {
+		src: 'assets/img/**/*',
+		dist: '_site/assets/img',
+		clean: '_site/assets/img/*'
+	}
 };
 
-/**
- * De-caching function for Data files
- */
+// De-caching function for Data files
 function requireUncached( $module ) {
     delete require.cache[require.resolve( $module )];
     return require( $module );
 }
 
-/**
- * Compile .jade files and pass in data from json file
- * matching file name. index.jade - index.jade.json
- */
-gulp.task('jade', function () {
-	return gulp.src('*.jade')
-		.pipe(data(function (file) {
-			//return requireUncached('./_data/' + path.basename(file.path) + '.json');
-			return requireUncached('./_data/index.jade.json');
+// Configure static server with BrowserSync
+// and wait for Sass, Jade and Scripts tasks to launch it.
+gulp.task('browser-sync', ['sass', 'jade', 'scripts'], () => {
+    browserSync.init({
+        server: {
+            baseDir: paths.public,
+            browser: ['google chrome']
+        }
+    });
+});
+
+// Reload browser
+gulp.task('bs-reload', () => {
+  browserSync.reload();
+});
+
+// Compile .jade files and pass in data from json file
+// matching file name. index.jade - index.jade.json
+gulp.task('jade', () => {
+	gulp.src(paths.jade.src)
+		.pipe($.data(function (file) {
+			return requireUncached(paths.jade.data);
 		}))
-		.pipe(jade())
-		.pipe(gulp.dest(settings.publicDir));
+		.pipe($.jade({
+			pretty: true,
+		}))
+		.pipe(gulp.dest(paths.jade.dist))
+		.pipe(browserSync.stream());
 });
 
-/**
- * Recompile .jade files and live reload the browser
- */
-gulp.task('jade-rebuild', ['jade'], function () {
-	browserSync.reload();
-});
-
-/**
- * Wait for jade and sass tasks, then launch the browser-sync Server
- */
-gulp.task('browser-sync', ['sass', 'jade'], function () {
-	browserSync({
-		server: {
-			baseDir: settings.publicDir
-		},
-		notify: false
-	});
-});
-
-/**
- * Compile .scss files into public css directory With autoprefixer no
- * need for vendor prefixes then live reload the browser.
- */
-gulp.task('sass', function () {
-	return gulp.src(settings.sassDir + '/*.scss')
-		.pipe(sass({
-			includePaths: [settings.sassDir],
+// Compile Sass into CSS with vendor prefixes – then reload the browser.
+gulp.task('sass', () => {
+	del([paths.sass.clean]);
+	gulp.src(paths.sass.src)
+		.pipe($.plumber())
+		.pipe($.sass({
+			includePaths: [paths.sass.base],
 			outputStyle: 'compressed'
 		}))
-		.on('error', sass.logError)
-		.pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], {cascade: true}))
-		.pipe(gulp.dest(settings.cssDir))
-		.pipe(browserSync.reload({stream: true}));
+		.on('error', $.sass.logError)
+		.pipe($.autoprefixer({
+            browsers: ['last 2 versions'],
+            cascade: false
+        }))
+        .pipe($.plumber.stop())
+		.pipe(gulp.dest(paths.sass.dist))
+		.pipe(browserSync.stream());
 });
 
-
-
-
-/**
- * Watch scss files for changes & recompile
- * Watch .jade files run jade-rebuild then reload BrowserSync
- */
-gulp.task('watch', function () {
-	gulp.watch(settings.sassDir + '/**', ['sass']);
-	gulp.watch(['*.jade', '**/*.jade', '**/*.json'], ['jade-rebuild']);
+// Parse and compress JavaScript files – then reload the browser.
+gulp.task('scripts', () => {
+	del([paths.js.clean]);
+	gulp.src(paths.js.base)
+		.pipe(gulp.dest(paths.js.dist))
+	gulp.src(paths.js.src)
+		.pipe($.plumber())
+		.pipe($.uglify())
+		.pipe($.rename({ suffix: '.min' }))
+		.pipe($.plumber.stop())
+		.pipe(gulp.dest(paths.js.dist))
+		.pipe(browserSync.stream());
 });
 
-/**
- * Default task, running just `gulp` will compile the sass,
- * compile the jekyll site, launch BrowserSync then watch
- * files for changes
- */
-gulp.task('default', ['browser-sync', 'watch']);
-gulp.task('serve', ['default']);
+// Optimize and compress images
+gulp.task('images', () => {
+	gulp.src(paths.images.src)
+		.pipe($.plumber())
+		.pipe($.newer(paths.images.dist))
+		.pipe($.imagemin([
+			$.imagemin.gifsicle({interlaced: true}),
+			$.imagemin.jpegtran({progressive: true}),
+			$.imagemin.optipng({optimizationLevel: 5}),
+			$.imagemin.svgo({plugins: [{removeViewBox: true}]})
+		]))
+		.pipe($.plumber.stop())
+		.pipe(gulp.dest(paths.images.dist));
+});
+
+// Complete build sequence
+gulp.task('build', ['sass', 'jade', 'scripts', 'images']);
+
+// Launch the BrowserSync static server and watch files for changes
+gulp.task('default', ['browser-sync'], () => {
+	gulp.watch(paths.sass.base + '/**/*.scss', ['sass']);
+	gulp.watch([paths.jade.base, paths.jade.data], ['jade']);
+	gulp.watch(paths.js.base, ['scripts', 'bs-reload']);
+
+	var imgWatcher = gulp.watch(paths.images.src, ['images'])
+
+	// One-way sync – When images are deleted
+	imgWatcher.on('change', (ev) => {
+		if (ev.type === 'deleted') {
+			del(path.relative('./', ev.path).replace('assets/', '_site/assets/'));
+		}
+	})
+});
