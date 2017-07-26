@@ -71,12 +71,13 @@
     },
     "section_two": {
       "title": "Lugar",
-      "bajada": "<p>Este año nos cambiamos de casa al Centro de Extensión de la Pontificia Universidad Católica</p><p>Ubicada en Av. Libertador Bernardo O'Higgins 328, Santiago.</p><p>Metro Universidad Católica, Línea 1</p>",
+      "bajada": "<p>Este año nos cambiamos de casa al Centro de Extensión de la Pontificia Universidad Católica</p><p>Ubicada en Av. Libertador Bernardo O'Higgins 390, Santiago.</p><p>Metro Universidad Católica, Línea 1</p>",
       "src_mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.314058968094!2d-70.64298198510046!3d-33.44112340441915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c59e8c508d1f%3A0xd7d97f8d3bd83116!2sPontificia+Universidad+Cat%C3%B3lica+de+Chile!5e0!3m2!1ses!2scl!4v1473131040232"
     },
     "section_three": {
       "title": "Keynoters",
       "bajada": "Las estrellas que ya confirmaron que estarán con nosotros este año",
+      "bajada_dos": "Junto a ellos, más de 30 expositores seleccionados.",
       "keynoters": {
         "keynoter1": {
           "foto": "assets/img/keynoters/rebecca_parsons.png",
@@ -175,7 +176,7 @@
           "foto": "assets/img/keynoters/fausto_castaneda.jpg",
           "nombre": "Fausto Castañeda",
           "bio": "Consultor, Developer y Quality Advocate en ThoughtWorks.",
-          "contacto": "<a href='https://twitter.com/asf' target='_blank'>@asf</a>",
+          "contacto": "<a href='https://twitter.com/faustcastaneda' target='_blank'>@FaustCastaneda</a>",
           "switch": "on"
         },
         "keynoter6": {
@@ -207,20 +208,104 @@
           "switch": "on"
         },
         "keynoter10": {
-          "foto": "assets/img/keynoters/nobody.jpg",
-          "nombre": "Próximamente...",
-          "bio": "",
-          "contacto": "",
-          "switch": "off"
+          "foto": "assets/img/keynoters/jose_urzua.jpg",
+          "nombre": "José Urzúa",
+          "bio": "Jefe Desarrollo de Sistemas en NIC Chile",
+          "contacto": "<a href='https://twitter.com/jourzua' target='_blank'>@jourzua</a>",
+          "switch": "on"
         },
         "keynoter11": {
+          "foto": "assets/img/keynoters/chihau_chau.png",
+          "nombre": "Chihau Chau",
+          "bio": "Ingeniero de Software, Profesor y Consultor Fundador de QBO",
+          "contacto": "<a href='https://twitter.com/chihau' target='_blank'>@chihau</a>",
+          "switch": "on"
+        },
+        "keynoter12": {
+          "foto": "assets/img/keynoters/felipe_funes.jpg",
+          "nombre": "Felipe Funes",
+          "bio": "UI/Frontend Developer en ArchDaily.com",
+          "contacto": "<a href='https://twitter.com/felipefunes ' target='_blank'>@felipefunes </a>",
+          "switch": "on"
+        },
+        "keynoter13": {
+          "foto": "assets/img/keynoters/alberto_marcias.jpg",
+          "nombre": "Alberto Marcías",
+          "bio": "Front-end developer en ArchDaily",
+          "contacto": "<a href='https://twitter.com/albertomarcias' target='_blank'>@albertomarcias</a>",
+          "switch": "on"
+        },
+        "keynoter14": {
+          "foto": "assets/img/keynoters/martin_dominguez.jpg",
+          "nombre": "Martín Domínguez",
+          "bio": "CIO de Etermax.com",
+          "contacto": "<a href='https://twitter.com/mp_dominguez' target='_blank'>@mp_dominguez</a>",
+          "switch": "on"
+        },
+        "keynoter15": {
+          "foto": "assets/img/keynoters/eduardo_diaz.png",
+          "nombre": "Eduardo Díaz",
+          "bio": "Subgerente de Tecnología en Previred. Fundador del meetup Santiago Devops",
+          "contacto": "<a href='https://twitter.com/lnds' target='_blank'>@lnds</a>",
+          "switch": "on"
+        },
+        "keynoter16": {
+          "foto": "assets/img/keynoters/jairo_dasilva.jpg",
+          "nombre": "Jairo Da Silva Pereira",
+          "bio": "Ingeniero de Software en MercadoLibre. Líder del meetup Golang-Chile.",
+          "contacto": "<a href='https://twitter.com/tangzero' target='_blank'>@tangzero</a>",
+          "switch": "on"
+        },
+        "keynoter17": {
+          "foto": "assets/img/keynoters/andres_marinkovic.jpg",
+          "nombre": "Andrés Marinkovic",
+          "bio": "CTO en Fintual",
+          "contacto": "<a href='https://twitter.com/asmarinkovic' target='_blank'>@asmarinkovic</a>",
+          "switch": "on"
+        },
+        "keynoter18": {
+          "foto": "assets/img/keynoters/claudio_salazar.jpg",
+          "nombre": "Claudio Salazar",
+          "bio": "CEO de Alertot, Fundador de SPECT Research.",
+          "contacto": "<a href='https://twitter.com/alertot' target='_blank'>@alertot</a>",
+          "switch": "on"
+        },
+        "keynoter19": {
+          "foto": "assets/img/keynoters/ruben_torres.jpg",
+          "nombre": "Rubén Torres",
+          "bio": "Desarrollador en ClinicSense.com",
+          "contacto": "<a href='https://twitter.com/clinicsense' target='_blank'>@clinicsense</a>",
+          "switch": "on"
+        },
+        "keynoter20": {
+          "foto": "assets/img/keynoters/leonardo_graterol.jpg",
+          "nombre": "Leonardo Graterol",
+          "bio": "Ingeniero de software en MarketRealist.com.",
+          "contacto": "<a href='https://www.linkedin.com/in/leonardo-graterol-24863223' target='_blank'>Linkedin</a>",
+          "switch": "on"
+        },
+        "keynoter21": {
+          "foto": "assets/img/keynoters/alvaro_echeverria.jpg",
+          "nombre": "Álvaro Echeverría",
+          "bio": "CEO en SimpliRoute, Investigador del DII Universidad de Chile.",
+          "contacto": "<a href='https://twitter.com/ares1986' target='_blank'>@ares1986</a>",
+          "switch": "on"
+        },
+        "keynoter22": {
           "foto": "assets/img/keynoters/nobody.jpg",
           "nombre": "Próximamente...",
           "bio": "",
           "contacto": "",
           "switch": "off"
         },
-        "keynoter12": {
+        "keynoter23": {
+          "foto": "assets/img/keynoters/nobody.jpg",
+          "nombre": "Próximamente...",
+          "bio": "",
+          "contacto": "",
+          "switch": "off"
+        },
+        "keynoter24": {
           "foto": "assets/img/keynoters/nobody.jpg",
           "nombre": "Próximamente...",
           "bio": "",
@@ -237,7 +322,7 @@
         "categoria1": "Platinum",
         "categoria2": "Gold",
         "categoria3": "Silver",
-        "categoria4": "Mediapartners",
+        "categoria4": "Partners",
         "platinum": {
            "logo1": "<img src='assets/img/sponsors/bci-logo.svg' alt='Bci'>",
            "logo2": "<img src='assets/img/sponsors/globant-logo.svg' alt='Globant'>",
@@ -248,7 +333,8 @@
           "logo1": "<img src='assets/img/sponsors/miti-logo.svg' alt='MITI'>",
           "logo2": "<img src='assets/img/sponsors/welcu-logo.svg' alt='Welcu'>",
           "logo3": "<img src='assets/img/sponsors/mercadopago-logo.svg' alt='MercadoPago'>",
-          "logo4": "<img src='assets/img/sponsors/mercadolibre-logo.svg' alt='MercadoLibre'>"
+          "logo4": "<img src='assets/img/sponsors/mercadolibre-logo.svg' alt='MercadoLibre'>",
+          "logo5": "<img src='assets/img/sponsors/everis-logo.svg' alt='Everis'>"
         },
         "silver": {
           "logo1": "<img src='assets/img/sponsors/nic-logo.png' alt='Nic Chile'>",
