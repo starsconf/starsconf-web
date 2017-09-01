@@ -292,11 +292,11 @@
           "switch": "on"
         },
         "keynoter22": {
-          "foto": "assets/img/keynoters/nobody.jpg",
-          "nombre": "Próximamente...",
-          "bio": "",
-          "contacto": "",
-          "switch": "off"
+          "foto": "assets/img/keynoters/rodrigo_culagovski.jpg",
+          "nombre": "Rodrigo Culagovski",
+          "bio": "CEO en AreaWeb. Profesor de las escuelas de diseño de la PUC y UAI", 
+          "contacto": "<a href='https://www.linkedin.com/in/rodrigoculagovski' target='_blank'>Linkedin</a>",
+          "switch": "on"
         },
         "keynoter23": {
           "foto": "assets/img/keynoters/nobody.jpg",
@@ -324,31 +324,36 @@
         "categoria3": "Silver",
         "categoria4": "Partners",
         "platinum": {
-           "logo1": "<img src='assets/img/sponsors/bci-logo.svg' alt='Bci'>",
-           "logo2": "<img src='assets/img/sponsors/globant-logo.svg' alt='Globant'>",
-           "logo3": "<img src='assets/img/sponsors/telefonica-logo.svg' alt='Telefónica I+D'>",
-           "logo4": "<img src='assets/img/sponsors/thoughtworks-logo.svg' alt='Thoughtworks'>"
+           "logo1": "<a href='http://bcilabs.cl' target='_blank'><img src='assets/img/sponsors/bci-logo.png' alt='Bci Labs'></a>",
+           "logo2": "<a href='https://www.globant.com' target='_blank'><img src='assets/img/sponsors/globant-logo.svg' alt='Globant'></a>",
+           "logo3": "<a href='http://www.tidchile.cl' target='_blank'><img src='assets/img/sponsors/telefonica-logo.svg' alt='Telefónica I+D'></a>",
+           "logo4": "<a href='https://www.thoughtworks.com' target='_blank'><img src='assets/img/sponsors/thoughtworks-logo.svg' alt='Thoughtworks'></a>",
+           "logo5": "<a href='https://www.atlassian.com' target='_blank'><img src='assets/img/sponsors/atlassian-logo.svg' alt='Atlassian'></a>",
+           "logo6": "<a href='https://www.scotiabankchile.cl/' target='_blank'><img src='assets/img/sponsors/scotiabank-logo.svg' alt='Scotiabank'></a>",
+           "logo7": "<a href='https://www.microsoft.com/' target='_blank'><img src='assets/img/sponsors/microsoft-logo.svg' alt='Microsoft'></a>"
         },
         "gold": {
-          "logo1": "<img src='assets/img/sponsors/miti-logo.svg' alt='MITI'>",
-          "logo2": "<img src='assets/img/sponsors/welcu-logo.svg' alt='Welcu'>",
-          "logo3": "<img src='assets/img/sponsors/mercadopago-logo.svg' alt='MercadoPago'>",
-          "logo4": "<img src='assets/img/sponsors/mercadolibre-logo.svg' alt='MercadoLibre'>",
-          "logo5": "<img src='assets/img/sponsors/everis-logo.svg' alt='Everis'>"
+          "logo1": "<a href='http://miti.cl' target='_blank'><img src='assets/img/sponsors/miti-logo.svg' alt='MITI'></a>",
+          "logo2": "<a href='https://welcu.com/es' target='_blank'><img src='assets/img/sponsors/welcu-logo.svg' alt='Welcu'></a>",
+          "logo3": "<a href='https://www.mercadopago.cl' target='_blank'><img src='assets/img/sponsors/mercadopago-logo.svg' alt='MercadoPago'></a>",
+          "logo4": "<a href='https://www.mercadolibre.cl' target='_blank'><img src='assets/img/sponsors/mercadolibre-logo.svg' alt='MercadoLibre'></a>",
+          "logo5": "<a href='https://www.everis.com/chile' target='_blank'><img src='assets/img/sponsors/everis-logo.svg' alt='Everis'></a>",
+          "logo6": "<a href='https://www.comparaonline.cl' target='_blank'><img src='assets/img/sponsors/comparaonline-logo.svg' alt='ComparaOnline'></a>"
         },
         "silver": {
-          "logo1": "<img src='assets/img/sponsors/nic-logo.png' alt='Nic Chile'>",
-          "logo2": "<img src='assets/img/sponsors/coredevx-logo.png' alt='CoreDevX'>",
-          "logo3": "<img src='assets/img/sponsors/groupon-logo.svg' alt='Groupon'>"
+          "logo1": "<a href='http://nic.cl' target='_blank'><img src='assets/img/sponsors/nic-logo.png' alt='Nic Chile'></a>",
+          "logo2": "<a href='https://www.groupon.com' target='_blank'><img src='assets/img/sponsors/groupon-logo.svg' alt='Groupon'></a>",
+          "logo3": "<a href='https://www.airbnb.com' target='_blank'><img src='assets/img/sponsors/airbnb-logo.svg' alt='Airbnb'></a>",
+          "logo4": "<a href='https://www.coredevx.com/site' target='_blank'><img src='assets/img/sponsors/coredevx-logo.png' alt='CoreDevX'></a>"
         },
         "mediapartners": {
-          "logo1": "<img src='assets/img/sponsors/gob-logo.svg' alt='Getonboard'>",
-          "loog2": "<img src='assets/img/sponsors/ixda-scl-logo.svg' alt='IXDA Santiago'>"
+          "logo1": "<a href='https://www.getonbrd.com' target='_blank'><img src='assets/img/sponsors/gob-logo.svg' alt='Getonboard'></a>",
+          "loog2": "<a href='http://ixdasantiago.cl' target='_blank'><img src='assets/img/sponsors/ixda-scl-logo.svg' alt='IXDA Santiago'></a>"
         },
         "organizadores": {
-          "organizador1": "<img src='assets/img/sponsors/synaptic-logo.svg' alt='Synaptic'>",
-          "organizador2": "<img src='assets/img/sponsors/continuum-logo.svg' alt='ContinuumHQ'>",
-          "organizador3": "<img src='assets/img/sponsors/linets-logo.svg' alt='Linets'>"
+          "organizador1": "<a href='https://synaptic.cl/' target='_blank'><img src='assets/img/sponsors/synaptic-logo.svg' alt='Synaptic'></a>",
+          "organizador2": "<a href='http://www.continuum.cl' target='_blank'><img src='assets/img/sponsors/continuum-logo.svg' alt='ContinuumHQ'></a>",
+          "organizador3": "<a href='https://linets.cl' target='_blank'><img src='assets/img/sponsors/linets-logo.svg' alt='Linets'></a>"
         }
       }
 
