@@ -324,7 +324,7 @@
         "categoria3": "Silver",
         "categoria4": "Partners",
         "platinum": {
-           "logo1": "<img src='assets/img/sponsors/bci-logo.svg' alt='Bci'>",
+           "logo1": "<img src='assets/img/sponsors/bci-logo.png' alt='Bci Labs'>",
            "logo2": "<img src='assets/img/sponsors/globant-logo.svg' alt='Globant'>",
            "logo3": "<img src='assets/img/sponsors/telefonica-logo.svg' alt='Telefónica I+D'>",
            "logo4": "<img src='assets/img/sponsors/thoughtworks-logo.svg' alt='Thoughtworks'>"
