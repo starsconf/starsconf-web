@@ -122,25 +122,11 @@
           "switch": "on"
         },
         "keynoter7": {
-          "foto": "assets/img/keynoters/nobody.jpg",
-          "nombre": "Próximamente...",
-          "bio": "",
-          "contacto": "",
-          "switch": "off"
-        },
-        "keynoter8": {
-          "foto": "assets/img/keynoters/nobody.jpg",
-          "nombre": "Próximamente...",
-          "bio": "",
-          "contacto": "",
-          "switch": "off"
-        },
-        "keynoter9": {
-          "foto": "assets/img/keynoters/nobody.jpg",
-          "nombre": "Próximamente...",
-          "bio": "",
-          "contacto": "",
-          "switch": "off"
+          "foto": "assets/img/keynoters/dominic_price.jpg",
+          "nombre": "Dominic Price",
+          "bio": "Head of R&D and Work Futurist at Atlassian",
+          "contacto": "<a href='https://twitter.com/domprice' target='_blank'>@domprice</a>",
+          "switch": "on"
         }
       },
       "keynoters2": {
