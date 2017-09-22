@@ -285,13 +285,69 @@
           "switch": "on"
         },
         "keynoter23": {
+          "foto": "assets/img/keynoters/crystal_yan.jpg",
+          "nombre": "Crystal Yan",
+          "bio": "Product Manager & Product Design Lead at FiscalNote. ",
+          "contacto": "<a href='https://twitter.com/crystalcy' target='_blank'>@crystalcy</a>",
+          "switch": "on"
+        },
+        "keynoter24": {
+          "foto": "assets/img/keynoters/james_montemagno.jpg",
+          "nombre": "James Montemagno",
+          "bio": "Principal Program Manager de Mobile Developer Tools en Microsoft",
+          "contacto": "<a href='https://twitter.com/jamesmontemagno' target='_blank'>@jamesmontemagno</a>",
+          "switch": "on"
+        },
+        "keynoter25": {
+          "foto": "assets/img/keynoters/alex_seelenberger.jpg",
+          "nombre": "Alex Seelenberger",
+          "bio": "Managing Partner en Aurus Capital",
+          "contacto": "<a href='https://www.linkedin.com/in/alexseelenberger/' target='_blank'>Linkedin</a>",
+          "switch": "on"
+        },
+        "keynoter26": {
+          "foto": "assets/img/keynoters/claire_fisher.jpg",
+          "nombre": "Claire Fisher",
+          "bio": "Content Strategy & Product Marketer en Atlassian",
+          "contacto": "<a href='https://www.linkedin.com/in/claireefisher/' target='_blank'>Linkedin</a>",
+          "switch": "on"
+        },
+        "keynoter27": {
+          "foto": "assets/img/keynoters/felipe_hoffa.jpg",
+          "nombre": "Felipe Hoffa",
+          "bio": "Developer Advocate at Google",
+          "contacto": "<a href='https://twitter.com/felipehoffa' target='_blank'>@felipehoffa</a>",
+          "switch": "on"
+        },
+        "keynoter28": {
+          "foto": "assets/img/keynoters/ubaldo_taladriz.jpg",
+          "nombre": "Ubaldo Taladriz",
+          "bio": "CEO en EXE",
+          "contacto": "<a href='https://twitter.com/utaladriz' target='_blank'>@utaladriz</a>",
+          "switch": "on"
+        },
+        "keynoter29": {
+          "foto": "assets/img/keynoters/felipe_reyes.jpg",
+          "nombre": "Felipe Reyes",
+          "bio": "Software Engineer en Canonical",
+          "contacto": "<a href='https://twitter.com/gnusis' target='_blank'>@gnusis</a>",
+          "switch": "on"
+        },
+        "keynoter30": {
+          "foto": "assets/img/keynoters/ricardo_diaz.jpg",
+          "nombre": "Ricardo Díaz",
+          "bio": "Managing Director at Cifco Venture Fund.",
+          "contacto": "<a href='https://www.linkedin.com/in/ricardo-diaz-gallardo-8b93525/' target='_blank'>Linkedin</a>",
+          "switch": "on"
+        },
+        "keynoter31": {
           "foto": "assets/img/keynoters/nobody.jpg",
           "nombre": "Próximamente...",
           "bio": "",
           "contacto": "",
           "switch": "off"
         },
-        "keynoter24": {
+        "keynoter32": {
           "foto": "assets/img/keynoters/nobody.jpg",
           "nombre": "Próximamente...",
           "bio": "",
