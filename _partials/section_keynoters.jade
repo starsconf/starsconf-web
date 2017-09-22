@@ -6,10 +6,11 @@
         p= homepage.section_three.bajada
 
     .row.people
-      - each keynoter in homepage.section_three.keynoters
+      each keynoter in homepage.section_three.keynoters
         .col-md-4.col-xs-12.keynoter(class= keynoter.switch)
           .image
-            img(src= keynoter.foto)
+            a(href='#' title='Ver detalle de la presentación')
+              img(src= keynoter.foto)
           .data
             p= keynoter.nombre
             span= keynoter.bio
@@ -19,10 +20,11 @@
         p= homepage.section_three.bajada_dos
 
     .row.people
-      - each keynoter in homepage.section_three.keynoters2
-        .col-md-3.col-xs-6.keynoter2(class= keynoter.switch)
+      each keynoter in homepage.section_three.keynoters2
+        .col-md-3.col-xs-12.keynoter2(class= keynoter.switch)
           .image
-            img(src= keynoter.foto)
+            a(href='#' title='Ver detalle de la presentación')
+              img(src= keynoter.foto)
           .data
             p= keynoter.nombre
             span= keynoter.bio

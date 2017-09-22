@@ -24,7 +24,7 @@
         .col-md-12.col-xs-12.title
             h4= homepage.section_four.sponsors.categoria1
         each logo in platinums
-          div(class="#{colsClasses[totalplatinums] || 'col-md-6 col-xs-6'}")
+          div(class="#{colsClasses[totalplatinums] || 'col-md-6 col-xs-12'}")
             !=logo
 
     if totalgoldens != 0
@@ -32,7 +32,7 @@
         .col-md-12.col-xs-12.title
             h4= homepage.section_four.sponsors.categoria2
         each logo in goldens
-          div(class="col-md-4 col-xs-6")
+          div(class="col-md-4 col-xs-12")
             !=logo
 
     if totalsilvers != 0
@@ -40,7 +40,7 @@
         .col-md-12.col-xs-12.title
             h4= homepage.section_four.sponsors.categoria3
         each logo in silvers
-          div(class="#{colsClasses[totalsilvers] || 'col-md-6 col-xs-6'}")
+          div(class="#{colsClasses[totalsilvers] || 'col-md-6 col-xs-12'}")
             !=logo
 
     if totalmediapartners != 0
@@ -48,7 +48,7 @@
         .col-md-12.col-xs-12.title
             h4= homepage.section_four.sponsors.categoria4
         each logo in mediapartners
-          div(class="#{colsClasses[totalmediapartners] || 'col-md-6 col-xs-6'}")
+          div(class="#{colsClasses[totalmediapartners] || 'col-md-6 col-xs-12'}")
             !=logo
 
     - var organizers = homepage.section_four.sponsors.organizadores
