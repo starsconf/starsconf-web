@@ -310,7 +310,7 @@
         "categoria3": "Silver",
         "categoria4": "Partners",
         "platinum": {
-           "logo1": "<a href='http://bcilabs.cl' target='_blank'><img src='assets/img/sponsors/bci-logo.png' alt='Bci Labs'></a>",
+           "logo1": "<a href='http://bcilabs.cl' target='_blank'><img src='assets/img/sponsors/bci-logo.svg' alt='Bci Labs'></a>",
            "logo2": "<a href='https://www.globant.com' target='_blank'><img src='assets/img/sponsors/globant-logo.svg' alt='Globant'></a>",
            "logo3": "<a href='http://www.tidchile.cl' target='_blank'><img src='assets/img/sponsors/telefonica-logo.svg' alt='Telefónica I+D'></a>",
            "logo4": "<a href='https://www.thoughtworks.com' target='_blank'><img src='assets/img/sponsors/thoughtworks-logo.svg' alt='Thoughtworks'></a>",
