@@ -385,7 +385,8 @@
         "silver": {
           "logo1": "<a href='http://nic.cl' target='_blank'><img src='assets/img/sponsors/nic-logo.png' alt='Nic Chile'></a>",
           "logo2": "<a href='https://www.groupon.com' target='_blank'><img src='assets/img/sponsors/groupon-logo.svg' alt='Groupon'></a>",
-          "logo3": "<a href='https://www.coredevx.com/site' target='_blank'><img src='assets/img/sponsors/coredevx-logo.png' alt='CoreDevX'></a>"
+          "logo3": "<a href='https://www.coredevx.com/site' target='_blank'><img src='assets/img/sponsors/coredevx-logo.png' alt='CoreDevX'></a>",
+          "logo4": "<a href='https://www.etermax.com/' target='_blank'><img src='assets/img/sponsors/etermax-logo.svg' alt='Etermax'></a>"
         },
         "mediapartners": {
           "logo1": "<a href='https://www.getonbrd.com' target='_blank'><img src='assets/img/sponsors/gob-logo.svg' alt='Getonboard'></a>",
