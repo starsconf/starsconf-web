@@ -11,7 +11,7 @@
 # Ignore the build directory
 /build
 /dist
-/site
+/_site
 
 # Ignore cache
 /.sass-cache
