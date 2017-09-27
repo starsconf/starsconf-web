@@ -199,6 +199,35 @@ and (max-device-width : 480px){
     float: left;
     padding: 0 !important;
   }
+
+  .keynoters-full{
+    padding-right: 0;
+    padding-left: 0;
+    .keynoter-block{
+      text-align: center;
+      min-height: initial;
+      margin-top: 0;
+      p{
+        text-align: justify;
+      }
+      span{
+        display: block;
+      }
+      .tema{
+        position: initial;
+        width: auto;
+        margin-top: 10px;
+        zoom: 90%;
+      }
+      .charla{
+        margin-top: 10%;
+      }
+    }
+    .image{
+      width: 200px;
+      height: 200px;
+    }
+  }
 }
 
 @media only screen 
