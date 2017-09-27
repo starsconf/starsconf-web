@@ -273,6 +273,45 @@
   }
 }
 
+/*KEYNOTERS PAGE*
+------------------------*/
+.keynoters-full{
+  >div{
+    &:nth-child{
+      background: blue;
+    }
+  }  
+  .image{
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 8px solid $main-color;
+    border-radius: 50%;
+    img{
+      height: 100%;
+    }
+  }
+  h2{
+    text-align: center !important;
+  }
+  h3{
+    font-size: 1.6em;
+  }
+  .tema {
+    background: #fd0;
+    line-height: 140%;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 3px;
+    float: right;
+  }
+}
+
+
 /*SPONSORS*
 ------------------------*/
 
