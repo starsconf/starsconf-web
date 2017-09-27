@@ -276,11 +276,46 @@
 /*KEYNOTERS PAGE*
 ------------------------*/
 .keynoters-full{
-  >div{
-    &:nth-child{
-      background: blue;
+  font-size: 1.6rem;
+  line-height: 140%;
+  .keynoter-block{
+    margin-bottom: 40px;
+    position: relative;
+    min-height: calc(100vh - 170px);
+    margin-top: 170px;
+    >div p{
+      margin-top: 20px;
     }
-  }  
+    .tema {
+      position: absolute;
+      top: 3%;
+      right: 3%;
+      background: #fd0;
+      line-height: 140%;
+      color: black;
+      padding: 5px 10px;
+      text-align: center;
+      display: inline-block;
+      border-radius: 3px;
+      font-weight: 800;
+      text-decoration: none;
+    }
+    .charla{
+      background-color: rgba(255, 221, 0, 0.05);
+      border: 2px dotted #fd0;
+      padding: 14px 20px;
+      margin-top: 5%;
+      margin-bottom: 2%;
+      color: #111;
+      h5{
+        font-size: 2rem;
+      }
+      p{
+        font-size: 95%;
+      }
+    }
+  }
+
   .image{
     overflow: hidden;
     width: 300px;
@@ -298,16 +333,18 @@
   }
   h3{
     font-size: 1.6em;
+    margin-bottom: 0;
   }
-  .tema {
-    background: #fd0;
-    line-height: 140%;
-    color: black;
-    padding: 5px;
-    text-align: center;
-    display: inline-block;
-    border-radius: 3px;
-    float: right;
+  .back{
+    i{
+      display: block;
+      float: left;
+      margin-right: 3px;
+    }
+    span{
+      display: block;
+      float: left;
+    }
   }
 }
 

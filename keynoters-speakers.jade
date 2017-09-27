@@ -6,35 +6,48 @@ block content
     include _partials/header_fix
 
   .containter-fluid.main-content.single-page
-    .container
-      .row.keynoters-full
+    .container.keynoters-full
+      .row
         .col-md-12.section.text-center
           h2= homepage.section_three.title
 
-        each keynoter in homepage.section_three.keynoters
+      each keynoter, index in homepage.section_three.keynoters
+        .row.keynoter-block.scrollspy(id= index)
           .col-md-4.section
             .image
               img(src= keynoter.foto)
             
           .col-md-8
-            h3= keynoter.nombre
+            h3
+              span= keynoter.nombre
+            span!= keynoter.contacto
             a.tema(href="#" title= keynoter.tema)= keynoter.tema
             p!= keynoter.long_bio
-            h5= keynoter.nombre_charla
-            p= keynoter.description
-            
 
-        each keynoter in homepage.section_three.keynoters2
+          .col-md-12.charla
+              h5= keynoter.nombre_charla
+              p= keynoter.description
+          
+          a.back(href="javascript:history.back()")
+            i.material-icons keyboard_backspace
+            span Volver
+          
+
+      each keynoter, index in homepage.section_three.keynoters2
+        .row.keynoter-block.scrollspy(id= index)
           .col-md-4.section
             .image
               img(src= keynoter.foto)
             
           .col-md-8
-            h3= keynoter.nombre
-            a.tema(href="#" title= keynoter.tema)= keynoter.tema
+            h3
+              span= keynoter.nombre
+              a.tema(href="#" title= keynoter.tema)= keynoter.tema
             p!= keynoter.long_bio
-            h5= keynoter.nombre_charla
-            p= keynoter.description
+
+          .col-md-12.charla
+              h5= keynoter.nombre_charla
+              p= keynoter.description
             
 
 
