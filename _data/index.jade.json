@@ -84,7 +84,13 @@
           "nombre": "Rebecca Parsons",
           "bio": "Directora en Agile Alliance, CTO en ThoughtWorks.",
           "contacto": "<a href='https://twitter.com/rebeccaparsons' target='_blank'>@rebeccaparsons</a>",
-          "switch": "on"
+          "switch": "on",
+          "details":{
+            "long_bio": "Es DevOps Program Manager en Microsoft. Tiene experiencia en desarrollo de aplicaciones y antes de unirse a Microsoft pasó siete años trabajando como consultor de proceso y scrum master certificado. <br>Es conocido por realizar demos en vivo. En una de las más reconocidas mezcló ASP.NET, de Microsoft, con Linux y Docker, dejando en claro que su lema cualquier lenguaje, cualquier plataforma es en serio. Y es que, como ha señalado previamente,  trás quedaron los días en que Microsoft equivalía a. NET y Windows... Se trata de un Microsoft que abraza el código abierto. Este es un Microsoft que es el contribuidor número uno al código abierto en el planeta.",
+            "nombre_charla": "Business Agility: Continuous Design to Continuous Delivery",
+            "description": "Hear how Microsoft embarked on their own DevOps journey reducing a three-year release cycle down to three weeks. Donovan Brown, a Principal DevOps Manager on the US Developer Division team in Microsoft, shares how they managed to make an Agile Transformation that scaled to support business needs.",
+            "tema": "Cloud & DevOps"
+          }
         },
         "keynoter2": {
           "foto": "assets/img/keynoters/donovan_brown.jpg",
@@ -354,7 +360,9 @@
           "contacto": "",
           "switch": "off"
         }
-      }
+      },
+      "boton": "Detalle de todos los keynoters y speakers",
+      "url_boton": "keynoters-speakers.html"
     },
     "section_four": {
       "title1": "Auspiciadores",

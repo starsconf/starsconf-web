@@ -253,6 +253,24 @@
       }
     }
   }
+  .call-to-action{
+    text-align: center;
+    a{
+      background-color: #444;
+      color: #fff;
+      padding: 15px 20px;
+      height: initial;
+      font-size: 0.8em;
+      border-radius: 0px;
+      text-transform: uppercase;
+      text-decoration: none;
+      &:hover,
+      &:focus{
+        background-color: #fd0;
+        color: black;
+      }
+    }
+  }
 }
 
 /*SPONSORS*
