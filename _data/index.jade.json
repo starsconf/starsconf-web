@@ -106,7 +106,11 @@
           "nombre": "Una Kravets",
           "bio": "UI Designer en Digital Ocean",
           "contacto": "<a href='https://twitter.com/una' target='_blank'>@Una</a>",
-          "switch": "on"
+          "switch": "on",
+          "long_bio": "Una es UI Engineer de Digital Ocean, donde participó en el último rediseño de la plataforma de esa empresa. Ha escrito para A List Apart, Smashing Magazine y Sitepoint. <br><br>Realiza charlas alrededor del mundo sobre CSS avanzado y experimental, optimización de imágenes, y la intersección de diseño y desarrollo.",
+          "nombre_charla": "Technical Diagramming: From Doodles to Data Flows",
+          "description": "Using visual diagrams can help you unblock your work, uncover bugs, learn concepts, get buy-in, and solidify data flows. This talk will go over the psychology of how to learn in order to teach effective communication skills to developers. With technical diagramming, you’ll not only more effectively teach people how to use your product (documentation), you’re able to get people to rally around your concept, and are a more effective teammate. In this talk, Una will go over her new project, Dev Doodles, and how combining learning modailities with technical concepts can be a big win for any team.",
+          "tema": "Web & Mobile"
         },
         "keynoter4": {
           "foto": "assets/img/keynoters/russ_unger.jpg",

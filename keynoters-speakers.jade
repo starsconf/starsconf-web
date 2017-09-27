@@ -21,14 +21,14 @@ block content
             h3
               span= keynoter.nombre
             span!= keynoter.contacto
-            a.tema(href="#" title= keynoter.tema)= keynoter.tema
+            a.tema(href="/#what" title= keynoter.tema)= keynoter.tema
             p!= keynoter.long_bio
 
           .col-md-12.charla
               h5= keynoter.nombre_charla
               p= keynoter.description
           
-          a.back(href="javascript:history.back()")
+          a.back.hidden-xs(href="javascript:history.back()")
             i.material-icons keyboard_backspace
             span Volver
           
@@ -42,13 +42,16 @@ block content
           .col-md-8
             h3
               span= keynoter.nombre
-              a.tema(href="#" title= keynoter.tema)= keynoter.tema
+              a.tema(href="/#what" title= keynoter.tema)= keynoter.tema
             p!= keynoter.long_bio
 
           .col-md-12.charla
               h5= keynoter.nombre_charla
               p= keynoter.description
-            
+
+          a.back.hidden-xs(href="javascript:history.back()")
+            i.material-icons keyboard_backspace
+            span Volver
 
 
   include _partials/footer
