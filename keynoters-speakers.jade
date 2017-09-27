@@ -1,0 +1,43 @@
+extends _layouts/app
+
+block head_end
+block content
+  .containter-fluid.header
+    include _partials/header_fix
+
+  .containter-fluid.main-content.single-page
+    .container
+      .row.keynoters-full
+        .col-md-12.section.text-center
+          h2= homepage.section_three.title
+
+        each keynoter in homepage.section_three.keynoters
+          .col-md-4.section
+            .image
+              img(src= keynoter.foto)
+            
+          .col-md-8
+            h3= keynoter.nombre
+            a.tema(href="#" title= keynoter.tema)= keynoter.tema
+            p!= keynoter.long_bio
+            h5= keynoter.nombre_charla
+            p= keynoter.description
+            
+
+        each keynoter in homepage.section_three.keynoters2
+          .col-md-4.section
+            .image
+              img(src= keynoter.foto)
+            
+          .col-md-8
+            h3= keynoter.nombre
+            a.tema(href="#" title= keynoter.tema)= keynoter.tema
+            p!= keynoter.long_bio
+            h5= keynoter.nombre_charla
+            p= keynoter.description
+            
+
+
+  include _partials/footer
+
+block body_end
