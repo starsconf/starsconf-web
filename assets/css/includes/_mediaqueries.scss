@@ -91,12 +91,16 @@ and (max-device-width : 480px){
         }
       }
     }
+    &.single-page{
+      padding: 120px 0 0 0;
+    }
     .alert{
       margin: 30px 0;
       border-radius: 0px;
     }
     &.keynoters{
       .people{
+        padding-top: 0;
         .keynoter,
         .keynoter2{
           min-height: 180px;
@@ -119,6 +123,12 @@ and (max-device-width : 480px){
               font-size: 1em;
             }
           }
+        }
+        .keynoter:nth-child(7){
+          margin-left: initial;
+        }
+        .section{
+          display: none;
         }
       }
     }
@@ -203,24 +213,27 @@ and (max-device-width : 480px){
   .keynoters-full{
     padding-right: 0;
     padding-left: 0;
+    font-size: 90%;
     .keynoter-block{
       text-align: center;
       min-height: initial;
       margin-top: 0;
       p{
-        text-align: justify;
+        text-align: left;
       }
       span{
         display: block;
       }
       .tema{
-        position: initial;
-        width: auto;
-        margin-top: 10px;
-        zoom: 90%;
+        position: relative;
+        right: 0;
+        top: 0;
       }
       .charla{
-        margin-top: 10%;
+        text-align: left;
+        ol{
+          padding-left: 20px;
+        }
       }
     }
     .image{

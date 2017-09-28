@@ -9,47 +9,44 @@ block content
     .container.keynoters-full
 
       each keynoter, index in homepage.section_three.keynoters
-        .row.keynoter-block.scrollspy(id= index)
+        .row.keynoter-block(id= index, class= keynoter.switch)
           .col-md-4.section
             .image
               img(src= keynoter.foto)
-            
-          .col-md-8
-            h3
-              span= keynoter.nombre
-            span!= keynoter.contacto
-            a.tema(href="/#what" title= keynoter.tema)= keynoter.tema
-            p!= keynoter.long_bio
+            h3= keynoter.nombre
+            != keynoter.contacto
 
-          .col-md-12.charla
-              h5= keynoter.nombre_charla
+          .col-md-8
+            a.tema(href="/#what" title= keynoter.tema)= keynoter.tema
+            .charla
+              h5!= keynoter.nombre_charla
               p!= keynoter.description
-          
-          a.back.hidden-xs(href="javascript:history.back()")
-            i.material-icons keyboard_backspace
-            span Volver
+            .about
+              p!= keynoter.long_bio
+            a.back.hidden-xs(href="javascript:history.back()")
+              i.material-icons keyboard_backspace
+              span Volver
+            
           
 
       each keynoter, index in homepage.section_three.keynoters2
-        .row.keynoter-block.scrollspy(id= index)
+        .row.keynoter-block(id= index, class= keynoter.switch)
           .col-md-4.section
             .image
               img(src= keynoter.foto)
-            
+            h3= keynoter.nombre
+            != keynoter.contacto
+
           .col-md-8
-            h3
-              span= keynoter.nombre
-            span!= keynoter.contacto
             a.tema(href="/#what" title= keynoter.tema)= keynoter.tema
-            p!= keynoter.long_bio
-
-          .col-md-12.charla
-              h5= keynoter.nombre_charla
+            .charla
+              h5!= keynoter.nombre_charla
               p!= keynoter.description
-
-          a.back.hidden-xs(href="javascript:history.back()")
-            i.material-icons keyboard_backspace
-            span Volver
+            .about
+              p!= keynoter.long_bio
+            a.back.hidden-xs(href="javascript:history.back()")
+              i.material-icons keyboard_backspace
+              span Volver
 
 
   include _partials/footer

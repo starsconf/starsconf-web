@@ -67,7 +67,7 @@
       "button_text": "Comprar aquí",
       "button_link": "https://welcu.com/startechconf/starsconf-2017#tickets",
       "bajada_inicial": "Estudiantes pagan la mitad del precio vigente.",
-      "bajada_final": "Ticket incluye: <strong>Entrada para ambos días, acceso a Drink-up (ambos dias) y una polera del evento.</strong>"
+      "bajada_final": "Ticket incluye: <strong>Entrada para ambos días, acceso a Drink-up (ambos dias) y una polera del evento.</strong> No incluye almuerzo."
     },
     "section_two": {
       "title": "Lugar",
@@ -178,7 +178,7 @@
           "switch": "on",
           "long_bio": "Fausto De La Torre trabaja en Thoughtworks como Head of Technology de la región de los Andes, liderando y ejecutando la estrategia tecnológica dentro de la región andina, ayuda a liberar el potencial de los equipos de Thoughtworks buscando soluciones más efectivas para llevar a sus clientes al siguiente nivel. Fausto ha trabajado como arquitecto y desarrollador de software en varias verticales de la industria en diferentes metodologías por más de una década lo que le ha permitido ampliar el espectro tanto en el mundo ágil como tradicional.",
           "nombre_charla": "Plataformas: los nuevos agentes de la innovación",
-          "description": "Cómo una arquitectura evolutiva que en conjunción con las plataformas generan un movimiento continuo en las empresas que desarrollan API's habilitando la innovación y liberando el potencial de las organizaciones. Se abordará el tema de API's como producto, las implicaciones tanto dentro de la organización como fuera de ella",
+          "description": "Cómo una arquitectura evolutiva que en conjunción con las plataformas generan un movimiento continuo en las empresas que desarrollan API's habilitando la innovación y liberando el potencial de las organizaciones. Se abordará el tema de API's como producto, las implicaciones tanto dentro de la organización como fuera de ella.",
           "tema": "Web & Mobile"
         },
         "keynoter10": {
@@ -198,9 +198,9 @@
           "bio": "Líder en LeanSight, Developer, profesor. Fundador de “ChileAgil”. ",
           "contacto": "<a href='https://twitter.com/agustinvillena' target='_blank'>@agustinvillena</a>",
           "switch": "on",
-          "long_bio": "",
-          "nombre_charla": "",
-          "description": "",
+          "long_bio": "Es Ingeniero de Software, profesor en metodologías ágiles de la Universidad de Chile desde 2002, fundador de la comunidad ágil de Chile &#34;ChileAgil&#34;, y mentor de múltiples iniciativas de innovación privada y social.",
+          "nombre_charla": "¿Sabemos por qué estamos Desarrollando Software?",
+          "description": "En el mundo del software es común que digamos &#34;el cliente no sabe lo que quiere&#34;, dado que &#34;nos cambia todo a cada rato&#34;.<br><br>¿De dónde salen realmente estas peticiones?<br>¿De un Cliente, &#34;key user&#34; o Product Owner?<br>¿Es verdad que una funcionalidad está lista cuando la ponemos en producción?<br><br>Los métodos actuales, sean tradicionales o ágiles no salen aún de este paradigma, y en esta charla se abrirá la puerta hacia el mundo mítico desde donde se origina la necesidad del Desarrollo de Software.",
           "tema": "People, Teams & Culture"
         },
         "keynoter12": {
@@ -209,10 +209,10 @@
           "bio": "Consultor, Developer y Quality Advocate en ThoughtWorks.",
           "contacto": "<a href='https://twitter.com/faustcastaneda' target='_blank'>@FaustCastaneda</a>",
           "switch": "on",
-          "long_bio": "",
-          "nombre_charla": "",
-          "description": "",
-          "tema": "People, Teams & Culture"
+          "long_bio": "Consultor, Developer y Quality Advocate en ThoughtWorks. Ha trabajado como desarrollador full-stack. Sus áreas de especialización son desarrollo en DevOps, diseño de aplicaciones DDD, desarrollo de IoT / WoT, TDD, y entrega continua.",
+          "nombre_charla": "TDDD (Test Driven Development for Docker)",
+          "description": "TDD es una técnica de desarrollo de software que se ha vuelto un pilar fundamental dentro de la cultura ágil debido a que garantiza la calidad del código producido. TDDD es una propuesta de llevar las bondades del TDD al desarrollo de imágenes Docker.<br><br>El tema es de interés para toda aquella audiencia que quiere usar o ya está usando Docker para el transporte de aplicaciones, y que desea seguir las mejores prácticas durante este oficio.",
+          "tema": "Cloud & DevOps"
         },
         "keynoter13": {
           "foto": "assets/img/keynoters/gustavo_soto.jpg",
@@ -220,10 +220,10 @@
           "bio": "Head UX en WOM Chile. Co‐fundador de UXD en Chile.",
           "contacto": "<a href='https://twitter.com/gusoto' target='_blank'>@gusoto</a>",
           "switch": "on",
-          "long_bio": "",
-          "nombre_charla": "",
-          "description": "",
-          "tema": "People, Teams & Culture"
+          "long_bio": "Head de Experiencia Digital en WOM Chile. MSc en HCI de UCL Londres. Docente universitario. Líder de proyectos de user testing para grandes empresas. Co‐fundador de la comunidad UXD en Chile.",
+          "nombre_charla": "MIWOM. Cómo la UX salvó un producto e impactó indicadores clave de la empresa",
+          "description": "MiWOM es una interfaz diseñada para la auto-atención de los clientes de WOM.<br><br>El desarrollo que existía hace algunos años tenía deficiencias que causaban una muy baja tasa de uso/confianza de parte de los clientes.<br><br>En un proyecto que duró 3 meses, se realizó un trabajo de Re‐diseño, esta vez centrado en el usuario haciendo foco en la arquitectura de información, la comprensión del contenido, el diseño visual y la comunicación.<br><br>En la charla se mostrarán el impacto (cuantificado, con indicadores) de este re-diseño, junto a la metodología y el proceso realizado.",
+          "tema": "UX & Design"
         },
         "keynoter14": {
           "foto": "assets/img/keynoters/eduardo_graells.jpg",
@@ -231,10 +231,10 @@
           "bio": "Investigador en el Inst. de Data Science de la UDD, antes en Yahoo Labs.",
           "contacto": "<a href='https://twitter.com/carnby' target='_blank'>@carnby</a>",
           "switch": "on",
-          "long_bio": "",
-          "nombre_charla": "",
-          "description": "",
-          "tema": "People, Teams & Culture"
+          "long_bio": "Especialista en análisis y visualización de información. Ph.D. en Tecnologías de la Información y las Comunicaciones, Universitat Pompeu Fabra, España. Ingeniero Civil en Computación de la Universidad de Chile.<br><br>Investigador en el Instituto de Data Science de la UDD, anteriormente en Yahoo Labs.,",
+          "nombre_charla": "Cómo ser Data Scientist y no morir en el intento",
+          "description": "Esta charla está dirigida principalmente a ingenieros e ingenieras que pueden estar pensando en &#34;el trabajo del futuro&#34; pero no saben cómo llegar ahí.<br><br>Quiero compartir lo que yo pienso es adecuado hacer para llegar a ser científico(a) de datos. Personalmente yo no sabía cómo hacerlo. De hecho no sabía que llegaría a serlo. Ni sabía que lo quería. Fue gracias a personas y factores externos que logré convertirme en investigador.",
+          "tema": "Data Analysis & Visualization"
         },
         "keynoter15": {
           "foto": "assets/img/keynoters/ricardo_alfaro.jpg",
@@ -242,10 +242,10 @@
           "bio": "Lider UX y Frontend en ContinuumChile. Co-Fundador de OpenD",
           "contacto": "<a href='https://twitter.com/diablogris' target='_blank'>@diablogris</a>",
           "switch": "on",
-          "long_bio": "",
-          "nombre_charla": "",
-          "description": "",
-          "tema": "People, Teams & Culture"
+          "long_bio": "Ricardo, es UX Designer en <a href='http://www.continuumhq.com/'>Continnum Chile</a> con amplia experiencia en diseño de productos y plataformas digitales. Ha trabajado también como frontend web en diversos equipos de desarrollo, liderando equipos y proyectos de UX para empresas del sector público y privado, más varias startups e impartido clases y talleres sobre experiencia de usuario.<br><br>Siempre con el interés de compartir conocimiento, en 2011, junto a otros entusiastas diseñadores, formaron <a href='http://opend.cl/'>OpenD</a>, que hoy es la comunidad de diseñadores más grande de Chile, con más de 10.000 miembros en Facebook y que imparte charlas gratuitas y talleres en Santiago y regiones.",
+          "nombre_charla": "Cómo aplicar Design Sprint en el mundo Enterprise",
+          "description": "Design Sprints es una metodología robada con éxito en muchas startups por sus creadores (Google Ventures), pero que por su naturaleza se hace imposible utilizar otros contextos.<br><br>Debido a esto, junto a mis compañeros de equipo fuimos desarrollando un modelo &#34;personalizado&#34; que hemos logrado aplicar con éxito en varios desafíos presenciales e incluso remotos.<br><br>En la charla les contaré sobre este modelo, con ejemplos, resultados, anécdotas y aprendizajes, de este camino de adaptar, intentar y lograr aplicar una metodología de diseño &#34;ágil&#34;, en escenarios más adversos.",
+          "tema": "UX & Design"
         },
         "keynoter16": {
           "foto": "assets/img/keynoters/alejandro_salinas.jpg",
@@ -253,10 +253,10 @@
           "bio": "Senior Manager Global Network Operations en Groupon.",
           "contacto": "<a href='https://twitter.com/asf' target='_blank'>@asf</a>",
           "switch": "on",
-          "long_bio": "",
-          "nombre_charla": "",
-          "description": "",
-          "tema": "People, Teams & Culture"
+          "long_bio": "Alejandro Salinas es un profesional con experiencia en redes de gran escala y seguridad de la información. Durante su carrera, Alejandro ha desempeñado diferentes funciones, incluyendo las de Network Architect, Security Officer y de consultor en diversas industrias, como minería, educación y astronomía.<br><br>Actualmente ejerce el cargo de Senior Manager en Groupon, donde, además de dirigir las operaciones diarias para Groupon Network, dirige el equipo de Network Operations en las labores de automatización y programación de la red.",
+          "nombre_charla": "Network Engineering 2.0",
+          "description": "Network Engineering is changing. Hardware and software are finally decoupling and white label devices threaten to replace your favorite vendor. New orchestration frameworks are being developed, automation is a hot topic and OpenConfig rings a bell.<br><br>Why is this happening?. What skills will I need?. Am I up to the challenge?. Why should I embrace it?.<br><br>In this talk, we'll touch on the different pieces of this new landscape explaining how they fit together.",
+          "tema": "Cloud & DevOps"
         },
         "keynoter17": {
           "foto": "assets/img/keynoters/jose_urzua.jpg",
@@ -264,10 +264,10 @@
           "bio": "Jefe Desarrollo de Sistemas en NIC Chile",
           "contacto": "<a href='https://twitter.com/jourzua' target='_blank'>@jourzua</a>",
           "switch": "on",
-          "long_bio": "",
-          "nombre_charla": "",
-          "description": "",
-          "tema": "People, Teams & Culture"
+          "long_bio": "Jefe Desarrollo de Sistemas en NIC Chile, Profesor del ramo &#34;Desarrollo de Aplicaciones Web&#34; del Departamento de Ciencias de la Computación de la Universidad de Chile ",
+          "nombre_charla": "CodificaciÃ³n de Caracteres",
+          "description": "Uno de los problemas comunes en el desarrollo de aplicaciones es la codificación de caracteres. Sobre todo en aplicaciones web, en las cuales debemos lidiar con distintas fuentes de datos, sistemas legacy, capas de sistemas y con clientes (navegadores web) de los cuales no tenemos control sobre su configuración. ¿Qué elijo? ¿UTF‑8? ¿ISO‑8859‑1? ¿ASCII? ¿De dónde viene eso? ¿Por qué esta vocal con tilde no la veo bien en este navegador? ¿QuÃ© sucediÃ³ con las tildes? ¿Qué cuidados debo tener al desarrollar un nuevo sistema?<br><br>En esta presentación se tratará de responder estas preguntas y entregar sugerencias de cómo manejar la codificación de caracteres",
+          "tema": "Developer Tools"
         },
         "keynoter18": {
           "foto": "assets/img/keynoters/chihau_chau.png",
@@ -275,10 +275,10 @@
           "bio": "Ingeniero de Software, Profesor y Consultor Fundador de QBO",
           "contacto": "<a href='https://twitter.com/chihau' target='_blank'>@chihau</a>",
           "switch": "on",
-          "long_bio": "",
-          "nombre_charla": "",
-          "description": "",
-          "tema": "People, Teams & Culture"
+          "long_bio": "Ingeniero de Software, Profesor y Consultor. En la actualidad se desempeña como Ingeniero de Software especializado en tecnologías móviles y vestibles. Fundador de QBO. Constantemente está apoyando el ecosistema, dictando charlas, talleres y capacitaciones sobre Android, iOS, Desarrollo de Software Móvil, Linux, Realidad Virtual y Aumentada y IoT.",
+          "nombre_charla": "VR : AR en Dispositivos Móviles",
+          "description": "En esta charla se introducirá a los asistentes en el desarrollo de aplicaciones móviles para Realidad Virtual y Realidad Aumentada, explicando las diferencias y aspectos en común entre ambas tecnologías, los primeros pasos para crear una aplicación y los componentes claves y buenas prácticas que se deben tomar en cuenta.<br><br>Además se harán algunas demostraciones en vivo utilizando algunas APIs de gráficos en 2D/3D y de Visión por Computador y algunos SDKs como Google VR SDK y AR Tool Kit.",
+          "tema": "Web & Mobile"
         },
         "keynoter19": {
           "foto": "assets/img/keynoters/felipe_funes.jpg",
@@ -286,10 +286,10 @@
           "bio": "UI/Frontend Developer en ArchDaily.com",
           "contacto": "<a href='https://twitter.com/felipefunes ' target='_blank'>@felipefunes </a>",
           "switch": "on",
-          "long_bio": "",
-          "nombre_charla": "",
-          "description": "",
-          "tema": "People, Teams & Culture"
+          "long_bio": "Frontend Developer y Diseñador UI/UX desde hace cuatro años en ArchDaily. Desde ese lugar ha cultivado su trabajo enfocándose en el desarrollo de productos web durante gran parte de su ciclo de vida, incluyendo la planificación estratégica, implementación y evaluación.",
+          "nombre_charla": "La importancia del &#34;why&#34; en el diseño de productos",
+          "description": "Esta charla es una radiografía de cómo hemos evolucionado nuestra manera de abordar el diseño de productos en ArchDaily a través de los años, para lograr un desarrollo rápido en sistemas complejos mantenidos por equipos pequeños. La presentación será un viaje a través de casos reales y cómo estos han influido en la construcción de una metodología acorde a nuestras necesidades.",
+          "tema": "UX & Design"
         },
         "keynoter20": {
           "foto": "assets/img/keynoters/alberto_marcias.jpg",
@@ -297,10 +297,10 @@
           "bio": "Front-end developer en ArchDaily",
           "contacto": "<a href='https://twitter.com/albertomarcias' target='_blank'>@albertomarcias</a>",
           "switch": "on",
-          "long_bio": "",
-          "nombre_charla": "",
-          "description": "",
-          "tema": "People, Teams & Culture"
+          "long_bio": "Front-end developer en ArchDaily",
+          "nombre_charla": "La importancia del &#34;why&#34; en el diseño de productos",
+          "description": "Esta charla es una radiografía de cómo hemos evolucionado nuestra manera de abordar el diseño de productos en ArchDaily a través de los años, para lograr un desarrollo rápido en sistemas complejos mantenidos por equipos pequeños. La presentación será un viaje a través de casos reales y cómo estos han influido en la construcción de una metodología acorde a nuestras necesidades.",
+          "tema": "UX & Design"
         },
         "keynoter21": {
           "foto": "assets/img/keynoters/martin_dominguez.jpg",
@@ -308,10 +308,10 @@
           "bio": "CIO de Etermax.com",
           "contacto": "<a href='https://twitter.com/mp_dominguez' target='_blank'>@mp_dominguez</a>",
           "switch": "on",
-          "long_bio": "",
-          "nombre_charla": "",
-          "description": "",
-          "tema": "People, Teams & Culture"
+          "long_bio": "CIO de Etermax.com. Cuenta con 15 años de experiencia en el mercado de las Telecomunicaciones e Infraestructura.",
+          "nombre_charla": "El caso Preguntados: Manteniendo 25 millones de usuarios diarios",
+          "description": "&#34;Preguntados&#34; fue un hito que nos obligó a encontrar metodologías distintas de trabajo, más de una vez, a rediseñar completamente nuestra infraestructura y a tener en cuenta métricas y patrones totalmente desconocidos originalmente para el equipo.<br><br>La charla proporcionará a los asistentes una breve reseña sobre cómo es posible llegar a ese punto sin morir de éxito. Además, se proyectará una mirada al futuro sobre el planeamiento para optimizar el diseño de la infraestuctura y los &#34;must&#34; que hay que tener en cuenta para poder escalar y estar a la altura de los gigantes que representan la competencia en el mundo de los juegos mobile.",
+          "tema": "Cloud & DevOps"
         },
         "keynoter22": {
           "foto": "assets/img/keynoters/eduardo_diaz.png",
@@ -319,10 +319,10 @@
           "bio": "Subgerente de Tecnología en Previred. Fundador del meetup Santiago Devops",
           "contacto": "<a href='https://twitter.com/lnds' target='_blank'>@lnds</a>",
           "switch": "on",
-          "long_bio": "",
-          "nombre_charla": "",
-          "description": "",
-          "tema": "People, Teams & Culture"
+          "long_bio": "Subgerente de Tecnología en Previred, fundador del meetup Santiago Devops and Continuous Delivery. Autor de &#34;La naturaleza del software&#34;. Previamente fue Senior Architect de EXE Ingeniería.",
+          "nombre_charla": "Esos raros lenguajes nuevos",
+          "description": "Dicen que es una buena idea aprender un nuevo lenguaje de programación al año. Como ya tengo 50 años decidí que no tengo tanto tiempo y debo optimizar el proceso, así que hace un poco más de un año decidí aprender 9 lenguajes, a través de 9 desafíos.<br><br>Esta charla cuenta mi experiencia, lo que aprendí y cómo de paso me animé a crear mi propio lenguaje de programación en el proceso. Aunque parezca una charla dedicada a los frikis de los lenguajes de programación, cualquier persona interesada en la programación, el diseño y el desarrollo de software, puede rescatar un par de cosas de esta charla.",
+          "tema": "Developer Tools"
         },
         "keynoter23": {
           "foto": "assets/img/keynoters/jairo_dasilva.jpg",
@@ -330,10 +330,10 @@
           "bio": "Ingeniero de Software en MercadoLibre. Líder del meetup Golang-Chile.",
           "contacto": "<a href='https://twitter.com/tangzero' target='_blank'>@tangzero</a>",
           "switch": "on",
-          "long_bio": "",
-          "nombre_charla": "",
-          "description": "",
-          "tema": "People, Teams & Culture"
+          "long_bio": "Software Engineer en MercadoLibre, líder del meetup golang-chile.",
+          "nombre_charla": "Go: pasado, presente y futuro",
+          "description": "Hablaré del lenguaje de programación Go: Cómo nació, ventajas del lenguaje, razones de su popularidad y para donde apunta el desarrollo del proyecto. También mostraré un caso de uso en Mercado Libre bajando nuestros costos de infraestructura y tiempos de respuesta.",
+          "tema": "Developer Tools"
         },
         "keynoter24": {
           "foto": "assets/img/keynoters/andres_marinkovic.jpg",
@@ -341,10 +341,10 @@
           "bio": "CTO en Fintual",
           "contacto": "<a href='https://twitter.com/asmarinkovic' target='_blank'>@asmarinkovic</a>",
           "switch": "on",
-          "long_bio": "",
-          "nombre_charla": "",
-          "description": "",
-          "tema": "People, Teams & Culture"
+          "long_bio": "Ingeniero Civil Eléctrico de la Universidad de Chile con 10 años de experiencia como programador. CTO en Fintual.cl",
+          "nombre_charla": "¿Qué son los Robot‐Advisors?",
+          "description": "Casi todos quieren invertir su plata en algo pero al mismo tiempo a casi todo el mundo le da miedo y encuentra muy complejo invertir. Invertir en la actualidad requiere tomar muchas decisiones, y los robot‐advisors reducen al máximo esas decisiones, y además lo hacen a un precio más barato que las soluciones existentes pues se apoyan en la tecnología. Esta será una charla introductoria sobre robot‐advisors y el problema que resuelven.",
+          "tema": "Startups & Innovation"
         },
         "keynoter25": {
           "foto": "assets/img/keynoters/claudio_salazar.jpg",
@@ -352,10 +352,10 @@
           "bio": "CEO de Alertot, Fundador de SPECT Research.",
           "contacto": "<a href='https://twitter.com/alertot' target='_blank'>@alertot</a>",
           "switch": "on",
-          "long_bio": "",
-          "nombre_charla": "",
-          "description": "",
-          "tema": "People, Teams & Culture"
+          "long_bio": "CEO de Alertot, una startup de seguridad que ofrece un servicio de notificación temprana de vulnerabilidades. Anteriormente, trabajó cinco años como Ingeniero de Software en Scrapinghub. Con experiencia en seguridad desde 2003, fundó SPECT Research donde realiza investigación y consultoría.",
+          "nombre_charla": "Detectem: enumerando software para vulnerar sistemas",
+          "description": "En seguridad, conocer el software utilizado por el sistema objetivo aumenta las probabilidades de lograr un ataque exitoso. Sin embargo, soluciones como Wappalyzer o WhatWeb no han evolucionado al mismo ritmo que las tendencias web en los últimos años. SPAs, minifiers, uglifiers y un uso intensivo de Javascript vuelve torpes a las soluciones que aún intentan detectar software usando expresiones regulares sobre cuerpos de páginas ya no existentes. Estas razones motivaron el desarrollo de detectem, un proyecto open‑source de detección de software web para tiempos modernos, del que se tratará esta charla.",
+          "tema": "Web & Mobile"
         },
         "keynoter26": {
           "foto": "assets/img/keynoters/ruben_torres.jpg",
@@ -363,9 +363,9 @@
           "bio": "Desarrollador en ClinicSense.com",
           "contacto": "<a href='https://twitter.com/clinicsense' target='_blank'>@clinicsense</a>",
           "switch": "on",
-          "long_bio": "",
-          "nombre_charla": "",
-          "description": "",
+          "long_bio": "Desarrollador full stack, especialista en front‑end. Fue Lead Front‑end developer en Yapo.cl, desarrollador en el centro de Investigación y Desarrollo de Telefónica y actualmente se encuentra trabajando de manera remota para la empresa canadiense <a href='http://clinicsense.com'>clinicsense.com</a>.",
+          "nombre_charla": "Cómo convertirse en nómada digital",
+          "description": "En esta charla hablaré de la tendencia cada vez más común del trabajo remoto y la vida de nómada digital. Comenzaré por mostrar casos de éxito,  explicaré las ventajas y desventajas de trabajar de manera remota y qué principios y estrategias aplican las empresas más exitosas que cuentan con un gran porcentaje de trabajadores remotos.  Explicaré paso a paso cómo un desarrollador puede cambiar su estilo de vida al trabajar de forma remota, y tal vez explorar la posibilidad de convertirse en un nómada digital.",
           "tema": "People, Teams & Culture"
         },
         "keynoter27": {
@@ -374,9 +374,9 @@
           "bio": "Ingeniero de software en MarketRealist.com.",
           "contacto": "<a href='https://www.linkedin.com/in/leonardo-graterol-24863223' target='_blank'>Linkedin</a>",
           "switch": "on",
-          "long_bio": "",
-          "nombre_charla": "",
-          "description": "",
+          "long_bio": "Software Engineer en MarketRealist.com. Desarrollador de software, con experiencia en múltiples lenguajes y stacks (Ruby, PHP, Java, Node.JS).",
+          "nombre_charla": "Evitemos hacer daño: Ética en la ingeniería de software",
+          "description": "En la charla se hablará sobre las implicaciones o complicaciones éticas relacionadas al desarrollo y la ingeniería de software. Hará tambien algunas propuestas para prevenir daño a empresas y usuarios que desarrollan y usan software y para proteger a desarrolladores. Se presentarán desde los principios éticos (como evitar hacer daño) y los riesgos de la IA hasta el rol de QA y soluciones al problema.",
           "tema": "People, Teams & Culture"
         },
         "keynoter28": {
@@ -385,10 +385,10 @@
           "bio": "CEO en SimpliRoute, Investigador del DII Universidad de Chile.",
           "contacto": "<a href='https://twitter.com/ares1986' target='_blank'>@ares1986</a>",
           "switch": "on",
-          "long_bio": "",
-          "nombre_charla": "",
-          "description": "",
-          "tema": "People, Teams & Culture"
+          "long_bio": "CEO de SimpliRoute e Investigador del DII Universidad de Chile.<br><br>SimplIRoute nació de una investigación realizada en el DII de rediseño del Cuerpo de Bomberos de Santiago, que redujo casi 40% los tiempos de llegada a emergencias en todo Santiago. Con esa investigación ganó varios reconocimientos, como el segundo lugar en Avonni y al &#34;Mejor Paper del Año&#34; en el mayor congreso de Optimización del mundo. Sin embargo, Echeverría se dio cuenta de que esta tecnología se podía aplicar al mundo real. Hoy en día este software promete optimizar sus rutas, reduciendo los costos logísticos en un promedio de 30%, y los tiempos de confección de rutas hasta en 85%.<br><br>Dentro de este camino a convertir a SimpliRoute en una startup exitoso, Echeverría y su socio viajaron a EEUU para vivir la experiencia &#34;Silicon Valley&#34;.",
+          "nombre_charla": "De Chile a Silicon Valley: Mitos, realidades y desafíos",
+          "description": "Con SimpliRoute, nos fuimos a Silicon Valley muy temprano en nuestra vida como startup: llevabamos 8 meses y quedamos en 500 Startups de Moutain View, California. Decidimos irnos para allá y vivir la experiencia &#34;Silicon Valley&#34; de manera total.<br><br>Muchos acá en Chile, añoran e idealizan US y sus VCs, empresas tecnológicas, vida social, etc. Viviendo allá 6 meses en el programa de aceleración, y 2 meses después tratando de cerrar nuestra ronda de inversión, nos dio varios aprendizajes que nos permitió apoyar a otros emprendimientos a llegar allá y que ahora compartiremos en esta charla.",
+          "tema": "Startups & Innovation"
         },
         "keynoter29": {
           "foto": "assets/img/keynoters/rodrigo_culagovski.jpg",
@@ -396,10 +396,10 @@
           "bio": "CEO en AreaWeb. Profesor de las escuelas de diseño de la PUC y UAI", 
           "contacto": "<a href='https://www.linkedin.com/in/rodrigoculagovski' target='_blank'>Linkedin</a>",
           "switch": "on",
-          "long_bio": "",
-          "nombre_charla": "",
-          "description": "",
-          "tema": "People, Teams & Culture"
+          "long_bio": "CEO en AreaWeb. Profesor de las escuelas de diseño de la Universidad Católica y Adolfo Ibañez",
+          "nombre_charla": "Obtención, análisis y visualización de datos espaciales usando Python + Jupyter + Pandas.",
+          "description": "El medio ambiente de herramientas de visualización ha alcanzado suficiente madurez para permitir a usuarios semiespecializados crear interfaces de visualización interactivas de manera rápida.<br><br>En esta charla demostramos una metodología simple para conseguir datos de fuentes periodísticas usando screen scraping, analizar y procesarlos usando Python + Jupyter + Pandas, y finalmente visualizarlos en un mapa interactivo que se puede publicar en internet.",
+          "tema": "Data Analysis & Visualization"
         },
         "keynoter30": {
           "foto": "assets/img/keynoters/crystal_yan.jpg",
@@ -407,10 +407,10 @@
           "bio": "Product Manager & Product Design Lead at FiscalNote. ",
           "contacto": "<a href='https://twitter.com/crystalcy' target='_blank'>@crystalcy</a>",
           "switch": "on",
-          "long_bio": "",
-          "nombre_charla": "",
-          "description": "",
-          "tema": "People, Teams & Culture"
+          "long_bio": "Crystal is freelance UX researcher and designer for clients in the nonprofit, healthcare, education, travel, and fitness industries, including MyHealthEd's Real Talk, a storytelling‐driven health education mobile app for teens, and Rise, an international grassroots movement to pass civil rights legislation for survivors of sexual assault in the US, Canada, and Japan. Crystal also leads Experience Research and Product Design at FiscalNote, a startup transforming how organizations manage their government risk.",
+          "nombre_charla": "Bias, Uncovered: Irrational by Design",
+          "description": "One of the most powerful things we can do as people who great products is to shape the behavior of the people who use our products. To nudge people to make decisions that will make their jobs easier, live healthier, connect with their friends more often. But in order to this well, we must not only help people understand their own biases, but also understand our own. This interactive, multimedia talk will challenge you to uncover the cognitive biases we might not realize we encounter every day, and to unpack what understanding them might mean for the behaviors we design for every day.",
+          "tema": "UX & Design"
         },
         "keynoter31": {
           "foto": "assets/img/keynoters/james_montemagno.jpg",
@@ -418,10 +418,10 @@
           "bio": "Principal Program Manager de Mobile Developer Tools en Microsoft",
           "contacto": "<a href='https://twitter.com/jamesmontemagno' target='_blank'>@jamesmontemagno</a>",
           "switch": "on",
-          "long_bio": "",
-          "nombre_charla": "",
-          "description": "",
-          "tema": "People, Teams & Culture"
+          "long_bio": "James Montemagno es Principal Program Manager de Mobile Developer Tools en Microsoft. Él ha sido un desarrollador de .NET desde 2005 trabajando en una amplia gama de industrias incluyendo desarrollo de juegos, software de impresora y servicios web. Antes de convertirse en Principal Program Manager, James fue un desarrollador profesional de móviles y ha estado elaborando aplicaciones desde 2011 con Xamarin.",
+          "nombre_charla": "Go Mobile with C#, Visual Studio, and Xamarin",
+          "description": "In a mobile first, cloud first world it is essential to have a powerful framework that is high performant and available on every platform you want to target. That framework is .NET and has expanded to every device imaginable. When it comes to mobile, Xamarin helps C# developers become native iOS, Android, and Windows mobile app developers overnight. Now that the Xamarin platform is open source and included with Visual Studio at no additional cost, it has never been a better time to be a .NET developer -- You can start crafting beautiful native mobile applications that are truly universal today!",
+          "tema": "Web & Mobile"
         },
         "keynoter32": {
           "foto": "assets/img/keynoters/alex_seelenberger.jpg",
@@ -429,20 +429,20 @@
           "bio": "Managing Partner en Aurus Capital",
           "contacto": "<a href='https://www.linkedin.com/in/alexseelenberger/' target='_blank'>Linkedin</a>",
           "switch": "on",
-          "long_bio": "",
-          "nombre_charla": "",
-          "description": "",
-          "tema": "People, Teams & Culture"
+          "long_bio": "Alex Seelenberger es socio de Aurus y principal responsable del área de Capital de Riesgo (Venture Capital) en Ciencias de la vida. Entre 2007 y 2008, Alex trabajó en Athelera LLC, una boutique de fusiones y adquisiciones basada en Nueva York. Anteriormente, se desempeñó como consultor para The Boston Consulting Group –entre 2002 y 2005- enfocándose principalmente en proyectos para la industrias farmacéutica, servicios financieros y minería en Latinoamérica.",
+          "nombre_charla": "Desmitificando Chileconvalley",
+          "description": "Los expositores proponen y deconstruyen 10 grandes mitos desde los cuales las startups operan al momento de levantar capital. Se presenta un mirada desde la conformación de portafolios, distinguiendo el rol de los activos alternativos.",
+          "tema": "Startups & Innovation"
         },
         "keynoter33": {
           "foto": "assets/img/keynoters/claire_fisher.jpg",
-          "nombre": "Claire Fisher",
+          "nombre": "Claire Drumond",
           "bio": "Content Strategy & Product Marketer en Atlassian",
           "contacto": "<a href='https://www.linkedin.com/in/claireefisher/' target='_blank'>Linkedin</a>",
           "switch": "on",
-          "long_bio": "",
-          "nombre_charla": "",
-          "description": "",
+          "long_bio": "Claire Fisher Drumond is a product marketer and content strategist at Atlassian. She leads product content strategy for Jira Software and Bitbucket, along with Atlassian's agile thought leadership efforts. Using design thinking, storytelling, and data analysis, Claire focuses on building better journey's for customers and buyers, connecting the product experience to buyer intent.",
+          "nombre_charla": "From Search to Engagement:<br>Breaking down barriers between product and marketing ",
+          "description": "93% of all online experiences start with a search engine, yet products are built from sign-up forward. Going back to the core principles of agile, we'll discuss how you can strengthen the connection between business people and engineering. You'll learn how you can help your team gain a full view of your customer and better connect the buyer journey to the product experience. By working on your team's health, focusing on customer and buyer intent, you can increase velocity while shipping more valuable products. This talk will cover:<ol><li>Tactics from the Atlassian team building strategy to will help you communicate better across your business and product teams</li><li>Re-imagining your team to gain valuable inputs from product analytics, marketing, and design</li><li>Using agile metrics as an indicator for team health and how you can improve it</li></ol>",
           "tema": "People, Teams & Culture"
         },
         "keynoter34": {
@@ -451,10 +451,10 @@
           "bio": "Developer Advocate at Google",
           "contacto": "<a href='https://twitter.com/felipehoffa' target='_blank'>@felipehoffa</a>",
           "switch": "on",
-          "long_bio": "",
-          "nombre_charla": "",
-          "description": "",
-          "tema": "People, Teams & Culture"
+          "long_bio": "Developer Advocate at Google",
+          "nombre_charla": "What can we learn from 750 billion GitHub events and 42 TB of code",
+          "description": "We are going to analyze - live on stage - 5 years of GitHub metadata and 42 TB code stored in it to answer questions like:<br><br>How is this run<br>How coding patterns have changed through time.<br>Guiding your project design decisions based on actual usage of your APIs.<br>How to request features based on data.<br>The most effective phrasing to request changes.<br>Effects of social media on a project's popularity.<br>Who starred your project and what other projects interest them. Measuring community health.<br>Running static code analysis at scale.<br>Tabs or spaces?",
+          "tema": "Data Analysis & Visualization"
         },
         "keynoter35": {
           "foto": "assets/img/keynoters/ubaldo_taladriz.jpg",
@@ -462,10 +462,10 @@
           "bio": "CEO en EXE",
           "contacto": "<a href='https://twitter.com/utaladriz' target='_blank'>@utaladriz</a>",
           "switch": "on",
-          "long_bio": "",
-          "nombre_charla": "",
-          "description": "",
-          "tema": "People, Teams & Culture"
+          "long_bio": "Ingeniero Computación Universidad de Chile Fundador de EXE, Vicepresidente de Chiletec",
+          "nombre_charla": "Microservicios con Akka y Scala",
+          "description": "Un tour a Microservicios con Akka y Scala: Microservicio Simple, Clustering, Sharding, DDD (Domain Driven Design), CQRS Command Query Responsibility Segregation, Event Sourcing",
+          "tema": "Web & Mobile"
         },
         "keynoter36": {
           "foto": "assets/img/keynoters/felipe_reyes.jpg",
@@ -473,10 +473,10 @@
           "bio": "Software Engineer en Canonical",
           "contacto": "<a href='https://twitter.com/gnusis' target='_blank'>@gnusis</a>",
           "switch": "on",
-          "long_bio": "",
-          "nombre_charla": "",
-          "description": "",
-          "tema": "People, Teams & Culture"
+          "long_bio": "Miembro del equipo de Sustaining Engineering en Canonical, la empresa atrás de Ubuntu, dentro de mis tareas se encuentra la mantención de paquetes deb para las versiones estable de la distribución, de Ubuntu Cloud Archive (UCA), así como también Juju y MAAS. Es posible ver algunas de mis contribuciones a la mantención de Ubuntu en https://launchpad.net/~freyes/+related‐packages.<br><br>He estado trabajando profesionalmente en desarrollo y administración de sistemas desde el 2007, dedicado a temas cloud desde el 2009, en un principio con AWS (EC2 y S3 principalmente) y con OpenStack[0] desde el 2014.",
+          "nombre_charla": "Instalación y manejo de kubernetes con Juju",
+          "description": "Esta presentación tiene como primer objetivo introducir al espectador en kubernetes, tanto desde el punto de vista de usuario como también su arquitectura y componentes, y como segundo objetivo permitir a la audiencia ver las bondades que puede traer a su organización el uso de Juju para la instalacion, manejo y mantención de un cluster de kubernetes.",
+          "tema": "Cloud & DevOps"
         },
         "keynoter37": {
           "foto": "assets/img/keynoters/ricardo_diaz.jpg",
@@ -484,10 +484,10 @@
           "bio": "Managing Director at Cifco Venture Fund.",
           "contacto": "<a href='https://www.linkedin.com/in/ricardo-diaz-gallardo-8b93525/' target='_blank'>Linkedin</a>",
           "switch": "on",
-          "long_bio": "",
-          "nombre_charla": "",
-          "description": "",
-          "tema": "People, Teams & Culture"
+          "long_bio": "Managing Director de Cifco Venture Fund y académico Part Time en la Universidad de Chile, donde ha realizado clases de negociación e introducción a las ciencias de la gestión",
+          "nombre_charla": "Desmitificando Chileconvalley",
+          "description": "Los expositores proponen y deconstruyen 10 grandes mitos desde los cuales las startups operan al momento de levantar capital. Se presenta un mirada desde la conformación de portafolios, distinguiendo el rol de los activos alternativos.",
+          "tema": "Startups & Innovation"
         },
         "keynoter38": {
           "foto": "assets/img/keynoters/noah_iliinsky.jpg",
@@ -504,12 +504,12 @@
           "foto": "assets/img/keynoters/nicolas_kittsteiner.jpg",
           "nombre": "Nicolás Kittsteiner",
           "bio": "Desarrollador Telefónica I+D Chile",
-          "contacto": "<a href='https://www.linkedin.com/in/nkittsteiner' target='_blank'>Linkedin</a>",
+          "contacto": "<a href='https://twitter.com/nicokittsteiner' target='_blank'>@nicokittsteiner</a>",
           "switch": "on",
-          "long_bio": "",
-          "nombre_charla": "",
-          "description": "",
-          "tema": "People, Teams & Culture"
+          "long_bio": "Ingeniero en Computación de la Universidad Andrés Bello. Desarrollador de software, hacker de raspberries, estudiante de Machine Learning y entusiasta del 3d-printing. Creador de la comunidad de Big Data <a href='https://twitter.com/grandes_datos' target='_blank'>@grandes_datos</a> y <a href='https://twitter.com/nicokittsteiner' target='_blank'>@nicokittsteiner</a>",
+          "nombre_charla": "Analizando terabytes de datos de movilidad anonimizada",
+          "description": "Los eventos generados por dispositivos móviles en una red de telefonía celular pueden ser utilizados para resolver problemas contingentes en transporte, planificación urbana, salud pública o emergencias. El primer desafío consiste en transformar miles de millones de eventos de telefonía en trazas de movilidad para cada dispositivo anónimo. Esas trazas se transforman posteriormente en información interpretable para cada dominio de aplicación.<br><br>Describiremos nuestras experiencias en el proceso de investigación y explotación de los datos masivos, hasta la generación de un producto para visualización de movilidad urbana e interurbana.",
+          "tema": "Data Analysis & Visualization"
         },
         "keynoter40": {
           "foto": "assets/img/keynoters/oscar_peredo.jpg",
@@ -517,24 +517,32 @@
           "bio": "Investigador Telefónica I+D Chile",
           "contacto": "<a href='https://www.linkedin.com/in/operedo' target='_blank'>Linkedin</a>",
           "switch": "on",
-          "long_bio": "",
-          "nombre_charla": "",
-          "description": "",
-          "tema": "People, Teams & Culture"
+          "long_bio": "Ingeniero en Computación y Matemático de la Universidad de Chile, Master en Tecnologías de Información y candidato a Doctor en Arquitectura de Computadores de la UPC-BarcelonaTech.<br><br>Trabaja como Investigador en el grupo de Smart Cities de Telefónica I+D Chile, generando conocimiento y ayudando al desarrollo de productos.",
+          "nombre_charla": "Analizando terabytes de datos de movilidad anonimizada",
+          "description": "Los eventos generados por dispositivos móviles en una red de telefonía celular pueden ser utilizados para resolver problemas contingentes en transporte, planificación urbana, salud pública o emergencias. El primer desafío consiste en transformar miles de millones de eventos de telefonía en trazas de movilidad para cada dispositivo anónimo. Esas trazas se transforman posteriormente en información interpretable para cada dominio de aplicación.<br><br>Describiremos nuestras experiencias en el proceso de investigación y explotación de los datos masivos, hasta la generación de un producto para visualización de movilidad urbana e interurbana.",
+          "tema": "Data Analysis & Visualization"
         },
         "keynoter41": {
-          "foto": "assets/img/keynoters/nobody.jpg",
-          "nombre": "Próximamente...",
-          "bio": "",
-          "contacto": "",
-          "switch": "off"
+          "foto": "assets/img/keynoters/chihau_chau.png",
+          "nombre": "Chihau Chau",
+          "bio": "Ingeniero de Software, Profesor y Consultor Fundador de QBO",
+          "contacto": "<a href='https://twitter.com/chihau' target='_blank'>@chihau</a>",
+          "switch": "on",
+          "long_bio": "Ingeniero de Software, Profesor y Consultor. En la actualidad se desempeña como Ingeniero de Software especializado en tecnologías móviles y vestibles. Fundador de QBO. Constantemente está apoyando el ecosistema, dictando charlas, talleres y capacitaciones sobre Android, iOS, Desarrollo de Software Móvil, Linux, Realidad Virtual y Aumentada y IoT.",
+          "nombre_charla": "IoT inteligente con AndroidThings y Machine Learning",
+          "description": "Android Things es una nueva plataforma para dispositivos embebidos basada en Android, que nos permite crear soluciones y productos sin tener grandes conocimientos de electrónica.<br><br>En esta charla los asistentes podrán aprender lo sencillo que es crear una aplicación IoT para Android integrando distintas APIs compatibles con esta plataforma, además se realizarán algunas demostraciones en vivo del potencial que tienen las soluciones IoT que utilizan Machine Learning.",
+          "tema": "Web & Mobile"
         },
         "keynoter42": {
-          "foto": "assets/img/keynoters/nobody.jpg",
-          "nombre": "Próximamente...",
-          "bio": "",
-          "contacto": "",
-          "switch": "off"
+          "foto": "assets/img/keynoters/crystal_yan.jpg",
+          "nombre": "Crystal Yan",
+          "bio": "Product Manager & Product Design Lead at FiscalNote. ",
+          "contacto": "<a href='https://twitter.com/crystalcy' target='_blank'>@crystalcy</a>",
+          "switch": "on",
+          "long_bio": "Crystal is freelance UX researcher and designer for clients in the nonprofit, healthcare, education, travel, and fitness industries, including MyHealthEd's Real Talk, a storytelling‐driven health education mobile app for teens, and Rise, an international grassroots movement to pass civil rights legislation for survivors of sexual assault in the US, Canada, and Japan. Crystal also leads Experience Research and Product Design at FiscalNote, a startup transforming how organizations manage their government risk.",
+          "nombre_charla": "Behind the AI Curtain:<br>Designing for User Trust in Artificial Intelligence and Machine Learning",
+          "description": "When FiscalNote first launched, it made the news with its algorithms that forecast the likelihood of bill passage with over 94% accuracy ‐ but convincing its customers and users to trust the artificial intelligence powering the scores was another story.<br><br>So how might we design for additional trust when users interact with the results of artificial intelligence? In this presentation, Crystal Yan walks through the way  FiscalNote’s design and data science teams faced this challenge.",
+          "tema": "Data Analysis & Visualization"
         },
         "keynoter43": {
           "foto": "assets/img/keynoters/nobody.jpg",

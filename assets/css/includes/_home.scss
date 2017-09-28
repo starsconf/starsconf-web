@@ -234,6 +234,8 @@
       }
       &.off{
         opacity: 0.3;
+        pointer-events: none;
+        cursor: default;
         .image{
           border-color: #999;
         }
@@ -279,7 +281,7 @@
 /*KEYNOTERS PAGE*
 ------------------------*/
 .keynoters-full{
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 140%;
   .keynoter-block{
     margin-bottom: 40px;
@@ -289,6 +291,16 @@
     vertical-align: middle;
     >div p{
       margin-top: 20px;
+    }
+    .section{
+      text-align: center;
+      h3{
+        text-align: center;
+        margin-top: 30px;
+      }
+      a{
+        display: block;
+      }
     }
     .tema {
       position: absolute;
@@ -315,8 +327,15 @@
         font-size: 2rem;
       }
       p{
-        font-size: 95%;
+        font-size: 100%;
       }
+    }
+    .about{
+      font-size: 95%;
+      padding: 4px 10px;
+    }
+    &.off{
+      display: none;
     }
   }
 
@@ -340,14 +359,18 @@
     margin-bottom: 0;
   }
   .back{
+    margin-top: 3%;
+    margin-left: 1%;
+    display: block;
     i{
-      display: block;
+      display: inline-block;
       float: left;
       margin-right: 3px;
     }
     span{
-      display: block;
+      display: inline-block;
       float: left;
+      padding: 2px;
     }
   }
 }
