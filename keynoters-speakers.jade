@@ -7,9 +7,6 @@ block content
 
   .containter-fluid.main-content.single-page
     .container.keynoters-full
-      .row
-        .col-md-12.section.text-center
-          h2= homepage.section_three.title
 
       each keynoter, index in homepage.section_three.keynoters
         .row.keynoter-block.scrollspy(id= index)
@@ -26,7 +23,7 @@ block content
 
           .col-md-12.charla
               h5= keynoter.nombre_charla
-              p= keynoter.description
+              p!= keynoter.description
           
           a.back.hidden-xs(href="javascript:history.back()")
             i.material-icons keyboard_backspace
@@ -42,12 +39,13 @@ block content
           .col-md-8
             h3
               span= keynoter.nombre
-              a.tema(href="/#what" title= keynoter.tema)= keynoter.tema
+            span!= keynoter.contacto
+            a.tema(href="/#what" title= keynoter.tema)= keynoter.tema
             p!= keynoter.long_bio
 
           .col-md-12.charla
               h5= keynoter.nombre_charla
-              p= keynoter.description
+              p!= keynoter.description
 
           a.back.hidden-xs(href="javascript:history.back()")
             i.material-icons keyboard_backspace

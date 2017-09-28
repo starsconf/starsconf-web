@@ -76,7 +76,8 @@
     },
     "section_three": {
       "title": "Keynoters",
-      "bajada": "Las estrellas que ya confirmaron que estarán con nosotros este año",
+      "title_dos": "Speakers",
+      "bajada": "Las estrellas mundiales que estarán con nosotros este año",
       "bajada_dos": "Junto a ellos, más de 30 expositores seleccionados.",
       "keynoters": {
         "keynoter1": {
@@ -117,28 +118,44 @@
           "nombre": "Russ Unger",
           "bio": "Experience Design Director en 18F, co-autor de 'A Project Guide to UX Design'",
           "contacto": "<a href='https://twitter.com/russu' target='_blank'>@russu</a>",
-          "switch": "on"
+          "switch": "on",
+          "long_bio": "Russ Unger es Director de Diseño de Experiencia en 18F, donde dirige equipos y proyectos en diseño e investigación. Es coautor de los libros: &#34;A Project Guide to UX Design&#34;, &#34;Designing the Conversation&#34; y el &#34;Speaker Camp for New Riders (Voices That Matter)&#34;. Russ es co-autor de un libro sobre liderazgo en diseño, que se publicará en 2018.<br><br>Russ es co-fundador de ChicagoCamps, iniciativa que realiza eventos de bajo costo y de alto valor tecnológico en el área de Chicago.",
+          "nombre_charla": "Onboarding: The Ecosystem, Not the Afterthought",
+          "description": "Onboarding new employees to your team is all too often treated as an afterthought, or best case, as an at-the-moment-thought. Employees deserve a well-thought out experience that includes them from the very beginning–from the creation of the position description—to that time after they’ve become integrated into our teams and organizations. We can trace some of these imperfect scenarios all the way back to the creation our performance profiles or position descriptions, and how they were created. When we understand the entire journey from candidate to employee we see the value of treating onboarding as an ending of a particular process instead of a solitary event in time.<br><br>The presentation is all about how to bring UXers (or anyone, really) into your organization in a way that gives them a positive experience, by designing for it, from all the way to the point of considering the roles you’re hiring for, into their first days. It’s essentially designing a great hiring and new-hire experience; definitely through the lens of designers.",
+          "tema": "UX & Design"
         },
         "keynoter5": {
           "foto": "assets/img/keynoters/daniel_may.jpg",
           "nombre": "Daniel May",
           "bio": "Co-Fundador de LIFX, Emprendedor serial",
           "contacto": "<a href='https://twitter.com/thedanielmay' target='_blank'>@thedanielmay</a>",
-          "switch": "on"
+          "switch": "on",
+          "long_bio": "Fue cofundador de LIFX, empresa que levantó más de USD$13 millones. ¿Su producto? Una bombilla LED con tecnología WiFi, multicolor, y que se controla a través de un celular iPhone o Android.<br><br>LIFX fue una de las primeras invenciones que hoy se agrupan bajo el concepto de Internet de las Cosas (IoT).",
+          "nombre_charla": "Winning the most important race",
+          "description": "As startups and entrepreneurs, we are used to competing and running hard. But what race are we running? And what does it mean to win? Daniel shares his personal journey and his answers to these questions.",
+          "tema": "Startups & Innovation"
         },
         "keynoter6": {
           "foto": "assets/img/keynoters/noah_iliinsky.jpg",
           "nombre": "Noah Iliinsky",
           "bio": "Sr. UX Architect en Amazon Web Services. Es co-autor de Designing Data Visualizations publicado por O’Reilly Media",
           "contacto": "<a href='https://twitter.com/noahi' target='_blank'>@noahi</a>",
-          "switch": "on"
+          "switch": "on",
+          "long_bio": "Noah Iliinsky, experto en visualización de datos. Ha pasado la última década investigando, escribiendo y hablando sobre buenas prácticas para el diseño de visualizaciones e interfaces. Él es un charlista frecuente en la industria y en contextos académicos.<br><br>Noah trabajó en IBM y actualmente es Sr. UX Architect en Amazon Web Services. Es coautor de &#34;Designing Data Visualizations&#34;, así como editor y colaborador en &#34;Beautiful Visualization&#34;, publicado por O'Reilly Media.<br><br>Tiene una maestría en Technical Communication de la Universidad de Washington, y una licenciatura en Física de Reed College.",
+          "nombre_charla": "Four Pillars of Visualization",
+          "description": "This talk discusses the broad design considerations necessary for effective visualizations. Attendees will learn what’s required for a visualization to be successful, gain insight for critically evaluating visualizations they encounter, and come away with new ways to think about the visualization design process.<br><br>To be most effective, a visualization must have, in this order:<br><ol><li>Purpose (Why are we creating this visualization? Who is it for?)</li><li>Content (What data matters? What relationships matter?)</li><li>Structure (How do we best reveal those data and relationships?)</li><li>Formatting (How does it look & feel? How will it be consumed?)</li></ol>This talk will define these four pillars, reveal why they must be considered in this order, discuss the importance and impact each has on your visualization, and provide approaches and insight for each of the four.",
+          "tema": "Data Analysis & Visualization"
         },
         "keynoter7": {
           "foto": "assets/img/keynoters/dominic_price.jpg",
           "nombre": "Dominic Price",
           "bio": "Head of R&D and Work Futurist at Atlassian",
           "contacto": "<a href='https://twitter.com/domprice' target='_blank'>@domprice</a>",
-          "switch": "on"
+          "switch": "on",
+          "long_bio": "Dominic Price es jefe de I + D en Atlassian, empresa que es un proveedor líder de software de colaboración y productividad en equipo. Dom gestiona la planificación, ejecución y las operaciones de los cinco centros globales de I + D de Atlassian y es responsable de dirigir los programas globales de innovación de la compañía y las mejores prácticas para sus más de 1.700 empleados.",
+          "nombre_charla": "The Future of Team Work: humans being human.",
+          "description": "2020 is talked about like some major milestone (anyone remember the ‘millennium bug’?), and yet for all the articles and thought leadership on the topic, most fail to acknowledge that it’s less than 1,000 days away. Now is the time for us, the humans, to take action to prepare. This session will explore some of the data and levers that will help us understand the world we’ll be living in by 2020, the role that AI, automation and robots have in this age, and the things we need to do as humans to stay human and build an environment where we thrive, and not just survive. Dom will share tactics that Atlassian has deployed to scale their business, delight their customers and remain a great place to work.",
+          "tema": "People, Teams & Culture"
         }
       },
       "keynoters2": {
@@ -147,219 +164,379 @@
           "nombre": "Davidlohr Bueso",
           "bio": "Desarrollador del Kernel de Linux",
           "contacto": "<a href='https://twitter.com/davidlohr' target='_blank'>@davidlohr</a>",
-          "switch": "on"
+          "switch": "on",
+          "long_bio": "Ingeniero en Informática de la Pontificia Universidad Católica de Valparaíso y Master of Science (M.Sc.) en CS/High Performance Computing de la Universidad Autónoma de Barcelona. Actualmente es Performance Engineer en Suse. Es especialista en el kernel de Linux y se dedica a  realizar investigación y desarrollo (I + D) en optimización de rendimiento de sistemas operativos.",
+          "nombre_charla": "¿Cómo empezar una carrera de kernel hacker?",
+          "description": "Despues de mas de 25 anos desde su creacion, Linux es el sistema operativo mas usado del mundo, desde los sistemas mas pequenos hasta los supercomputadores del Top500. De manera similar, el nucleo (kernel) de Linux es el proyecto de software colaborativo mas grande de la historia. Como cualquier producto competente, Linux debe ir adaptandose a las transformaciones en tecnologia, siendo su desarrollo una constante.<br><br>En esta presentacion se mostraran, de primera fuente, algunos de estos cambios en la industria y como el kernel ha ido creciendo y mejorando a raiz de esto. Se hara desde una perspectiva general con topicos transversales de arquitectura de computadores y por ende no es solo sistemas operativos, pero cualquier sistema computacional que provea infraestructuras. Finalmente se espera motivar a la audiencia a mirar la programacion desde otra perspectiva, y hasta contribuir al desarrollo del kernel y open source.",
+          "tema": "People, Teams & Culture"
         },
         "keynoter9": {
           "foto": "assets/img/keynoters/fausto_delatorre.jpg",
           "nombre": "Fausto de la Torre",
           "bio": "Head of Technology / Senior Consultant en ThoughtWorks",
           "contacto": "<a href='https://twitter.com/faustodelatog' target='_blank'>@faustodelatog</a>",
-          "switch": "on"
+          "switch": "on",
+          "long_bio": "Fausto De La Torre trabaja en Thoughtworks como Head of Technology de la región de los Andes, liderando y ejecutando la estrategia tecnológica dentro de la región andina, ayuda a liberar el potencial de los equipos de Thoughtworks buscando soluciones más efectivas para llevar a sus clientes al siguiente nivel. Fausto ha trabajado como arquitecto y desarrollador de software en varias verticales de la industria en diferentes metodologías por más de una década lo que le ha permitido ampliar el espectro tanto en el mundo ágil como tradicional.",
+          "nombre_charla": "Plataformas: los nuevos agentes de la innovación",
+          "description": "Cómo una arquitectura evolutiva que en conjunción con las plataformas generan un movimiento continuo en las empresas que desarrollan API's habilitando la innovación y liberando el potencial de las organizaciones. Se abordará el tema de API's como producto, las implicaciones tanto dentro de la organización como fuera de ella",
+          "tema": "Web & Mobile"
         },
         "keynoter10": {
           "foto": "assets/img/keynoters/francisco_diaz.jpg",
           "nombre": "Francisco Díaz",
           "bio": "iOS Developer en Airbnb.",
           "contacto": "<a href='https://twitter.com/fco_diaz' target='_blank'>@fco_diaz</a>",
-          "switch": "on"
+          "switch": "on",
+          "long_bio": "Es Software Engineer en Airbnb y un apasionado por el desarrollo para móviles. Ha trabajado desarrollando software profesionalmente desde 2010 y ha especializado su carrera en el desarrollo para iOS.<br><br>Hasta mayo del año 2017 trabajó para la empresa canadiense Axiom Zen <a href='http://axiomzen.co/'>http://axiomzen.co/</a> en la oficina de Santiago de Chile y actualmente se desarrolla como software engineer para Airbnb <a href='https://www.airbnb.com/'>https://www.airbnb.com/</a> en la oficina de San Francisco, California.<br><br>Fue co‐organizador del Meetup iOS de Chile, iOS Love <a href='https://www.meetup.com/ioslove'>https://www.meetup.com/ioslove</a> entre junio de 2015 hasta mayo del 2017, funcionando como host de los eventos y ayudando con la logística de los mismos.<br><br>Ha dado charlas tanto en Chile como en el extranjero.",
+          "nombre_charla": "Si odio hablar en público. ¿Por qué lo sigo haciendo?",
+          "description": "Como ingenieros la primera sensación que tenemos al escuchar &#34;hablar en público&#34; es pánico. Cada vez que me subo a un escenario lo siento. ¿Por qué sigo haciéndolo si me es tan incómodo? Además de responder esta pregunta, argumentaré porqué es necesario, como ingenieros, exponernos públicamente.",
+          "tema": "People, Teams & Culture"
         },
         "keynoter11": {
           "foto": "assets/img/keynoters/agustin_villena.png",
           "nombre": "Agustín Villena",
           "bio": "Líder en LeanSight, Developer, profesor. Fundador de “ChileAgil”. ",
           "contacto": "<a href='https://twitter.com/agustinvillena' target='_blank'>@agustinvillena</a>",
-          "switch": "on"
+          "switch": "on",
+          "long_bio": "",
+          "nombre_charla": "",
+          "description": "",
+          "tema": "People, Teams & Culture"
         },
         "keynoter12": {
           "foto": "assets/img/keynoters/fausto_castaneda.jpg",
           "nombre": "Fausto Castañeda",
           "bio": "Consultor, Developer y Quality Advocate en ThoughtWorks.",
           "contacto": "<a href='https://twitter.com/faustcastaneda' target='_blank'>@FaustCastaneda</a>",
-          "switch": "on"
+          "switch": "on",
+          "long_bio": "",
+          "nombre_charla": "",
+          "description": "",
+          "tema": "People, Teams & Culture"
         },
         "keynoter13": {
           "foto": "assets/img/keynoters/gustavo_soto.jpg",
           "nombre": "Gustavo Soto",
           "bio": "Head UX en WOM Chile. Co‐fundador de UXD en Chile.",
           "contacto": "<a href='https://twitter.com/gusoto' target='_blank'>@gusoto</a>",
-          "switch": "on"
+          "switch": "on",
+          "long_bio": "",
+          "nombre_charla": "",
+          "description": "",
+          "tema": "People, Teams & Culture"
         },
         "keynoter14": {
           "foto": "assets/img/keynoters/eduardo_graells.jpg",
           "nombre": "Eduardo Graells‐Garrido",
           "bio": "Investigador en el Inst. de Data Science de la UDD, antes en Yahoo Labs.",
           "contacto": "<a href='https://twitter.com/carnby' target='_blank'>@carnby</a>",
-          "switch": "on"
+          "switch": "on",
+          "long_bio": "",
+          "nombre_charla": "",
+          "description": "",
+          "tema": "People, Teams & Culture"
         },
         "keynoter15": {
           "foto": "assets/img/keynoters/ricardo_alfaro.jpg",
           "nombre": "Ricardo Alfaro",
           "bio": "Lider UX y Frontend en ContinuumChile. Co-Fundador de OpenD",
           "contacto": "<a href='https://twitter.com/diablogris' target='_blank'>@diablogris</a>",
-          "switch": "on"
+          "switch": "on",
+          "long_bio": "",
+          "nombre_charla": "",
+          "description": "",
+          "tema": "People, Teams & Culture"
         },
         "keynoter16": {
           "foto": "assets/img/keynoters/alejandro_salinas.jpg",
           "nombre": "Alejandro Salinas",
           "bio": "Senior Manager Global Network Operations en Groupon.",
           "contacto": "<a href='https://twitter.com/asf' target='_blank'>@asf</a>",
-          "switch": "on"
+          "switch": "on",
+          "long_bio": "",
+          "nombre_charla": "",
+          "description": "",
+          "tema": "People, Teams & Culture"
         },
         "keynoter17": {
           "foto": "assets/img/keynoters/jose_urzua.jpg",
           "nombre": "José Urzúa",
           "bio": "Jefe Desarrollo de Sistemas en NIC Chile",
           "contacto": "<a href='https://twitter.com/jourzua' target='_blank'>@jourzua</a>",
-          "switch": "on"
+          "switch": "on",
+          "long_bio": "",
+          "nombre_charla": "",
+          "description": "",
+          "tema": "People, Teams & Culture"
         },
         "keynoter18": {
           "foto": "assets/img/keynoters/chihau_chau.png",
           "nombre": "Chihau Chau",
           "bio": "Ingeniero de Software, Profesor y Consultor Fundador de QBO",
           "contacto": "<a href='https://twitter.com/chihau' target='_blank'>@chihau</a>",
-          "switch": "on"
+          "switch": "on",
+          "long_bio": "",
+          "nombre_charla": "",
+          "description": "",
+          "tema": "People, Teams & Culture"
         },
         "keynoter19": {
           "foto": "assets/img/keynoters/felipe_funes.jpg",
           "nombre": "Felipe Funes",
           "bio": "UI/Frontend Developer en ArchDaily.com",
           "contacto": "<a href='https://twitter.com/felipefunes ' target='_blank'>@felipefunes </a>",
-          "switch": "on"
+          "switch": "on",
+          "long_bio": "",
+          "nombre_charla": "",
+          "description": "",
+          "tema": "People, Teams & Culture"
         },
         "keynoter20": {
           "foto": "assets/img/keynoters/alberto_marcias.jpg",
           "nombre": "Alberto Marcías",
           "bio": "Front-end developer en ArchDaily",
           "contacto": "<a href='https://twitter.com/albertomarcias' target='_blank'>@albertomarcias</a>",
-          "switch": "on"
+          "switch": "on",
+          "long_bio": "",
+          "nombre_charla": "",
+          "description": "",
+          "tema": "People, Teams & Culture"
         },
         "keynoter21": {
           "foto": "assets/img/keynoters/martin_dominguez.jpg",
           "nombre": "Martín Domínguez",
           "bio": "CIO de Etermax.com",
           "contacto": "<a href='https://twitter.com/mp_dominguez' target='_blank'>@mp_dominguez</a>",
-          "switch": "on"
+          "switch": "on",
+          "long_bio": "",
+          "nombre_charla": "",
+          "description": "",
+          "tema": "People, Teams & Culture"
         },
         "keynoter22": {
           "foto": "assets/img/keynoters/eduardo_diaz.png",
           "nombre": "Eduardo Díaz",
           "bio": "Subgerente de Tecnología en Previred. Fundador del meetup Santiago Devops",
           "contacto": "<a href='https://twitter.com/lnds' target='_blank'>@lnds</a>",
-          "switch": "on"
+          "switch": "on",
+          "long_bio": "",
+          "nombre_charla": "",
+          "description": "",
+          "tema": "People, Teams & Culture"
         },
         "keynoter23": {
           "foto": "assets/img/keynoters/jairo_dasilva.jpg",
           "nombre": "Jairo Da Silva Pereira",
           "bio": "Ingeniero de Software en MercadoLibre. Líder del meetup Golang-Chile.",
           "contacto": "<a href='https://twitter.com/tangzero' target='_blank'>@tangzero</a>",
-          "switch": "on"
+          "switch": "on",
+          "long_bio": "",
+          "nombre_charla": "",
+          "description": "",
+          "tema": "People, Teams & Culture"
         },
         "keynoter24": {
           "foto": "assets/img/keynoters/andres_marinkovic.jpg",
           "nombre": "Andrés Marinkovic",
           "bio": "CTO en Fintual",
           "contacto": "<a href='https://twitter.com/asmarinkovic' target='_blank'>@asmarinkovic</a>",
-          "switch": "on"
+          "switch": "on",
+          "long_bio": "",
+          "nombre_charla": "",
+          "description": "",
+          "tema": "People, Teams & Culture"
         },
         "keynoter25": {
           "foto": "assets/img/keynoters/claudio_salazar.jpg",
           "nombre": "Claudio Salazar",
           "bio": "CEO de Alertot, Fundador de SPECT Research.",
           "contacto": "<a href='https://twitter.com/alertot' target='_blank'>@alertot</a>",
-          "switch": "on"
+          "switch": "on",
+          "long_bio": "",
+          "nombre_charla": "",
+          "description": "",
+          "tema": "People, Teams & Culture"
         },
         "keynoter26": {
           "foto": "assets/img/keynoters/ruben_torres.jpg",
           "nombre": "Rubén Torres",
           "bio": "Desarrollador en ClinicSense.com",
           "contacto": "<a href='https://twitter.com/clinicsense' target='_blank'>@clinicsense</a>",
-          "switch": "on"
+          "switch": "on",
+          "long_bio": "",
+          "nombre_charla": "",
+          "description": "",
+          "tema": "People, Teams & Culture"
         },
         "keynoter27": {
           "foto": "assets/img/keynoters/leonardo_graterol.jpg",
           "nombre": "Leonardo Graterol",
           "bio": "Ingeniero de software en MarketRealist.com.",
           "contacto": "<a href='https://www.linkedin.com/in/leonardo-graterol-24863223' target='_blank'>Linkedin</a>",
-          "switch": "on"
+          "switch": "on",
+          "long_bio": "",
+          "nombre_charla": "",
+          "description": "",
+          "tema": "People, Teams & Culture"
         },
         "keynoter28": {
           "foto": "assets/img/keynoters/alvaro_echeverria.jpg",
           "nombre": "Álvaro Echeverría",
           "bio": "CEO en SimpliRoute, Investigador del DII Universidad de Chile.",
           "contacto": "<a href='https://twitter.com/ares1986' target='_blank'>@ares1986</a>",
-          "switch": "on"
+          "switch": "on",
+          "long_bio": "",
+          "nombre_charla": "",
+          "description": "",
+          "tema": "People, Teams & Culture"
         },
         "keynoter29": {
           "foto": "assets/img/keynoters/rodrigo_culagovski.jpg",
           "nombre": "Rodrigo Culagovski",
           "bio": "CEO en AreaWeb. Profesor de las escuelas de diseño de la PUC y UAI", 
           "contacto": "<a href='https://www.linkedin.com/in/rodrigoculagovski' target='_blank'>Linkedin</a>",
-          "switch": "on"
+          "switch": "on",
+          "long_bio": "",
+          "nombre_charla": "",
+          "description": "",
+          "tema": "People, Teams & Culture"
         },
         "keynoter30": {
           "foto": "assets/img/keynoters/crystal_yan.jpg",
           "nombre": "Crystal Yan",
           "bio": "Product Manager & Product Design Lead at FiscalNote. ",
           "contacto": "<a href='https://twitter.com/crystalcy' target='_blank'>@crystalcy</a>",
-          "switch": "on"
+          "switch": "on",
+          "long_bio": "",
+          "nombre_charla": "",
+          "description": "",
+          "tema": "People, Teams & Culture"
         },
         "keynoter31": {
           "foto": "assets/img/keynoters/james_montemagno.jpg",
           "nombre": "James Montemagno",
           "bio": "Principal Program Manager de Mobile Developer Tools en Microsoft",
           "contacto": "<a href='https://twitter.com/jamesmontemagno' target='_blank'>@jamesmontemagno</a>",
-          "switch": "on"
+          "switch": "on",
+          "long_bio": "",
+          "nombre_charla": "",
+          "description": "",
+          "tema": "People, Teams & Culture"
         },
         "keynoter32": {
           "foto": "assets/img/keynoters/alex_seelenberger.jpg",
           "nombre": "Alex Seelenberger",
           "bio": "Managing Partner en Aurus Capital",
           "contacto": "<a href='https://www.linkedin.com/in/alexseelenberger/' target='_blank'>Linkedin</a>",
-          "switch": "on"
+          "switch": "on",
+          "long_bio": "",
+          "nombre_charla": "",
+          "description": "",
+          "tema": "People, Teams & Culture"
         },
         "keynoter33": {
           "foto": "assets/img/keynoters/claire_fisher.jpg",
           "nombre": "Claire Fisher",
           "bio": "Content Strategy & Product Marketer en Atlassian",
           "contacto": "<a href='https://www.linkedin.com/in/claireefisher/' target='_blank'>Linkedin</a>",
-          "switch": "on"
+          "switch": "on",
+          "long_bio": "",
+          "nombre_charla": "",
+          "description": "",
+          "tema": "People, Teams & Culture"
         },
         "keynoter34": {
           "foto": "assets/img/keynoters/felipe_hoffa.jpg",
           "nombre": "Felipe Hoffa",
           "bio": "Developer Advocate at Google",
           "contacto": "<a href='https://twitter.com/felipehoffa' target='_blank'>@felipehoffa</a>",
-          "switch": "on"
+          "switch": "on",
+          "long_bio": "",
+          "nombre_charla": "",
+          "description": "",
+          "tema": "People, Teams & Culture"
         },
         "keynoter35": {
           "foto": "assets/img/keynoters/ubaldo_taladriz.jpg",
           "nombre": "Ubaldo Taladriz",
           "bio": "CEO en EXE",
           "contacto": "<a href='https://twitter.com/utaladriz' target='_blank'>@utaladriz</a>",
-          "switch": "on"
+          "switch": "on",
+          "long_bio": "",
+          "nombre_charla": "",
+          "description": "",
+          "tema": "People, Teams & Culture"
         },
         "keynoter36": {
           "foto": "assets/img/keynoters/felipe_reyes.jpg",
           "nombre": "Felipe Reyes",
           "bio": "Software Engineer en Canonical",
           "contacto": "<a href='https://twitter.com/gnusis' target='_blank'>@gnusis</a>",
-          "switch": "on"
+          "switch": "on",
+          "long_bio": "",
+          "nombre_charla": "",
+          "description": "",
+          "tema": "People, Teams & Culture"
         },
         "keynoter37": {
           "foto": "assets/img/keynoters/ricardo_diaz.jpg",
           "nombre": "Ricardo Díaz",
           "bio": "Managing Director at Cifco Venture Fund.",
           "contacto": "<a href='https://www.linkedin.com/in/ricardo-diaz-gallardo-8b93525/' target='_blank'>Linkedin</a>",
-          "switch": "on"
+          "switch": "on",
+          "long_bio": "",
+          "nombre_charla": "",
+          "description": "",
+          "tema": "People, Teams & Culture"
         },
         "keynoter38": {
+          "foto": "assets/img/keynoters/noah_iliinsky.jpg",
+          "nombre": "Noah Iliinsky",
+          "bio": "Sr. UX Architect en Amazon Web Services.",
+          "contacto": "<a href='https://twitter.com/noahi' target='_blank'>@noahi</a>",
+          "switch": "on",
+          "long_bio": "Noah Iliinsky, experto en visualización de datos. Ha pasado la última década investigando, escribiendo y hablando sobre buenas prácticas para el diseño de visualizaciones e interfaces. Él es un charlista frecuente en la industria y en contextos académicos.<br><br>Noah trabajó en IBM y actualmente es Sr. UX Architect en Amazon Web Services. Es coautor de &#34;Designing Data Visualizations&#34;, así como editor y colaborador en &#34;Beautiful Visualization&#34;, publicado por O'Reilly Media.<br><br>Tiene una maestría en Technical Communication de la Universidad de Washington, y una licenciatura en Física de Reed College.",
+          "nombre_charla": "Guaranteed Successful Design",
+          "description": "There are a lot of ways to approach design. Some are well known and commonly used, others are obscure or often not well-implemented. This talk is a survey of 17 useful techniques that are not well known (Axiomatic Design, Wardley mapping), or are known but not sufficiently practiced (draw the map, deliver higher-value information).",
+          "tema": "UX & Design"
+        },
+        "keynoter39": {
+          "foto": "assets/img/keynoters/nicolas_kittsteiner.jpg",
+          "nombre": "Nicolás Kittsteiner",
+          "bio": "Desarrollador Telefónica I+D Chile",
+          "contacto": "<a href='https://www.linkedin.com/in/nkittsteiner' target='_blank'>Linkedin</a>",
+          "switch": "on",
+          "long_bio": "",
+          "nombre_charla": "",
+          "description": "",
+          "tema": "People, Teams & Culture"
+        },
+        "keynoter40": {
+          "foto": "assets/img/keynoters/oscar_peredo.jpg",
+          "nombre": "Oscar Peredo",
+          "bio": "Investigador Telefónica I+D Chile",
+          "contacto": "<a href='https://www.linkedin.com/in/operedo' target='_blank'>Linkedin</a>",
+          "switch": "on",
+          "long_bio": "",
+          "nombre_charla": "",
+          "description": "",
+          "tema": "People, Teams & Culture"
+        },
+        "keynoter41": {
           "foto": "assets/img/keynoters/nobody.jpg",
           "nombre": "Próximamente...",
           "bio": "",
           "contacto": "",
           "switch": "off"
         },
-        "keynoter39": {
+        "keynoter42": {
+          "foto": "assets/img/keynoters/nobody.jpg",
+          "nombre": "Próximamente...",
+          "bio": "",
+          "contacto": "",
+          "switch": "off"
+        },
+        "keynoter43": {
           "foto": "assets/img/keynoters/nobody.jpg",
           "nombre": "Próximamente...",
           "bio": "",
