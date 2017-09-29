@@ -9,7 +9,7 @@ block content
     .container.keynoters-full
 
       each keynoter, index in homepage.section_three.keynoters
-        .row.keynoter-block(id= index, class= keynoter.switch)
+        .row.keynoter-block(id="keynoter-#{index}", class= keynoter.switch)
           .col-md-4.section
             .image
               img(src= keynoter.foto)
@@ -26,11 +26,11 @@ block content
             a.back.hidden-xs(href="javascript:history.back()")
               i.material-icons keyboard_backspace
               span Volver
-            
-          
 
-      each keynoter, index in homepage.section_three.keynoters2
-        .row.keynoter-block(id= index, class= keynoter.switch)
+
+
+      each keynoter, index in homepage.section_three.speakers
+        .row.keynoter-block(id= "speaker-#{index}", class= keynoter.switch)
           .col-md-4.section
             .image
               img(src= keynoter.foto)
