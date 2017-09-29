@@ -17,10 +17,11 @@ block content
             != keynoter.contacto
 
           .col-md-8
-            a.tema(href="/#what" title= keynoter.tema)= keynoter.tema
-            .charla
-              h5!= keynoter.nombre_charla
-              p!= keynoter.description
+            each charla in keynoter.charlas
+              a.tema(href="/#what" title= charla.tema)= charla.tema
+              .charla
+                h5!= charla.nombre_charla
+                p!= charla.description
             .about
               p!= keynoter.long_bio
             a.back.hidden-xs(href="javascript:history.back()")
@@ -38,10 +39,11 @@ block content
             != keynoter.contacto
 
           .col-md-8
-            a.tema(href="/#what" title= keynoter.tema)= keynoter.tema
-            .charla
-              h5!= keynoter.nombre_charla
-              p!= keynoter.description
+            each charla in keynoter.charlas
+              a.tema(href="/#what" title= charla.tema)= charla.tema
+              .charla
+                h5!= charla.nombre_charla
+                p!= charla.description
             .about
               p!= keynoter.long_bio
             a.back.hidden-xs(href="javascript:history.back()")
