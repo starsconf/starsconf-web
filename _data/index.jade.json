@@ -718,7 +718,8 @@
           "nombre": "Próximamente...",
           "bio": "",
           "contacto": "",
-          "switch": "off"
+          "switch": "off",
+          "charlas": []
         }
       ],
       "boton": "Detalle de todos los keynoters y speakers",
