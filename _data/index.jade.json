@@ -157,21 +157,6 @@
           ]
         },
         {
-          "foto": "assets/img/keynoters/noah_iliinsky.jpg",
-          "nombre": "Noah Iliinsky",
-          "bio": "Sr. UX Architect en Amazon Web Services. Es co-autor de Designing Data Visualizations publicado por O’Reilly Media",
-          "contacto": "<a href='https://twitter.com/noahi' target='_blank'>@noahi</a>",
-          "switch": "on",
-          "long_bio": "Noah Iliinsky, experto en visualización de datos. Ha pasado la última década investigando, escribiendo y hablando sobre buenas prácticas para el diseño de visualizaciones e interfaces. Él es un charlista frecuente en la industria y en contextos académicos.<br><br>Noah trabajó en IBM y actualmente es Sr. UX Architect en Amazon Web Services. Es coautor de &#34;Designing Data Visualizations&#34;, así como editor y colaborador en &#34;Beautiful Visualization&#34;, publicado por O'Reilly Media.<br><br>Tiene una maestría en Technical Communication de la Universidad de Washington, y una licenciatura en Física de Reed College.",
-          "charlas": [
-           {
-            "nombre_charla": "Four Pillars of Visualization",
-            "description": "This talk discusses the broad design considerations necessary for effective visualizations. Attendees will learn what’s required for a visualization to be successful, gain insight for critically evaluating visualizations they encounter, and come away with new ways to think about the visualization design process.<br><br>To be most effective, a visualization must have, in this order:<br><ol><li>Purpose (Why are we creating this visualization? Who is it for?)</li><li>Content (What data matters? What relationships matter?)</li><li>Structure (How do we best reveal those data and relationships?)</li><li>Formatting (How does it look & feel? How will it be consumed?)</li></ol>This talk will define these four pillars, reveal why they must be considered in this order, discuss the importance and impact each has on your visualization, and provide approaches and insight for each of the four.",
-            "tema": "Data Analysis & Visualization"
-           }
-          ]
-        },
-        {
           "foto": "assets/img/keynoters/dominic_price.jpg",
           "nombre": "Dominic Price",
           "bio": "Head of R&D and Work Futurist at Atlassian",
@@ -350,6 +335,11 @@
             "nombre_charla": "VR : AR en Dispositivos Móviles",
             "description": "En esta charla se introducirá a los asistentes en el desarrollo de aplicaciones móviles para Realidad Virtual y Realidad Aumentada, explicando las diferencias y aspectos en común entre ambas tecnologías, los primeros pasos para crear una aplicación y los componentes claves y buenas prácticas que se deben tomar en cuenta.<br><br>Además se harán algunas demostraciones en vivo utilizando algunas APIs de gráficos en 2D/3D y de Visión por Computador y algunos SDKs como Google VR SDK y AR Tool Kit.",
             "tema": "Web & Mobile"
+           },
+           {
+            "nombre_charla": "IoT inteligente con AndroidThings y Machine Learning",
+            "description": "Android Things es una nueva plataforma para dispositivos embebidos basada en Android, que nos permite crear soluciones y productos sin tener grandes conocimientos de electrónica.<br><br>En esta charla los asistentes podrán aprender lo sencillo que es crear una aplicación IoT para Android integrando distintas APIs compatibles con esta plataforma, además se realizarán algunas demostraciones en vivo del potencial que tienen las soluciones IoT que utilizan Machine Learning.",
+            "tema": "Web & Mobile"
            }
           ]
         },
@@ -519,21 +509,6 @@
           ]
         },
         {
-          "foto": "assets/img/keynoters/crystal_yan.jpg",
-          "nombre": "Crystal Yan",
-          "bio": "Product Manager & Product Design Lead at FiscalNote. ",
-          "contacto": "<a href='https://twitter.com/crystalcy' target='_blank'>@crystalcy</a>",
-          "switch": "on",
-          "long_bio": "Crystal is freelance UX researcher and designer for clients in the nonprofit, healthcare, education, travel, and fitness industries, including MyHealthEd's Real Talk, a storytelling‐driven health education mobile app for teens, and Rise, an international grassroots movement to pass civil rights legislation for survivors of sexual assault in the US, Canada, and Japan. Crystal also leads Experience Research and Product Design at FiscalNote, a startup transforming how organizations manage their government risk.",
-          "charlas": [
-           {
-            "nombre_charla": "Bias, Uncovered: Irrational by Design",
-            "description": "One of the most powerful things we can do as people who great products is to shape the behavior of the people who use our products. To nudge people to make decisions that will make their jobs easier, live healthier, connect with their friends more often. But in order to this well, we must not only help people understand their own biases, but also understand our own. This interactive, multimedia talk will challenge you to uncover the cognitive biases we might not realize we encounter every day, and to unpack what understanding them might mean for the behaviors we design for every day.",
-            "tema": "UX & Design"
-           }
-          ]
-        },
-        {
           "foto": "assets/img/keynoters/james_montemagno.jpg",
           "nombre": "James Montemagno",
           "bio": "Principal Program Manager de Mobile Developer Tools en Microsoft",
@@ -650,6 +625,11 @@
             "nombre_charla": "Guaranteed Successful Design",
             "description": "There are a lot of ways to approach design. Some are well known and commonly used, others are obscure or often not well-implemented. This talk is a survey of 17 useful techniques that are not well known (Axiomatic Design, Wardley mapping), or are known but not sufficiently practiced (draw the map, deliver higher-value information).",
             "tema": "UX & Design"
+           },
+           {
+            "nombre_charla": "Four Pillars of Visualization",
+            "description": "This talk discusses the broad design considerations necessary for effective visualizations. Attendees will learn what’s required for a visualization to be successful, gain insight for critically evaluating visualizations they encounter, and come away with new ways to think about the visualization design process.<br><br>To be most effective, a visualization must have, in this order:<br><ol><li>Purpose (Why are we creating this visualization? Who is it for?)</li><li>Content (What data matters? What relationships matter?)</li><li>Structure (How do we best reveal those data and relationships?)</li><li>Formatting (How does it look & feel? How will it be consumed?)</li></ol>This talk will define these four pillars, reveal why they must be considered in this order, discuss the importance and impact each has on your visualization, and provide approaches and insight for each of the four.",
+            "tema": "Data Analysis & Visualization"
            }
           ]
         },
@@ -683,21 +663,7 @@
            }
           ]
         },
-        {
-          "foto": "assets/img/keynoters/chihau_chau.png",
-          "nombre": "Chihau Chau",
-          "bio": "Ingeniero de Software, Profesor y Consultor Fundador de QBO",
-          "contacto": "<a href='https://twitter.com/chihau' target='_blank'>@chihau</a>",
-          "switch": "on",
-          "long_bio": "Ingeniero de Software, Profesor y Consultor. En la actualidad se desempeña como Ingeniero de Software especializado en tecnologías móviles y vestibles. Fundador de QBO. Constantemente está apoyando el ecosistema, dictando charlas, talleres y capacitaciones sobre Android, iOS, Desarrollo de Software Móvil, Linux, Realidad Virtual y Aumentada y IoT.",
-          "charlas": [
-           {
-            "nombre_charla": "IoT inteligente con AndroidThings y Machine Learning",
-            "description": "Android Things es una nueva plataforma para dispositivos embebidos basada en Android, que nos permite crear soluciones y productos sin tener grandes conocimientos de electrónica.<br><br>En esta charla los asistentes podrán aprender lo sencillo que es crear una aplicación IoT para Android integrando distintas APIs compatibles con esta plataforma, además se realizarán algunas demostraciones en vivo del potencial que tienen las soluciones IoT que utilizan Machine Learning.",
-            "tema": "Web & Mobile"
-           }
-          ]
-        },
+
         {
           "foto": "assets/img/keynoters/crystal_yan.jpg",
           "nombre": "Crystal Yan",
@@ -710,6 +676,11 @@
             "nombre_charla": "Behind the AI Curtain:<br>Designing for User Trust in Artificial Intelligence and Machine Learning",
             "description": "When FiscalNote first launched, it made the news with its algorithms that forecast the likelihood of bill passage with over 94% accuracy ‐ but convincing its customers and users to trust the artificial intelligence powering the scores was another story.<br><br>So how might we design for additional trust when users interact with the results of artificial intelligence? In this presentation, Crystal Yan walks through the way  FiscalNote’s design and data science teams faced this challenge.",
             "tema": "Data Analysis & Visualization"
+           },
+           {
+            "nombre_charla": "Bias, Uncovered: Irrational by Design",
+            "description": "One of the most powerful things we can do as people who great products is to shape the behavior of the people who use our products. To nudge people to make decisions that will make their jobs easier, live healthier, connect with their friends more often. But in order to this well, we must not only help people understand their own biases, but also understand our own. This interactive, multimedia talk will challenge you to uncover the cognitive biases we might not realize we encounter every day, and to unpack what understanding them might mean for the behaviors we design for every day.",
+            "tema": "UX & Design"
            }
           ]
         },
