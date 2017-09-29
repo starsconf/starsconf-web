@@ -157,6 +157,26 @@
           ]
         },
         {
+          "foto": "assets/img/keynoters/noah_iliinsky.jpg",
+          "nombre": "Noah Iliinsky",
+          "bio": "Sr. UX Architect en Amazon Web Services.",
+          "contacto": "<a href='https://twitter.com/noahi' target='_blank'>@noahi</a>",
+          "switch": "on",
+          "long_bio": "Noah Iliinsky, experto en visualización de datos. Ha pasado la última década investigando, escribiendo y hablando sobre buenas prácticas para el diseño de visualizaciones e interfaces. Él es un charlista frecuente en la industria y en contextos académicos.<br><br>Noah trabajó en IBM y actualmente es Sr. UX Architect en Amazon Web Services. Es coautor de &#34;Designing Data Visualizations&#34;, así como editor y colaborador en &#34;Beautiful Visualization&#34;, publicado por O'Reilly Media.<br><br>Tiene una maestría en Technical Communication de la Universidad de Washington, y una licenciatura en Física de Reed College.",
+          "charlas": [
+           {
+            "nombre_charla": "Guaranteed Successful Design",
+            "description": "There are a lot of ways to approach design. Some are well known and commonly used, others are obscure or often not well-implemented. This talk is a survey of 17 useful techniques that are not well known (Axiomatic Design, Wardley mapping), or are known but not sufficiently practiced (draw the map, deliver higher-value information).",
+            "tema": "UX & Design"
+           },
+           {
+            "nombre_charla": "Four Pillars of Visualization",
+            "description": "This talk discusses the broad design considerations necessary for effective visualizations. Attendees will learn what’s required for a visualization to be successful, gain insight for critically evaluating visualizations they encounter, and come away with new ways to think about the visualization design process.<br><br>To be most effective, a visualization must have, in this order:<br><ol><li>Purpose (Why are we creating this visualization? Who is it for?)</li><li>Content (What data matters? What relationships matter?)</li><li>Structure (How do we best reveal those data and relationships?)</li><li>Formatting (How does it look & feel? How will it be consumed?)</li></ol>This talk will define these four pillars, reveal why they must be considered in this order, discuss the importance and impact each has on your visualization, and provide approaches and insight for each of the four.",
+            "tema": "Data Analysis & Visualization"
+           }
+          ]
+        },
+        {
           "foto": "assets/img/keynoters/dominic_price.jpg",
           "nombre": "Dominic Price",
           "bio": "Head of R&D and Work Futurist at Atlassian",
@@ -610,26 +630,6 @@
             "nombre_charla": "Desmitificando Chileconvalley",
             "description": "Los expositores proponen y deconstruyen 10 grandes mitos desde los cuales las startups operan al momento de levantar capital. Se presenta un mirada desde la conformación de portafolios, distinguiendo el rol de los activos alternativos.",
             "tema": "Startups & Innovation"
-           }
-          ]
-        },
-        {
-          "foto": "assets/img/keynoters/noah_iliinsky.jpg",
-          "nombre": "Noah Iliinsky",
-          "bio": "Sr. UX Architect en Amazon Web Services.",
-          "contacto": "<a href='https://twitter.com/noahi' target='_blank'>@noahi</a>",
-          "switch": "on",
-          "long_bio": "Noah Iliinsky, experto en visualización de datos. Ha pasado la última década investigando, escribiendo y hablando sobre buenas prácticas para el diseño de visualizaciones e interfaces. Él es un charlista frecuente en la industria y en contextos académicos.<br><br>Noah trabajó en IBM y actualmente es Sr. UX Architect en Amazon Web Services. Es coautor de &#34;Designing Data Visualizations&#34;, así como editor y colaborador en &#34;Beautiful Visualization&#34;, publicado por O'Reilly Media.<br><br>Tiene una maestría en Technical Communication de la Universidad de Washington, y una licenciatura en Física de Reed College.",
-          "charlas": [
-           {
-            "nombre_charla": "Guaranteed Successful Design",
-            "description": "There are a lot of ways to approach design. Some are well known and commonly used, others are obscure or often not well-implemented. This talk is a survey of 17 useful techniques that are not well known (Axiomatic Design, Wardley mapping), or are known but not sufficiently practiced (draw the map, deliver higher-value information).",
-            "tema": "UX & Design"
-           },
-           {
-            "nombre_charla": "Four Pillars of Visualization",
-            "description": "This talk discusses the broad design considerations necessary for effective visualizations. Attendees will learn what’s required for a visualization to be successful, gain insight for critically evaluating visualizations they encounter, and come away with new ways to think about the visualization design process.<br><br>To be most effective, a visualization must have, in this order:<br><ol><li>Purpose (Why are we creating this visualization? Who is it for?)</li><li>Content (What data matters? What relationships matter?)</li><li>Structure (How do we best reveal those data and relationships?)</li><li>Formatting (How does it look & feel? How will it be consumed?)</li></ol>This talk will define these four pillars, reveal why they must be considered in this order, discuss the importance and impact each has on your visualization, and provide approaches and insight for each of the four.",
-            "tema": "Data Analysis & Visualization"
            }
           ]
         },
