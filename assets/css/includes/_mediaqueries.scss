@@ -224,15 +224,23 @@ and (max-device-width : 480px){
       span{
         display: block;
       }
-      .tema{
-        position: relative;
-        right: 0;
-        top: 0;
-      }
-      .charla{
+      .keynote{
         text-align: left;
+        margin-bottom: 10%;
+        &:nth-child(2){
+          margin-top: 15%;
+        }
+        h5{
+          width: 100%;
+        }
         ol{
           padding-left: 20px;
+        }
+        .keynote_about{
+          position: relative;
+          right: 0;
+          top: 0;
+          zoom: 90%;
         }
       }
     }
