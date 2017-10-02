@@ -17,10 +17,11 @@ block content
             != keynoter.contacto
 
           .col-md-8
-            a.tema(href="/#what" title= keynoter.tema)= keynoter.tema
-            .charla
-              h5!= keynoter.nombre_charla
-              p!= keynoter.description
+            each keynote in keynoter.keynotes
+              .keynote
+                h5!= keynote.keynote_name
+                p!= keynote.keynote_description
+                a.keynote_about(href="/#what" title= keynote.keynote_about)= keynote.keynote_about
             .about
               p!= keynoter.long_bio
             a.back.hidden-xs(href="javascript:history.back()")
@@ -38,10 +39,11 @@ block content
             != keynoter.contacto
 
           .col-md-8
-            a.tema(href="/#what" title= keynoter.tema)= keynoter.tema
-            .charla
-              h5!= keynoter.nombre_charla
-              p!= keynoter.description
+            each keynote in keynoter.keynotes
+              .keynote
+                h5!= keynote.keynote_name
+                a.keynote_about(href="/#what" title= keynote.keynote_about)= keynote.keynote_about
+                p!= keynote.keynote_description
             .about
               p!= keynoter.long_bio
             a.back.hidden-xs(href="javascript:history.back()")

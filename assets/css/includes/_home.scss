@@ -285,7 +285,6 @@
   line-height: 140%;
   .keynoter-block{
     margin-bottom: 40px;
-    position: relative;
     min-height: calc(100vh - 170px);
     display: table;
     vertical-align: middle;
@@ -302,37 +301,53 @@
         display: block;
       }
     }
-    .tema {
-      position: absolute;
-      top: 3%;
-      right: 3%;
-      background: #fd0;
-      line-height: 140%;
-      color: black;
-      padding: 5px 10px;
-      text-align: center;
-      display: inline-block;
-      border-radius: 3px;
-      font-weight: 800;
-      text-decoration: none;
-    }
-    .charla{
-      background-color: rgba(255, 221, 0, 0.05);
-      border: 2px dotted #fd0;
-      padding: 14px 20px;
-      margin-top: 3%;
-      margin-bottom: 2%;
+    .keynote{
+      position: relative;
+      //background-color: rgba(255, 221, 0, 0.05);
+      //border: 2px dotted #fd0;
+      //padding: 14px 20px;
+      //margin-top: 3%;
+      margin-bottom: 5%;
       color: #111;
       h5{
+        position: relative;
         font-size: 2rem;
+        margin-bottom: 35px;
+        margin-top: 0;
+        width: 70%;
+        &:before{
+          content: '';
+          height: 3px;
+          width: 20%;
+          background-color: #ffdd00;
+          display: block;
+          bottom: -10px;
+          position: absolute;
+        }
       }
       p{
         font-size: 100%;
       }
+      .keynote_about {
+        position: absolute;
+        top: -6px;
+        right: -1%;
+        background: #fd0;
+        line-height: 140%;
+        color: black;
+        padding: 5px 10px;
+        text-align: center;
+        display: inline-block;
+        border-radius: 3px;
+        font-weight: 800;
+        text-decoration: none;
+      }
     }
     .about{
       font-size: 95%;
-      padding: 4px 10px;
+      padding: 0 6px;
+      border-top: 1px dotted #ccc;
+      margin-bottom: 30px;
     }
     &.off{
       display: none;
@@ -436,6 +451,11 @@
       img{
         width: 40% !important;
       }
+    }
+  }
+  .platinuum{
+    div:nth-child(8){
+      margin-left: 22%;
     }
   }
 }

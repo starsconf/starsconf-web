@@ -5,8 +5,7 @@
         h2.title.scrollspy#what= homepage.section_six.title
         p= homepage.section_six.subtitle
       
-    - var temas = homepage.section_six.temas
-      each tema in temas
+      each theme in homepage.section_six.themes
         .col-md-4.col-xs-12.tema
-          h3= tema.title
-          p!= tema.description
+          h3= theme.title
+          p!= theme.theme_description
