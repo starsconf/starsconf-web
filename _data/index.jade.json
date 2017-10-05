@@ -203,7 +203,7 @@
           "bio": "Desarrollador del Kernel de Linux",
           "contacto": "<a href='https://twitter.com/davidlohr' target='_blank'>@davidlohr</a>",
           "switch": "on",
-          "long_bio": "Ingeniero en Informática de la Pontificia Universidad Católica de Valparaíso y Master of Science (M.Sc.) en CS/High Performance Computing de la Universidad Autónoma de Barcelona. Actualmente es Performance Engineer en Suse. Es especialista en el kernel de Linux y se dedica a  realizar investigación y desarrollo (I + D) en optimización de rendimiento de sistemas operativos.",
+          "long_bio": "Davidlohr  Bueso  trabaja  como  desarrollador  del  kernel  de  Linux para  SUSE  Labs,  enfocándose  en  tópicos  de  rendimiento  y escalabilidad.  Es  autor  de  cientos  de  parches  en  el  core  del  OS, como  manejo  de  memoria,  concurrencia  y  real-time;  así  como mantenedor de GPT, que es el formato de disco para EFI. Antes de trabajar  en  SUSE,  Davidlohr  trabajó  en  Hewlett-Packard, resolviendo  problemas  similares  para  servidores  NUMA.  Además posee  el  grado  académico  de  MSc.  en  Computer  Science  de  la Universidad  Autónoma  de  Barcelona,  y  ha  expuesto  en  diversos coloquios y conferencias técnicas de la Linux Foundation y ACM.",
           "keynotes": [
            {
             "keynote_name": "¿Cómo empezar una carrera de kernel hacker?",
