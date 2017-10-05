@@ -725,7 +725,8 @@
           "logo3": "<a href='https://www.mercadopago.cl' target='_blank'><img src='assets/img/sponsors/mercadopago-logo.svg' alt='MercadoPago'></a>",
           "logo4": "<a href='https://www.mercadolibre.cl' target='_blank'><img src='assets/img/sponsors/mercadolibre-logo.svg' alt='MercadoLibre'></a>",
           "logo5": "<a href='https://www.everis.com/chile' target='_blank'><img src='assets/img/sponsors/everis-logo.svg' alt='Everis'></a>",
-          "logo6": "<a href='https://www.comparaonline.cl' target='_blank'><img src='assets/img/sponsors/comparaonline-logo.svg' alt='ComparaOnline'></a>"
+          "logo6": "<a href='https://www.comparaonline.cl' target='_blank'><img src='assets/img/sponsors/comparaonline-logo.svg' alt='ComparaOnline'></a>",
+          "logo7": "<a href='https://www.corfo.cl/' target='_blank'><img src='assets/img/sponsors/corfo-logo.svg' alt='Corfo'></a>"
         },
         "silver": {
           "logo1": "<a href='http://nic.cl' target='_blank'><img src='assets/img/sponsors/nic-logo.png' alt='Nic Chile'></a>",
