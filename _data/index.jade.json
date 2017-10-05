@@ -667,7 +667,6 @@
            }
           ]
         },
-
         {
           "foto": "assets/img/keynoters/crystal_yan.jpg",
           "nombre": "Crystal Yan",
@@ -687,6 +686,37 @@
             "keynote_about": "UX & Design"
            }
           ]
+        },
+        {
+          "foto": "assets/img/keynoters/daniel-atik.jpg",
+          "nombre": "Daniel Atik",
+          "bio": "Developer Relations en Mercado Libre.",
+          "contacto": "<a href='https://twitter.com/crystalcy' target='_blank'>@crystalcy</a>",
+          "switch": "on",
+          "long_bio": "Daniel es el Developer Relations de Mercado Libre. Busca, acompaña y evalúa startups para integrarlas con la mayor plataforma de e-commerce de Latino America.",
+          "keynotes": [
+           {
+            "keynote_name": "Una historia de amor",
+            "keynote_description": "Descubriendo la API de la plataforma abierta y herramientas open source de Mercado Libre y Mercado Pago a través de la historia de un emprendimiento. Y veremos un caso práctico sobre cómo hacer publicaciones masivas usando Google Apps Script.",
+            "keynote_about": "Developer Tools"
+           }
+          ]
+        },
+        {
+          "foto": "assets/img/keynoters/nobody.jpg",
+          "nombre": "Próximamente...",
+          "bio": "",
+          "contacto": "",
+          "switch": "off",
+          "keynotes": []
+        },
+        {
+          "foto": "assets/img/keynoters/nobody.jpg",
+          "nombre": "Próximamente...",
+          "bio": "",
+          "contacto": "",
+          "switch": "off",
+          "keynotes": []
         },
         {
           "foto": "assets/img/keynoters/nobody.jpg",
@@ -725,7 +755,8 @@
           "logo3": "<a href='https://www.mercadopago.cl' target='_blank'><img src='assets/img/sponsors/mercadopago-logo.svg' alt='MercadoPago'></a>",
           "logo4": "<a href='https://www.mercadolibre.cl' target='_blank'><img src='assets/img/sponsors/mercadolibre-logo.svg' alt='MercadoLibre'></a>",
           "logo5": "<a href='https://www.everis.com/chile' target='_blank'><img src='assets/img/sponsors/everis-logo.svg' alt='Everis'></a>",
-          "logo6": "<a href='https://www.comparaonline.cl' target='_blank'><img src='assets/img/sponsors/comparaonline-logo.svg' alt='ComparaOnline'></a>"
+          "logo6": "<a href='https://www.comparaonline.cl' target='_blank'><img src='assets/img/sponsors/comparaonline-logo.svg' alt='ComparaOnline'></a>",
+          "logo7": "<a href='https://www.corfo.cl/' target='_blank'><img src='assets/img/sponsors/corfo-logo.svg' alt='Corfo'></a>"
         },
         "silver": {
           "logo1": "<a href='http://nic.cl' target='_blank'><img src='assets/img/sponsors/nic-logo.png' alt='Nic Chile'></a>",
