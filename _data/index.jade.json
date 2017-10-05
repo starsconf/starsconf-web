@@ -542,7 +542,7 @@
           "keynotes": [
            {
             "keynote_name": "Go Mobile with C#, Visual Studio, and Xamarin",
-            "keynote_description": "In a mobile first, cloud first world it is essential to have a powerful framework that is high performant and available on every platform you want to target. That framework is .NET and has expanded to every device imaginable. When it comes to mobile, Xamarin helps C# developers become native iOS, Android, and Windows mobile app developers overnight. Now that the Xamarin platform is open source and included with Visual Studio at no additional cost, it has never been a better time to be a .NET developer -- You can start crafting beautiful native mobile applications that are truly universal today!",
+            "keynote_description": "The mobile landscape continues to expand and evolve at a rapid pace. Users expect great native experiences in the palm of their hands on each and every platform. A major hurdle for developers today is the separate programming language and tools to learn and maintain for each platform. Even if you tackle the burden of learning Objective-C, Swift, or Java, you'll still have to manage multiple code bases, which can be a nightmare for any development team large  or small. It doesn't have to be this way as you can create Android, iOS, Windows apps leveraging the .NET framework and everything you love about C#. In this session, you'll learn about the technology that Xamarin offers and how it works to enable developers to leverage a shared C# code base across all mobile platforms.",
             "keynote_about": "Web & Mobile"
            }
           ]
