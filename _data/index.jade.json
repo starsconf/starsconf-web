@@ -638,6 +638,36 @@
           ]
         },
         {
+          "foto": "assets/img/keynoters/edgardo_ochoa.jpg",
+          "nombre": "Edgardo Ochoa",
+          "bio": "Head of BciLabs",
+          "contacto": "<a href='https://www.linkedin.com/in/eochoa/' target='_blank'>Linkedin</a>",
+          "switch": "on",
+          "long_bio": "Profesional de Innovación especializado en industria financiera, ha estado ligado al desarrollo y transformación digital de uno de los principales bancos de Chile. Founder de Bci Labs primer laboratorio Fintech de Chile, responsable del programa de integración y aceleración de startups para Bci y de los programas de colaboración con el Ecosistema.",
+          "keynotes": [
+           {
+            "keynote_name": "El mejor de los proyectos es abrirnos a nuevos proyectos",
+            "keynote_description": "",
+            "keynote_about": "Startups & Innovation"
+           }
+          ]
+        },
+        {
+          "foto": "assets/img/keynoters/angel_valenzuela.jpg",
+          "nombre": "Angel Valenzuela",
+          "bio": "Líder de Proyectos de Innovación en BciLabs",
+          "contacto": "<a href='https://www.linkedin.com/in/angel-leonardo-valenzuela-farfan-71797634/' target='_blank'>Linkedin</a>",
+          "switch": "on",
+          "long_bio": "Líder de Proyectos de Innovación en BciLabs",
+          "keynotes": [
+           {
+            "keynote_name": "El mejor de los proyectos es abrirnos a nuevos proyectos",
+            "keynote_description": "",
+            "keynote_about": "Startups & Innovation"
+           }
+          ]
+        },
+        {
           "foto": "assets/img/keynoters/nicolas_kittsteiner.jpg",
           "nombre": "Nicolás Kittsteiner",
           "bio": "Desarrollador Telefónica I+D Chile",
