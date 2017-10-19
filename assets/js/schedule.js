@@ -218,16 +218,35 @@ function paintSchedules(schedules, track) {
 function filterSchedules(numberDate, numberHour) {
     var result = [];
     for (var i = 0; i < schedulesArray.length; i++) {
-        var schelude = schedulesArray[i];        
+        var schelude = schedulesArray[i];
         if (schelude.date == numberDate) {
             var nStart = parseInt(schelude.start.replace(':', ''));
             var nFinish = parseInt(schelude.finish.replace(':', ''));
             if (numberHour >= nStart && numberHour <= nFinish) {
                 result.push(schelude);
-                var scheludeNext = schedulesArray[i + 1]; 
+                var scheludeNext = schedulesArray[i + 1];
                 if (scheludeNext && scheludeNext.date == numberDate) {
                     result.push(scheludeNext);
                 }
+            }
+        }
+    }
+    if (result.length == 0) {
+        for (var i = 0; i < schedulesArray.length; i++) {
+            var schelude = schedulesArray[i];
+            if (schelude.date == numberDate) {
+                var nStart = parseInt(schelude.start.replace(':', ''));
+                var nFinish = parseInt(schelude.finish.replace(':', ''));
+                if (nStart >= numberHour) {
+                    result.push(schelude);
+                    var scheludeNext = schedulesArray[i + 1];
+                    if (scheludeNext && scheludeNext.date == numberDate) {
+                        result.push(scheludeNext);
+                    }
+                }
+            }
+            if (result.length == 2) {
+                break;
             }
         }
     }
