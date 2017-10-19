@@ -24,3 +24,21 @@
 - Jade ahora se llama [Pug project](https://github.com/azemoh/gulp-pug-sass-seed/).
 - Y aquí hay documentación https://pugjs.org/api/getting-started.html
 - El proyecto usa [gulp-data](https://github.com/colynb/gulp-data)
+
+### Probar la sección de horarios de conferencias
+
+Para inicializar la app en un track especifico de la conferencia:
+
+  track 1: http://localhost:3000/schedule.html?track=1
+  track 2: http://localhost:3000/schedule.html?track=2
+  track 3: http://localhost:3000/schedule.html?track=3
+
+Esto se ejecutará usando un reloj en tiempo real por lo tanto solo funcionará
+los días reales de la conferencia. Pero...
+
+Para simular un día especifico y hora especifica se puede pasar otros parametros (date y time) para
+ver como funciona la app:
+
+  Para probar que muestra el dia 04 de Noviembre del 2017 a las 13:30 se debe hacer lo siguiente:
+
+  EJ: http://localhost:3000/schedule.html?track=1&date=2017-11-04&time=13:30
