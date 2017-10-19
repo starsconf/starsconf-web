@@ -1,0 +1,33 @@
+extends _layouts/app
+
+block head_end
+block content
+  .containter-fluid.header
+    include _partials/header_fix
+
+  .containter-fluid.main-content.single-page
+    .container
+      .row
+        .col-md-12.section
+          p Track: 
+            span(id='text-track')
+      .row(id='schelude-0')
+        .col-md-12.section
+          p Comienzo: 
+            span(id='text-start-time-0')
+          p Termino: 
+            span(id='text-finish-time-0')
+          p Charla: 
+            span(id='text-title-0')  
+      .row(id='schelude-1')
+        .col-md-12.section
+          p Comienzo: 
+            span(id='text-start-time-1')
+          p Termino: 
+            span(id='text-finish-time-1')
+          p Charla: 
+            span(id='text-title-1')
+
+block body_end
+
+  script(type="text/javascript", src="assets/js/schedule.js")
