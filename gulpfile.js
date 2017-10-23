@@ -91,11 +91,12 @@ gulp.task('sass', () => {
 
 // Parse and compress JavaScript files – then reload the browser.
 gulp.task('scripts', () => {
-	del([paths.js.clean]);
 	gulp.src(paths.js.base)
-		.pipe(gulp.dest(paths.js.dist))
+		.pipe($.newer(paths.js.dist))
+		.pipe(gulp.dest(paths.js.dist));
 	gulp.src(paths.js.src)
 		.pipe($.plumber())
+		.pipe($.newer(paths.js.dist))
 		.pipe($.uglify())
 		.pipe($.rename({ suffix: '.min' }))
 		.pipe($.plumber.stop())
@@ -125,14 +126,20 @@ gulp.task('build', ['sass', 'jade', 'scripts', 'images']);
 gulp.task('default', ['browser-sync'], () => {
 	gulp.watch(paths.sass.base + '/**/*.scss', ['sass']);
 	gulp.watch([paths.jade.base, paths.jade.data], ['jade']);
-	gulp.watch(paths.js.base, ['scripts', 'bs-reload']);
 
-	var imgWatcher = gulp.watch(paths.images.src, ['images'])
+	let scripts = gulp.watch(paths.js.base, ['scripts']);
+	let images = gulp.watch(paths.images.src, ['images'])
 
-	// One-way sync – When images are deleted
-	imgWatcher.on('change', (ev) => {
-		if (ev.type === 'deleted') {
-			del(path.relative('./', ev.path).replace('assets/', '_site/assets/'));
-		}
-	})
+	// One-way sync when files are deleted
+	function syncWatcher(task) {
+		task.on('change', (ev) => {
+			if (ev.type === 'deleted') {
+				del(path.relative('./', ev.path).replace('assets/', '_site/assets/'));
+			}
+		})
+	}
+	
+	// Sync folders
+	syncWatcher(scripts);
+	syncWatcher(images);
 });
