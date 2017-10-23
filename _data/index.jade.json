@@ -6,45 +6,34 @@
   },
 
   "header": {
-    "menu_options": {
-      "option1": {
+    "menu_options": [{
         "texto": "De qué se trata",
         "url": "#what",
         "url2": "/#what"
       },
-      "option2": {
+      {
         "texto": "Keynoters/Speakers",
         "url": "#keynoters",
         "url2": "/#keynoters"
       },
-      "option3": {
+      {
+        "texto": "Charlas",
+        "url": "keynoters-speakers.html"
+      },
+      {
         "texto": "Lugar",
         "url": "#place",
         "url2": "/#place"
       },
-      "option4": {
-        "texto": "Programa",
-        "url": "#schedule",
-        "url2": "/#schedule"
-      },
-      "option5": {
-        "texto": "Auspiciadores y Organizadores",
+      {
+        "texto": "Auspiciadores",
         "url": "#sponsors",
         "url2": "/#sponsors"
       },
-      "option6": {
+      {
         "texto": "Blog",
         "url": "https://medium.com/starsconf"
-      },
-      "option7": {
-        "texto": "Código de conducta",
-        "url": "codigo-conducta.html"
-      },
-      "option8": {
-        "texto": "Charlas",
-        "url": "keynoters-speakers.html"
-      }
-    },
+      }],
     "logo": {
       "url": "/",
       "url2": "/"
@@ -215,21 +204,6 @@
             "keynote_name": "Bias, Uncovered: Irrational by Design",
             "keynote_description": "One of the most powerful things we can do as people who great products is to shape the behavior of the people who use our products. To nudge people to make decisions that will make their jobs easier, live healthier, connect with their friends more often. But in order to this well, we must not only help people understand their own biases, but also understand our own. This interactive, multimedia talk will challenge you to uncover the cognitive biases we might not realize we encounter every day, and to unpack what understanding them might mean for the behaviors we design for every day.",
             "keynote_about": "UX & Design"
-           }
-          ]
-        },
-        {
-          "foto": "assets/img/keynoters/claire_fisher.jpg",
-          "nombre": "Claire Drumond",
-          "bio": "Content Strategy & Product Marketer en Atlassian",
-          "contacto": "<a href='https://www.linkedin.com/in/claireefisher/' target='_blank'>Linkedin</a>",
-          "switch": "on",
-          "long_bio": "Claire Fisher Drumond is a product marketer and content strategist at Atlassian. She leads product content strategy for Jira Software and Bitbucket, along with Atlassian's agile thought leadership efforts. Using design thinking, storytelling, and data analysis, Claire focuses on building better journey's for customers and buyers, connecting the product experience to buyer intent.",
-          "keynotes": [
-           {
-            "keynote_name": "From Search to Engagement:<br>Breaking down barriers between product and marketing ",
-            "keynote_description": "93% of all online experiences start with a search engine, yet products are built from sign-up forward. Going back to the core principles of agile, we'll discuss how you can strengthen the connection between business people and engineering. You'll learn how you can help your team gain a full view of your customer and better connect the buyer journey to the product experience. By working on your team's health, focusing on customer and buyer intent, you can increase velocity while shipping more valuable products. This talk will cover:<ol><li>Tactics from the Atlassian team building strategy to will help you communicate better across your business and product teams</li><li>Re-imagining your team to gain valuable inputs from product analytics, marketing, and design</li><li>Using agile metrics as an indicator for team health and how you can improve it</li></ol>",
-            "keynote_about": "People, Teams & Culture"
            }
           ]
         },
@@ -644,6 +618,21 @@
           ]
         },
         {
+          "foto": "assets/img/keynoters/claire_fisher.jpg",
+          "nombre": "Claire Drumond",
+          "bio": "Content Strategy & Product Marketer en Atlassian",
+          "contacto": "<a href='https://www.linkedin.com/in/claireefisher/' target='_blank'>Linkedin</a>",
+          "switch": "on",
+          "long_bio": "Claire Fisher Drumond is a product marketer and content strategist at Atlassian. She leads product content strategy for Jira Software and Bitbucket, along with Atlassian's agile thought leadership efforts. Using design thinking, storytelling, and data analysis, Claire focuses on building better journey's for customers and buyers, connecting the product experience to buyer intent.",
+          "keynotes": [
+           {
+            "keynote_name": "From Search to Engagement:<br>Breaking down barriers between product and marketing ",
+            "keynote_description": "93% of all online experiences start with a search engine, yet products are built from sign-up forward. Going back to the core principles of agile, we'll discuss how you can strengthen the connection between business people and engineering. You'll learn how you can help your team gain a full view of your customer and better connect the buyer journey to the product experience. By working on your team's health, focusing on customer and buyer intent, you can increase velocity while shipping more valuable products. This talk will cover:<ol><li>Tactics from the Atlassian team building strategy to will help you communicate better across your business and product teams</li><li>Re-imagining your team to gain valuable inputs from product analytics, marketing, and design</li><li>Using agile metrics as an indicator for team health and how you can improve it</li></ol>",
+            "keynote_about": "People, Teams & Culture"
+           }
+          ]
+        },
+        {
           "foto": "assets/img/keynoters/ricardo_diaz.jpg",
           "nombre": "Ricardo Díaz",
           "bio": "Managing Director at Cifco Venture Fund.",
@@ -816,7 +805,7 @@
            "logo5": "<a href='https://www.atlassian.com' target='_blank'><img src='assets/img/sponsors/atlassian-logo.svg' alt='Atlassian'></a>",
            "logo6": "<a href='https://www.scotiabankchile.cl/' target='_blank'><img src='assets/img/sponsors/scotiabank-logo.svg' alt='Scotiabank'></a>",
            "logo7": "<a href='https://www.microsoft.com/' target='_blank'><img src='assets/img/sponsors/microsoft-logo.svg' alt='Microsoft'></a>",
-           "logo8": "<a href='https://www.nisum.com/' target='_blank'><img src='assets/img/sponsors/nisum-logo.svg' alt='Nisum'></a>"
+           "logo8": "<a href='http://www.nisum.com/' target='_blank'><img src='assets/img/sponsors/nisum-logo.svg' alt='Nisum'></a>"
         },
         "gold": {
           "logo1": "<a href='http://miti.cl' target='_blank'><img src='assets/img/sponsors/miti-logo.svg' alt='MITI'></a>",
@@ -835,7 +824,8 @@
         },
         "mediapartners": {
           "logo1": "<a href='https://www.getonbrd.com' target='_blank'><img src='assets/img/sponsors/gob-logo.svg' alt='Getonboard'></a>",
-          "loog2": "<a href='http://ixdasantiago.cl' target='_blank'><img src='assets/img/sponsors/ixda-scl-logo.svg' alt='IXDA Santiago'></a>"
+          "loog2": "<a href='http://ixdasantiago.cl' target='_blank'><img src='assets/img/sponsors/ixda-scl-logo.svg' alt='IXDA Santiago'></a>",
+          "loog3": "<a href='https://chiletec.org/' target='_blank'><img src='assets/img/sponsors/chiletec-logo.svg' alt='Chiletec'></a>"
         },
         "organizadores": {
           "organizador1": "<a href='https://synaptic.cl/' target='_blank'><img src='assets/img/sponsors/synaptic-logo.svg' alt='Synaptic'></a>",
@@ -925,9 +915,16 @@
       "vimeo": "https://vimeo.com/channels/startechconf2015",
       "instagram": "https://instagram.com/starsconfcom"
     },
+
     "contact": {
       "text": "Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto con nosotros <a href='mailto:team@starsconf.com'>team@starsconf.com</a>"
     },
+
+    "link_codigo": {
+      "texto": "Código de conducta",
+      "url": "codigo-conducta.html"
+    },
+
     "copyright": "Copyright © 2011-2017 StarsConf, Chile"
   }
 }
