@@ -21,6 +21,10 @@
         "url": "keynoters-speakers.html"
       },
       {
+        "texto": "Talleres",
+        "url": "talleres.html"
+      },
+      {
         "texto": "Lugar",
         "url": "#place",
         "url2": "/#place"
@@ -29,6 +33,10 @@
         "texto": "Auspiciadores",
         "url": "#sponsors",
         "url2": "/#sponsors"
+      },
+      {
+        "texto": "Programa",
+        "url": "schedule.html"
       },
       {
         "texto": "Blog",
