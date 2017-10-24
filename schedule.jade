@@ -7,6 +7,339 @@ block content
 
   .containter-fluid.main-content.single-page
     .container
-      h1 Programa de la conferencia
+
+      .schedule
+        .row.title
+          .col-md-12.section
+            h2 Programa
+        ul.nav.nav-tabs(role='tablist')
+          li.active(role='presentation')
+            a(href='#viernes', aria-controls='home', role='tab', data-toggle='tab') Viernes 3
+          li(role='presentation')
+            a(href='#sabado', aria-controls='profile', role='tab', data-toggle='tab') Sábado 4
+
+        .tab-content
+          //Viernes
+          #viernes.tab-pane.fade.in.active(role='tabpanel')
+            .table-responsive
+              table.table
+                colgroup
+                  col(width="15%")
+                
+                tr.tablerow.break_a
+                  td.clock
+                    | 08:00 - 09:15
+                  td(colspan='3')
+                    | Registro + Coffee
+
+                tr.tablerow.tableheader
+                  td.index-rooms
+                    | 
+                  td.index-rooms(colspan="3")
+                    | Keynotes / Sala Fresno
+
+                tr.tablerow.break_b
+                  td.clock
+                    | 09:15 - 09:25
+                  td(colspan='3')
+                    | Bienvenida
+
+                tr.tablerow
+                  td.clock
+                    | 09:25 - 10:25
+                  td.center-text(colspan='3')
+                    | Una Kravets
+                    br
+                    | "Technical Diagramming: From Doodles to Data Flows"
+
+                tr.tablerow
+                  td.clock
+                    | 09:25 - 10:25
+                  td.center-text(colspan='3')
+                    | Donovan Brown
+                    br
+                    | "Microsoft’s Agile Transformation Story"
+
+                tr.tablerow.break_a
+                  td.clock
+                    | 08:00 - 09:15
+                  td(colspan='3')
+                    | Coffee break
+
+                tr.tablerow.tableheader
+                  td.index-rooms
+                    | 
+                  td.index-rooms
+                    | Web & Mobile / Sala Magna 
+                  td.index-rooms
+                    | Mix / Sala Fresno
+                  td.index-rooms
+                    | Developer Tools / Sala Matte
+
+                tr.tablerow
+                  td.clock
+                    | 08:00 - 09:30
+                  td
+                    | Registro + Coffee
+                  td
+                    | 08:00 - 09:30
+                  td
+                    | Registro + Coffee
+
+                tr.tablerow
+                  td.clock
+                    | 08:00 - 09:30
+                  td
+                    | Registro + Coffee
+                  td
+                    | 08:00 - 09:30
+                  td
+                    | Registro + Coffee
+
+                tr.tablerow
+                  td.clock
+                    | 08:00 - 09:30
+                  td
+                    | Registro + Coffee
+                  td
+                    | 08:00 - 09:30
+                  td
+                    | Registro + Coffee
+
+                tr.tablerow.break_a
+                  td.clock
+                    | 13:30 - 15:00
+                  td(colspan='3')
+                    | Almuerzo
+
+                tr.tablerow.tableheader
+                  td.index-rooms
+                    | 
+                  td.index-rooms
+                    | Web & Mobile / Sala Magna 
+                  td.index-rooms
+                    | Mix / Sala Fresno
+                  td.index-rooms
+                    | Developer Tools / Sala Matte
+
+                tr.tablerow
+                  td.clock
+                    | 08:00 - 09:30
+                  td
+                    | Registro + Coffee
+                  td
+                    | 08:00 - 09:30
+                  td
+                    | Registro + Coffee
+
+                tr.tablerow
+                  td.clock
+                    | 08:00 - 09:30
+                  td
+                    | Registro + Coffee
+                  td
+                    | 08:00 - 09:30
+                  td
+                    | Registro + Coffee
+
+                tr.tablerow
+                  td.clock
+                    | 08:00 - 09:30
+                  td
+                    | Registro + Coffee
+                  td
+                    | 08:00 - 09:30
+                  td
+                    | Registro + Coffee
+
+                tr.tablerow.break_a
+                  td.clock
+                    | 13:30 - 15:00
+                  td(colspan='3')
+                    | Coffee break
+
+                tr.tablerow.tableheader
+                  td.index-rooms
+                    | 
+                  td.index-rooms(colspan="3")
+                    | Keynoytes / Sala Fresno
+                
+                tr.tablerow.break_c
+                  td.clock
+                    | 09:15 - 09:25
+                  td(colspan='3')
+                    | Lightning Talks
+
+                tr.tablerow
+                  td.clock
+                    | 09:15 - 09:25
+                  td(colspan='3')
+                    | Rebeca Parsons
+
+                tr.tablerow
+                  td.clock
+                    | 09:15 - 09:25
+                  td(colspan='3')
+                    | Russ Unger
+
+                tr.tablerow.break_b
+                  td.clock
+                    | 09:15 - 09:25
+                  td(colspan='3')
+                    | Getonboard Drink Up
+
+          //Sábado
+          #sabado.tab-pane.fade(role='tabpanel')
+            .table-responsive
+              table.table
+                colgroup
+                  col(width="15%")
+                
+                tr.tablerow.break_a
+                  td.clock
+                    | 08:00 - 09:15
+                  td(colspan='3')
+                    | Acreditación + Coffee
+
+                tr.tablerow.tableheader
+                  td.index-rooms
+                    | 
+                  td.index-rooms(colspan="3")
+                    | Sala Fresno
+
+                tr.tablerow
+                  td.clock
+                    | 09:25 - 10:25
+                  td.center-text(colspan='3')
+                    | Noah Illinsky
+                    br
+                    | Technical Diagramming: From Doodles to Data Flows
+
+                tr.tablerow
+                  td.clock
+                    | 09:25 - 10:25
+                  td.center-text(colspan='3')
+                    | Daniel May
+                    br
+                    | Microsoft’s Agile Transformation Story
+
+                tr.tablerow.break_a
+                  td.clock
+                    | 08:00 - 09:15
+                  td(colspan='3')
+                    | Coffee break
+
+                tr.tablerow.tableheader
+                  td.index-rooms
+                    | 
+                  td.index-rooms
+                    | Sala Magna
+                  td.index-rooms
+                    | Sala Fresno
+                  td.index-rooms
+                    | Sala Matte
+
+                tr.tablerow
+                  td.clock
+                    | 08:00 - 09:30
+                  td
+                    | Registro + Coffee
+                  td
+                    | 08:00 - 09:30
+                  td
+                    | Registro + Coffee
+
+                tr.tablerow
+                  td.clock
+                    | 08:00 - 09:30
+                  td
+                    | Registro + Coffee
+                  td
+                    | 08:00 - 09:30
+                  td
+                    | Registro + Coffee
+
+                tr.tablerow
+                  td.clock
+                    | 08:00 - 09:30
+                  td
+                    | Registro + Coffee
+                  td
+                    | 08:00 - 09:30
+                  td
+                    | Registro + Coffee
+
+                tr.tablerow.break_a
+                  td.clock
+                    | 13:30 - 15:00
+                  td(colspan='3')
+                    | Almuerzo
+
+                tr.tablerow
+                  td.clock
+                    | 08:00 - 09:30
+                  td
+                    | Registro + Coffee
+                  td
+                    | 08:00 - 09:30
+                  td
+                    | Registro + Coffee
+
+                tr.tablerow
+                  td.clock
+                    | 08:00 - 09:30
+                  td
+                    | Registro + Coffee
+                  td
+                    | 08:00 - 09:30
+                  td
+                    | Registro + Coffee
+
+                tr.tablerow
+                  td.clock
+                    | 08:00 - 09:30
+                  td
+                    | Registro + Coffee
+                  td
+                    | 08:00 - 09:30
+                  td
+                    | Registro + Coffee
+
+                tr.tablerow.break_a
+                  td.clock
+                    | 13:30 - 15:00
+                  td(colspan='3')
+                    | Coffee break
+
+                tr.tablerow.tableheader
+                  td.index-rooms
+                    | 
+                  td.index-rooms(colspan="3")
+                    | Sala Fresno
+                
+                tr.tablerow.break_c
+                  td.clock
+                    | 09:15 - 09:25
+                  td(colspan='3')
+                    | Lightning Talks
+
+                tr.tablerow
+                  td.clock
+                    | 09:15 - 09:25
+                  td(colspan='3')
+                    | Rebeca Parsons
+
+                tr.tablerow
+                  td.clock
+                    | 09:15 - 09:25
+                  td(colspan='3')
+                    | Russ Unger
+
+                tr.tablerow.break_b
+                  td.clock
+                    | 09:15 - 09:25
+                  td(colspan='3')
+                    | Getonboard Drink Up
+  
 
 block body_end
