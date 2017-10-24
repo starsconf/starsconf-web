@@ -1,0 +1,34 @@
+extends _layouts/app
+
+block head_end
+block content
+  .containter-fluid.header
+    include _partials/header_fix
+
+  .containter-fluid.main-content.single-page
+    .container.keynoters-full
+
+      each keynoter, index in homepage.section_three.keynoters
+        .row.keynoter-block(id="keynoter-#{index}", class= keynoter.switch)
+          .col-md-4.section
+            .image
+              img(src= keynoter.foto)
+            h3= keynoter.nombre
+            != keynoter.contacto
+
+          .col-md-8
+            each keynote in keynoter.keynotes
+              .keynote
+                h5!= keynote.keynote_name
+                p!= keynote.keynote_description
+                a.keynote_about(href="/#what" title= keynote.keynote_about)= keynote.keynote_about
+            .about
+              p!= keynoter.long_bio
+            a.back.hidden-xs(href="javascript:history.back()")
+              i.material-icons keyboard_backspace
+              span Volver
+
+
+  include _partials/footer
+
+block body_end
