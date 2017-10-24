@@ -7,49 +7,460 @@ block content
 
   .containter-fluid.main-content.single-page
     .container
-      div(id='first-schelude', style="border: 1px solid;")
-        .row
+
+      .schedule
+        .row.title
           .col-md-12.section
-            p Track:
-              span(id='first-text-track')
-        .row(id='first-schelude-0')
-          .col-md-12.section
-            p Comienzo:
-              span(id='first-text-start-time-0')
-            p Termino:
-              span(id='first-text-finish-time-0')
-            p Charla:
-              span(id='first-text-title-0')
-        .row(id='first-schelude-1')
-          .col-md-12.section
-            p Comienzo:
-              span(id='first-text-start-time-1')
-            p Termino:
-              span(id='first-text-finish-time-1')
-            p Charla:
-              span(id='first-text-title-1')
-      .row
-        .col-md-6.section(id='second-schelude', style="border: 1px solid;")
-          p Track:
-            span(id='second-text-track')
-          .col-md-12.section
-            p Comienzo:
-              span(id='second-text-start-time-0')
-            p Termino:
-              span(id='second-text-finish-time-0')
-            p Charla:
-              span(id='second-text-title-0')
-        .col-md-6.section(id='third-schelude', style="border: 1px solid;")
-          p Track:
-            span(id='third-text-track')
-          .col-md-12.section
-            p Comienzo:
-              span(id='third-text-start-time-0')
-            p Termino:
-              span(id='third-text-finish-time-0')
-            p Charla:
-              span(id='third-text-title-0')
+            h2 Programa
+        ul.nav.nav-tabs(role='tablist')
+          li.active(role='presentation')
+            a(href='#viernes', aria-controls='home', role='tab', data-toggle='tab') Viernes 3
+          li(role='presentation')
+            a(href='#sabado', aria-controls='profile', role='tab', data-toggle='tab') Sábado 4
+
+        .tab-content
+          //Viernes
+          #viernes.tab-pane.fade.in.active(role='tabpanel')
+            .table-responsive
+              table.table
+                colgroup
+                  col(width="16%")
+                  col(width="28%")
+                  col(width="28%")
+                  col(width="28%")
+                tr.tablerow.break_a
+                  td.clock
+                    | 08:00 - 09:15
+                  td(colspan='3')
+                    | Registro + Coffee
+
+                tr.tablerow.tableheader
+                  td.index-rooms
+                    | 
+                  td.index-rooms(colspan="3")
+                    | Keynotes / Sala Fresno
+
+                tr.tablerow.break_b
+                  td.clock
+                    | 09:15 - 09:25
+                  td(colspan='3')
+                    | Bienvenida
+
+                tr.tablerow
+                  td.clock
+                    | 09:25 - 10:25
+                  td.center-text(colspan='3')
+                    | Una Kravets
+                    br
+                    | "Technical Diagramming: From Doodles to Data Flows"
+
+                tr.tablerow
+                  td.clock
+                    | 10:25 - 11:25
+                  td.center-text(colspan='3')
+                    | Donovan Brown
+                    br
+                    | "Microsoft’s Agile Transformation Story"
+
+                tr.tablerow.break_a
+                  td.clock
+                    | 11:25 - 11:45
+                  td(colspan='3')
+                    | Coffee break
+
+                tr.tablerow.tableheader
+                  td.index-rooms
+                    | 
+                  td.index-rooms
+                    | Web & Mobile / Sala Magna 
+                  td.index-rooms
+                    | Mix / Sala Fresno
+                  td.index-rooms
+                    | Developer Tools / Sala Matte
+
+                tr.tablerow
+                  td.clock
+                    | 11:45 - 12:15
+                  td
+                    | José Urzúa
+                    br
+                    | "CodificaciÃ3n de Caracteres"
+                  td
+                    | Alvaro Echeverria
+                    br
+                    | "De Chile a Silicon Valley: Mitos, realidades y desafíos"
+                  td
+                    | Ubaldo Taladriz
+                    br
+                    | "Microservicios con Akka y Scala"
+
+                tr.tablerow
+                  td.clock
+                    | 12:25 - 12:55
+                  td
+                    | James Montemagno
+                    br
+                    | "Go Mobile with C#, Visual Studio, and Xamarin"
+                  td
+                    | Edgardo Ochoa y Angel Valenzuela
+                    br
+                    | "El mejor de los proyectos es abrirnos a nuevos proyectos"
+                  td
+                    | Claudio Salazar:
+                    br
+                    | "Detectem: enumerando software para vulnerar sistemas web"
+
+                tr.tablerow
+                  td.clock
+                    | 13:00 - 13:30
+                  td
+                    | Chihau Chau
+                    br
+                    | "VR/AR en Dispositivos Móviles"
+                  td
+                    | Crystal Yan
+                    br
+                    | "Behind the AI Curtain: Designing for User Trust in Artificial Intelligence and Machine Learning"
+                  td
+                    | Jairo Da Silva
+                    br
+                    | "Go: Pasado, Presente y Futuro"
+
+                tr.tablerow.break_a
+                  td.clock
+                    | 13:30 - 15:00
+                  td(colspan='3')
+                    | Almuerzo
+
+                tr.tablerow.tableheader
+                  td.index-rooms
+                    | 
+                  td.index-rooms
+                    | UX & Design / Sala Magna 
+                  td.index-rooms
+                    | Mix / Sala Fresno
+                  td.index-rooms
+                    | Cloud & DevOps / Sala Matte
+
+                tr.tablerow
+                  td.clock
+                    | 15:00 - 15:30
+                  td
+                    | Noah Illinsky: 
+                    br
+                    | "Guaranteed Successful Design"
+                  td
+                    | Agustin Villena: 
+                    br
+                    | "¿Sabemos por qué estamos Desarrollando Software?"
+                  td
+                    | Fausto Castañeda: 
+                    br
+                    | "TDDD: Test Driven Development for Docker"
+
+                tr.tablerow
+                  td.clock
+                    | 15:40 - 16:10
+                  td
+                    | Ricardo Alfaro
+                    br
+                    | "Design Sprints en el mundo Enterprise"
+                  td
+                    | Ignacio Peña y Axel Abulafia
+                    br
+                    | "Haciendo visible lo invisible"
+                  td
+                    | Felipe Reyes: 
+                    br
+                    | "Instalacion y manejo de kubernetes con Juju"
+
+                tr.tablerow
+                  td.clock
+                    | 16:20 - 16:50
+                  td
+                    | Felipe Funes y Alberto Marcías
+                    br
+                    | "La importancia del Why en el diseño de productos"
+                  td
+                    | Eduardo Diaz:
+                    br
+                    | "Esos raros lenguajes nuevo "
+                  td
+                    | Martín Domingu
+                    br
+                    | "El caso Preguntados: Manteniendo 25 millones de usuarios diarios"
+
+                tr.tablerow.break_a
+                  td.clock
+                    | 16:50 - 17:15
+                  td(colspan='3')
+                    | Coffee break
+                
+                tr.tablerow.break_c
+                  td.clock
+                    | 17:15 - 17:45
+                  td(colspan='3')
+                    | Lightning Talks
+
+                tr.tablerow.tableheader
+                  td.index-rooms
+                    | 
+                  td.index-rooms(colspan="3")
+                    | Keynoytes / Sala Fresno
+
+                tr.tablerow
+                  td.clock
+                    | 17:45 - 18:45
+                  td(colspan='3')
+                    | Rebecca Parsons
+                    br
+                    | "Business Agility: Continuous Design to Continuous Delivery"  
+
+                tr.tablerow
+                  td.clock
+                    | 18:45 - 19:45
+                  td(colspan='3')
+                    | Russ Unger
+                    br
+                    | "Onboarding: The Ecosystem, Not the Afterthought" 
+
+                tr.tablerow.break_b
+                  td.clock
+                    | 19:45 - 21:30
+                  td(colspan='3')
+                    | Getonboard Drink Up
+
+          //Sábado
+          #sabado.tab-pane.fade(role='tabpanel')
+            .table-responsive
+              table.table
+                colgroup
+                  col(width="16%")
+                  col(width="28%")
+                  col(width="28%")
+                  col(width="28%")
+                
+                tr.tablerow.break_a
+                  td.clock
+                    | 08:00 - 09:00
+                  td(colspan='3')
+                    | Acreditación + Coffee
+
+                tr.tablerow.tableheader
+                  td.index-rooms
+                    | 
+                  td.index-rooms(colspan="3")
+                    | Sala Fresno
+
+                tr.tablerow
+                  td.clock
+                    | 09:00 - 10:00
+                  td.center-text(colspan='3')
+                    | Noah Iliinsky
+                    br
+                    | "The Four Pillars of Visualization"
+
+                tr.tablerow
+                  td.clock
+                    | 10:00 - 11:00
+                  td.center-text(colspan='3')
+                    | Daniel May
+                    br
+                    | Winning the most important race
+
+                tr.tablerow.break_a
+                  td.clock
+                    | 11:00 - 11:30
+                  td(colspan='3')
+                    | Coffee break
+
+                tr.tablerow.tableheader
+                  td.index-rooms
+                    | 
+                  td.index-rooms
+                    | Startups & Innovation / Sala Magna 
+                  td.index-rooms
+                    | Mix / Sala Fresno
+                  td.index-rooms
+                    | Data Analysis & Visualization / Sala Matte
+
+                tr.tablerow
+                  td.clock
+                    | 11:30 - 12:00
+                  td
+                    | Andres Marinkovic
+                    br
+                    | "¿Qué son los robot-advisors?"
+
+                  td
+                    | Crystal Yan
+                    br
+                    | "Bias, Uncovered: Irrational by Design"
+
+                  td
+                    | Eduardo Graells-Garrido
+                    br
+                    | "Cómo ser Data Scientist y no morir en el intento"
+
+                tr.tablerow
+                  td.clock
+                    | 12:10 - 12:40
+                  td
+                    | Javier Minhondo
+                    br
+                    | "Desmitificando la IA"
+
+                  td
+                    | Daniel Atik
+                    br
+                    | "Una historia de amor"
+
+                  td
+                    | Felipe Hoffa
+                    br
+                    | "What can we learn from 750 billion GitHub events and 42 TB of code"
+
+                tr.tablerow
+                  td.clock
+                    | 12:50 - 13:20
+                  td
+                    | Ricardo Díaz y Alex Seelenberger
+                    br
+                    | "Desmitificando Chileconvalley: Una mirada desde el Venture Capital"
+
+                  td
+                    | Gustavo Soto Miño
+                    br
+                    | "MIWOM. Cómo la UX salvó un producto"
+
+                  td
+                    | Rodrigo Culagovski
+                    br
+                    | "Obtención, análisis y visualización de datos espaciales usando Python + Jupyter + Pandas."
+
+                tr.tablerow
+                  td.clock
+                    | 13:20 - 13:40
+                  td
+                    | Francisco Mardones
+                    br
+                    | "¿Por qué los desarrolladores importan?  Una mirada desde Corfo al desarrollo de la industria tecnológica nacional."
+                  td
+                    &nbsp
+                  td
+                    &nbsp
+
+                tr.tablerow.break_a
+                  td.clock
+                    | 13:40 - 15:00
+                  td(colspan='3')
+                    | Almuerzo
+
+                tr.tablerow.tableheader
+                  td.index-rooms
+                    | 
+                  td.index-rooms
+                    | Mix / Sala Magna 
+                  td.index-rooms
+                    | Mix / Sala Fresno
+                  td.index-rooms
+                    | People, Teams & Culture / Sala Matte
+
+                tr.tablerow
+                  td.clock
+                    | 15:00 - 15:30
+                  td
+                    | Fausto de la Torre
+                    br
+                    | "Plataformas: los nuevos agentes de la innovación"
+
+                  td
+                    | Chihau Chau
+                    br
+                    | "IoT inteligente con AndroidThings y Machine Learning"
+
+                  td
+                    | Francisco Diaz
+                    br
+                    | "Si odio hablar en público: ¿Por qué lo sigo haciendo?"
+
+                tr.tablerow
+                  td.clock
+                    | 15:40 - 16:10
+                  td
+                    | Davidlohr Bueso
+                    br
+                    | "Cómo empezar una carrera de kernel hacker"
+
+                  td
+                    | Claire Fisher
+                    br
+                    | "From Search to Engagement: Breaking down barriers between product and marketing"
+                  td
+                    | Leonardo Graterol
+                    br
+                    | "Evitemos hacer daño. Ética en la ingeniería de software"
+
+                tr.tablerow
+                  td.clock
+                    | 16:20 - 16:50
+                  td
+                    | Alejandro Salinas
+                    br
+                    | "Network Engineering 2.0"
+
+                  td
+                    | Óscar Peredo & Nicolás Kittsteiner
+                    br
+                    | "Analizando terabytes de datos de movilidad anonimizada"
+
+                  td
+                    | Ruben Torres
+                    br
+                    | "Cómo convertirse en nómada digital"
+
+                tr.tablerow.break_a
+                  td.clock
+                    | 16:50 - 17:15
+                  td(colspan='3')
+                    | Coffee break
+
+                tr.tablerow.tableheader
+                  td.index-rooms
+                    | 
+                  td.index-rooms(colspan="3")
+                    | Sala Fresno
+                
+                tr.tablerow.break_c
+                  td.clock
+                    | 17:15 - 18:00
+                  td(colspan='3')
+                    | Lightning Talks
+
+                tr.tablerow.break_c
+                  td.clock
+                    | 18:00 - 18:45
+                  td(colspan='3')
+                    | Lightning Talks
+
+                tr.tablerow
+                  td.clock
+                    | 18:45 - 19:45
+                  td(colspan='3')
+                    | Dom Price
+                    br
+                    | "The Future of Team Work: humans being human"
+                
+                tr.tablerow.break_a
+                  td.clock
+                    | 19:45 - 19:50
+                  td(colspan='3')
+                    | Cierre
+
+                tr.tablerow.break_b
+                  td.clock
+                    | 19:50 - 21:30
+                  td(colspan='3')
+                    | Starsconf Drink Up
 
 block body_end
-
-  script(type="text/javascript", src="assets/js/schedule.js")

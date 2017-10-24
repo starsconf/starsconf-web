@@ -12,13 +12,18 @@
         "url2": "/#what"
       },
       {
+        "texto": "Programa",
+        "url": "schedule.html"
+      },
+      {
         "texto": "Keynoters/Speakers",
         "url": "#keynoters",
         "url2": "/#keynoters"
       },
       {
         "texto": "Charlas",
-        "url": "keynoters-speakers.html"
+        "url": "keynoters-speakers.html",
+        "url2": "keynoters-speakers.html"
       },
       {
         "texto": "Lugar",

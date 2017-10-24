@@ -1,0 +1,89 @@
+/*SCHEDULE*
+------------------------*/
+
+.schedule {
+  font-size: 14px;
+  .title h2{
+    text-align: center !important;
+  }
+  .nav-tabs{
+    border-bottom: #fd0 1px solid;
+    >li{
+      margin-bottom: -2px;
+      >a{
+        border-radius: 0;
+        padding: 18px 20px;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #666;
+      }
+      &.active a{
+        color: #000;
+        border: 1px solid #fd0;
+        border-bottom-color: transparent;
+      }
+    }
+  }
+  .tab-content{
+    line-height: 120%;
+    color: #333;
+    .table-responsive{
+      margin-top: 5px;
+    }
+    .tablerow{
+      border-bottom: 1px solid #ccc;
+      margin: 0;
+      &.break_a{
+        td{
+          padding: 5px;
+          background: #fd0;
+          color: #333;
+          &.clock{
+            background: #fd0;
+          }
+        }
+      }
+      &.break_b{
+        td{
+          background-color: #fafafa;
+          padding: 25px 5px;
+        }
+      }
+
+      &.break_c{
+        td{
+          background-color: #f3f3f3;
+          padding: 35px 5px;
+        }
+      }
+      &.tableheader{
+        td{
+          text-align: center;
+        }
+      }
+      td{
+        padding: 14px 20px;
+        border-radius: 0;
+        vertical-align: middle;
+        text-align: center;
+        font-weight: bold;
+        &.clock{
+          background-color: rgba(0,0,0,0.02);
+          font-weight: bold;
+        }
+        &.index-rooms{
+          text-align: center;
+          font-weight: bold;
+          padding: 5px;
+          background-color: #333;
+          color: #fff;
+        }
+      }
+      &:first-child{
+        td{
+          border: none;
+        }
+      }
+    }
+  }
+}
