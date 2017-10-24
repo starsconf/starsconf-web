@@ -22,11 +22,8 @@
       },
       {
         "texto": "Charlas",
-        "url": "keynoters-speakers.html"
-      },
-      {
-        "texto": "Talleres",
-        "url": "workshops.html"
+        "url": "keynoters-speakers.html",
+        "url2": "keynoters-speakers.html"
       },
       {
         "texto": "Lugar",
