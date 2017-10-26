@@ -45,7 +45,7 @@ var schedulesArrayBase = [
     ]},
     { date: 20171103, start: '15:40', finish: '16:10', common: true, talks: [
         { type: 'talk', title: 'Ricardo Alfaro: Design Sprints en el mundo Enterprise' },
-        { type: 'talk', title: 'Ignacio Peña: Haciendo visible lo invisible' },
+        { type: 'talk', title: 'Ignacio Peña: Haciendo visible lo invisible -  Experiencias únicas para una cultura organizacional saludable' },
         { type: 'talk', title: 'Felipe Reyes: Instalacion y manejo de kubernetes con Juju' }
         /*{ title: 'Synaptic: 8 hours technical onboarding for agile teams' }*/
     ]},
