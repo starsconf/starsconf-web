@@ -91,7 +91,7 @@ var schedulesArrayBase = [
         /*{ type: 'workshop', title: 'Linets: Platform As A Service' }*/
     ]},
     { date: 20171104, start: '12:10', finish: '12:40', common: true, talks: [
-        { type: 'talk', title: 'Javier Minhondo: Desmitificando la IA' },
+        { type: 'talk', title: 'Javier Minhondo: Desmitificando la Inteligencia Artificial' },
         { type: 'talk', title: 'Daniel Atik: Una historia de amor' },
         { type: 'talk', title: 'Felipe Hoffa: What can we learn from 750 billion GitHub events and 42 TB of code' }
         /*{ type: 'workshop', title: 'Linets: Platform As A Service' }*/
