@@ -68,7 +68,7 @@ var schedulesArrayBase = [
         { type: 'talk', title: 'Russ Unger: Onboarding: The Ecosystem, Not the Afterthought' }
     ]},
     { date: 20171103, start: '19:45', finish: '21:30', talks: [
-        { type: 'drink-up', title: 'Getonboard Drink-Up' }
+        { type: 'drink-up', title: 'Starsconf Drink-Up' }
     ]},
 
     /* Day 2*/
@@ -141,7 +141,7 @@ var schedulesArrayBase = [
         { type: 'break', title: 'Cierre' }
     ]},
     { date: 20171104, start: '19:50', finish: '21:30', talks: [
-        { type: 'drink-up', title: 'Drink-Up' }
+        { type: 'drink-up', title: 'StarsConf Drink-Up' }
     ]}
 ];
 
@@ -158,7 +158,7 @@ function getJSON(url, callback) {
 
 /**
  * get value from query string param
- * @param {*} name 
+ * @param {*} name
  */
 function getParameterByName(name) {
     var url = window.location.href;
@@ -172,8 +172,8 @@ function getParameterByName(name) {
 
 /**
  * set text to element html
- * @param {*} idElement 
- * @param {*} text 
+ * @param {*} idElement
+ * @param {*} text
  */
 function setText(idElement, text) {
     var el = document.getElementById(idElement);
@@ -184,8 +184,8 @@ function setText(idElement, text) {
 
 /**
  * Show or hide a element html
- * @param {*} idElement 
- * @param {*} visible 
+ * @param {*} idElement
+ * @param {*} visible
  */
 function setVisible(idElement, visible) {
     var el = document.getElementById(idElement);
