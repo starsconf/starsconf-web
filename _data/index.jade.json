@@ -302,7 +302,7 @@
           "long_bio": "Developer Advocate at Google",
           "keynotes": [
            {
-            "keynote_name": "What can we learn from 750 billion GitHub events and 42 TB of code",
+            "keynote_name": "Qué podemos aprender de 750 mil millones de eventos en Github y 42TB de código",
             "keynote_description": "We are going to analyze - live on stage - 5 years of GitHub metadata and 42 TB code stored in it to answer questions like:<br><br>How is this run<br>How coding patterns have changed through time.<br>Guiding your project design decisions based on actual usage of your APIs.<br>How to request features based on data.<br>The most effective phrasing to request changes.<br>Effects of social media on a project's popularity.<br>Who starred your project and what other projects interest them. Measuring community health.<br>Running static code analysis at scale.<br>Tabs or spaces?",
             "keynote_about": "Data Analysis & Visualization"
            }

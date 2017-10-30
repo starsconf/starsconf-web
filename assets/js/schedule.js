@@ -93,7 +93,7 @@ var schedulesArrayBase = [
     { date: 20171104, start: '12:10', finish: '12:40', common: true, talks: [
         { type: 'talk', title: 'Javier Minhondo: Desmitificando la Inteligencia Artificial' },
         { type: 'talk', title: 'Gustavo Soto Miño: MIWOM. Cómo la UX salvó un producto' },
-        { type: 'talk', title: 'Felipe Hoffa: What can we learn from 750 billion GitHub events and 42 TB of code' }
+        { type: 'talk', title: 'Felipe Hoffa: Qué podemos aprender de 750 mil millones de eventos en Github y 42TB de código' }
         /*{ type: 'workshop', title: 'Linets: Platform As A Service' }*/
     ]},
     { date: 20171104, start: '12:50', finish: '13:20', common: true, talks: [
