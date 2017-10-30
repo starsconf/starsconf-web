@@ -891,13 +891,14 @@
       "workshop_about": "UX & Design",
       "workshop_description": "<p>Es un taller que aproxima a los participantes a la práctica de la famosa metodología de diseño &#34;Agile&#34; de Google Ventures, usada a partir del año 2012 con startups en Sillicon Valley y que fue publicada por sus creadores el en un libro llamado &#34;Sprint: El método para resolver problemas y testear en 5 días.&#34;<br><br>El taller, convierte los 5 días en 2 horas, donde se realizan las principales actividades de la metodología, que condensa virtuosamente todas las etapas de un proceso de diseño de experiencia de usuario, con trabajo co-creativo. Es un método práctico y sencillo, que sirve tanto para validar hipótesis, como para resolver un problema de interacción rápidamente.</p>",
       "facilitators": [
-        "Ricardo Alfaro", 
-        "Franco Moya", 
-        "Lorena Duarte", 
-        "Luciana Rengifo",
-        "Sebastián Osses",
-        "Araceli Cubas"
-      ]
+        "Ricardo Alfaro (Chile)", 
+        "Franco Moya (Chile)", 
+        "Lorena Duarte (Perú)", 
+        "Luciana Rengifo (Perú)",
+        "Sebastián Osses (Perú)",
+        "Araceli Cubas (Perú)"
+      ],
+      "quota": "35 cupos"
     },
     {
       "foto": "assets/img/square-synaptic-logo.svg",
@@ -910,7 +911,8 @@
         "José Manuel Aguilera", 
         "Sebastian Sanchez",
         "Dušan Juretić"
-      ]
+      ],
+      "quota": "50 cupos"
     },
     {
       "foto": "assets/img/square-linets-logo.svg",
@@ -921,7 +923,8 @@
       "facilitators": [
         "Gonzalo Moya", 
         "Fabián Arias"
-      ]
+      ],
+      "quota": "40 cupos"
     }
   ],
 

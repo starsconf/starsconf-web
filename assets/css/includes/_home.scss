@@ -380,7 +380,8 @@
       height: 100%;
     }
   }
-  .date{
+  .date,
+  .quota{
     overflow: hidden;
     text-align: center !important;
     p{
@@ -393,7 +394,11 @@
        display: inline-block;
        vertical-align: bottom;
     }
-    
+  }
+  .quota{
+    p{
+      margin-top: 0 !important;
+    }
   }
   h2{
     text-align: center !important;
