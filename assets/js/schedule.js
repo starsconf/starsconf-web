@@ -30,7 +30,7 @@ var schedulesArrayBase = [
     ]},
     { date: 20171103, start: '13:00', finish: '13:30', common: true, talks: [
         { type: 'talk', title: 'Chihau Chau: VR/AR en Dispositivos Móviles' },
-        { type: 'talk', title: 'Crystal Yan: Behind the AI Curtain: Designing for User Trust in Artificial Intelligence and Machine Learning' },
+        { type: 'talk', title: 'Daniel Atik: Una historia de amor' },
         { type: 'talk', title: 'Jairo Da Silva: Go: Pasado, Presente y Futuro' }
         /*{ type: 'workshop', title: 'Continuum: Design Sprints' }*/
     ]},
@@ -86,19 +86,19 @@ var schedulesArrayBase = [
     ]},
     { date: 20171104, start: '11:30', finish: '12:00', common: true, talks: [
         { type: 'talk', title: 'Andres Marinkovic: ¿Qué son los robot-advisors?' },
-        { type: 'talk', title: 'Crystal Yan: Bias, Uncovered: Irrational by Design' },
+        { type: 'talk', title: 'Crystal Yan: Behind the AI Curtain: Designing for User Trust in Artificial Intelligence and Machine Learning' },
         { type: 'talk', title: 'Eduardo Graells-Garrido: Cómo ser Data Scientist y no morir en el intento' }
         /*{ type: 'workshop', title: 'Linets: Platform As A Service' }*/
     ]},
     { date: 20171104, start: '12:10', finish: '12:40', common: true, talks: [
         { type: 'talk', title: 'Javier Minhondo: Desmitificando la Inteligencia Artificial' },
-        { type: 'talk', title: 'Daniel Atik: Una historia de amor' },
+        { type: 'talk', title: 'Gustavo Soto Miño: MIWOM. Cómo la UX salvó un producto' },
         { type: 'talk', title: 'Felipe Hoffa: What can we learn from 750 billion GitHub events and 42 TB of code' }
         /*{ type: 'workshop', title: 'Linets: Platform As A Service' }*/
     ]},
     { date: 20171104, start: '12:50', finish: '13:20', common: true, talks: [
         { type: 'talk', title: 'Ricardo Díaz y Alex Seelenberger: Desmitificando Chileconvalley: Una mirada desde el Venture Capital' },
-        { type: 'talk', title: 'Gustavo Soto Miño: MIWOM. Cómo la UX salvó un producto' },
+        { type: 'talk', title: 'Crystal Yan: Bias, Uncovered: Irrational by Design' },
         { type: 'talk', title: 'Rodrigo Culagovski: Obtención, análisis y visualización de datos espaciales usando Python + Jupyter + Pandas.' }
         /*{ type: 'workshop', title: 'Linets: Platform As A Service' }*/
     ]},
