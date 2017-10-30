@@ -886,10 +886,10 @@
   "workshops":[
     {
       "foto": "assets/img/square-continuum-logo.svg",
-      "date": "Viernes 3 de 11:45 a 13:40",
+      "date": "Viernes 3 de 11:45 a 13:30",
       "workshop_name": "Design Sprints: Aprende a validar ideas mucho más rápido",
       "workshop_about": "UX & Design",
-      "workshop_description": "<p>Es un taller que aproxima a los participantes a la práctica de la famosa metodología de diseño &#34;Agile&#34; de Google Ventures, usada a partir del año 2012 con startups en Sillicon Valley y que fue publicada por sus creadores el en un libro llamado &#34;Sprint: El método para resolver problemas y testear en 5 días.&#34;<br><br>El taller, convierte los 5 días en 2 horas, donde se realizan las principales actividades de la metodología, que condensa virtuosamente todas las etapas de un proceso de diseño de experiencia de usuario, con trabajo co-creativo. Es un método práctico y sencillo, que sirve tanto para validar hipótesis, como para resolver un problema de interacción rápidamente.</p>",
+      "workshop_description": "<p>Es un taller que aproxima a los participantes a la práctica de la famosa metodología de diseño &#34;Agile&#34; de Google Ventures, usada a partir del año 2012 con startups en Sillicon Valley y que fue publicada por sus creadores en el libro llamado &#34;Sprint: El método para resolver problemas y testear en 5 días.&#34;<br><br>El taller, convierte los 5 días en 2 horas, donde se realizan las principales actividades de la metodología, que condensa virtuosamente todas las etapas de un proceso de diseño de experiencia de usuario, con trabajo co-creativo. Es un método práctico y sencillo, que sirve tanto para validar hipótesis, como para resolver un problema de interacción rápidamente.</p>",
       "facilitators": [
         "Ricardo Alfaro (Chile)",
         "Franco Moya (Chile)",
@@ -898,7 +898,7 @@
         "Sebastián Osses (Perú)",
         "Araceli Cubas (Perú)"
       ],
-      "quota": "35 cupos"
+      "quota": "42 cupos"
     },
     {
       "foto": "assets/img/square-synaptic-logo.svg",
