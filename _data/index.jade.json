@@ -27,6 +27,11 @@
         "url2": "keynoters-speakers.html"
       },
       {
+        "texto": "Talleres",
+        "url": "workshops.html",
+        "url2": "workshops.html"
+      },
+      {
         "texto": "Lugar",
         "url": "#place",
         "url2": "/#place"
@@ -392,7 +397,7 @@
           "long_bio": "Ricardo, es UX Designer en <a href='http://www.continuumhq.com/'>Continnum Chile</a> con amplia experiencia en diseño de productos y plataformas digitales. Ha trabajado también como frontend web en diversos equipos de desarrollo, liderando equipos y proyectos de UX para empresas del sector público y privado, más varias startups e impartido clases y talleres sobre experiencia de usuario.<br><br>Siempre con el interés de compartir conocimiento, en 2011, junto a otros entusiastas diseñadores, formaron <a href='http://opend.cl/'>OpenD</a>, que hoy es la comunidad de diseñadores más grande de Chile, con más de 10.000 miembros en Facebook y que imparte charlas gratuitas y talleres en Santiago y regiones.",
           "keynotes": [
            {
-            "keynote_name": "Cómo aplicar Design Sprint en el mundo Enterprise",
+            "keynote_name": "Design Sprint en el mundo Enterprise",
             "keynote_description": "Design Sprints es una metodología robada con éxito en muchas startups por sus creadores (Google Ventures), pero que por su naturaleza se hace imposible utilizar otros contextos.<br><br>Debido a esto, junto a mis compañeros de equipo fuimos desarrollando un modelo &#34;personalizado&#34; que hemos logrado aplicar con éxito en varios desafíos presenciales e incluso remotos.<br><br>En la charla les contaré sobre este modelo, con ejemplos, resultados, anécdotas y aprendizajes, de este camino de adaptar, intentar y lograr aplicar una metodología de diseño &#34;ágil&#34;, en escenarios más adversos.",
             "keynote_about": "UX & Design"
            }
@@ -633,7 +638,7 @@
           "keynotes": [
            {
             "keynote_name": "From Search to Engagement:<br>Breaking down barriers between product and marketing ",
-            "keynote_description": "93% of all online experiences start with a search engine, yet products are built from sign-up forward. Going back to the core principles of agile, we'll discuss how you can strengthen the connection between business people and engineering. You'll learn how you can help your team gain a full view of your customer and better connect the buyer journey to the product experience. By working on your team's health, focusing on customer and buyer intent, you can increase velocity while shipping more valuable products. This talk will cover:<ol><li>Tactics from the Atlassian team building strategy to will help you communicate better across your business and product teams</li><li>Re-imagining your team to gain valuable inputs from product analytics, marketing, and design</li><li>Using agile metrics as an indicator for team health and how you can improve it</li></ol>",
+            "keynote_description": "93% of all online experiences start with a search engine, yet products are built from sign-up forward. Going back to the core principles of agile, we'll discuss how you can strengthen the connection between business people and engineering. You'll learn how you can help your team gain a full view of your customer and better connect the buyer journey to the product experience. By working on your team's health, focusing on customer and buyer intent, you can increase velocity while shipping more valuable products. This talk will cover:<ol><li>Tactics from the Atlassian team building strategy that will help you communicate better across your business and product teams</li><li>Re-imagining your team to gain valuable inputs from product analytics, marketing, and design</li><li>Using agile metrics as an indicator for team health and how you can improve it</li></ol>",
             "keynote_about": "People, Teams & Culture"
            }
           ]
@@ -663,7 +668,7 @@
           "keynotes": [
            {
             "keynote_name": "El mejor de los proyectos es abrirnos a nuevos proyectos",
-            "keynote_description": "",
+            "keynote_description": "En esta charla mostraremos como una empresa tradicional (banco) se puede aliar con actores del ecosistema para potenciar su propuesta de valor a clientes. Presentaremos el programa BCI  Fintech, los programas de colaboración con el ecosistema (innovación abierta) y el proyecto API Portal que pretende sistematizar nuestra capacidad de innovar con terceros.",
             "keynote_about": "Startups & Innovation"
            }
           ]
@@ -678,7 +683,7 @@
           "keynotes": [
            {
             "keynote_name": "El mejor de los proyectos es abrirnos a nuevos proyectos",
-            "keynote_description": "",
+            "keynote_description": "En esta charla mostraremos como una empresa tradicional (banco) se puede aliar con actores del ecosistema para potenciar su propuesta de valor a clientes. Presentaremos el programa BCI  Fintech, los programas de colaboración con el ecosistema (innovación abierta) y el proyecto API Portal que pretende sistematizar nuestra capacidad de innovar con terceros.",
             "keynote_about": "Startups & Innovation"
            }
           ]
@@ -772,22 +777,6 @@
             "keynote_about": "People, Teams & Culture"
            }
           ]
-        },
-        {
-          "foto": "assets/img/keynoters/nobody.jpg",
-          "nombre": "Próximamente...",
-          "bio": "",
-          "contacto": "",
-          "switch": "off",
-          "keynotes": []
-        },
-        {
-          "foto": "assets/img/keynoters/nobody.jpg",
-          "nombre": "Próximamente...",
-          "bio": "",
-          "contacto": "",
-          "switch": "off",
-          "keynotes": []
         }
       ],
       "boton": "Detalle de todos los keynoters y speakers",
@@ -893,6 +882,48 @@
       }
     }
   },
+
+  "workshops":[
+    {
+      "foto": "assets/img/square-continuum-logo.svg",
+      "date": "Viernes 3 de 11:45 a 13:40",
+      "workshop_name": "Design Sprint: Do learn to validate ideas much faster",
+      "workshop_about": "UX & Design",
+      "workshop_description": "<p>Es un taller que aproxima a los participantes a la práctica de la famosa metodología de diseño &#34;Agile&#34; de Google Ventures, usada a partir del año 2012 con startups en Sillicon Valley y que fue publicada por sus creadores el en un libro llamado &#34;Sprint: El método para resolver problemas y testear en 5 días.&#34;<br><br>El taller, convierte los 5 días en 2 horas, donde se realizan las principales actividades de la metodología, que condensa virtuosamente todas las etapas de un proceso de diseño de experiencia de usuario, con trabajo co-creativo. Es un método práctico y sencillo, que sirve tanto para validar hipótesis, como para resolver un problema de interacción rápidamente.</p>",
+      "facilitators": [
+        "Ricardo Alfaro", 
+        "Franco Moya", 
+        "Lorena Duarte", 
+        "Luciana Rengifo",
+        "Sebastián Osses",
+        "Araceli Cubas"
+      ]
+    },
+    {
+      "foto": "assets/img/square-synaptic-logo.svg",
+      "date": "Viernes 3 de 15:00 a 16:50",
+      "workshop_name": "8 hours technical onboarding for agile teams",
+      "workshop_about": "People, Teams & Culture",
+      "workshop_description": "<p>Una nueva persona o un cambio de equipo siempre es una tarea complicada y muchas veces lenta. Todos queremos que la persona o el equipo se adapte rápidamente a los cambios, así que en Synaptic te presentamos parte de nuestra receta la cual permite una entrega de valor continua y efectiva.</p>",
+      "facilitators": [
+        "Héctor Villarroel", 
+        "José Manuel Aguilera", 
+        "Sebastian Sanchez",
+        "Dušan Juretić"
+      ]
+    },
+    {
+      "foto": "assets/img/square-linets-logo.svg",
+      "date": "Sábado 4 de 11:30 a 13:20 hrs",
+      "workshop_name": "PaaS: Release early, release often, for real",
+      "workshop_about": "Cloud & DevOps",
+      "workshop_description": "<p>En una era en donde la respuesta continua a los requerimientos de clientes y mercado hacen la diferencia entre el éxito y el fracaso, en el corazón de la cultura ágil, se requiere la posibilidad real, práctica y de baja curva de aprendizaje de reducir el tiempo entre despliegues. Las siguientes herramientas te permiten lograr el menor business time to value. Ágil sin comprometer estabilidad ni gobernancia.</p>",
+      "facilitators": [
+        "Gonzalo Moya", 
+        "Fabián Arias"
+      ]
+    }
+  ],
 
   "codigo_conducta": {
     "title": "Código de conducta",

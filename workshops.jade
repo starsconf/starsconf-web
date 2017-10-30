@@ -6,24 +6,32 @@ block content
     include _partials/header_fix
 
   .containter-fluid.main-content.single-page
+    .row.title
+      h2 Talleres
+      h3 Se incriben el mismo día en el evento, por orden de llegada hasta agotar los cupos.
+      
     .container.keynoters-full
 
-      each keynoter, index in homepage.section_three.keynoters
-        .row.keynoter-block(id="keynoter-#{index}", class= keynoter.switch)
+      each workshop, index in workshops
+        .row.keynoter-block
           .col-md-4.section
             .image
-              img(src= keynoter.foto)
-            h3= keynoter.nombre
-            != keynoter.contacto
+              img(src= workshop.foto)
+            .date
+              i.material-icons schedule
+              p= workshop.date
 
           .col-md-8
-            each keynote in keynoter.keynotes
-              .keynote
-                h5!= keynote.keynote_name
-                p!= keynote.keynote_description
-                a.keynote_about(href="/#what" title= keynote.keynote_about)= keynote.keynote_about
+            .keynote
+              h5!= workshop.workshop_name
+              p!= workshop.workshop_description
+              a.keynote_about(href="/#what" title= workshop.workshop_about)= workshop.workshop_about
             .about
-              p!= keynoter.long_bio
+              h5 Facilitadores
+              ul
+                each facilitator, index in workshop.facilitators
+                  li= facilitator
+
             a.back.hidden-xs(href="javascript:history.back()")
               i.material-icons keyboard_backspace
               span Volver
