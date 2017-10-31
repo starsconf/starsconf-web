@@ -35,7 +35,7 @@ var schedulesArrayBase = [
         /*{ type: 'workshop', title: 'Continuum: Design Sprints' }*/
     ]},
     { date: 20171103, start: '13:30', finish: '15:00', talks: [
-        { type: 'break', title: 'Almuerzo' }
+        { type: 'break', title: 'Pausa para Almuerzo' }
     ]},
     { date: 20171103, start: '15:00', finish: '15:30', common: true, talks: [
         { type: 'talk', title: 'Noah Illinsky: Guaranteed Successful Design' },
