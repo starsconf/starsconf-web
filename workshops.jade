@@ -29,6 +29,11 @@ block content
               h5!= workshop.workshop_name
               p!= workshop.workshop_description
               a.keynote_about(href="/#what" title= workshop.workshop_about)= workshop.workshop_about
+              if workshop.workshop_requirements
+                h4 Requisitos:
+                ul
+                  each name, index in workshop.workshop_requirements
+                    li= name
             .about
               h5 Facilitadores
               ul

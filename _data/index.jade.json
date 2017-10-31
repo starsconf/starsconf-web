@@ -905,14 +905,18 @@
       "date": "Viernes 3 de 15:00 a 16:50",
       "workshop_name": "8 hours technical onboarding for agile teams",
       "workshop_about": "People, Teams & Culture",
-      "workshop_description": "<p>Una nueva persona o un cambio de equipo siempre es una tarea complicada y muchas veces lenta. Todos queremos que la persona o el equipo se adapte rápidamente a los cambios, así que en Synaptic te presentamos parte de nuestra receta la cual permite una entrega de valor continua y efectiva.</p>",
+      "workshop_description": "<p>Una nueva persona y/o un cambio de equipo siempre es una tarea complicada y muchas veces lenta. Todos queremos que las personas y los equipos se adapten rápidamente a los cambios, disminuyendo al mínimo el tiempo gastado en tareas repetitivas y aumentando al máximo el tiempo para trabajar en lo que realmente importa.<br><br>En Synaptic te presentamos parte de nuestra receta la cual permite una entrega de valor continua y efectiva, en donde las herramientas disponibles en el mercado junto con el uso de metodologías ágiles permiten realizar este tipo de tareas y dar un uso más eficiente a nuestro tiempo.</p>",
       "facilitators": [
         "Héctor Villarroel",
         "José Manuel Aguilera",
         "Sebastian Sanchez",
         "Dušan Juretić"
       ],
-      "quota": "50 cupos"
+      "workshop_requirements": [
+        "Docker >= 17.x",
+        "Git"
+      ],
+      "quota": "40 cupos"
     },
     {
       "foto": "assets/img/square-linets-logo.svg",
