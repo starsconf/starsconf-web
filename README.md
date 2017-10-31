@@ -29,9 +29,9 @@
 
 Para inicializar la app en un track especifico de la conferencia:
 
-  track 1: http://localhost:3000/schedule.html?track=1
-  track 2: http://localhost:3000/schedule.html?track=2
-  track 3: http://localhost:3000/schedule.html?track=3
+  * track 1: http://localhost:3000/schedule.html?track=1
+  * track 2: http://localhost:3000/schedule.html?track=2
+  * track 3: http://localhost:3000/schedule.html?track=3
 
 Esto se ejecutará usando un reloj en tiempo real por lo tanto solo funcionará
 los días reales de la conferencia. Pero...
