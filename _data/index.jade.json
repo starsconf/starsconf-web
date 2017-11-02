@@ -727,7 +727,7 @@
           "long_bio": "Daniel es el Developer Relations de Mercado Libre. Busca, acompaña y evalúa startups para integrarlas con la mayor plataforma de e-commerce de Latino America.",
           "keynotes": [
            {
-            "keynote_name": "Una historia de amor",
+            "keynote_name": "Todo sobre la API de Mercado Libre: Una historia de amor",
             "keynote_description": "Descubriendo la API de la plataforma abierta y herramientas open source de Mercado Libre y Mercado Pago a través de la historia de un emprendimiento. Y veremos un caso práctico sobre cómo hacer publicaciones masivas usando Google Apps Script.",
             "keynote_about": "Developer Tools"
            }

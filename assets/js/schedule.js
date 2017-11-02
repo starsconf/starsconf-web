@@ -30,7 +30,7 @@ var schedulesArrayBase = [
     ]},
     { date: 20171103, start: '13:00', finish: '13:30', common: true, talks: [
         { type: 'talk', title: 'Chihau Chau: VR/AR en Dispositivos Móviles' },
-        { type: 'talk', title: 'Daniel Atik: Una historia de amor' },
+        { type: 'talk', title: 'Daniel Atik: Todo sobre la API de Mercado Libre: Una historia de amor' },
         { type: 'talk', title: 'Jairo Da Silva: Go: Pasado, Presente y Futuro' }
         /*{ type: 'workshop', title: 'Continuum: Design Sprints' }*/
     ]},
