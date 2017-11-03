@@ -3,8 +3,17 @@
 
 .schedule {
   font-size: 14px;
+  position: relative;
   .title h2{
     text-align: center !important;
+  }
+  .mobile-link{
+    position: absolute;
+    right: 0;
+    top: 140px;
+    background: #000;
+    padding: 6px 10px;
+    color: #fd0;
   }
   .nav-tabs{
     border-bottom: #fd0 1px solid;
