@@ -2,53 +2,52 @@ extends _layouts/app
 
 block head_end
 block content
-  .containter-fluid.header
-    include _partials/header_fix
+  .header.tv-header
+    img(src="assets/img/logo-starsconf-transparent-2017.svg")
 
-  .containter-fluid.main-content.single-page
-    .container
-      div(id='first-schelude', style="border: 1px solid;")
+  .tv
+    .container-fluid
+      .main-shedule(id='first-schelude')
         .row
-          .col-md-12.section
-            p Track:
-              span(id='first-text-track')
+          .col-md-12.title
+            h1(id='first-text-track')
         .row(id='first-schelude-0')
-          .col-md-12.section
-            p Comienzo:
-              span(id='first-text-start-time-0')
-            p Termino:
-              span(id='first-text-finish-time-0')
-            p Charla:
-              span(id='first-text-title-0')
-        .row(id='first-schelude-1')
-          .col-md-12.section
-            p Comienzo:
-              span(id='first-text-start-time-1')
-            p Termino:
-              span(id='first-text-finish-time-1')
-            p Charla:
-              span(id='first-text-title-1')
-      .row
-        .col-md-6.section(id='second-schelude', style="border: 1px solid;")
-          p Track:
-            span(id='second-text-track')
-          .col-md-12.section
-            p Comienzo:
-              span(id='second-text-start-time-0')
-            p Termino:
-              span(id='second-text-finish-time-0')
-            p Charla:
-              span(id='second-text-title-0')
-        .col-md-6.section(id='third-schelude', style="border: 1px solid;")
-          p Track:
-            span(id='third-text-track')
-          .col-md-12.section
-            p Comienzo:
-              span(id='third-text-start-time-0')
-            p Termino:
-              span(id='third-text-finish-time-0')
-            p Charla:
-              span(id='third-text-title-0')
+          .col-md-12.time
+            span Desde las
+            span(id='first-text-start-time-0')
+            span hasta las  
+            span(id='first-text-finish-time-0')
+          .col-md-12.content
+            h2(id='first-text-title-0')
+
+        .row(id='first-schelude-1') 
+          .col-md-12.time
+            span A continuación  
+            span desde las  
+            span(id='first-text-start-time-1')
+            span hasta las   
+            span(id='first-text-finish-time-1')
+          .col-md-12.content
+            h3(id='first-text-title-1')
+      .row.other-tracks
+        .col-md-6.section(id='second-schelude')
+          h3.title(id='second-text-track')
+          .col-md-12.time
+            span desde las  
+            span(id='second-text-start-time-0')
+            span hasta las  
+            span(id='second-text-finish-time-0')
+          .col-md-12.content
+            h4(id='second-text-title-0')
+        .col-md-6.section(id='third-schelude')
+          h3.title(id='third-text-track')
+          .col-md-12.time
+            span desde las  
+            span(id='third-text-start-time-0')
+            span hasta las 
+            span(id='third-text-finish-time-0')
+          .col-md-12.content
+            h4(id='third-text-title-0')
 
 block body_end
 
