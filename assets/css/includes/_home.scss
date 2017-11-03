@@ -520,3 +520,54 @@
     }
   }
 }
+
+/* TVS */
+.tv{
+  font-size: 2em;
+  background: black;
+  height: calc(100vh - 250px);
+  color: #999;
+  text-align: center;
+  .main-shedule{
+    margin-bottom: 20px;
+    border-bottom: 1px dotted #666;
+    padding-bottom: 20px;
+  }
+  .title{
+    color: #ccc;
+    border-bottom: 1px dotted #666;
+    h1{
+      font-size: 180%;
+    }
+  }
+  .time{
+    font-size: 80%;
+    span{
+      display: inline-block;
+      padding: 3px;
+    }
+  }
+  .content{
+    color: #fff;
+    h2{
+      color: #fd0;
+      font-size: 200%;
+      padding: 40px 0;
+    }
+    h3{
+      font-size: 130%;
+      margin: 10px 0 0;
+    }
+  }
+  .other-tracks{
+    .section{
+      border-right: 1px dotted #666;
+      &:last-child{
+        border: none;
+      }
+      .title{
+        border: none;
+      }
+    } 
+  }
+}

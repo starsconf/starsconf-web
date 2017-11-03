@@ -13,6 +13,13 @@
     background-blend-mode: multiply;
     background-position: 0 0;
   }
+  &.tv-header{
+    text-align: center;
+    padding: 90px;
+    img{
+      width: 350px;
+    }
+  }
   h2 {
     font-family: 'Quicksand', Arial, sans-serif;
     font-weight: 100;
@@ -103,7 +110,27 @@
   }
 }
 .home-bottom-header{
-  padding: 18% 0 10% 0;
+  padding: 10% 0 0;
+  .streaming{
+    text-align: center;
+    height: calc(100vh - 200px);
+    position: relative;
+    .video{
+      margin-bottom: 2%;
+    }
+    .data{
+
+      h4{
+        text-transform: uppercase;
+        font-size: 28px;
+      }
+      h5{
+        font-family: 'Quicksand', Arial, sans-serif;
+        font-size: 18px;
+        font-weight: 100;
+      }
+    }
+  }
 }
 .home-header {
   background-size: cover;
