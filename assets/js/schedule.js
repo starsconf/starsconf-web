@@ -34,9 +34,6 @@ var schedulesArrayBase = [
         { type: 'talk', title: 'Jairo Da Silva<br> Go: Pasado, Presente y Futuro' }
         /*{ type: 'workshop', title: 'Continuum: Design Sprints' }*/
     ]},
-    { date: 20171103, start: '13:30', finish: '15:00', talks: [
-        { type: 'break', title: 'Pausa para almuerzo' }
-    ]},
     { date: 20171103, start: '15:00', finish: '15:30', common: true, talks: [
         { type: 'talk', title: 'Agustin Villena<br> ¿Sabemos por qué estamos Desarrollando Software?' },
         { type: 'talk', title: 'Noah Illinsky<br> Guaranteed Successful Design' },
@@ -105,9 +102,6 @@ var schedulesArrayBase = [
         { type: 'talk', title: '' },
         { type: 'talk', title: 'Francisco Mardones<br> ¿Por qué los desarrolladores importan?  Una mirada desde Corfo al desarrollo de la industria tecnológica nacional' },
         { type: 'talk', title: '' }
-    ]},
-    { date: 20171104, start: '13:40', finish: '15:00', talks: [
-        { type: 'break', title: 'Pausa para almuerzo' }
     ]},
     { date: 20171104, start: '15:00', finish: '15:30', common: true, talks: [
         { type: 'talk', title: 'Chihau Chau<br> IoT inteligente con AndroidThings y Machine Learning' },
