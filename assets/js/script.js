@@ -158,9 +158,9 @@ preloader(imagesPath);
 
     //Sidenav Responsive
     $(".button-collapse").sideNav({
-        menuWidth: 300,
+        menuWidth: 220,
         edge: 'right',
-        closeOnClick: true,
+        closeOnClick: false,
         draggable: true
     });
 

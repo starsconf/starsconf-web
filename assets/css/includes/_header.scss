@@ -158,6 +158,8 @@ ul.side-nav{
     float: none;
     line-height: 100%;
     a{
+      display: block;
+      text-align: right;
       color: #fff;
       padding: 30px;
       height: auto;
