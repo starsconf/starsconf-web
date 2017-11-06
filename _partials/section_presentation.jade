@@ -1,9 +1,10 @@
-.header.home-header#background
-	.container.home-bottom-header
-		.row.streaming
-			.col-md-12.video
-				iframe(src='//iframe.dacast.com/b/21322/c/453265', width='100%', height='480', frameborder='0', scrolling='no', allowfullscreen='', webkitallowfullscreen='', mozallowfullscreen='', oallowfullscreen='', msallowfullscreen='')
-			.col-md-12.data
-				h4= homepage.fecha
-				h5= homepage.description_home
-				
+.containter-fluid.header.home-header#background
+  .container.home-bottom-header
+    .row
+      .col-md-12
+        h2
+          strong= homepage.fecha
+          br
+          = homepage.description_home
+      .col-md-12.call-to-action
+        a(href=#, title=homepage.videos_will_be_published_soon)= homepage.videos_will_be_published_soon
