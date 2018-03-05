@@ -1,4 +1,5 @@
-# STARSCONF2017
+# STARSCONF
+# Versión 2017
 
 # Requerimientos
   - Node > 4
