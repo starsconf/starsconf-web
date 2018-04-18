@@ -1,49 +1,19 @@
 {
   "base": {
-    "title": "Starsconf 2017",
-    "keynote_description": "3 y 4 de noviembre 2017. El evento de desarrollo, diseño e innovación tecnológica más grande de Chile y uno de los más importantes de Sudamérica",
+    "title": "Starsconf 2018",
+    "keynote_description": "16 y 17 de noviembre 2018. El evento de desarrollo, diseño e innovación tecnológica más grande de Chile y uno de los más importantes de Sudamérica",
     "autores": "Starsconf, ContinuumHQ, Synaptic, Linets"
   },
 
   "header": {
-    "menu_options": [{
-        "texto": "De qué se trata",
-        "url": "#what",
-        "url2": "/#what"
-      },
-      {
-        "texto": "Programa",
-        "url": "schedule.html",
-        "url2": "schedule.html"
-      },
-      {
-        "texto": "Keynoters/Speakers",
-        "url": "#keynoters",
-        "url2": "/#keynoters"
-      },
-      {
-        "texto": "Charlas",
-        "url": "keynoters-speakers.html",
-        "url2": "keynoters-speakers.html"
-      },
-      {
-        "texto": "Talleres",
-        "url": "workshops.html",
-        "url2": "workshops.html"
-      },
-      {
-        "texto": "Lugar",
-        "url": "#place",
-        "url2": "/#place"
-      },
-      {
-        "texto": "Auspiciadores",
-        "url": "#sponsors",
-        "url2": "/#sponsors"
-      },
+    "menu_options": [
       {
         "texto": "Blog",
         "url": "https://medium.com/starsconf"
+      },
+      {
+        "texto": "Versión 2017",
+        "url": "http://2017.starsconf.com"
       }],
     "logo": {
       "url": "/",
@@ -52,7 +22,7 @@
   },
 
   "homepage": {
-    "fecha": "3 y 4 de noviembre 2017",
+    "fecha": "16 y 17 de noviembre 2018",
     "description_home": "El evento de desarrollo, diseño e innovación tecnológica más grande de Chile y uno de los más importantes de Sudamérica. Unimos a estrellas mundiales y expertos locales para hablar de UX, Programación, Data, Innovación, Web, DevOps, Metodologías y Mobile.",
     "link_buy_tickets": "#tickets",
     "button_buy_tickets": "Asegura tu entrada ahora",
@@ -970,6 +940,6 @@
       "url": "codigo-conducta.html"
     },
 
-    "copyright": "Copyright © 2011-2017 StarsConf, Chile"
+    "copyright": "Copyright © 2011-2018 StarsConf, Chile"
   }
 }
