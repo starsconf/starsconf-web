@@ -24,10 +24,10 @@
         margin: 4px 10px;
         a{
           display: block;
-          width: 40px;
+          width: 42px;
           height: 40px;
           background: url('../img/sprite_social.svg') no-repeat;
-          filter:brightness(0%);
+          //filter:brightness(0%);
           &:hover{
             filter:brightness(30%);
           }
