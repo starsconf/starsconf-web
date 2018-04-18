@@ -2,6 +2,47 @@
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px){
+  .newheader{
+    .content{
+      grid-template-columns: 20% auto;
+      .nav{
+        display: block;
+        text-align: right;
+        padding: 20px;
+        a{
+          color: #fd0;
+        }
+        .side-nav{
+          li a{
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+  .newhome{
+    height: initial;
+    .content{
+      margin: 20px;
+      width: 90%;
+      .description{
+        h1{
+          font-size: 2rem;
+        }
+        h2{
+          font-size: 1.6rem;
+        }
+      }
+      .cta{
+        float: none;
+        text-align: center;
+        font-size: 1.4rem;
+      }
+    }
+  }
+  .footer{
+    font-size: 1.4rem !important;
+  }
   .top-header{
     height: initial;
     .logo{
@@ -254,6 +295,47 @@ and (max-device-width : 480px){
 @media only screen 
 and (min-device-width : 376px) 
 and (max-device-width : 767px) {
+  .newheader{
+    .content{
+      grid-template-columns: 20% auto;
+      .nav{
+        display: block;
+        text-align: right;
+        padding: 20px;
+        a{
+          color: #fd0;
+        }
+        .side-nav{
+          li a{
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+  .newhome{
+    height: 90vh;
+    .content{
+      margin: 20px;
+      width: 90%;
+      .description{
+        h1{
+          font-size: 2.6rem;
+        }
+        h2{
+          font-size: 2rem;
+        }
+      }
+      .cta{
+        float: none;
+        text-align: center;
+        font-size: 1.4rem;
+      }
+    }
+  }
+  .footer{
+    font-size: 1.4rem !important;
+  }
   .top-header{
     &.bg-scroll-header{
       background-color: #000;
@@ -440,6 +522,25 @@ and (max-device-width : 767px) {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  .newheader{
+    .content{
+      grid-template-columns: 20% auto;
+      .nav{
+        display: block;
+        text-align: right;
+        padding: 20px;
+        a{
+          color: #fd0;
+        }
+        .side-nav{
+          li a{
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+  
   .top-header{
     &.bg-scroll-header{
       background-color: #000;

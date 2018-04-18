@@ -15,14 +15,16 @@
       box-sizing: border-box;
       padding: 10px;
       width: 100%;
-      margin-bottom: 10px;
+      position: relative;
       img{
         width: 100%;
+        position: absolute;
+        top: 0;
       }
     }
     .nav{
       display: grid;
-      padding: 20px;
+      padding: 10px;
       ul{
         display: flex;
         justify-content: flex-end;
@@ -41,6 +43,13 @@
               color: #fff;
             }
           }
+        }
+      }
+      .side-nav{
+        display: initial;
+        li a{
+          margin-top: 0;
+          text-decoration: none;
         }
       }
     }
