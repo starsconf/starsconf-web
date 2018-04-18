@@ -1,3 +1,50 @@
+/*NEW HOME*
+------------------------*/
+.newhome{
+  background-color: rgba(0,0,0,0.6);
+  background-image: url('../img/wallpaper-site_18.jpg');
+  background-blend-mode: multiply;
+  background-size: cover;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  .content{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0;
+    .description{
+      background: white;
+      text-align: left;
+      padding: 10%;
+      border-bottom: 10px solid #fd0;
+      h2{
+        color: #666;
+        text-transform: uppercase;
+        font-size: 3rem;
+      }
+      h1{
+        color: #333;
+        font-size: 4rem;
+      }
+    }
+    .cta{
+      font-size: 1.8rem;
+      text-transform: uppercase;
+      font-family: sans-serif;
+      font-weight: 400;
+      margin-top: 30px;
+      display: block;
+      color: #333;
+      padding: 20px 30px;
+      border: 1px solid #666;
+      background-color: #fd0;
+      float: left;
+    }
+  }
+}
+
 /*HOME*
 ------------------------*/
 .main-content{

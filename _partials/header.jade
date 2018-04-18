@@ -1,12 +1,11 @@
-.container-fluid.top-header
-  .row
-    .col-md-2
-      .logo
-        a(href=header.logo.url, title=base.title)
-          img(src="assets/img/logo-starsconf-transparent-2017.svg")
+.newheader
+  .content
+    .logo
+      a(href=header.logo.url, title=base.title)
+        img(src="assets/img/logo-starsconf-transparent-2017.svg")
+    .nav
       a.button-collapse.visible-xs.visible-sm(href='#', data-activates='slide-out')
         i.material-icons menu
-    .col-md-10
       ul.hidden-xs.hidden-sm
         each option, index in header.menu_options
           li
@@ -16,4 +15,14 @@
         each option, index in header.menu_options
           li
             a(href= option.url)= option.texto
+    
+//.container-fluid.top-header
+  .row
+    .col-md-2
+      .logo
+        a(href=header.logo.url, title=base.title)
+          img(src="assets/img/logo-starsconf-transparent-2017.svg")
+      
+    .col-md-10
+      
   

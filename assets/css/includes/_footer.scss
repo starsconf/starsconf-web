@@ -1,19 +1,19 @@
 /*HEADER*
 ------------------------*/
 .footer {
-  background: #444;
-  font-size: 1.3em;
-  color: #999;
+  background: #fd0;
+  font-size: 1.8em;
+  color: #000;
   .row{
     margin-bottom: 0;
   }
   .social{
     text-align: center;
-    padding: 20px;
+    padding: 20px 0 0;
     h3 {
       font-weight: 300;
       font-size: 2em;
-      color: #ccc;
+      color: #333;
     }
     ul{
       list-style: none;
@@ -27,8 +27,9 @@
           width: 40px;
           height: 40px;
           background: url('../img/sprite_social.svg') no-repeat;
+          filter:brightness(0%);
           &:hover{
-            filter:brightness(140%);
+            filter:brightness(30%);
           }
           &.facebook{
             background-position: 0 0;
@@ -51,7 +52,8 @@
     padding-top: 20px;
     padding-bottom: 20px;
     a{
-      color: #ccc;
+      color: #000;
+      text-decoration: underline;
     }
   }
 }

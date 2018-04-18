@@ -1,3 +1,52 @@
+/*NEW HEADER*
+------------------------*/
+.newheader{
+  background-color: #222;
+  .content{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 15% auto;
+    .logo{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      box-sizing: border-box;
+      padding: 10px;
+      width: 100%;
+      margin-bottom: 10px;
+      img{
+        width: 100%;
+      }
+    }
+    .nav{
+      display: grid;
+      padding: 20px;
+      ul{
+        display: flex;
+        justify-content: flex-end;
+        margin: 0;
+        li{
+          a{
+            color: #fd0;
+            text-transform: uppercase;
+            font-size: 1.5rem;
+            text-decoration: underline;
+            font-weight: 600;
+            padding: 20px;
+            display: block;
+            margin-top: 10px;
+            &:hover{
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 /*HEADER*
 ------------------------*/
 .header {
