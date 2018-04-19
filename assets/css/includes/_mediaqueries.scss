@@ -57,60 +57,6 @@ and (max-device-width : 480px){
   .footer{
     font-size: 1.4rem !important;
   }
-  .top-header{
-    height: initial;
-    .logo{
-      width: 110px;
-      padding: 10px 0;
-    }
-    .button-collapse{
-      position: absolute;
-      right: 10px;
-      top: 25px;
-      padding: 10px;
-      color: #fff;
-      cursor: pointer;
-      &:hover,
-      &:focus{
-        color: $main-color;
-      }
-    }
-  }
-
-  .header{
-    .home-bottom-header{
-      padding: 40% 0 20% 0;
-      font-size: 75%;
-      h2{
-        font-size: 200%;
-        margin: 0;
-        width: 100%;
-        margin-bottom: 10%;
-        strong{
-          font-size: 1.4em;
-        }
-      }
-      .call-to-action a{
-        padding: 14px;
-        font-size: 1.6em;
-        width: 100%;
-      }
-    }
-    &.home-header{
-      height: initial;
-      min-height: initial;
-      background-size: cover;
-      background-image: url(../img/wallpaper-site_5.jpg);
-      background-blend-mode: multiply;
-      .top-header{
-        background-color: black;
-        height: initial;
-        &.bg-scroll-header{
-          background-color: #000;
-        }
-      }
-    }
-  }
 
   .main-content{
     font-size: 1.5em;
@@ -307,7 +253,7 @@ and (max-device-width : 480px){
 }
 
 @media only screen 
-and (min-device-width : 376px) 
+and (min-device-width : 460px) 
 and (max-device-width : 767px) {
   header{
     .content{
@@ -327,7 +273,7 @@ and (max-device-width : 767px) {
       }
     }
   }
-  .newhome{
+  .home{
     height: 90vh;
     .content{
       margin: 20px;
@@ -349,60 +295,6 @@ and (max-device-width : 767px) {
   }
   .footer{
     font-size: 1.4rem !important;
-  }
-  .top-header{
-    &.bg-scroll-header{
-      background-color: #000;
-    }
-    .logo{
-      width: 30%;
-      padding: 10px 0;
-    }
-    .button-collapse{
-      position: absolute;
-      right: 10px;
-      padding: 10px;
-      top: 30%;
-      color: #fff;
-      cursor: pointer;
-      &:hover,
-      &:focus{
-        color: $main-color;
-      }
-      i{
-        font-size: 300%;
-      }
-    }
-  }
-
-  .header{
-    .home-bottom-header{
-      font-size: 80%;
-      padding: 50% 0 20% 0;
-      .call-to-action a{
-        padding: 14px;
-        font-size: 220%;
-        width: 95%;
-      }
-      h2{
-        font-size: 220%;
-        margin: 0;
-        width: 100%;
-        margin-bottom: 10%;
-        strong{
-          font-size: 150%;
-        }
-      }
-    }
-    &.home-header{
-      .top-header{
-        background-color: black;
-        height: initial;
-        &.bg-scroll-header{
-          background-color: #000;
-        }
-      }
-    }
   }
 
   .main-content{
@@ -550,65 +442,6 @@ and (max-device-width : 767px) {
           li a{
             text-align: left;
           }
-        }
-      }
-    }
-  }
-  
-  .top-header{
-    &.bg-scroll-header{
-      background-color: #000;
-    }
-    .logo{
-      width: 150px;
-      padding: 10px 0;
-    }
-    .button-collapse{
-      position: absolute;
-      right: 10px;
-      padding: 10px;
-      top: 30%;
-      color: #fff;
-      cursor: pointer;
-      &:hover,
-      &:focus{
-        color: $main-color;
-      }
-      i{
-        font-size: 300%;
-      }
-    }
-  }
-
-  .header{
-    height: initial;
-    min-height: initial;
-    .home-bottom-header{
-      font-size: 80%;
-      padding: 50% 0 20% 0;
-      .call-to-action a{
-        padding: 24px;
-        font-size: 380%;
-        width: 75%;
-      }
-      h2{
-        font-size: 400%;
-        margin: 0;
-        width: 100%;
-        margin-bottom: 10%;
-        strong{
-          font-size: 150%;
-        }
-      }
-    }
-    &.home-header{
-      height: initial;
-      min-height: initial;
-      .top-header{
-        background-color: black;
-        height: initial;
-        &.bg-scroll-header{
-          background-color: #000;
         }
       }
     }
