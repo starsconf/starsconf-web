@@ -1,30 +1,29 @@
 /*NEW HEADER*
 ------------------------*/
-.newheader{
-  background-color: #222;
+header{
+  background-color: #444;
   .content{
-    width: 100%;
-    max-width: 1140px;
-    margin: 0 auto;
     display: grid;
     grid-template-columns: 15% auto;
+    width: 75%;
+    margin: 0 auto;
     .logo{
+      position: relative;
+      width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      box-sizing: border-box;
-      padding: 10px;
-      width: 100%;
-      position: relative;
+      box-sizing: border-box;  
       img{
-        width: 100%;
+        width: 140px;
         position: absolute;
         top: 0;
+        z-index: 1;
       }
     }
     .nav{
       display: grid;
-      padding: 10px;
+      padding: 0;
       ul{
         display: flex;
         justify-content: flex-end;
@@ -34,13 +33,13 @@
             color: #fd0;
             text-transform: uppercase;
             font-size: 1.5rem;
-            text-decoration: underline;
             font-weight: 600;
-            padding: 20px;
+            padding: 20px 13px;
             display: block;
-            margin-top: 10px;
             &:hover{
               color: #fff;
+              background: rgba(0,0,0,0.2);
+              text-decoration: none;
             }
           }
         }
@@ -52,155 +51,6 @@
           text-decoration: none;
         }
       }
-    }
-  }
-}
-
-/*HEADER*
-------------------------*/
-.header {
-  padding: 0;
-  background-image: url('../img/header-bg.jpg');
-  background-position: 0 0;
-  background-color: #000;
-  background-blend-mode: multiply;
-  .top-header,
-  .top-header.full-bg{
-    background-image: url('../img/header-bg.jpg');
-    background-color: rgba(0,0,0,0.6);
-    background-blend-mode: multiply;
-    background-position: 0 0;
-  }
-  &.tv-header{
-    text-align: center;
-    padding: 90px;
-    img{
-      width: 350px;
-    }
-  }
-  h2 {
-    font-family: 'Quicksand', Arial, sans-serif;
-    font-weight: 100;
-    text-align: center;
-    font-size: 2.6em;
-    display: block;
-    width: 80%;
-    margin: 120px auto 80px auto;
-    line-height: 140%;
-    strong{
-      font-family: 'Lato', sans-serif;
-      font-size: 2em;
-      margin-bottom: 1px;
-      display: block;
-      text-transform: uppercase;
-    }
-  }
-  .call-to-action{
-    font-family: 'Lato', sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-    a{
-      display: inline-block;
-      padding: 20px;
-      border: 1px solid #FFDD00;
-      color: #FFDD00;
-      font-size: 2em;
-      font-weight: 600;
-      border-radius: 3px;
-      cursor: pointer;
-      &:hover,
-      &:focus{
-        text-decoration: none;
-        color: #111;
-        background-color: #FFDD00;
-      }
-    }
-  }
-}
-
-.top-header{
-  background-color: transparent;
-  width: 100%;
-  height: 140px;
-  position: fixed;
-  top: 0;
-  transition: background-color .6s ease-out;
-  z-index: 2;
-  &.not-bg{
-    background-color: rgba(0,0,0,0.6);
-    background-blend-mode: multiply;
-  }
-  &.full-bg{
-    background-color: #000;
-  }
-  ul{
-    float: right;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    li{
-      float: left;
-      a{
-        display: block;
-        color: #fff;
-        text-transform: uppercase;
-        font-size: 1.3em;
-        padding: 60px 18px;
-        height: 140px;
-        &:hover,
-        &:focus{
-          text-decoration: none;
-          color: $main-color;
-          border-bottom: 4px solid $main-color;
-          background: rgba(0,0,0,0.2);
-          cursor: pointer;
-        }
-      }
-    }
-  }
-  .logo{
-    display: block;
-    width: 200px;
-    padding: 10px 10px 20px;
-    img{
-      width: 100%;
-    }
-  }
-}
-.home-bottom-header{
-  padding: 10% 0 30px;
-  .streaming{
-    text-align: center;
-    height: calc(100vh - 200px);
-    position: relative;
-    .video{
-      margin-bottom: 2%;
-    }
-    .data{
-
-      h4{
-        text-transform: uppercase;
-        font-size: 28px;
-      }
-      h5{
-        font-family: 'Quicksand', Arial, sans-serif;
-        font-size: 18px;
-        font-weight: 100;
-      }
-    }
-  }
-}
-.home-header {
-  background-size: cover;
-  background-color: rgba(0,0,0,0.70);
-  background-image: url('../img/wallpaper-site_13.jpg');
-  background-attachment: fixed;
-  min-height: 100vh;
-  //overflow: hidden;
-  .top-header{
-    background: none;
-    &.bg-scroll-header{
-      background-color: rgba(0,0,0,0.85);
     }
   }
 }

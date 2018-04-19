@@ -1,46 +1,48 @@
 /*NEW HOME*
 ------------------------*/
-.newhome{
-  background-color: rgba(0,0,0,0.6);
+.home{
+  background-color: rgba(0,0,0,0.2);
   background-image: url('../img/wallpaper-site_18.jpg');
   background-blend-mode: multiply;
   background-size: cover;
-  height: 92vh;
+  background-position: center 200px;
+  height: calc(100vh - 65px);
   display: flex;
-  justify-content: center;
+  align-self: flex-start;
   flex-direction: column;
+  border-bottom: 4px solid #fd0;
   .content{
     width: 100%;
-    max-width: 1140px;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
+    position: relative;
+    height: 100%;
     .description{
       background: white;
       text-align: left;
-      padding: 10%;
-      border-left: 10px solid #fd0;
+      padding: 6% 13% 3%;
       h2{
         color: #666;
         text-transform: uppercase;
-        font-size: 3rem;
+        font-size: 4rem;
         font-weight: 100;
+        font-family: 'Quicksand', Arial, sans-serif;
       }
       h1{
         color: #333;
-        font-size: 4rem;
+        font-size: 2.8rem;
+
       }
     }
     .cta{
-      font-size: 1.8rem;
-      text-transform: uppercase;
-      font-family: sans-serif;
-      font-weight: 400;
-      margin-top: 30px;
-      display: block;
+      position: absolute;
+      left: 12%;
+      font-size: 2.5rem;
+      font-weight: bold;
+      display: inline-block;
       color: #333;
       padding: 20px 30px;
       background-color: #fd0;
-      float: left;
     }
   }
 }
