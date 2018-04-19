@@ -7,23 +7,26 @@ function checkArray(arr) {
 
 // Slideshow images to preload
 var imagesPath = [
-    'assets/img/wallpaper-site_16.jpg',
-    'assets/img/wallpaper-site_12.jpg',
     'assets/img/wallpaper-site_1.jpg',
-    'assets/img/wallpaper-site_4.jpg',
-    'assets/img/wallpaper-site_9.jpg',
-    'assets/img/wallpaper-site_6.jpg',
-    'assets/img/wallpaper-site_5.jpg',
+    'assets/img/wallpaper-site_2.jpg',
     'assets/img/wallpaper-site_3.jpg',
+    'assets/img/wallpaper-site_4.jpg',
+    'assets/img/wallpaper-site_5.jpg',
+    'assets/img/wallpaper-site_6.jpg',
     'assets/img/wallpaper-site_7.jpg',
+    'assets/img/wallpaper-site_8.jpg',
+    'assets/img/wallpaper-site_9.jpg',
     'assets/img/wallpaper-site_10.jpg',
     'assets/img/wallpaper-site_11.jpg',
-    'assets/img/wallpaper-site_8.jpg',
-    'assets/img/wallpaper-site_2.jpg',
+    'assets/img/wallpaper-site_12.jpg',
+    'assets/img/wallpaper-site_13.jpg',
     'assets/img/wallpaper-site_14.jpg',
     'assets/img/wallpaper-site_15.jpg',
-    'assets/img/wallpaper-site_13.jpg',
-    'assets/img/wallpaper-site_17.jpg'
+    'assets/img/wallpaper-site_16.jpg',
+    'assets/img/wallpaper-site_17.jpg',
+    'assets/img/wallpaper-site_18.jpg',
+    'assets/img/wallpaper-site_19.jpg',
+    'assets/img/wallpaper-site_20.jpg'
 ];
 
 // Store newly created images
@@ -91,7 +94,7 @@ preloader(imagesPath);
                 for (var i = 0; i < images.length; i++) {
                     el.style.backgroundColor="black";
                     setTimeout(function() {
-                        el.style.backgroundColor="rgba(0,0,0,0.7)";
+                        el.style.backgroundColor="rgba(0,0,0,0.2)";
                         el.style.backgroundImage="url('" + images[current].src + "')";
                     }, 700)
                 }
