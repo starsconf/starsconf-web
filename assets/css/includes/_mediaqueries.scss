@@ -2,8 +2,10 @@
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px){
-  .newheader{
+  header{
+    height: 66px;
     .content{
+      width: 100%;
       grid-template-columns: 20% auto;
       .nav{
         display: block;
@@ -18,25 +20,37 @@ and (max-device-width : 480px){
           }
         }
       }
+      .logo img{
+        height: 66px;
+        width: initial;
+      }
     }
   }
-  .newhome{
-    height: initial;
+  .home{
+    background-image: url('../img/wallpaper-site_15.jpg');
+    background-position: center 130px;
     .content{
-      margin: 20px;
-      width: 90%;
+      margin: 0;
+      width: 100%;
       .description{
+        padding: 8%;
         h1{
-          font-size: 2rem;
+          display: block;
+          margin: 0;
+          font-size: 1.5rem;
         }
         h2{
           font-size: 1.6rem;
+          display: block;
+          margin: 0 0 4% 0;
         }
       }
       .cta{
-        float: none;
         text-align: center;
-        font-size: 1.4rem;
+        font-size: 1.8rem;
+        bottom: 3%;
+        width: 90%;
+        left: 5%;
       }
     }
   }
@@ -295,7 +309,7 @@ and (max-device-width : 480px){
 @media only screen 
 and (min-device-width : 376px) 
 and (max-device-width : 767px) {
-  .newheader{
+  header{
     .content{
       grid-template-columns: 20% auto;
       .nav{
@@ -522,7 +536,7 @@ and (max-device-width : 767px) {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  .newheader{
+  header{
     .content{
       grid-template-columns: 20% auto;
       .nav{
