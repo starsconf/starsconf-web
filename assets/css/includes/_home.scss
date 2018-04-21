@@ -6,43 +6,43 @@
   background-blend-mode: multiply;
   background-size: cover;
   background-position: center 200px;
-  height: calc(100vh - 65px);
+  background-attachment: fixed;
+  height: 106vh;
   display: flex;
   align-self: flex-start;
   flex-direction: column;
-  border-bottom: 4px solid #fd0;
-  .content{
+  position: relative;
+  .description{
+    background: white;
+    text-align: left;
     width: 100%;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    height: 100%;
-    .description{
-      background: white;
-      text-align: left;
-      padding: 6% 13% 3%;
+    .content{
+      width: 100%;
+      max-width: 1178px;
+      margin: 0 auto;
+      padding: 120px 0 70px;
       h2{
         color: #666;
         text-transform: uppercase;
-        font-size: 4rem;
-        font-weight: 100;
-        font-family: 'Quicksand', Arial, sans-serif;
+        font-size: 2.8rem;
+        font-weight: 700;
+        font-family: 'PT Sans', Arial, sans-serif;
       }
       h1{
         color: #333;
-        font-size: 2.8rem;
-
+        font-size: 1.8rem;
+        font-family: 'PT Sans', Arial, sans-serif;
       }
-    }
-    .cta{
-      position: absolute;
-      left: 12%;
-      font-size: 2.5rem;
-      font-weight: bold;
-      display: inline-block;
-      color: #333;
-      padding: 20px 30px;
-      background-color: #fd0;
+      .cta{
+        position: absolute;
+        top: 290px;
+        font-size: 1.7rem;
+        font-weight: bold;
+        display: inline-block;
+        color: #333;
+        padding: 12px 20px;
+        background-color: #fd0;
+      }
     }
   }
 }

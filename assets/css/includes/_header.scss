@@ -5,7 +5,8 @@ header{
   .content{
     display: grid;
     grid-template-columns: 15% auto;
-    width: 75%;
+    width: 100%;
+    max-width: 1178px;
     margin: 0 auto;
     .logo{
       position: relative;

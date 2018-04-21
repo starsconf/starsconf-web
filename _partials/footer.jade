@@ -1,6 +1,6 @@
-.container-fluid.footer
-  .row
-    .col-md-12.social
+footer
+  .content
+    .social
       h3= footer.social.title
       ul
         li
@@ -10,9 +10,8 @@
         li
           a.instagram(href= footer.social.instagram, title="Instagram", target="_blank")
         li
-          a.vimeo(href= footer.social.youtube, title="Youtube", target="_blank")
-  .row
-    .col-md-12.contact
+          a.youtube(href= footer.social.youtube, title="Youtube", target="_blank")
+    .contact
       a(href= footer.link_codigo.url)= footer.link_codigo.texto
       br
       != footer.contact.text
