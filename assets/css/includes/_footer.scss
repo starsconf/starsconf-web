@@ -1,59 +1,64 @@
 /*HEADER*
 ------------------------*/
-.footer {
-  background: #fd0;
-  font-size: 1.8em;
-  color: #000;
-  .row{
-    margin-bottom: 0;
-  }
-  .social{
-    text-align: center;
-    padding: 20px 0 0;
-    h3 {
-      font-weight: 300;
-      font-size: 2em;
-      color: #333;
-    }
-    ul{
-      list-style: none;
+footer {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  z-index: 2;
+  width: 100%;
+  .content{
+    font-family: 'PT Sans', Arial, sans-serif;
+    display: grid;
+    grid-template-columns: 22% auto;
+    width: 100%;
+    max-width: 1178px;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    color: #fff;
+    text-align: left;
+    .social{
       padding: 0;
-      margin: 0;
-      li{
-        display: inline-block;
-        margin: 4px 10px;
-        a{
-          display: block;
-          width: 42px;
-          height: 40px;
-          background: url('../img/sprite_social.svg') no-repeat;
-          //filter:brightness(0%);
-          &:hover{
-            filter:brightness(30%);
-          }
-          &.facebook{
-            background-position: 0 0;
-          }
-          &.twitter{
-            background-position: -46px 0;
-          }
-          &.vimeo{
-            background-position: -93px 0;
-          }
-          &.instagram{
-            background-position: -144px 0;
+      h3 {
+        font-weight: 100;
+        font-size: 1.2em;
+      }
+      ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        li{
+          display: inline-block;
+          margin: 4px 10px 4px 0;
+          a{
+            display: block;
+            width: 26px;
+            height: 26px;
+            background: url('../img/sprite_social.svg') no-repeat;
+            filter: invert(100%);
+            &.facebook{
+              background-position: 0 0;
+            }
+            &.twitter{
+              background-position: -32px 0;
+            }
+            &.instagram{
+              background-position: -94px 0;
+            }
+            &.youtube{
+              background-position: -61px 0;
+            }
           }
         }
       }
     }
-  }
-  .contact{
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    a{
-      color: #000;
-      text-decoration: underline;
+    .contact{
+      text-align: right;
+      padding-top: 20px;
+      padding-bottom: 40px;
+      a{
+        color: #fff;
+        text-decoration: underline;
+      }
     }
   }
 }

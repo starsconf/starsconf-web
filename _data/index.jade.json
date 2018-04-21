@@ -25,7 +25,7 @@
     "fecha": "16 y 17 de noviembre 2018",
     "description_home": "El evento de desarrollo, diseño e innovación tecnológica más grande de Chile y uno de los más importantes de Sudamérica. Unimos a estrellas mundiales y expertos locales para hablar de UX, Programación, Data, Innovación, Web, DevOps, Metodologías y Mobile.",
     "link_buy_tickets": "#tickets",
-    "button_buy_tickets": "Asegura tu entrada >",
+    "button_buy_tickets": "Compra tu entrada hoy >",
     "videos_will_be_published_soon": "Pronto slides y videos del evento...",
     "section_one": {
       "title": "Precio de Entradas",
@@ -924,7 +924,7 @@
 
   "footer": {
     "social": {
-      "title":"Síguenos",
+      "title":"Sigue la conferencia en las redes",
       "facebook": "https://www.facebook.com/StarsConf/",
       "twitter": "https://twitter.com/starsconf",
       "youtube": "https://www.youtube.com/channel/UCLkazZzOWJn38rtbgykpFOQ",
