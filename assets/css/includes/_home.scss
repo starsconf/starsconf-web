@@ -7,7 +7,7 @@
   background-size: cover;
   background-position: center 200px;
   background-attachment: fixed;
-  height: 106vh;
+  height: calc(100vh - 63px);
   display: flex;
   align-self: flex-start;
   flex-direction: column;
