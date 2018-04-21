@@ -29,33 +29,43 @@ and (max-device-width : 480px){
   .home{
     background-image: url('../img/wallpaper-site_15.jpg');
     background-position: center 130px;
-    .content{
-      margin: 0;
-      width: 100%;
-      .description{
-        padding: 8%;
+    background-attachment: initial;
+    height: calc(100vh - 66px);
+    .description{
+      padding: 8%;
+      height: 200px;
+      .content{
+        padding: 0;
+        text-align: center;
         h1{
           display: block;
           margin: 0;
           font-size: 1.5rem;
         }
         h2{
-          font-size: 1.6rem;
+          font-size: 2rem;
           display: block;
           margin: 0 0 4% 0;
         }
-      }
-      .cta{
-        text-align: center;
-        font-size: 1.8rem;
-        bottom: 3%;
-        width: 90%;
-        left: 5%;
+        .cta{
+          text-align: center;
+          font-size: 1.8rem;
+          width: 100%;
+          top: 195px;
+          left: 0;
+        }
       }
     }
   }
-  .footer{
+  footer{
     font-size: 1.4rem !important;
+    .content{
+      display: block !important;
+      .social, .contact{
+        text-align: center !important;
+        padding: 5%;
+      }
+    }
   }
 
   .main-content{
@@ -256,7 +266,9 @@ and (max-device-width : 480px){
 and (min-device-width : 460px) 
 and (max-device-width : 767px) {
   header{
+    height: 66px;
     .content{
+      width: 100%;
       grid-template-columns: 20% auto;
       .nav{
         display: block;
@@ -271,30 +283,52 @@ and (max-device-width : 767px) {
           }
         }
       }
+      .logo img{
+        height: 66px;
+        width: initial;
+      }
     }
   }
   .home{
-    height: 90vh;
-    .content{
-      margin: 20px;
-      width: 90%;
-      .description{
+    background-image: url('../img/wallpaper-site_15.jpg');
+    background-position: center 130px;
+    background-attachment: initial;
+    height: calc(100vh - 66px);
+    .description{
+      padding: 8%;
+      height: 200px;
+      .content{
+        padding: 0;
+        text-align: center;
         h1{
-          font-size: 2.6rem;
+          display: block;
+          margin: 0;
+          font-size: 1.5rem;
         }
         h2{
           font-size: 2rem;
+          display: block;
+          margin: 0 0 4% 0;
         }
-      }
-      .cta{
-        float: none;
-        text-align: center;
-        font-size: 1.4rem;
+        .cta{
+          text-align: center;
+          font-size: 1.8rem;
+          width: 100%;
+          top: 195px;
+          left: 0;
+        }
       }
     }
   }
-  .footer{
+  footer{
     font-size: 1.4rem !important;
+    .content{
+      display: block !important;
+      .social, .contact{
+        text-align: center !important;
+        padding: 5%;
+      }
+    }
   }
 
   .main-content{
@@ -427,14 +461,19 @@ and (max-device-width : 767px) {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1200px) {
   header{
+    height: 66px;
     .content{
       grid-template-columns: 20% auto;
+      max-width: 90%;
       .nav{
         display: block;
         text-align: right;
         padding: 20px;
+        ul li a{
+          padding: 0 13px;
+        }
         a{
           color: #fd0;
         }
@@ -444,6 +483,19 @@ and (max-device-width : 767px) {
           }
         }
       }
+    }
+  }
+  .home{
+    .description{
+      .content{
+        max-width: 90%;
+      }
+    }
+  }
+  footer{
+    .content{
+      max-width: 90% !important;
+      grid-template-columns: 30% auto !important;
     }
   }
 
