@@ -1,4 +1,4 @@
-/*NEW HEADER*
+/*HEADER*
 ------------------------*/
 header{
   background-color: #444;
@@ -22,9 +22,8 @@ header{
         z-index: 1;
       }
     }
-    .nav{
-      display: grid;
-      padding: 0;
+    .header-nav{
+      transition: 1s cubic-bezier(0.26, -0.01, 0, 0.98);
       ul{
         display: flex;
         justify-content: flex-end;
@@ -37,55 +36,21 @@ header{
             font-weight: 600;
             padding: 20px 13px;
             display: block;
-            &:hover{
+            &:hover,
+            &:focus{
               color: #fff;
               background: rgba(0,0,0,0.2);
               text-decoration: none;
             }
+            &.toggle-nav-mobile{
+              display: none;
+            }
           }
         }
       }
-      .side-nav{
-        display: initial;
-        li a{
-          margin-top: 0;
-          text-decoration: none;
-        }
-      }
+    }
+    .toggle-nav-mobile{
+      display: none;
     }
   }
-}
-
-#sidenav-overlay{
-  z-index: 0;
-}
-.side-nav,
-ul.side-nav{
-  z-index: 1000;
-  background: #333;
-  li{
-    float: none;
-    line-height: 100%;
-    a{
-      display: block;
-      text-align: right;
-      color: #fff;
-      padding: 30px;
-      height: auto;
-      line-height: 120%;
-      border-top: 1px solid rgba(255,255,255,0.1);
-      border-bottom: 1px solid rgba(0,0,0,0.3);
-      &:hover,
-      &:focus,
-      &:active{
-        background-color: #333;
-        border-bottom-width: 1px;
-        border-top-color: $main-color;
-      }
-    }
-  }
-}
-
-.drag-target{
-  z-index: 10;
 }
