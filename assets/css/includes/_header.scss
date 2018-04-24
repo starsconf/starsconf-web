@@ -110,7 +110,11 @@
   }
 }
 .home-bottom-header{
-  padding: 10% 0 30px;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   .streaming{
     text-align: center;
     height: calc(100vh - 200px);
