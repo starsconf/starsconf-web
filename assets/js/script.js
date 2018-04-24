@@ -159,13 +159,13 @@ preloader(imagesPath);
     **********************************************
     */
 
-    //Sidenav Responsive
-    $(".button-collapse").sideNav({
-        menuWidth: 220,
-        edge: 'right',
-        closeOnClick: false,
-        draggable: true
-    });
+    //Responsive Nav Menu
+    $('.toggle-nav-mobile').click(function(){
+        $('.header-nav').addClass('display');
+    })
+    $('.bg').click(function(){
+        $('.header-nav').removeClass('display');
+    })
 
     // Scrollspy
     $('.scrollspy').scrollSpy();
