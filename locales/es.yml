@@ -1,0 +1,179 @@
+es:
+  title: "Bci Labs - Acelerando el Ecosistema Fintech"
+  home:
+    how:
+      principal: "Somos la incubadora y aceleradora tecnológica del Banco Bci"
+      description: "Trabajamos como un aliado interno que descubre, <strong>conecta e integra soluciones del Ecosistema Fintech con necesidades de clientes del banco</strong>, para así convertirnos en líderes de experiencias digitales para nuestros clientes en el mundo."
+    header-nav:
+      program: "Programa Fintech"
+      program-link: "programa-fintech.html"
+      api: "Portal de APIs"
+      channels: "Nuestros canales"
+      channels-link: "/#channels"
+      cases: "Casos de éxito"
+      cases-link: "success-cases.html"
+    language-selector:
+      default: "Español"
+      spanish: "Español"
+      english: "English"
+      chinese: "有注册"
+    calendar:
+      date: "<strong>18</strong>Febrero"
+      details: "<strong>Open Challenge Kickstart</strong>Muestra tus logros"
+    cta: "Conoce a nuestro equipo"
+    link: "nuestro-equipo.html"   
+  program:
+    title: "Programa Fintech"
+    phrase: "El mejor de los proyectos es abrirnos a nuevos proyectos"
+    description: "El programa de aceleración <strong class='color'>fintech de Bci Labs</strong> tiene por objetivo <strong>conectar soluciones tecnológicas con necesidades de nuestros clientes</strong>."
+    requirements: "Qué estamos buscando"
+    requirements-description: "En este momento las necesidades de nuestros clientes para las cuales buscamos soluciones innovadoras del ecosistema son:"
+    requirements-list:
+      item1: "Cuentas corrientes"
+      item2: "Créditos hipotecarios"
+      item3: "Créditos de consumo"
+      item4: "Créditos para Pequeñas Empresas"
+      item5: "Inversiones"
+    call: "Las mejores soluciones <strong>se convertirán en proveedores de nuestro banco</strong>."
+    cta1: "Conoce más detalles del programa"
+    url-cta1: "programa-fintech.html"
+    cta2: "Postula ahora"
+    url-cta2: "https://conectter.com/register"
+  channels:
+    title: "Nuestros canales de captación e innovación abierta"
+    description: "A través de estas iniciativas queremos acercarnos a las mejores startups,<br> como también potenciar las mejores ideas que estimulen la innovación."
+    challenges:
+      title: "Open Challenge"
+      description: "Es <strong>un desafío de innovación abierta específico para satisfacer una necesidad del banco</strong>. El proceso de selección es específico y solo las startups que cumplan con las características del desafío podrán participar"
+      cta: "Descubre los desafíos"
+      cta-link: "#"
+    openapi:
+      title: "Portal de APIs abiertas"
+      description: "Tenemos disponible un Portal de Bci Developers con APIs abiertas que te permitirán <strong>experimentar y probar tu integración con el banco</strong>."
+      cta: "Pruébalas ahora!"
+    hackathon:
+      title: "Hackathon"
+      description: "Eventos en que <strong>nos juntamos a explorar, diseñar e implementar algún producto que esté relacionado con las necesidades de nuestros clientes</strong> y que sea potencialmente integrable con el banco."
+      cta: "Revisa las próximas fechas"
+      cta-link: "#"
+  program-detail:
+    first-text: "Buscamos a las mejores <strong>startups fintech del mundo</strong> que nos ayuden a brindar experiencias memorables a nuestros clientes a través de todos los canales."
+    second-text: ""
+    third-text: "Postula a nuestro programa si:"
+    requirements-startup-list:
+      item1: "Tienes una startup o empresa fintech con clientes"
+      item2: "Cuentas con un modelo de negocios definido"
+      item3: "Tienes un producto funcional"
+      item4: "Estás buscando más clientes o escalar"
+    cta: "Postula a nuestro programa"
+    resume-text1: "Nuestro programa está orientado a <strong>ayudar a tu startup a mostrar valor para nuestros clientes</strong> y que así te puedas convertir en un proveedor del banco."
+    what-give-you: "Qué ofrecemos"
+    what-help-you: "Nuestra ayuda como Bci Labs"
+    wgy1: "<strong>Invertimos en beneficios y servicios para tu startup </strong> (por un valor equivalente de hasta USD25.000) para realizar las actividades necesarias que muestren tu propuesta de valor en el Banco."
+    wgy2: "<strong>Lean Startup management</strong>, ya que asignaremos un <strong>Project Lead Ecosystem</strong>, quien:"
+    wgy2-list:
+      item1: "Velará para que tu solución sea escalable (Bank Compliance)."
+      item2: "Coordinará y dará asesorías desde Riesgo Operacional, Ciberseguridad y arquitectura Tecnológica."
+    wgy3: "<strong>Facilitamos el acercamiento a clientes</strong> potenciales."
+    wgy4: "<strong>Ayudamos a alinear tu propuesta de valor</strong> estratégicamente con los objetivos del negocio y con los procesos internos del banco."
+    wgy5: "<strong>Otorgamos financiamiento económico a través de servicios</strong> para que puedas mostrar el valor de tu producto."
+    wgy6: "<strong>Acompañamos en el proceso de diseño, validación e implementación</strong> de la integración de tu producto al banco."
+    steps: 
+      name: "Las etapas de nuestro programa"
+      steps-description: "Una vez que ingresaste al Programa Fintech, pasarás por varias etapas. Debes estar preparado, ya que el proceso será intenso, pero <strong>en Bci Labs te ayudaremos en todo</strong>."
+      step1:
+        index: "1."
+        name: "Onboarding"
+        description: "Fuiste seleccionado para ingresar al programa Fintech Felicitaciones. Uno de nuestros Project Lead Ecosystem te apoyará durante todo el proceso. Tendrás una reunión formal con ella(él) para contarte los detalles que se vendrán de aquí en adelante."
+      step2:
+        index: "2."
+        name: "Diseño de experimentos"
+        description: "Junto a tu Project Lead Ecosystem participarás de un proceso de Diseño y Customer Development para obtener un prototipo de la integración que podrá ser validado con nuestros clientes."
+      step3:
+        index: "3."
+        name: "Recolección de información"
+        description: "En esta etapa te acompañamos obteniendo evidencia real de los resultados, para así evaluar la capacidad de tu producto de escalar dentro del banco."
+      step4:
+        index: "4."
+        name: "Análisis de resultados"
+        description: "Con tu sponsor dentro del banco y tu Project Lead Ecosystem, trabajarás en analizar los resultados y obtener aprendizajes de éstos."
+      step5:
+        index: "5."
+        name: "Diseño de la integración con Bci"
+        description: "Tu Project Lead Ecosystem te apoyará en cumplir con los requisitos para realizar la integración real con el banco."
+      step6:
+        index: "6."
+        name: "Implementación de la integración"
+        description: "Para esto usaremos metodologías ágiles de desarrollo."
+      step7:
+        index: "7."
+        name: "Análisis de resultados de la etapa de piloto"
+        description: ""
+      step8:
+        index: "8."
+        name: "Graduación Programa Fintech"
+        description: "Si todo salió bien, podrás escalar tu solución y convertirte en un nuevo proveedor formal del banco."
+    resume-text2: "¿Te convenciste?"
+  team:
+    title: "Nuestro Equipo"
+    description: "11 Lead Management Project encabezan este desafío en Bci, guiando y ayudando a las Startups a graduarse en el Programa Fintech."
+    members:
+      member01: "Edgardo Ochoa"
+      member01-desc: "Head of Bci Labs"
+      member01-area: ""
+      picture01: "team/edgardo_ochoa.jpg"
+
+      member02: "Felipe Quinteros"
+      member02-desc: "Jefe de Proyectos Bci Labs"
+      member02-area: "#ux #design_sprint"
+      picture02: "team/felipe_quinteros.jpg"
+
+      member03: "Catalina Canales"
+      member03-desc: "Jefa de unidad de intraemprendimiento."
+      member03-area: "#intraemprendimiento #diseño_viajes"
+      picture03: "team/catalina_canales.jpg"
+
+      member05: "Sebastián Fuenzalida"
+      member05-desc: "Jefe de Proyectos Bci Labs"
+      member05-area: "#autenticación #fintech"
+      picture05: "team/sebastian_fuenzalida.jpg"
+
+      member04: "Patricio Ibarra"
+      member04-desc: "Jefe de Proyectos Bci Labs"
+      member04-area: "#mach"
+      picture04: "team/patricio_ibarra.jpg"
+
+      member06: "Federico Lara"
+      member06-desc: "Jefe de Proyectos Bci Labs"
+      member06-area: "#bots"
+      picture06: "team/federico_lara.jpg"
+
+      member07: "Ángel Valenzuela"
+      member07-desc: "Jefe de Proyectos Bci Labs"
+      member07-area: "#apis"
+      picture07: "team/angel_valenzuela.jpg"
+
+      member08: "Pedro Zegers"
+      member08-desc: "Jefe de Proyectos Bci Labs"
+      member08-area: "#design_sprint"
+      picture08: "team/pedro_zegers.jpg"
+
+      member09: "Camilo Lozano"
+      member09-desc: "Jefe de Proyectos Bci Labs"
+      member09-area: "#mach"
+      picture09: "team/camilo_lozano.jpg"
+
+      member10: "Fernanda Pérez"
+      member10-desc: "Jefe de Proyectos Bci Labs"
+      member10-area: "#open_challenge"
+      picture10: "team/fernanda_perez.jpg"
+
+      member11: "Nico Ibaibarriaga"
+      member11-desc: "Jefe de Proyectos Bci Labs (China)"
+      member11-area: "#mach"
+      picture11: "team/nico_ibaibarriaga.jpg"
+
+    fake-link: "javascript:void(0);"
+  paths:
+    "our-team": "nuestro-equipo"
+    "fintech-program": "programa-fintech"

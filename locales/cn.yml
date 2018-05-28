@@ -1,0 +1,121 @@
+cn:
+  title: "Bci實驗 - 加速金融科技生态系统"
+  home:
+    how:
+      principal: "还没有注册“我的"
+      description: "Bci實驗室是銀行的孵化器和技術加速器，我們是發現，連接和整合金融科技生態系統解決方案的內部盟友，以成為全球客戶的數字體驗的領導者"
+    header-nav:
+      program: "金融科技計劃"
+      program-link: "fintech-program.html"
+      api: "API 門戶"
+      channels: "創新渠道"
+      cases: "成功的故事"
+    language-selector:
+      default: "中文"
+    calendar:
+      date: "<strong>18</strong>二月"
+      details: "<strong>打開挑戰Kickstart</strong>顯示你的成就"
+    cta: "見我們的團隊"
+    link: "our-team.html"
+  program:
+    title: "金融科技计划"
+    phrase: "最好的项目是开辟新的项目"
+    description: "<strong class='color'>Bci Labs fintech</strong> 加速计划旨在将技术解决方案与客户的需求联系起来"
+    requirements: "我们在寻找什么"
+    requirements-description: "在这个时候，我们的客户需要我们寻求创新的生态系统解决方案:"
+    requirements-list:
+      item1: "经常帐户"
+      item2: "抵押贷款"
+      item3: "抵押贷款"
+      item4: "小企业的信用"
+      item5: "投资"
+    call: "最好的解决方案将成为我们银行的供应商."
+    cta1: "检查更多细节"
+    url-cta1: "fintech-program.html"
+    cta2: "立即申请"
+  channels:
+    title: "我们的招聘渠道和开放式创新"
+    description: "通过这些举措，我们希望接近最好的阶段<br> 同时推广激发创新的最佳理念"
+    challenges:
+      title: "公开挑战"
+      description: "满足银行需求是一个具体的开放式创新挑战。 选择过程是特定的，只有符合挑战特征的初创公司才能参与"
+      cta: "发现挑战"
+    openapi:
+      title: "打开 API"
+      description: "我在一个存有悲请坐阿梅德，现在，有针对性的香蕉的时间。营养化妆玩家需要在全国范围内的价格竞争。目前，电视和生活的怎么样，他希望在不断运行"
+      cta: "现在试试"
+    hackathon:
+      title: "黑客马拉松"
+      description: "L我在一个存有悲请坐阿梅德，现在，有针对性的香蕉的时间。营养化妆玩家需要在全国范围内的价格竞争。目前，电视和生活的怎么样，他希望在不断运行"
+      cta: "检查下一个日期"
+  program-detail:
+    first-text: "我们正在寻找世界上最好的金融科技创业公司，帮助我们通过各种渠道为我们的客户提供难忘的体验"
+    third-text: "仅适用于我们的程序:"
+    requirements-startup-list:
+      item1: "你有一个初创公司或金融科技公司与客户"
+      item2: "具有定义的业务模型的帐户"
+      item3: "你有一个功能性的产品"
+      item4: "您正在寻找更多的客户或规模"
+    cta: "适用于我们的计划"
+    resume-text1: "我们的计划旨在帮助您的创业公司为我们的客户展现价值，这样您就可以成为银行的供应商."
+    what-give-you: "我们为您提供"
+    what-help-you: "我们帮助我们BCI Labs"
+    wgy1: "我们为您的初创企业（相当于价值高达25,000美元）投资于福利和服务，以开展必要的活动，展示您在银行的价值主张."
+    wgy2: "精益启动管理，因为我们将分配给Project Lead Ecosystem，谁:"
+    wgy2-list:
+      item1: "将确保您的解决方案是可扩展的（银行合规性."
+      item2: "协调运营风险，网络安全和技术架构并给予建议."
+    wgy3: "我们促进潜在客户的方法."
+    wgy4: "我们帮助您的价值主张与业务目标和银行内部流程保持一致."
+    wgy5: "我们通过服务提供财务融资，因此您可以显示产品的价值."
+    wgy6: "我们陪同您的产品整合到银行的设计，验证和实施过程中."
+    steps: 
+      name: "我们的计划的阶段"
+      steps-description: "一旦你进入金融科技计划，你将经历几个阶段。 你必须做好准备，因为这个过程会非常激烈，但是在BCI实验室，我们会帮助你的"
+      step1:
+        index: "1."
+        name: "上岗"
+        description: "您已被选中进入金科技计划恭喜。 我们的一个项目牵头生态系统将在整个过程中为您提供支持您将与她（他）正式会面，告诉您来自这里的细节."
+      step2:
+        index: "2."
+        name: "实验设计"
+        description: "与您的项目主管生态系统一起，您将参与设计和客户开发流程，以获得可与客户验证的集成原型."
+      step3:
+        index: "3."
+        name: "信息收集"
+        description: "在这个阶段，我们会陪伴您获得结果的真实证据，以评估您的产品在银行内部扩展的能力."
+      step4:
+        index: "4."
+        name: "结果分析"
+        description: "通过银行内的赞助商和项目主管生态系统，您将分析结果并从中获得教训."
+      step5:
+        index: "5."
+        name: "与Bci集成的设计"
+        description: "您的项目主管生态系统将支持您实现与银行真正融合的要求."
+      step6:
+        index: "6."
+        name: "整合的发展"
+        description: "为此，我们将使用敏捷开发方法."
+      step7:
+        index: "7."
+        name: "试点阶段的成果分析"
+        description: ""
+      step8:
+        index: "8."
+        name: "毕业计划Fintech"
+        description: "如果一切顺利，你可以扩大你的解决方案，成为银行的新正式供应商."
+    resume-text2: "你相信吗？"
+  team:
+    title: "我们的团队"
+    description: "11 BCI领导管理项目主管在BCI面临挑战，指导和帮助初创企业在金融科技项目中毕业."
+    members:
+      member02-desc: "牵头管理项目Bci Labs"
+      member03-desc: "创业单位主管."
+      member05-desc: "牵头管理项目Bci Labs"
+      member04-desc: "牵头管理项目Bci Labs"
+      member06-desc: "牵头管理项目Bci Labs"
+      member07-desc: "牵头管理项目Bci Labs"
+      member08-desc: "牵头管理项目Bci Labs"
+      member09-desc: "牵头管理项目Bci Labs"
+      member10-desc: "牵头管理项目Bci Labs"
+      member11-desc: "牵头管理项目Bci Labs (中国)"

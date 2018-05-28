@@ -1,0 +1,122 @@
+en:
+  title: "Bci Labs - Accelerating the Fintech Ecosystem"
+  home:
+    how:
+      principal: "We are the Bci Bank incubator and technological accelerator"
+      description: "We are an internally that discovers, connects and integrates Fintech Ecosystem solutions in order to become leaders in digital experiences for our clients in the world."
+    header-nav:
+      program: "Fintech Program"
+      program-link: "fintech-program.html"
+      api: "APIs Portal"
+      channels: "Our Channels"
+      cases: "Successful Cases"
+      cases-link: "success-cases.html"
+    language-selector:
+      default: "English"
+    calendar:
+      date: "<strong>18</strong>February"
+      details: "<strong>Open Challenge Kickstart</strong>Show your achievements"
+    cta: "Meet our team"
+    link: "our-team.html"
+  program:
+    title: "Fintech Acceleration Program"
+    phrase: "The best project is to open up to new projects"
+    description: "Bci Labs' <strong class='color'>fintech acceleration program</strong> aims to <strong>connect technological solutions with the needs of our customers</strong>"
+    requirements: "What are we searching for"
+    requirements-description: "At this moment the needs of our clients for whom we seek innovative solutions of the ecosystem are:"
+    requirements-list:
+      item1: "Current Accounts"
+      item2: "Mortgage Credits"
+      item3: "Consumer Loans"
+      item4: "Credits for small business"
+      item5: "Investments"
+    call: "The best solutions will become suppliers of our bank"
+    cta1: "Check for more details"
+    url-cta1: "fintech-program.html"
+    cta2: "Apply Now"
+  channels:
+    title: "Our recruitment channels and open innovation"
+    description: "Through these initiatives we want to get closer to the best statrups,<br> as well as to promote the best ideas that stimulate innovation"
+    challenges:
+      title: "Open Challenge"
+      description: "It is a specific open innovation challenge to satisfy a bank need. The selection process is specific and only startups that meet the challenge characteristics can participate."
+      cta: "Discover the challenges"
+    openapi:
+      title: "Open APIs Portal"
+      description: "We have available a Bci Developers Portal with open APIs that will allow you to <strong>experiment and prove your integration with the bank</strong>"
+      cta: "Try it now"
+    hackathon:
+      title: "Hackathon"
+      description: "Events in which <strong>we come together to explore, design and implement a product that is related to the needs of our customers</strong> and that is potentially integratable with the bank."
+      cta: "Check the next dates"
+  program-detail:
+    first-text: "We are looking for the <strong>best fintech startups</strong> in the world to help us provide memorable experiences to our customers through all channels."
+    third-text: "Apply to our program only if:"
+    requirements-startup-list:
+      item1: "You have a startup or fintech company with clients"
+      item2: "Accounts with a defined business model"
+      item3: "You have a functional product"
+      item4: "You are looking for more clients or to scale"
+    cta: "Apply to our program"
+    resume-text1: "Our program is aimed at <strong>helping your startup show value for our clients</strong> and that way you can become a bank supplier."
+    what-give-you: "We offer"
+    what-help-you: "Our help us Bci Labs"
+    wgy1: "<strong>We invest in benefits and services for your startup</strong> (for an equivalent value of up to USD25,000) to carry out the necessary activities that show your value proposition in the Bank."
+    wgy2: "<strong>Lean Startup management</strong>, because we will assign a Project Lead Ecosystem, who:"
+    wgy2-list:
+      item1: "Will ensure that your solution is scalable (Bank Compliance)."
+      item2: "Coordinate and give advice from Operational Risk, Cybersecurity and Technological Architecture."
+    wgy3: "We <strong>facilitate the approach to potential</strong> clients."
+    wgy4: "<strong>We help align your value proposition</strong> strategically with the business objectives and with the internal processes of the bank."
+    wgy5: "<strong>We grant financial financing through services</strong> so you can show the value of your product."
+    wgy6: "<strong>We accompany in the process of design, validation and implementation</strong> of the integration of your product to the bank."
+    steps: 
+      name: "The stages of our program"
+      steps-description: "Once you have entered the Fintech Program, you will go through several stages. You must be prepared, since the process will be intense, but at <strong>Bci Labs we will help you in everything</strong>."
+      step1:
+        index: "1."
+        name: "Onboarding"
+        description: "You have been selected to enter the Fintech program Congratulations. One of our Project Lead Ecosystem will support you throughout the process. You will have a formal meeting with her (him) to tell you the details that will come from here on."
+      step2:
+        index: "2."
+        name: "Design of experiments"
+        description: "Together with your Project Lead Ecosystem you will participate in a Design and Customer Development process to obtain a prototype of the integration that can be validated with our customers."
+      step3:
+        index: "3."
+        name: "Collection of information"
+        description: "In this stage we accompany you obtaining real evidence of the results, in order to evaluate the capacity of your product to scale within the bank."
+      step4:
+        index: "4."
+        name: "Analysis of results"
+        description: "With your sponsor within the bank and your Project Lead Ecosystem, you will work on analyzing the results and obtaining lessons from them."
+      step5:
+        index: "5."
+        name: "Design of the integration with Bci"
+        description: "Your Project Lead Ecosystem will support you in fulfilling the requirements to make the real integration with the bank."
+      step6:
+        index: "6."
+        name: "Development of integration"
+        description: "For this we will use agile development methodologies."
+      step7:
+        index: "7."
+        name: "Analysis of results of the pilot stage"
+        description: ""
+      step8:
+        index: "8."
+        name: "Graduation Program Fintech"
+        description: "If everything went well, you can scale your solution and become a new formal supplier of the bank."
+    resume-text2: "Are you convinced?"
+  team:
+    title: "Our Team"
+    description: "11 Lead Management Project head of this challenges at Bci, guiding and helping the startups to graduate in the Fintech Program."
+    members:
+      member02-desc: "Lead Management Project Bci Labs"
+      member03-desc: "Head of Entrepreneurship unit."
+      member05-desc: "Lead Management Project Bci Labs"
+      member04-desc: "Lead Management Project Bci Labs"
+      member06-desc: "Lead Management Project Bci Labs"
+      member07-desc: "Lead Management Project Bci Labs"
+      member08-desc: "Lead Management Project Bci Labs"
+      member09-desc: "Lead Management Project Bci Labs"
+      member10-desc: "Lead Management Project Bci Labs"
+      member11-desc: "Lead Management Project Bci Labs (China)"

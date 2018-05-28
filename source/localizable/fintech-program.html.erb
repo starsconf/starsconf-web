@@ -1,0 +1,210 @@
+<section class="header-page">
+  <%= partial "partials/header" %>
+</section>
+<section class="program detail-page">
+  <div class="container main-content ">
+    <h1><%= t('program-detail.first-text') %></h1>
+    <h3><%= t('program-detail.second-text') %></h3>
+    <div class="landing-image">
+      <%= image_tag 'programa-01.svg' %>
+    </div>
+    <h3><strong><%= t('program-detail.third-text') %></strong></h3>
+    <ul class="req-list">
+      <li><%= t('program-detail.requirements-startup-list.item1') %></li>
+      <li><%= t('program-detail.requirements-startup-list.item2') %></li>
+      <li><%= t('program-detail.requirements-startup-list.item3') %></li>
+      <li><%= t('program-detail.requirements-startup-list.item4') %></li>
+    </ul>
+  </div>
+  
+  <div class="outsanding-call">
+    <div class="container main-content">
+      <h4><%= t('program-detail.resume-text1') %></h4>
+      <div class="actions">
+      <%= link_to (t('program-detail.cta')), (t('program.url-cta2')), :class =>'btn' %>
+    </div>
+    </div>
+  </div>
+
+  <div class="main-content second-content">
+    <div class="container">
+      <h1><strong><%= t('program-detail.what-give-you') %></strong></h1>
+      <div class="columns col2">
+        <div class="col">
+          <%= image_tag 'programa-05.svg' %>
+          <h5><%= t('program-detail.wgy1') %></h5>
+        </div>
+        <div class="col">
+          <%= image_tag 'programa-04.svg' %>
+          <h5><%= t('program-detail.wgy2') %></h5>
+          <ul class="min-list">
+            <li><%= t('program-detail.wgy2-list.item1') %></li>
+            <li><%= t('program-detail.wgy2-list.item2') %></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-content second-content bg">
+    <div class="container">
+      <h1><%= t('program-detail.what-help-you') %></h1>
+      <div class="columns col4">
+        <div class="col">
+          <%= image_tag 'programa-06.svg' %>
+          <h5><%= t('program-detail.wgy3') %></h5>
+        </div>
+        <div class="col">
+          <%= image_tag 'programa-07.svg' %>
+          <h5><%= t('program-detail.wgy4') %></h5>
+        </div>
+        <div class="col">
+          <%= image_tag 'programa-08.svg' %>
+          <h5><%= t('program-detail.wgy5') %></h5>
+        </div>
+        <div class="col">
+          <%= image_tag 'programa-09.svg' %>
+          <h5><%= t('program-detail.wgy6') %></h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-content second-content steps">
+    <div class="container">
+      <h1><strong><%= t('program-detail.steps.name') %></strong></h1>
+      <h2><%= t('program-detail.steps.steps-description') %></h2>
+    </div>
+  </div>
+  
+  <div class="main-content second-content steps">
+    <div class="container">
+      <div class="columns col2">
+        <div class="col image-content">
+          <%= image_tag 'step-01.svg' %>
+        </div>
+        <div class="col left-content">
+          <h2><%= t('program-detail.steps.step1.index') %></h5>
+          <h3><%= t('program-detail.steps.step1.name') %></h3>
+          <p><%= t('program-detail.steps.step1.description') %></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-content second-content steps bg">
+    <div class="container">
+      <div class="columns col2">
+        <div class="col right-content">
+          <h2><%= t('program-detail.steps.step2.index') %></h5>
+          <h3><%= t('program-detail.steps.step2.name') %></h3>
+          <p><%= t('program-detail.steps.step2.description') %></p>
+        </div>
+        <div class="col image-content">
+          <%= image_tag 'step-02.svg' %>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-content second-content steps">
+    <div class="container">
+      <div class="columns col2">
+        <div class="col image-content">
+          <%= image_tag 'step-03.svg' %>
+        </div>
+        <div class="col left-content">
+          <h2><%= t('program-detail.steps.step3.index') %></h5>
+          <h3><%= t('program-detail.steps.step3.name') %></h3>
+          <p><%= t('program-detail.steps.step3.description') %></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-content second-content steps bg">
+    <div class="container">
+      <div class="columns col2">
+        <div class="col right-content">
+          <h2><%= t('program-detail.steps.step4.index') %></h5>
+          <h3><%= t('program-detail.steps.step4.name') %></h3>
+          <p><%= t('program-detail.steps.step4.description') %></p>
+        </div>
+        <div class="col image-content">
+          <%= image_tag 'step-04.svg' %>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-content second-content steps">
+    <div class="container">
+      <div class="columns col2">
+        <div class="col image-content">
+          <%= image_tag 'step-05.svg' %>
+        </div>
+        <div class="col left-content">
+          <h2><%= t('program-detail.steps.step5.index') %></h5>
+          <h3><%= t('program-detail.steps.step5.name') %></h3>
+          <p><%= t('program-detail.steps.step5.description') %></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-content second-content steps bg">
+    <div class="container">
+      <div class="columns col2">
+        <div class="col right-content">
+          <h2><%= t('program-detail.steps.step6.index') %></h5>
+          <h3><%= t('program-detail.steps.step6.name') %></h3>
+          <p><%= t('program-detail.steps.step6.description') %></p>
+        </div>
+        <div class="col image-content">
+          <%= image_tag 'step-06.svg' %>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-content second-content steps">
+    <div class="container">
+      <div class="columns col2">
+        <div class="col image-content">
+          <%= image_tag 'step-07.svg' %>
+        </div>
+        <div class="col left-content">
+          <h2><%= t('program-detail.steps.step7.index') %></h5>
+          <h3><%= t('program-detail.steps.step7.name') %></h3>
+          <p><%= t('program-detail.steps.step7.description') %></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-content second-content steps bg">
+    <div class="container">
+      <div class="columns col2">
+        <div class="col right-content">
+          <h2><%= t('program-detail.steps.step8.index') %></h5>
+          <h3><%= t('program-detail.steps.step8.name') %></h3>
+          <p><%= t('program-detail.steps.step8.description') %></p>
+        </div>
+        <div class="col image-content">
+          <%= image_tag 'step-08.svg' %>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="outsanding-call end">
+    <div class="container main-content">
+      <h4><%= t('program-detail.resume-text2') %></h4>
+      <div class="actions">
+      <%= link_to (t('program-detail.cta')), (t('program.url-cta2')), :class =>'btn cta' %>
+    </div>
+    </div>
+  </div>
+
+</section>
+<%= partial "partials/footer" %>

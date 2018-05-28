@@ -1,0 +1,21 @@
+<header class="container">
+  <% link_to("/", :class => 'logo', title: t(:title)) do %>
+    <%= image_tag 'logos/logo_bci_labs_black.svg' %>
+  <% end %>
+  <a href="#" class="toggle-nav-mobile">
+    <i class="material-icons">menu</i>
+  </a>
+
+  <nav class="header-nav">
+    <div class="bg"></div>
+    <ul>
+      <li><%= link_to (t('home.header-nav.program')), (t('home.header-nav.program-link')) %></li>
+      <li><%= link_to (t('home.header-nav.channels')), (t('home.header-nav.channels-link')) %></li>
+      <li class="xs-visible"><%= link_to (t('home.cta')), (t('home.link')) %></li>
+      <li><%= link_to (t('home.header-nav.api')), 'https://developers.bci.cl/', :target => '_blank' %></li>
+      <li class="xs-visible xs-hidden"><%= link_to (t('home.header-nav.cases')), (t('home.header-nav.cases-link')) %></li>
+    </ul>
+    <%= partial "partials/languages" %>
+
+  </nav>
+</header>

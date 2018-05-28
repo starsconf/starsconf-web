@@ -1,41 +1,44 @@
-# STARSCONF
-# Versión 2018
+# Bci Labs Website
+This is a middleman website (https://middlemanapp.com/).
 
-# Requerimientos
-  - Node > 4
+## Requirements
 
-### Para correr el cuento
-- Ejecuta `npm install` en el directorio para descargar las dependencias.
-- Luego `gulp build` para compilar los assets (Esto sólo la primera vez)
-- Finalmente sólo `gulp` para correr la web en el local server. Los cambios se actualizarán solos gracias a BrowserSync.
+- Ruby Version 2.4.1 (or latest January 2018) [https://www.ruby-lang.org/en/downloads/]
+- Bundler [http://bundler.io/]s
 
-### Para modificar el contenido de la página
- - Se edita el archivo `index.jade.json` para todos los textos y algunos links.
- - Todo el layout está separado por secciones en partials Pug en el directorio `partials`
- - Para agregar o quitar *keynoters* sólo se debe hacer en el `index.jade.json` y no olvidar activar o desactivar el switch `on`/`off`
- - Para agregar nuevos *sponsors* sólo basta hacerlo en el `index.jade.json` y el layout lo diagramará según corresponda.
+## Local installation
 
-### Sitio compilado
- - El html con sus assets, se compilan dentro de la carpera `_site`, como se encuentra configurado en el `gulpfile.js`
- - El sitio está configurado con Integración continua en la rama `master`
+Assuming you've your machine equipped with Ruby, Bundler and just cloned the repo then you can install Middleman execute this command:
 
-### Notas adicionales
-- Documentación de [Pug project] https://pugjs.org/api/getting-started.html
-- El proyecto usa [gulp-data](https://github.com/colynb/gulp-data)
-- Los estilos usan SASS https://sass-lang.com/
+    $ gem install middleman
 
-### Para la sección de horarios de la conferencia
+*We recommend Gemset use.*
 
-Para inicializar la app en un track especifico de la conferencia:
+An then execute bundler commands:
+    
+    $ bundle install
+    $ bundle update
 
-  * track 1: http://localhost:3000/realtime.html?track=1
-  * track 2: http://localhost:3000/realtime.html?track=2
-  * track 3: http://localhost:3000/realtime.html?track=3
+## Run the project
 
-Esto se ejecutará usando un reloj en tiempo real por lo tanto solo funcionará
-los días reales de la conferencia. Pero, para simular un día especifico y hora especifica se puede pasar otros parametros (date y time) para
-ver como funciona la app:
+After installing Middleman, you're already to run the project, just executing: 
 
-  Para probar que muestra el dia 04 de Noviembre del 2017 a las 13:30 se debe hacer lo siguiente:
+    $ bundle exec middleman server
 
-EJ: http://localhost:3000/schedule.html?track=1&date=2017-11-04&time=13:30
+The project run on `http://localhost:4567/`
+
+## Compile files to remote server upload
+
+Stop middleman server using `CTRL + C` on keyboard and then execute:
+
+    $ bundle exec middleman build
+
+The project files you can found it on **build** folder.
+
+## Languages
+
+All languages can it change on .yml files
+
+- If you need change chinese language `\locales/cn.yml` file.
+- If you need change english language `\locales/en.yml` file.
+- If you need change spanish language `\locales/es.yml` file.

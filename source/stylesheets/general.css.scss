@@ -1,0 +1,174 @@
+@import 'utils/variables.scss';
+@import 'utils/mixins';
+@import 'utils/functions';
+
+//Layout
+html{
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+}
+
+*,
+:after,
+:before{
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+aside,
+section,
+p,
+ul,
+ol,
+span{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $general-color;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+a{
+  color: #FFF;
+  transition: all .15s ease-in-out;
+  &:focus,
+  &:hover {
+    color: $highlight-third-color;
+  }
+}
+
+.btn{
+  display: inline-block;
+  background-color: $highlight-color;
+  border: 1px solid $highlight-color;
+  color: $general-light;
+  padding: 12px 16px;
+  text-align: center;
+  border-radius: border-radius();
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  &:hover,
+  &:focus,
+  &:active{
+    color: $general-light;
+  }
+}
+
+.left-content{
+  text-align: left;
+}
+
+.right-content{
+  text-align: right;
+}
+
+//Components
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  &:hover,
+  &:focus{
+    background-color: #2980B9;
+  }
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  .dropdown-content {
+    transition: all .15s ease-in-out;
+    display: none;
+    position: absolute;
+    right: 5px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+    a{
+      text-align: center;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      &:hover{
+        background-color: #f1f1f1
+      }
+    }
+    &.show{
+      display:block;
+    }
+  }
+}
+
+
+//Responsive
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1024px) { 
+  .container{
+    max-width: 980px;
+  }
+  .btn{
+    font-size: 1.2em;
+    padding: 18px 24px;
+  }
+  .columns{
+    display: grid;
+    &.col1{
+      grid-template-rows: 1;
+    }
+    &.col2{
+      grid-template-columns: 50% 50%;
+    }
+    &.col3{
+      grid-template-columns: auto auto auto;
+    }
+    &.col4{
+      grid-template-columns: 25% 25% 25% 25%;
+    }
+    .col{
+      padding: 20px;
+    }
+  }
+  .xs-visible{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) { 
+  .container{
+    max-width: 1140px;
+  }
+}
+
+@media screen and (max-width: 1023px){
+  .xs-hidden{
+    display: none;
+  }
+}

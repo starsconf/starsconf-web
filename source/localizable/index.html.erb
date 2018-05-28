@@ -1,0 +1,101 @@
+<section class="home">
+  <%= partial "partials/header" %>
+  <div class="container main-content">
+    <div class="info">
+      <h1>
+        <%= t('home.how.principal') %>
+      </h1>
+      <h2>
+        <%= t('home.how.description') %>
+      </h2>
+      <%= link_to (t('home.cta')), (t('home.link')), :class =>'btn cta' %>
+    </div>
+    <div class="calendar">
+      <div class="date-group">
+        <div class="date">
+          <%= t('home.calendar.date') %>
+        </div>
+        <div class="details">
+          <p>
+            <%= t('home.calendar.details') %>
+          </p>
+          <p>
+            <a href="#">https://link.com</a>
+          </p>
+        </div>
+      </div>
+      <div class="date-group">
+        <div class="date">
+          <%= t('home.calendar.date') %>
+        </div>
+        <div class="details">
+          <p>
+            <%= t('home.calendar.details') %>
+          </p>
+          <p>
+            <a href="#">https://link.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="program">
+  <div class="container main-content">
+    <h1><%= t('program.title') %></h1>
+    <h2><%= t('program.description') %></h2>
+    <div class="landing-image">
+      <%= image_tag 'programa-01.svg' %>
+    </div>
+    <h1><%= t('program.requirements') %></h1>
+    <h2><%= t('program.requirements-description') %></h2>
+    <ul class="req-list">
+      <li><%= t('program.requirements-list.item1') %></li>
+      <li><%= t('program.requirements-list.item2') %></li>
+      <li><%= t('program.requirements-list.item3') %></li>
+      <li><%= t('program.requirements-list.item4') %></li>
+      <li><%= t('program.requirements-list.item5') %></li>
+    </ul>
+  </div>
+  <div class="outsanding-call">
+    <div class="container main-content">
+      <h4><%= t('program.call') %></h4>
+      <div class="actions">
+        <%= link_to (t('program.cta1')), (t('program.url-cta1')), :class =>'btn' %>
+        <%= link_to (t('program.cta2')), (t('program.url-cta2')), :class =>'btn cta' %>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="channels" id="channels">
+  <div class="container main-content">
+    <h2><%= t('channels.title') %></h2>
+    <h3><%= t('channels.description') %></h3>
+  </div>
+  <div class="blocks">
+    <div class="blocks-block challenges">
+      <h3><%= t('channels.challenges.title') %></h3>
+      <p><%= t('channels.challenges.description') %></p>
+      <div class="actions">
+        <%= link_to (t('channels.challenges.cta')), (t('channels.challenges.cta-link')), :class =>'btn' %>
+      </div>
+    </div>
+    <div class="blocks-block openapi">
+      <h3><%= t('channels.openapi.title') %></h3>
+      <p><%= t('channels.openapi.description') %></p>
+      <div class="actions">
+        <%= link_to (t('channels.openapi.cta')), 'https://developers.bci.cl/', :target => '_blank', :class =>'btn' %>
+      </div>
+    </div>
+    <div class="blocks-block hackathon">
+      <h3><%= t('channels.hackathon.title') %></h3>
+      <p><%= t('channels.hackathon.description') %></p>
+      <div class="actions">
+        <%= link_to (t('channels.hackathon.cta')), (t('channels.hackathon.cta-link')), :class =>'btn' %>
+      </div>
+    </div>
+  </div>
+</section>
+<%= partial "partials/footer" %>
