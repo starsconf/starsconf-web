@@ -24,6 +24,8 @@ header{
     }
     .header-nav{
       transition: 1s cubic-bezier(0.26, -0.01, 0, 0.98);
+      display: grid;
+      grid-template-columns: auto 50px;
       ul{
         display: flex;
         justify-content: flex-end;
@@ -51,6 +53,35 @@ header{
     }
     .toggle-nav-mobile{
       display: none;
+    }
+    .languages{
+      margin-top: 16px;
+      .dropbtn{
+        border: none;
+        padding: 0;
+        background-color: transparent;
+        cursor: pointer;
+        width: 30px;
+        margin-left: 10px;
+        &:focus{
+          outline: 0px;
+        }
+        img{
+          width: 100%;
+        }
+      }
+      .dropdown-content{
+        position: absolute;
+        z-index: 10;
+        display: none;
+        width: 30px;
+        top: 0;
+        right: 10px;
+        a{
+          color: #fff;
+          display: block;
+        }
+      }
     }
   }
 }

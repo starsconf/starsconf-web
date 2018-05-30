@@ -1,8 +1,8 @@
 .dropdown.languages
   %button.dropbtn
-    %i.material-icons language
-    %span= t('home.language-selector.default')
+    = image_tag t('language-selector.default')
   #myDropdown.dropdown-content
-    %a{:href => "/"}= t('home.language-selector.spanish')
-    %a{:href => "/en"}= t('home.language-selector.english')
-    %a{:href => "/cn"}= t('home.language-selector.chinese')
+    %a{:href => "/"}
+      = image_tag t('language-selector.spanish')
+    %a{:href => "/en"}
+      = image_tag t('language-selector.english')

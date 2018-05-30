@@ -25,26 +25,26 @@ function checkArray(arr) {
 
 // Slideshow images to preload
 var imagesPath = [
-    'assets/images/wallpaper-site_1.jpg',
-    'assets/images/wallpaper-site_2.jpg',
-    'assets/images/wallpaper-site_3.jpg',
-    'assets/images/wallpaper-site_4.jpg',
-    'assets/images/wallpaper-site_5.jpg',
-    'assets/images/wallpaper-site_6.jpg',
-    'assets/images/wallpaper-site_7.jpg',
-    'assets/images/wallpaper-site_8.jpg',
-    'assets/images/wallpaper-site_9.jpg',
-    'assets/images/wallpaper-site_10.jpg',
-    'assets/images/wallpaper-site_11.jpg',
-    'assets/images/wallpaper-site_12.jpg',
-    'assets/images/wallpaper-site_13.jpg',
-    'assets/images/wallpaper-site_14.jpg',
-    'assets/images/wallpaper-site_15.jpg',
-    'assets/images/wallpaper-site_16.jpg',
-    'assets/images/wallpaper-site_17.jpg',
-    'assets/images/wallpaper-site_18.jpg',
-    'assets/images/wallpaper-site_19.jpg',
-    'assets/images/wallpaper-site_20.jpg'
+    'images/wallpaper-site_1.jpg',
+    'images/wallpaper-site_2.jpg',
+    'images/wallpaper-site_3.jpg',
+    'images/wallpaper-site_4.jpg',
+    'images/wallpaper-site_5.jpg',
+    'images/wallpaper-site_6.jpg',
+    'images/wallpaper-site_7.jpg',
+    'images/wallpaper-site_8.jpg',
+    'images/wallpaper-site_9.jpg',
+    'images/wallpaper-site_10.jpg',
+    'images/wallpaper-site_11.jpg',
+    'images/wallpaper-site_12.jpg',
+    'images/wallpaper-site_13.jpg',
+    'images/wallpaper-site_14.jpg',
+    'images/wallpaper-site_15.jpg',
+    'images/wallpaper-site_16.jpg',
+    'images/wallpaper-site_17.jpg',
+    'images/wallpaper-site_18.jpg',
+    'images/wallpaper-site_19.jpg',
+    'images/wallpaper-site_20.jpg'
 ];
 
 // Store newly created images

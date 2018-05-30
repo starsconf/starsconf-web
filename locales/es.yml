@@ -1,9 +1,12 @@
 es:
   base:
     title: Starsconf 2018
-    keynote_description: 16 y 17 de noviembre 2018. El evento de desarrollo, diseño
-      e innovación tecnológica más grande de Chile y uno de los más importantes de Sudamérica
+    keynote_description: 16 y 17 de noviembre 2018. El evento de desarrollo, diseño e innovación tecnológica más grande de Chile y uno de los más importantes de Sudamérica
     autores: Starsconf, ContinuumHQ, Synaptic, Linets
+  language-selector:
+    default: "images/flags/es.svg"
+    spanish: "images/flags/es.svg"
+    english: "images/flags/en.svg"
   header:
     menu_options:
       one:
