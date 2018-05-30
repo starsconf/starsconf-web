@@ -19,7 +19,7 @@ activate :livereload
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
-
+set :haml, { :format => :html5 }
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
@@ -42,6 +42,8 @@ set :images_dir, 'images'
 #     which_fake_page: 'Rendering a fake page with a local variable'
 #   },
 # )
+
+
 
 # require 'bootstrap-sass'
 

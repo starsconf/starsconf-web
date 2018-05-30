@@ -1,37 +1,3 @@
-$(document).ready(function() {
-
-  //Display Dropdown
-	$('.dropbtn').click(function(){
-		$(this).parent().find('.dropdown-content').toggle();
-	})
-
-  //Responsive Nav Menu
-  $('.toggle-nav-mobile').click(function(){
-    $('.header-nav').addClass('display');
-  })
-  $('.bg').click(function(){
-    $('.header-nav').removeClass('display');
-  })
-
-  //Select Team Member
-  $('.picture').click(function(){
-    var name = $(this).data( "name" );
-    var description = $(this).data( "desc" );
-    var area = $(this).data( "area" );
-
-    $('.bio').addClass('visible-bio');
-    $('.bio .name').text(name);
-    $('.bio .desc').text(description);
-    $('.bio .area').text(area);
-
-  })
-
-  $('.close-bio').click(function(){
-    $('.bio').removeClass('visible-bio');
-  })
-  
-});
-
 /*Dropdowns*/
 
 // Close the dropdown menu if the user clicks outside of it
@@ -48,3 +14,184 @@ window.onclick = function(event) {
     }
   }
 }
+
+
+// Utilities
+function checkArray(arr) {
+    if (!Array.isArray(arr) || !arr.length) {
+        return false;
+    }
+}
+
+// Slideshow images to preload
+var imagesPath = [
+    'assets/images/wallpaper-site_1.jpg',
+    'assets/images/wallpaper-site_2.jpg',
+    'assets/images/wallpaper-site_3.jpg',
+    'assets/images/wallpaper-site_4.jpg',
+    'assets/images/wallpaper-site_5.jpg',
+    'assets/images/wallpaper-site_6.jpg',
+    'assets/images/wallpaper-site_7.jpg',
+    'assets/images/wallpaper-site_8.jpg',
+    'assets/images/wallpaper-site_9.jpg',
+    'assets/images/wallpaper-site_10.jpg',
+    'assets/images/wallpaper-site_11.jpg',
+    'assets/images/wallpaper-site_12.jpg',
+    'assets/images/wallpaper-site_13.jpg',
+    'assets/images/wallpaper-site_14.jpg',
+    'assets/images/wallpaper-site_15.jpg',
+    'assets/images/wallpaper-site_16.jpg',
+    'assets/images/wallpaper-site_17.jpg',
+    'assets/images/wallpaper-site_18.jpg',
+    'assets/images/wallpaper-site_19.jpg',
+    'assets/images/wallpaper-site_20.jpg'
+];
+
+// Store newly created images
+var images = [];
+
+// Image preloader
+function preloader(arr) {
+    checkArray(arr);
+    for (var i = 0; i < arr.length; i++) {
+        var img = new Image();
+        img.src = arr[i];
+        images[i] = img;
+    }
+}
+
+// Preload images
+preloader(imagesPath);
+
+// Auto invoked function
+(function($) {
+  'use strict';
+
+    // Check if the user agent is mobile
+    function isMobile() {
+        return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    }
+
+    // Check if the element is visible in the viewport
+    function isInViewport(element) {
+        if (!element || element.nodeType != 1) {
+            return false;
+        }
+
+        var bounds = element.getBoundingClientRect();
+
+        return (
+            bounds.top < window.innerHeight && 
+            bounds.bottom > 0
+        );
+    }
+
+    // Image Slideshow
+    var slideshow = document.getElementById('background');
+    var slideAnimate;
+    var slideState = true;
+    // Store last active slide
+    var current = 0;
+
+    
+
+    // Play slideshow
+    function playSlideshow(el, images) {
+        checkArray(images);
+        if (!el || el.nodeType != 1) {
+            return false;
+        }
+        // Add transition to the block
+        el.style.transition = 'background-color 1s ease-out';
+        // Use imagesLoaded to check if all images loaded
+        var imgLoad = imagesLoaded(images);
+        // Don't start until all images are ready
+        imgLoad.on('done', function() {
+            slideAnimate = setInterval(function() {
+                current = (current != images.length - 1) ? current + 1 : 0;
+                for (var i = 0; i < images.length; i++) {
+                    el.style.backgroundColor="black";
+                    setTimeout(function() {
+                        el.style.backgroundColor="rgba(0,0,0,0.2)";
+                        el.style.backgroundImage="url('" + images[current].src + "')";
+                    }, 700)
+                }
+            }, 6000);
+        })
+    }
+
+    // Stop slideshow
+    function stopSlideshow() {
+        clearInterval(slideAnimate);
+    }
+
+    // Initialize slideshow only if isn't mobile
+    if (!isMobile()) {
+       playSlideshow(slideshow, images); 
+    }
+
+    // Fix navbar
+    function stickyNavbar() {
+        var scroll = window.scrollY;
+        var navbar = document.querySelector('.top-header');
+        var header = document.querySelector('.home-header');
+
+        if (!navbar || !header) {
+            return false;
+        }
+
+        var navbarHeight = navbar.offsetHeight;
+        var headerHeight = header.offsetHeight - navbarHeight;
+
+        if (scroll > (navbarHeight / 2) && scroll < headerHeight) {
+            navbar.classList.remove('full-bg');
+            navbar.classList.add('not-bg');
+        } else if (scroll > headerHeight) {
+            navbar.classList.add('full-bg');
+        } else {
+            navbar.classList.remove('full-bg', 'not-bg');
+        }
+    }
+
+    // Listen to scroll event with throttle
+    window.addEventListener('scroll', _.throttle(function() {
+
+        // Sticky navbar on scroll
+        stickyNavbar();
+
+        // Disable slideshow when out of the viewport
+        if (isInViewport(slideshow)) {
+            if (!slideState && !isMobile()) {
+                playSlideshow(slideshow, images);
+                slideState = true;
+            }
+        } else {
+            stopSlideshow();
+            slideState = false;
+        }
+    }, 100), false);
+
+    /*
+    **********************************************
+    * jQuery stuff
+    **********************************************
+    */
+
+    //Responsive Nav Menu
+    $('.toggle-nav-mobile').click(function(){
+        $('.header-nav').addClass('display');
+    })
+    $('.bg').click(function(){
+        $('.header-nav').removeClass('display');
+    })
+
+    // Scrollspy
+    $('.scrollspy').scrollSpy();
+
+    //Display Dropdown
+    $('.dropbtn').click(function(){
+      $(this).parent().find('.dropdown-content').toggle();
+    })
+
+
+})(jQuery);

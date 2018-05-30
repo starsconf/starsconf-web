@@ -1,0 +1,14 @@
+%header
+  .content
+    .logo
+      = link_to '/', title: t(:title) do
+        = image_tag 'images/logo-starsconf-square.svg'
+    = link_to nil, class: 'toggle-nav-mobile' do
+      %i.material-icons menu
+    .nav.header-nav
+      .bg
+      %ul
+        - Hash[t('header.menu_options')].each do |key, option|
+          %li
+            = link_to option[:texto], option[:url], class: 'asd'
+      = partial "partials/languages"

@@ -1,11 +1,6 @@
-@import 'general.css';
-
-@import 'home.css';
-@import 'team.css';
-@import 'program.css';
-@import 'channels.css';
-@import 'team.css';
-@import 'cases.css';
-
-@import 'header.css';
-@import 'footer.css';
+@import "includes/base";
+@import "includes/header";
+@import "includes/home";
+@import "includes/schedule";
+@import "includes/mediaqueries";
+@import "includes/footer";

@@ -1,0 +1,20 @@
+%footer
+  .content
+    .social
+      %h3= t('footer.social.title')
+      %ul
+        %li
+          %a{:href =>t('footer.social.facebook'), :class => 'facebook', :title => 'Facebook'}
+        %li
+          %a{:href =>t('footer.social.twitter'), :class => 'twitter', :title => 'Twitter'}
+        %li
+          %a{:href =>t('footer.social.instagram'), :class => 'instagram', :title => 'Instagram'}
+        %li
+          %a{:href =>t('footer.social.youtube'), :class => 'youtube', :title => 'Youtube'}
+    .contact
+      %a{:href =>t('footer.link_codigo.url'), :title =>t('footer.link_codigo.texto')}
+        = t('footer.link_codigo.texto')
+      %br
+      = t('footer.contact.text')
+      %br
+      = t('footer.copyright')
