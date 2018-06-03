@@ -203,5 +203,4 @@ preloader(imagesPath);
       $(this).parent().find('.dropdown-content').toggle();
     })
 
-
   })(jQuery);
