@@ -56,7 +56,7 @@ and (min-device-width : 320px)
 and (max-device-width : 480px){
   .discipline-code{
     .content{
-      padding: 8%;
+      padding: 25% 8% 8%;
       .titles{
         font-size: 200%;
       }
@@ -76,7 +76,7 @@ and (min-device-width : 481px)
 and (max-device-width : 767px) {
   .discipline-code{
     .content{
-      padding: 8%;
+      padding: 25% 8% 8%;
       .titles{
         font-size: 200%;
       }
@@ -95,7 +95,7 @@ and (max-device-width : 767px) {
 and (max-width: 1200px) {
   .discipline-code{
     .content{
-      padding: 10% 6%;
+      padding: 25% 8% 8%;
     }
   }
 }
