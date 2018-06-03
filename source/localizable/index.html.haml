@@ -1,10 +1,10 @@
 = partial "partials/header"
-.home#background
-  .description
-    .content
-      %h2= t('homepage.fecha')
-      %h1= t('homepage.description_home')
-      = link_to 'https://welcu.com/startechconf/starsconf-2018', title: t('homepage.button_buy_tickets'), class: 'cta' do
-        = t('homepage.button_buy_tickets')
-
-= partial "partials/footer"
+= partial "partials/home-presentation"
+= partial "partials/keynoters"
+-#= partial "partials/speakers"
+-#= partial "partials/sponsors"
+-#= partial "partials/organizers"
+-#= partial "partials/whatis"
+-#= partial "partials/place"
+-#= partial "partials/tickets"
+= partial "partials/footer", locals: {clase: ''}

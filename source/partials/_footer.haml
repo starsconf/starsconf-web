@@ -1,18 +1,18 @@
-%footer
+%footer{class: [clase]}
   .content
     .social
       %h3= t('footer.social.title')
       %ul
         %li
-          %a{:href =>t('footer.social.facebook'), :class => 'facebook', :title => 'Facebook'}
+          %a.facebook{href: t('footer.social.facebook'), title: 'Facebook'}
         %li
-          %a{:href =>t('footer.social.twitter'), :class => 'twitter', :title => 'Twitter'}
+          %a.twitter{href: t('footer.social.twitter'), :title => 'Twitter'}
         %li
-          %a{:href =>t('footer.social.instagram'), :class => 'instagram', :title => 'Instagram'}
+          %a.instagram{href: t('footer.social.instagram'), :title => 'Instagram'}
         %li
-          %a{:href =>t('footer.social.youtube'), :class => 'youtube', :title => 'Youtube'}
+          %a.youtube{href: t('footer.social.youtube'), :title => 'Youtube'}
     .contact
-      %a{:href =>t('footer.link_codigo.url'), :title =>t('footer.link_codigo.texto')}
+      %a{href: t('footer.link_codigo.url'), title: t('footer.link_codigo.texto')}
         = t('footer.link_codigo.texto')
       %br
       = t('footer.contact.text')

@@ -1,4 +1,4 @@
-/*HEADER*
+/*FOOTER*
 ------------------------*/
 footer {
   display: block;
@@ -19,7 +19,7 @@ footer {
     .social{
       padding: 0;
       h3 {
-        font-weight: 100;
+        font-weight: 400;
         font-size: 1.2em;
         line-height: 160%;
         margin-top: 10px;
@@ -62,6 +62,52 @@ footer {
         color: #fff;
         text-decoration: underline;
       }
+    }
+  }
+  &.scrolling,
+  &.no-fixed-footer{
+    position: relative;
+    background-color: #444; 
+    padding-top: 10px;
+  }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px){
+  footer{
+    font-size: 1.4rem;
+    .content{
+      display: block;
+      .social, .contact{
+        text-align: center !important;
+        padding: 5%;
+      }
+    }
+  }
+}
+
+@media only screen 
+and (min-device-width : 481px) 
+and (max-device-width : 767px) {
+  footer{
+    font-size: 1.4rem;
+    .content{
+      display: block;
+      .social, .contact{
+        text-align: center;
+        padding: 5%;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px)
+and (max-width: 1200px) {
+  footer{
+    .content{
+      max-width: 90% !important;
+      grid-template-columns: 30% auto !important;
     }
   }
 }

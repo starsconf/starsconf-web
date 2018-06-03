@@ -1,4 +1,4 @@
-/*NEW HOME*
+/*HOME PRESENTATION*
 ------------------------*/
 .home{
   background-color: rgba(0,0,0,0.2);
@@ -6,8 +6,8 @@
   background-blend-mode: multiply;
   background-size: cover;
   background-position: center 200px;
-  background-attachment: fixed;
-  height: calc(100vh - 63px);
+  //background-attachment: fixed;
+  height: 100vh;
   display: flex;
   align-self: flex-start;
   flex-direction: column;
@@ -20,7 +20,7 @@
       width: 100%;
       max-width: 1178px;
       margin: 0 auto;
-      padding: 120px 0 70px;
+      padding: 180px 0 70px;
       h2{
         color: #666;
         text-transform: uppercase;
@@ -35,588 +35,102 @@
       }
       .cta{
         position: absolute;
-        top: 290px;
-        font-size: 1.7rem;
+        top: 350px;
+        font-size: 2rem;
         font-weight: bold;
         display: inline-block;
         color: #333;
-        padding: 12px 20px;
+        padding: 20px;
         background-color: #fd0;
-      }
-    }
-  }
-}
-
-/*HOME*
-------------------------*/
-.main-content{
-  background: #fff;
-  color: #777;
-  font-size: 2em;
-  font-weight: 100;
-  padding: 40px 15px 80px 15px;
-  line-height: 150%;
-  letter-spacing: -0.01em;
-  &.single-page{
-    padding-top: 180px;
-    .section{
-      margin: 10px 0 30px 0;
-      text-align: left;
-      .credits{
-        font-size: 0.8em;
-        li{
-          margin-bottom: 10px;
+        &.button-fixed{
+          position: fixed;
+          top: 82px;
+          transition: none;
         }
       }
-      h2, h3, h4, h5, h6, p{
-        text-align: left;
-        color: #666;
-      }
-      h3{
-        font-size: 1.6em;
-      }
-      p{
-        color: #999;
-      }
-    }
-    .title{
-      text-align: center;
-      h2{
-        margin-bottom: 0;
-      } 
-      h3{
-        margin-top: 10px;
-        margin-bottom: 80px;
-        font-size: 16px;
-        font-weight: 300;
-      }
-    }
-  }
-  
-  .section{
-    h2, h3, h4, h5, h6{
-      font-size: 2.2em;
-      font-weight: 800;
-      letter-spacing: -0.03em;
-      //margin-bottom: 20px;
-      text-align: center;
-      display: block;
-    }
-    p{
-      font-size: 1em;
-      text-align: center;
-      margin-bottom: 0px;
-    }
-    h5{
-      font-size: 1.6em;
-      margin-bottom: 0;
     }
   }
 }
 
-/*TICKETS*
-------------------------*/
-
- .tickets{
-  .title,
-  .title .section{
-    background: none;
-    margin-bottom: 0;
-  }
-  .prices{
-    div{
-      text-align: center;
-      &.deactivate .card,
-      &.deactivate h3,
-      &.deactivate h4,
-      &.deactivate h5{
-        opacity: 0.5;
-        filter: grayscale(100%);
-      }
-      &.deactivate.soldout{
-        position: relative;
-        overflow: hidden;
-        filter: none;
-        &:before{
-          content: 'Agotado';
-          position: absolute;
-          z-index: 1;
-          text-align: left;
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px){
+  .home{
+    background-image: url('../img/wallpaper-site_15.jpg');
+    background-position: center 130px;
+    background-attachment: initial;
+    height: calc(100vh - 66px);
+    .description{
+      padding: 8%;
+      height: 200px;
+      .content{
+        padding: 0;
+        text-align: center;
+        h1{
+          display: block;
+          margin: 0;
+          font-size: 1.5rem;
+        }
+        h2{
+          font-size: 2rem;
+          display: block;
+          margin: 0 0 4% 0;
+        }
+        .cta{
+          text-align: center;
+          font-size: 1.8rem;
+          width: 100%;
+          top: 195px;
           left: 0;
-          top: 55px;
-          width: 135px;
-          height: 50px;
-          text-transform: uppercase;
-          background: red;
-          color: #fff;
-          padding: 10px 20px;
         }
-        &:after{
-          content: '';
-          position: absolute;
-          z-index: 1;
+      }
+    }
+  }
+}
+
+@media only screen 
+and (min-device-width : 481px) 
+and (max-device-width : 767px) {
+  .home{
+    background-image: url('../img/wallpaper-site_15.jpg');
+    background-position: center 130px;
+    background-attachment: initial;
+    height: calc(100vh - 66px);
+    .description{
+      padding: 8%;
+      height: 200px;
+      .content{
+        padding: 0;
+        text-align: center;
+        h1{
+          display: block;
+          margin: 0;
+          font-size: 1.5rem;
+        }
+        h2{
+          font-size: 2rem;
+          display: block;
+          margin: 0 0 4% 0;
+        }
+        .cta{
+          text-align: center;
+          font-size: 1.8rem;
+          width: 100%;
+          top: 195px;
           left: 0;
-          width: 0; 
-          height: 0; 
-          border-top: 0px solid transparent;
-          border-bottom: 15px solid transparent;
-          border-right: 15px solid #bb0000;
-          top: 105px;
         }
-      }
-      .card{
-        height: 210px;
-        border-radius: 3px;
-        background: #ffe866;
-        color: #222;
-        h3{
-          color: #fff;
-          background: #555;
-          text-transform: uppercase;
-          display: block;
-          padding: 15px 0;
-        }
-      }
-    }
-    .price{
-      padding: 30px 0 0;
-      margin-bottom: 0;
-      font-size: 2em;
-      color: #444;
-      &.txt{
-        font-size: 1.5em;
-      }
-    }
-    h5.subprice,
-    .subprice{
-      font-size: 1em;
-      color: #444;
-      margin-top: 0;
-      padding-bottom: 10%;
-    }
-  }
-}
-
-/*PLACE*
-------------------------*/
-.place{
-  background-color: #ffd600 !important;
-  background-image: url('../img/puc-alameda.jpg');
-  background-repeat: no-repeat;
-  background-position: 0 bottom;
-  background-size: cover;
-  background-blend-mode: multiply;
-  color: #000;
-  h2{
-    color: #000;
-  }
-  .map{
-    width: 100%;
-    border: 8px solid #fff;
-    border-bottom: none;
-    iframe{
-      width: 100%;
-      height: 350px;
-    }
-  }
-}
-
-/*PHOTOS*
-------------------------*/
-
-.photos{
-  position: relative;
-  padding: 0;
-  .grid{
-    margin: 0;
-    background: black;
-    .col-md-2{
-      padding: 1px;
-      margin: 0;
-      overflow: hidden;
-      opacity: 0.5;
-      img{
-        width: 100%;
-        height: 100%;
-      }
-    }
-  }
-  .title{
-    position: absolute;
-    width: 100%;
-    top: 35%;
-    z-index: 1;
-    color: #fff;
-    font-size: 85%;
-    a{
-      color: $main-color;
-      text-decoration: underline;
-    }
-  }
-}
-
-/*KEYNOTERS*
-------------------------*/
-
-.keynoters{
-  .people{
-    padding: 20px 0;
-    .keynoter,
-    .keynoter2{
-      min-height: 380px;
-      overflow: hidden;
-      .image{
-        width: 220px;
-        height: 220px;
-        margin: 0 auto;
-        overflow: hidden;
-        border: 8px solid $main-color;
-        border-radius: 50%;
-        img{
-          height: 100%;
-        }
-      }
-      .data{
-        color: #666;
-        text-align: center;
-        padding: 20px 0;
-        p{
-          font-size: 0.9em;
-          font-family: "Lato";
-          font-weight: bold;
-          line-height: 110%;
-          text-transform: uppercase;
-        }
-        span{
-          font-size: 0.7em;
-          line-height: 130%;
-          display: block;
-        }
-      }
-      &.off{
-        opacity: 0.3;
-        pointer-events: none;
-        cursor: default;
-        .image{
-          border-color: #999;
-        }
-      }
-    }
-    .keynoter:nth-child(7){
-      margin-left: 33.33333333%;
-    }
-    .keynoter2{
-      min-height: 290px;
-      .image{
-        width: 140px;
-        height: 140px;
-        border-width: 6px;
-      }
-      .data{
-        p, span{
-          font-size: 0.7em;
-        }
-      }
-    }
-    .keynoter2:nth-child(37){
-      margin-left: 25%;
-    }
-  }
-  .call-to-action{
-    text-align: center;
-    a{
-      background-color: #444;
-      color: #fff;
-      padding: 15px 20px;
-      height: initial;
-      font-size: 0.8em;
-      border-radius: 0px;
-      text-transform: uppercase;
-      text-decoration: none;
-      &:hover,
-      &:focus{
-        background-color: #fd0;
-        color: black;
       }
     }
   }
 }
 
-/*KEYNOTERS PAGE*
-------------------------*/
-.keynoters-full{
-  font-size: 1.4rem;
-  line-height: 140%;
-  .keynoter-block{
-    margin-bottom: 40px;
-    min-height: calc(100vh - 170px);
-    display: table;
-    vertical-align: middle;
-    >div p{
-      margin-top: 20px;
-    }
-    .section{
-      text-align: center;
-      h3{
-        text-align: center;
-        margin-top: 30px;
-      }
-      a{
-        display: block;
+@media (min-width: 768px)
+and (max-width: 1200px) {
+  .home{
+    .description{
+      .content{
+        max-width: 90%;
       }
     }
-    .keynote{
-      position: relative;
-      margin-bottom: 5%;
-      color: #111;
-      h5{
-        position: relative;
-        font-size: 2rem;
-        margin-bottom: 35px;
-        margin-top: 0;
-        width: 70%;
-        &:before{
-          content: '';
-          height: 3px;
-          width: 20%;
-          background-color: #ffdd00;
-          display: block;
-          bottom: -10px;
-          position: absolute;
-        }
-      }
-      p{
-        font-size: 100%;
-      }
-      .keynote_about {
-        position: absolute;
-        top: -6px;
-        right: -1%;
-        background: #fd0;
-        line-height: 140%;
-        color: black;
-        padding: 5px 10px;
-        text-align: center;
-        display: inline-block;
-        border-radius: 3px;
-        font-weight: 800;
-        text-decoration: none;
-      }
-      ul {
-          margin-left: 3%;
-        }
-      li{
-        list-style-type: initial;
-      }
-    }
-    .about{
-      font-size: 95%;
-      padding: 0 6px;
-      border-top: 1px dotted #ccc;
-      margin-bottom: 30px;
-      h5{
-        margin-top: 20px;
-      }
-    }
-    &.off{
-      display: none;
-    }
-  }
-
-  .image{
-    overflow: hidden;
-    width: 300px;
-    height: 300px;
-    margin: 0 auto;
-    overflow: hidden;
-    border: 8px solid $main-color;
-    border-radius: 50%;
-    img{
-      height: 100%;
-    }
-  }
-  .date,
-  .quota{
-    overflow: hidden;
-    text-align: center !important;
-    p{
-      display: inline-block;
-      margin-top: 35px !important;
-      font-size: 16px;
-      font-weight: 300;
-    }
-    i{
-       display: inline-block;
-       vertical-align: bottom;
-    }
-  }
-  .quota{
-    p{
-      margin-top: 0 !important;
-    }
-  }
-  h2{
-    text-align: center !important;
-  }
-  h3{
-    font-size: 1.6em;
-    margin-bottom: 0;
-  }
-  .back{
-    margin-top: 3%;
-    margin-left: 1%;
-    display: block;
-    i{
-      display: inline-block;
-      float: left;
-      margin-right: 3px;
-    }
-    span{
-      display: inline-block;
-      float: left;
-      padding: 2px;
-    }
-  }
-}
-
-
-/*SPONSORS*
-------------------------*/
-
-.sponsors{
-  h4{
-    margin: 10px 0 0;
-    padding-bottom: 10px;
-    text-align: center;
-    border-bottom: 2px solid #ccc;
-    padding: 10px 30px;
-    display: inline;
-  }
-  .platinuum,
-  .gold,
-  .silver,
-  .media,
-  .organizadores,
-  .partners{
-    div{
-      text-align: center;
-      min-height: 160px;
-      img{
-        width: 80%;
-        mix-blend-mode: multiply;
-      }
-    }
-    .col-xs-12 img{
-      width: 30%;
-    }
-    .col-md-6 img{
-      width: 60%;
-    }
-    .col-md-4 img{
-      width: 80%;
-    }
-    .col-md-3 img{
-      width: 90%;
-    }
-    .title{
-      min-height: auto;
-    }
-  }
-  .silver div img,
-  .media div img,
-  .organizadores div img{
-    width: 300px;
-    mix-blend-mode: multiply;
-  }
-  .organizadores{
-    margin-top: 40px;
-    h3{
-      font-size: 1.4em;
-      margin-bottom: 40px;
-    }
-  }
-  .partners{
-    div{
-      img{
-        width: 40% !important;
-      }
-    }
-  }
-  .gold{
-    div:nth-child(8){
-      margin-left: 33%;
-    }
-  }
-}
-
-/*WHAT*
-------------------------*/
-
-.what{
-  .tema{
-    min-height: 340px;
-    line-height: 130%;
-    h3{
-      display: block;
-      margin-bottom: 30px;
-      background: $main-color;
-      color: black;
-      padding: 12px;
-      text-align: center;
-    }
-    p{
-      font-size: 0.9em;
-    }
-  }
-}
-
-/* TVS */
-.tv{
-  font-size: 2em;
-  background: black;
-  height: calc(100vh - 250px);
-  color: #999;
-  text-align: center;
-  .main-shedule{
-    margin-bottom: 20px;
-    border-bottom: 1px dotted #666;
-    padding-bottom: 20px;
-  }
-  .title{
-    color: #ccc;
-    border-bottom: 1px dotted #666;
-    h1{
-      font-size: 180%;
-    }
-  }
-  .time{
-    font-size: 80%;
-    span{
-      display: inline-block;
-      padding: 3px;
-    }
-  }
-  .content{
-    color: #fff;
-    h2{
-      color: #fd0;
-      font-size: 200%;
-      padding: 40px 0;
-    }
-    h3{
-      font-size: 130%;
-      margin: 10px 0 0;
-    }
-  }
-  .other-tracks{
-    .section{
-      border-right: 1px dotted #666;
-      &:last-child{
-        border: none;
-      }
-      .title{
-        border: none;
-      }
-    } 
   }
 }
