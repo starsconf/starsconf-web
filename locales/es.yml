@@ -11,13 +11,13 @@ es:
     menu_options:
       keynoters:
         texto: Keynoters
-        url: '#keynoters'
+        url: '/#keynoters'
       sponsors:
         texto: Auspiciadores
-        url: '#sponsors'
+        url: '/#sponsors'
       place:
         texto: Lugar
-        url: '#place'
+        url: '/#place'
       blog:
         texto: Blog
         url: https://medium.com/starsconf
