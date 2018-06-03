@@ -77,8 +77,11 @@ and (min-device-width : 320px)
 and (max-device-width : 480px){
   footer{
     font-size: 1.4rem;
+    position: relative;
+    z-index: 0;
     .content{
       display: block;
+      padding-bottom: 80px;
       .social, .contact{
         text-align: center !important;
         padding: 5%;
@@ -107,7 +110,10 @@ and (max-width: 1200px) {
   footer{
     .content{
       max-width: 90% !important;
-      grid-template-columns: 30% auto !important;
+      grid-template-columns: 45% auto !important;
+      .social{
+        padding-top: 20px;
+      }
     }
   }
 }

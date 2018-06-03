@@ -56,13 +56,11 @@
 and (min-device-width : 320px) 
 and (max-device-width : 480px){
   .home{
-    background-image: url('../img/wallpaper-site_15.jpg');
+    background-image: image_url('wallpaper-site_12.jpg');
     background-position: center 130px;
     background-attachment: initial;
-    height: calc(100vh - 66px);
     .description{
-      padding: 8%;
-      height: 200px;
+      padding: 30% 8% 8%;
       .content{
         padding: 0;
         text-align: center;
@@ -80,8 +78,13 @@ and (max-device-width : 480px){
           text-align: center;
           font-size: 1.8rem;
           width: 100%;
-          top: 195px;
+          top: 300px;
           left: 0;
+          &.button-fixed{
+            top: initial;
+            bottom: 0;
+            z-index: 3;
+          }
         }
       }
     }
@@ -92,13 +95,11 @@ and (max-device-width : 480px){
 and (min-device-width : 481px) 
 and (max-device-width : 767px) {
   .home{
-    background-image: url('../img/wallpaper-site_15.jpg');
+    background-image: image_url('wallpaper-site_12.jpg');
     background-position: center 130px;
     background-attachment: initial;
-    height: calc(100vh - 66px);
     .description{
-      padding: 8%;
-      height: 200px;
+      padding: 20% 8% 8%;
       .content{
         padding: 0;
         text-align: center;
@@ -108,7 +109,7 @@ and (max-device-width : 767px) {
           font-size: 1.5rem;
         }
         h2{
-          font-size: 2rem;
+          font-size: 3rem;
           display: block;
           margin: 0 0 4% 0;
         }
@@ -116,7 +117,7 @@ and (max-device-width : 767px) {
           text-align: center;
           font-size: 1.8rem;
           width: 100%;
-          top: 195px;
+          top: 280px;
           left: 0;
         }
       }
@@ -130,6 +131,9 @@ and (max-width: 1200px) {
     .description{
       .content{
         max-width: 90%;
+        .cta{
+          top: 360px;
+        }
       }
     }
   }
