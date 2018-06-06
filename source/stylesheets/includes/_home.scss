@@ -6,7 +6,6 @@
   background-blend-mode: multiply;
   background-size: cover;
   background-position: center 200px;
-  //background-attachment: fixed;
   height: 100vh;
   display: flex;
   align-self: flex-start;
@@ -61,7 +60,7 @@ and (max-device-width : 480px){
     background-position: center 130px;
     background-attachment: initial;
     .description{
-      padding: 30% 8% 8%;
+      padding: 30% 11% 8%;
       .content{
         padding: 0;
         text-align: center;
@@ -94,13 +93,13 @@ and (max-device-width : 480px){
 
 @media only screen 
 and (min-device-width : 481px) 
-and (max-device-width : 767px) {
+and (max-device-width : 768px) {
   .home{
     background-image: image_url('wallpaper-site_12.jpg');
     background-position: center 130px;
     background-attachment: initial;
     .description{
-      padding: 20% 8% 8%;
+      padding: 16% 8% 8%;
       .content{
         padding: 0;
         text-align: center;
@@ -120,13 +119,18 @@ and (max-device-width : 767px) {
           width: 100%;
           top: 280px;
           left: 0;
+          &.button-fixed{
+            top: initial;
+            bottom: 0;
+            z-index: 3;
+          }
         }
       }
     }
   }
 }
 
-@media (min-width: 768px)
+@media (min-width: 769px)
 and (max-width: 1200px) {
   .home{
     .description{

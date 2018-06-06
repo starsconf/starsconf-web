@@ -129,6 +129,9 @@ header{
         width: 85%;
         ul{
           display: block;
+          li a{
+            padding: 20px 13px;
+          }
         }
         a{
           color: #fd0;
@@ -178,7 +181,7 @@ header{
 
 @media only screen 
 and (min-device-width : 481px) 
-and (max-device-width : 767px) {
+and (max-device-width : 768px) {
   header,
   header.header-fixed{
     height: 66px;
@@ -250,7 +253,7 @@ and (max-device-width : 767px) {
   }
 }
 
-@media (min-width: 768px)
+@media (min-width: 769px)
 and (max-width: 1200px) {
   header{
     height: 82px;

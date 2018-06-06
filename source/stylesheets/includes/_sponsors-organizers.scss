@@ -59,11 +59,72 @@
 
 @media only screen 
 and (min-device-width : 320px) 
-and (max-device-width : 480px){}
+and (max-device-width : 480px){
+  .sponsors, .organizers{
+    .content{
+      padding: 8%;
+      .titles, .subtitles{
+        display: block;
+        text-align: center;
+        &:after{
+          content: initial;
+        }
+      }
+      .titles{
+        font-size: 3rem;
+      }
+      .categories{
+        h4{
+          font-size: 1rem;
+        }
+      }
+      .organizers-all,
+      .categories{
+        .platinuum,
+        .gold,
+        .silver,
+        .drink-up{
+          a{
+            width: 45%;
+          }
+        }
+      }
+    }
+  }
+}
 
 @media only screen 
 and (min-device-width : 460px) 
-and (max-device-width : 767px) {}
+and (max-device-width : 768px) {
+  .sponsors, .organizers{
+    .content{
+      padding: 8%;
+      .titles, .subtitles{
+        display: block;
+        text-align: center;
+        &:after{
+          content: initial;
+        }
+      }
+      .categories{
+        h4{
+          font-size: 2rem;
+        }
+      }
+      .organizers-all,
+      .categories{
+        .platinuum,
+        .gold,
+        .silver,
+        .drink-up{
+          a{
+            width: 35%;
+          }
+        }
+      }
+    }
+  }
+}
 
 @media (min-width: 768px)
 and (max-width: 1200px) {}

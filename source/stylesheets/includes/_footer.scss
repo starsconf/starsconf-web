@@ -92,20 +92,21 @@ and (max-device-width : 480px){
 
 @media only screen 
 and (min-device-width : 481px) 
-and (max-device-width : 767px) {
+and (max-device-width : 768px) {
   footer{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     .content{
       display: block;
+      padding-bottom: 80px;
       .social, .contact{
         text-align: center;
-        padding: 5%;
+        padding: 2%;
       }
     }
   }
 }
 
-@media (min-width: 768px)
+@media (min-width: 769px)
 and (max-width: 1200px) {
   footer{
     .content{
