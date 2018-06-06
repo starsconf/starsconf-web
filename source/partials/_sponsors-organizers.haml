@@ -1,0 +1,39 @@
+%section.sponsors.scrollspy#sponsors
+  .content
+    %h2.titles= t('section_sponsors.title')
+    .categories
+      %h4= t('section_sponsors.platinuum.name')
+      .platinuum
+        - Hash[t('section_sponsors.platinuum.logos')].each do |key, logo|
+          = link_to logo[:link], title: logo[:alt] do
+            = image_tag logo[:image]
+      %h4= t('section_sponsors.gold.name')
+      .gold
+        - Hash[t('section_sponsors.gold.logos')].each do |key, logo|
+          = link_to logo[:link], title: logo[:alt] do
+            = image_tag logo[:image]
+      
+      %h4= t('section_sponsors.silver.name')
+      .silver
+        - Hash[t('section_sponsors.silver.logos')].each do |key, logo|
+          = link_to logo[:link], title: logo[:alt] do
+            = image_tag logo[:image]
+      
+      %h4= t('section_sponsors.drink-up.name')
+      .drink-up
+        - Hash[t('section_sponsors.drink-up.logos')].each do |key, logo|
+          = link_to logo[:link], title: logo[:alt] do
+            = image_tag logo[:image]
+        
+
+%section.organizers
+  .content
+    %h2.titles= t('section_organizers.title')
+    .organizers-all
+      - Hash[t('section_organizers.organizers')].each do |key, organizer|
+        = link_to organizer[:link], title: organizer[:alt] do
+          = image_tag organizer[:image]
+
+              
+            
+

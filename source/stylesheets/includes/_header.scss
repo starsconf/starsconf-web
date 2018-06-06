@@ -1,7 +1,7 @@
 /*HEADER*
 ------------------------*/
 header{
-  background-color: #444;
+  background-color: rgba(0,0,0,0.9);
   transition: 1s cubic-bezier(0.26, -0.01, 0, 0.98);
   position: fixed;
   width: 100%;
@@ -60,6 +60,10 @@ header{
             }
             &.toggle-nav-mobile{
               display: none;
+            }
+            &.deactivated{
+              color: #555;
+              pointer-events: none;
             }
           }
         }

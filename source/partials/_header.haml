@@ -10,5 +10,5 @@
       %ul
         - Hash[t('header.menu_options')].each do |key, option|
           %li
-            = link_to option[:texto], option[:url]
+            = link_to option[:texto], option[:url], class: (option[:clase])
       = partial "partials/languages"

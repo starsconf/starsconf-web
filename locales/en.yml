@@ -7,15 +7,21 @@ en:
     default: "images/flags/en.svg"
   header:
     menu_options:
-      one:
+      keynoters:
+        texto: Keynoters
+        url: '/#keynoters'
+      sponsors:
+        texto: Sponsors
+        url: '/#sponsors'
+      place:
+        texto: Place
+        url: '/#place'
+      blog:
         texto: Blog
         url: https://medium.com/starsconf
-      two:
+      version:
         texto: Versión 2017
         url: http://2017.starsconf.com
-    logo:
-      url: "/"
-      url2: "/"
   homepage:
     fecha: November 16 & 17 2018
     description_home: The development, design and technology innovation biggest event of Chile and the one most important of Sudamérica. Join world stars and local experts to speak of Design, UX, Product, Programming, Tecnology, DevOps and new trends which industry change (such as Blockchain and Machine Learning)

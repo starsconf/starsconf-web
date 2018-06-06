@@ -2,8 +2,8 @@
 ------------------------*/
 .keynoters{
   .content{
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 4%;
+    padding-bottom: 2%;
   }
   .people{
     display: grid;
@@ -45,14 +45,30 @@
           line-height: 130%;
           display: block;
           a{
-            color: #41a7ff;
+            display: inline-block;
+            padding: 3px;
+            background-color: #41a7ff;
+            color: #FFF;
+            margin-top: 5px;
+            &:before{
+              content: '';
+              display: inline-block;
+              width: 13px;
+              height: 13px;
+              background: image_url('sprite_social.svg') no-repeat;
+              filter: invert(100%);
+              margin: 3px;
+              vertical-align: middle;
+              background-size: cover;
+              background-position: -16px;
+            }
           }
         }
       }
       .keynoter-data-topic{
         position: absolute;
         top: 3%;
-        right: 1%;
+        left: 1%;
         a{
           background-color: #ffdd00;
           color: black;

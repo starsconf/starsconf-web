@@ -62,6 +62,12 @@ p{
   font-family: 'Quicksand', Arial, sans-serif;
 }
 
+section{
+  &:nth-child(even){
+    background-color: #fafafa;
+  }
+}
+
 div, section{
   .content {
     width: 100%;
@@ -79,15 +85,42 @@ div, section{
 
 .titles, .subtitles{
   color: #666;
-  text-transform: uppercase;
+  //text-transform: uppercase;
   font-size: 4rem;
   font-weight: 700;
   font-family: 'PT Sans', Arial, sans-serif;
   margin: 0;
 }
 
+.titles{
+  display: inline-block;
+  position: relative;
+  margin-bottom: 10px;
+  &:after{
+    display: inline-block;
+    content: '';
+    width: 30px;
+    height: 6px;
+    background-color: $main-color;
+    position: absolute;
+    bottom: 9px;
+    right: -30px;
+    animation: .8s blink step-end infinite;
+  }
+}
+
 .subtitles{
   font-size: 1.8rem;
   font-weight: 400;
   text-transform: initial;
+}
+
+
+@keyframes "blink" {
+  from, to {
+    background-color: transparent;
+  }
+  50% {
+    background-color: $main-color;
+  }
 }

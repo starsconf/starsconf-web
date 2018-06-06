@@ -10,19 +10,31 @@ es:
   header:
     menu_options:
       keynoters:
-        texto: Keynoters
+        texto: keynoters
         url: '/#keynoters'
-      sponsors:
-        texto: Auspiciadores
-        url: '/#sponsors'
+      speakers:
+        texto: speakers
+        url: ''
+        clase: deactivated
+      program:
+        texto: programa
+        url: ''
+        clase: deactivated
+      talleres:
+        texto: talleres
+        url: ''
+        clase: deactivated
       place:
-        texto: Lugar
+        texto: lugar
         url: '/#place'
+      sponsors:
+        texto: auspiciadores
+        url: '/#sponsors'
       blog:
-        texto: Blog
+        texto: blog
         url: https://medium.com/starsconf
       version:
-        texto: Versión 2017
+        texto: v.2017
         url: http://2017.starsconf.com
     logo:
       url: "/"
@@ -36,178 +48,123 @@ es:
     videos_will_be_published_soon: Pronto slides y videos del evento...
 
   section_keynoters:
-    title: Keynoters
-    subtitle: Las estrellas mundiales que estarán con nosotros este año
+    title: "{keynoters}"
+    subtitle: Las estrellas que ya confirmaron que estarán con nosotros este año.
     keynoters:
-    - foto: assets/img/keynoters/rebecca_parsons.png
-      nombre: Rebecca Parsons
-      bio: Directora en Agile Alliance, CTO en ThoughtWorks.
-      contacto: "<a href='https://twitter.com/rebeccaparsons' target='_blank'>@rebeccaparsons</a>"
-      switch: 'on'
-      long_bio: Chief Technology Officer en ThoughtWorks. Tiene más de 20 años de
-        experiencia en desarrollo de aplicaciones para industrias que van desde las
-        telecomunicaciones hasta los servicios de Internet emergentes. Líder en la
-        creación de aplicaciones de objetos distribuidos a gran escala y la integración
-        de sistemas dispares.<br><br>Antes de llegar a ThoughtWorks trabajó como profesora
-        asistente de ciencias informáticas en la Universidad de Florida Central. También
-        trabajó como becario post-doctorado en el Laboratorio Nacional de Los Alamos
-        investigando sobre computación paralela y distribuida, algoritmos genéticos,
-        biología computacional y sistemas dinámicos no lineales.<br><br>La Dr. Parsons
-        recibió una Licenciatura en Ciencias de la Computación y Economía de la Universidad
-        de Bradley, una Maestría en Ciencias de la Computación de la Universidad de
-        Rice y un Ph.D. en Ciencias de la Computación de la Universidad de Rice.<br><br>Es
-        coautora de &#34;Domain-Specific Languages&#34;, &#34;The ThoughtWorks Anthology&#34;
-        y &#34;Building Evolutionary Architectures&#34;.
-      keynotes:
-      - keynote_name: 'Business Agility: Continuous Design to Continuous Delivery'
-        keynote_description: A major point of contention between IT departments and
-          their business counterparts, be they internal users or product managers,
-          is the lack of responsiveness to change in IT systems. How these systems
-          got to this condition is one question, but this talk addresses the issue
-          of how to change the situation. Making a system maintainable requires new
-          tools and processes. This talk will describe the various techniques such
-          as continuous design, continuous delivery and evolutionary architecture
-          that transform a system to one that can be readily enhanced and provide
-          the warning mechanisms that prevent inadvertent drift back into the mud.
-        keynote_about: People Teams & Culture
-    - foto: assets/img/keynoters/donovan_brown.jpg
-      nombre: Donovan L. Brown
-      bio: Principal DevOps Program Manager en Microsoft.
-      contacto: "<a href='https://twitter.com/@DonovanBrown' target='_blank'>@DonovanBrown</a>"
-      switch: 'on'
-      long_bio: Es DevOps Program Manager en Microsoft. Tiene experiencia en desarrollo
-        de aplicaciones y antes de unirse a Microsoft pasó siete años trabajando como
-        consultor de proceso y scrum master certificado. <br><br>Es conocido por realizar
-        demos en vivo. En una de las más reconocidas mezcló ASP.NET, de Microsoft,
-        con Linux y Docker, dejando en claro que su lema cualquier lenguaje, cualquier
-        plataforma es en serio. Y es que, como ha señalado previamente,  trás quedaron
-        los días en que Microsoft equivalía a. NET y Windows... Se trata de un Microsoft
-        que abraza el código abierto. Este es un Microsoft que es el contribuidor
-        número uno al código abierto en el planeta.
-      keynotes:
-      - keynote_name: Microsoft’s Agile Transformation Story
-        keynote_description: Hear how Microsoft embarked on their own DevOps journey
-          reducing a three-year release cycle down to three weeks. Donovan Brown,
-          a Principal DevOps Manager on the US Developer Division team in Microsoft,
-          shares how they managed to make an Agile Transformation that scaled to support
-          business needs.
-        keynote_about: Cloud & DevOps
+      rebecca:
+        foto: keynoters/jaimee_newberry.jpg
+        nombre: Jaimee Newberry
+        bio: Co-Founder + CEO, Picture This Clothing.
+        contacto: "<a href='https://twitter.com/jaimeejaimee' target='_blank'>@jaimeejaimee</a>"
+        switch: 'on'
+        long_bio:
+        keynote:
+          keynote_name:
+          keynote_description:
+        keynote_about: Product & Design
+
+      donovan:
+        foto: keynoters/natasha_jaques.jpg
+        nombre: Natasha Jaques
+        bio: PhD candidate. Research Intern in DeepMind.
+        contacto: "<a href='https://twitter.com/natashajaques' target='_blank'>@natashajaques</a>"
+        switch: 'on'
+        long_bio:
+        keynote:
+          keynote_name: 
+          keynote_description: 
+        keynote_about: Exciting Trends
+
+      next:
+        foto: keynoters/nobody.jpg
+        nombre: Próximamente
+        bio: 
+        contacto:
+        switch: 'on'
+        long_bio:
+        keynote:
+          keynote_name:
+          keynote_description:
+        keynote_about: "?"
+
   section_speakers:
-    title: Speakers
+    title: speakers
     subtitle: Junto a ellos, más de 30 expositores seleccionados.
     speakers:
-    - foto: assets/img/keynoters/crystal_yan.jpg
-      nombre: Crystal Yan
-      bio: 'Product Manager & Product Design Lead at FiscalNote. '
-      contacto: "<a href='https://twitter.com/crystalcy' target='_blank'>@crystalcy</a>"
-      switch: 'on'
-      long_bio: Crystal is freelance UX researcher and designer for clients in the
-        nonprofit, healthcare, education, travel, and fitness industries, including
-        MyHealthEd's Real Talk, a storytelling‐driven health education mobile app
-        for teens, and Rise, an international grassroots movement to pass civil rights
-        legislation for survivors of sexual assault in the US, Canada, and Japan.
-        Crystal also leads Experience Research and Product Design at FiscalNote, a
-        startup transforming how organizations manage their government risk.
-      keynotes:
-      - keynote_name: Behind the AI Curtain:<br>Designing for User Trust in Artificial
-          Intelligence and Machine Learning
-        keynote_description: When FiscalNote first launched, it made the news with
-          its algorithms that forecast the likelihood of bill passage with over 94%
-          accuracy ‐ but convincing its customers and users to trust the artificial
-          intelligence powering the scores was another story.<br><br>So how might
-          we design for additional trust when users interact with the results of artificial
-          intelligence? In this presentation, Crystal Yan walks through the way  FiscalNote’s
-          design and data science teams faced this challenge.
-        keynote_about: Data Analysis & Visualization
-      - keynote_name: 'Bias, Uncovered: Irrational by Design'
-        keynote_description: One of the most powerful things we can do as people who
-          great products is to shape the behavior of the people who use our products.
-          To nudge people to make decisions that will make their jobs easier, live
-          healthier, connect with their friends more often. But in order to this well,
-          we must not only help people understand their own biases, but also understand
-          our own. This interactive, multimedia talk will challenge you to uncover
-          the cognitive biases we might not realize we encounter every day, and to
-          unpack what understanding them might mean for the behaviors we design for
-          every day.
-        keynote_about: UX & Design
+    
   section_knt_spk:
     boton: Detalle de todos los keynoters y speakers
     boton_short: Detalle de charlas
     url_boton: keynoters-speakers.html
   
   section_sponsors:
-    title1: Auspiciadores
-    title2: Organizan
-    title3: Partners
-    sponsors:
-      categoria1: Platinum
-      categoria2: Gold
-      categoria3: Silver
-      categoria4: Drink-up
-      categoria4: Partners
-      platinum:
-        logo1: "<a href='http://bcilabs.cl' target='_blank'><img src='assets/img/sponsors/bci-logo.svg'
-          alt='Bci Labs'></a>"
-        logo2: "<a href='https://www.globant.com' target='_blank'><img src='assets/img/sponsors/globant-logo.svg'
-          alt='Globant'></a>"
-        logo3: "<a href='http://www.tidchile.cl' target='_blank'><img src='assets/img/sponsors/telefonica-logo.svg'
-          alt='Telefónica I+D'></a>"
-        logo4: "<a href='https://www.thoughtworks.com' target='_blank'><img src='assets/img/sponsors/thoughtworks-logo.svg'
-          alt='Thoughtworks'></a>"
-        logo5: "<a href='https://www.atlassian.com' target='_blank'><img src='assets/img/sponsors/atlassian-logo.svg'
-          alt='Atlassian'></a>"
-        logo6: "<a href='https://www.scotiabankchile.cl/' target='_blank'><img src='assets/img/sponsors/scotiabank-logo.svg'
-          alt='Scotiabank'></a>"
-        logo7: "<a href='https://www.microsoft.com/' target='_blank'><img src='assets/img/sponsors/microsoft-logo.svg'
-          alt='Microsoft'></a>"
-        logo8: "<a href='http://www.nisum.com/' target='_blank'><img src='assets/img/sponsors/nisum-logo.svg'
-          alt='Nisum'></a>"
-      gold:
-        logo1: "<a href='http://miti.cl' target='_blank'><img src='assets/img/sponsors/miti-logo.svg'
-          alt='MITI'></a>"
-        logo2: "<a href='https://welcu.com/es' target='_blank'><img src='assets/img/sponsors/welcu-logo.svg'
-          alt='Welcu'></a>"
-        logo3: "<a href='https://www.mercadopago.cl' target='_blank'><img src='assets/img/sponsors/mercadopago-logo.svg'
-          alt='MercadoPago'></a>"
-        logo4: "<a href='https://www.mercadolibre.cl' target='_blank'><img src='assets/img/sponsors/mercadolibre-logo.svg'
-          alt='MercadoLibre'></a>"
-        logo5: "<a href='https://www.everis.com/chile' target='_blank'><img src='assets/img/sponsors/everis-logo.svg'
-          alt='Everis'></a>"
-        logo6: "<a href='https://www.comparaonline.cl' target='_blank'><img src='assets/img/sponsors/comparaonline-logo.svg'
-          alt='ComparaOnline'></a>"
-        logo7: "<a href='https://www.corfo.cl/' target='_blank'><img src='assets/img/sponsors/corfo-logo.svg'
-          alt='Corfo'></a>"
-      silver:
-        logo1: "<a href='http://nic.cl' target='_blank'><img src='assets/img/sponsors/nic-logo.png'
-          alt='Nic Chile'></a>"
-        logo2: "<a href='https://www.groupon.com' target='_blank'><img src='assets/img/sponsors/groupon-logo.svg'
-          alt='Groupon'></a>"
-        logo3: "<a href='https://www.coredevx.com/site' target='_blank'><img src='assets/img/sponsors/coredevx-logo.png'
-          alt='CoreDevX'></a>"
-        logo4: "<a href='https://www.etermax.com/' target='_blank'><img src='assets/img/sponsors/etermax-logo.svg'
-          alt='Etermax'></a>"
-      drink-up:
-        logo1: "<a href='https://www.getonbrd.com' target='_blank'><img src='assets/img/sponsors/gob-logo.svg'
-          alt='Getonboard'></a>"
-        loog2: "<a href='http://ixdasantiago.cl' target='_blank'><img src='assets/img/sponsors/ixda-scl-logo.svg'
-          alt='IXDA Santiago'></a>"
-      mediapartners:
-        logo1: "<a href='https://www.getonbrd.com' target='_blank'><img src='assets/img/sponsors/gob-logo.svg'
-          alt='Getonboard'></a>"
-        loog2: "<a href='http://ixdasantiago.cl' target='_blank'><img src='assets/img/sponsors/ixda-scl-logo.svg'
-          alt='IXDA Santiago'></a>"
-        loog3: "<a href='https://chiletec.org/' target='_blank'><img src='assets/img/sponsors/chiletec-logo.svg'
-          alt='Chiletec'></a>"
-      organizadores:
-        organizador1: "<a href='https://synaptic.cl/' target='_blank'><img src='assets/img/sponsors/synaptic-logo.svg'
-          alt='Synaptic'></a>"
-        organizador2: "<a href='http://www.continuum.cl' target='_blank'><img src='assets/img/sponsors/continuum-logo.svg'
-          alt='ContinuumHQ'></a>"
-        organizador3: "<a href='https://linets.cl' target='_blank'><img src='assets/img/sponsors/linets-logo.svg'
-          alt='Linets'></a>"
+    title: "{auspician}"
+    platinuum: 
+      name: Platinum
+      logos:
+        miti:
+          link: http://soluciones.equifax.cl/
+          image: sponsors/equifax-logo.svg
+          alt: Equifax
+    gold:
+      name: Gold
+      logos:
+        miti:
+          link: https://welcu.cl
+          image: sponsors/welcu-logo.svg
+          alt: Welcu
+        miti2:
+          link: http://miti.cl
+          image: sponsors/miti-logo.svg
+          alt: Miti
+    silver:
+      name: Silver
+      logos:
+        miti:
+          link: https://www.mediastre.am/
+          image: sponsors/mediastream-logo.svg
+          alt: Mediastre.am  
+    drink-up:
+      name: Drink-up
+      logos:
+        miti:
+          link: https://www.getonbrd.com
+          image: sponsors/getonboard-logo.svg
+          alt: Getonboard
+        miti2:
+          link: https://www.lemontech.com
+          image: sponsors/lemontech-logo.svg
+          alt: Lemontech
+    mediapartners:
+      name: Mediapartners
+      logos:
+        miti:
+          link: 
+          image: sponsors/miti-logo.svg
+          alt: 
+        miti2:
+          link: 
+          image: sponsors/miti-logo.svg
+          alt: 
+
+  section_organizers:
+    title: "{organizan}"
+    organizers:
+      organizer1:
+        link: https://www.continuum.cl
+        image: sponsors/continuum-logo.svg
+        alt: Continuum
+      organizer2:
+        link: https://synaptic.cl/
+        image: sponsors/synaptic-logo.svg
+        alt: Synaptic
+      organizer3:
+        link: https://linets.cl
+        image: sponsors/linets-logo.svg
+        alt: Linets 
 
   section_tickets:
-    title: Precio de Entradas
+    title: "{precio de Entradas}"
     bajada: No te quedes fuera de este tremendo evento, asegura tu entrada con los valores de preventa.
     fase_uno: Preventa
     fase_uno_price: 100 USD
@@ -226,11 +183,9 @@ es:
       (ambos dias) y una polera del evento.</strong> No incluye almuerzo.'
 
   section_place:
-    title: Lugar
-    bajada: "<p>Este año nos cambiamos de casa al Centro de Extensión de la Pontificia
-      Universidad Católica</p><p>Ubicada en Av. Libertador Bernardo O'Higgins 390,
-      Santiago.</p><p>Metro Universidad Católica, Línea 1</p>"
-    src_mapa: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.314058968094!2d-70.64298198510046!3d-33.44112340441915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c59e8c508d1f%3A0xd7d97f8d3bd83116!2sPontificia+Universidad+Cat%C3%B3lica+de+Chile!5e0!3m2!1ses!2scl!4v1473131040232
+    title: "{lugar}"
+    subtitle: Nuevamente estaremos en la Casa Central de la Pontificia Universidad Católica
+    reference: Ubicada en Av. Libertador Bernardo O'Higgins 390, Metro Universidad Católica, Línea 1
   
   section_photos:
     texto: Síguenos en <a href='https://instagram.com/starsconfcom' title='Starsconf'>instagram
