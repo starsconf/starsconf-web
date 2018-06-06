@@ -1,0 +1,36 @@
+//Mixins
+
+// Outline shadow
+@mixin outline-shadow() {
+  &:focus,
+  &:hover {
+    box-shadow: 0 .2rem .8rem rgba(0,0,0, .3);
+  }
+}
+
+// Check Isolation
+@mixin not-last() {
+  &:not(:only-child):not(:last-child) {
+    @content;
+  }
+}
+
+// Link states
+@mixin link-states($link-color, $active-color) {
+  color: $link-color;
+  &:link {
+    color: $link-color;
+  }
+  &:visited {
+    color: darken($link-color, 5%);
+  }
+  &:hover,
+  &:active,
+  &:focus {
+    color: $active-color;
+  }
+}
+
+@mixin border-radius() {
+  border-radius: 0;
+}

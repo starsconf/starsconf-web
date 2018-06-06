@@ -1,0 +1,18 @@
+%section.keynoters.scrollspy#keynoters
+  .content
+    %h2.titles= t('section_keynoters.title')
+    %h3.subtitles= t('section_keynoters.subtitle')
+    .people
+      - Hash[t('section_keynoters.keynoters')].each do |key, keynoter|
+        .keynoter
+          .keynoter-image
+            = link_to nil do
+              = image_tag keynoter[:foto]
+          .keynoter-data
+            .keynoter-data-name= (keynoter[:nombre])
+            .keynoter-data-bio= (keynoter[:bio])
+            .keynoter-data-contact= (keynoter[:contacto])
+          .keynoter-data-topic
+            = link_to keynoter[:keynote_about], '#whatis'
+              
+-#%section.speakers

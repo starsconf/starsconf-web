@@ -1,0 +1,102 @@
+/*DISCIPLINE CODE*
+------------------------*/
+.discipline-code{
+  background-image: image_url('wallpaper-site_15.jpg');
+  background-attachment: fixed;
+  min-height: 100vh;
+  &:before{
+    content: '';
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 0;
+    background-color: rgba(0,0,0,0.85);
+    filter: saturate(0%);
+  }
+  a{
+    color: #fd0;
+  }
+  .content{
+    position: relative;
+    padding-top: 15%;
+    padding-bottom: 5%;
+    .titles{
+      color: #fd0;
+    }
+    .subtitles{
+      font-size: 3rem;
+      color: #fff;
+      margin-top: 40px;
+    }
+    .desciption{
+      font-size: 1.8rem;
+      ul, li{
+        list-style: initial;
+      }
+      ul{
+        padding-left: 20px;
+        margin-top: 20px;
+      }
+    }
+    .warning{
+      display: inline-block;
+      padding: 15px;
+      margin: 2% 0;
+      border: 1px solid #fd0;
+    }
+    .credits{
+      font-size: 1.4rem;
+    }
+  }
+}
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px){
+  .discipline-code{
+    .content{
+      padding: 25% 8% 8%;
+      .titles{
+        font-size: 200%;
+      }
+      .subtitles{
+        font-size: 120%;
+      }
+      p, li, .warning{
+        font-size: 90%;
+        line-height: 130%;
+      }
+    }
+  }
+}
+
+@media only screen 
+and (min-device-width : 481px) 
+and (max-device-width : 767px) {
+  .discipline-code{
+    .content{
+      padding: 25% 8% 8%;
+      .titles{
+        font-size: 200%;
+      }
+      .subtitles{
+        font-size: 120%;
+      }
+      p, li, .warning{
+        font-size: 90%;
+        line-height: 130%;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px)
+and (max-width: 1200px) {
+  .discipline-code{
+    .content{
+      padding: 25% 8% 8%;
+    }
+  }
+}
+
