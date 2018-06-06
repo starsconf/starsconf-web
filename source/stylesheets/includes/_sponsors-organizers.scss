@@ -31,10 +31,11 @@
     }
     .platinuum{
       a{
-        width: 38%;
+        width: 35%;
       }
     }
-    .gold{
+    .gold,
+    .silver{
       a{
         width: 28%;
       }
@@ -46,7 +47,7 @@
     align-items: center;
     flex-flow: row wrap;
     a{
-      width: 28%;
+      width: 25%;
       margin: 2%;
       img{
         mix-blend-mode: multiply;
