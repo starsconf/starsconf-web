@@ -1,7 +1,7 @@
 en:
   base:
     title: Starsconf 2018
-    keynote_description: November 16 & 17 2018. The development, design and technology innovation biggest event of Chile and the one most important of Sudamérica
+    keynote_description: November 16 & 17, 2018. The biggest development, design and technological innovation event in Chile and one of the most important of South America
     autores: Starsconf, ContinuumHQ, Synaptic, Linets
   language-selector:
     default: "images/flags/en.svg"
@@ -23,7 +23,7 @@ en:
         url: ''
         clase: deactivated
       place:
-        texto: place
+        texto: venue
         url: '/#place'
       sponsors:
         texto: sponsors
@@ -38,13 +38,13 @@ en:
       url: "/"
       url2: "/"
   homepage:
-    fecha: November 16 & 17 2018
-    description_home: The development, design and technology innovation biggest event of Chile and the one most important of Sudamérica. Join world stars and local experts to speak of Design, UX, Product, Programming, Tecnology, DevOps and new trends which industry change (such as Blockchain and Machine Learning)
+    fecha: November 16 & 17, 2018
+    description_home: The biggest development, design and technological innovation event in Chile and one of the most important of South America. We've gathered world stars and local experts to speak of Design, UX, Product, Programming, Technology, DevOps and new trends that are changing the industry (such as Blockchain and Machine Learning)
     button_buy_tickets: Buy your tickets today >
 
   section_keynoters:
     title: "{keynoters}"
-    subtitle: Las estrellas que ya confirmaron que estarán con nosotros este año.
+    subtitle: The stars that have already confirmed they'll be with us this year.
     keynoters:
       jaimee:
         foto: keynoters/jaimee_newberry.jpg
@@ -72,7 +72,7 @@ en:
 
       next:
         foto: keynoters/nobody.jpg
-        nombre: Próximamente
+        nombre: Coming Soon
         bio: 
         contacto:
         switch: 'on'
@@ -89,29 +89,29 @@ en:
     title: "{organizers}"
 
   section_place:
-    title: "{place}"
-    subtitle: We still again on Pontificia Universidad Católica Central House
-    reference: Locate in Av. Libertador Bernardo O'Higgins 390, Metro Universidad Católica, L1
+    title: "{Venue}"
+    subtitle: We will once again be located at the Central House of the Pontificia Universidad Católica
+    reference: Located at Av. Libertador Bernardo O'Higgins 390, Metro Universidad Católica, L1
   
   codigo_conducta:
-    title: Discipline Code
-    code_description: "<li>Se requiere que todos los asistentes, ponentes, patrocinadores y voluntarios de nuestra conferencia acepten el siguiente código de conducta.</li><li>Los organizadores harán cumplir este código a lo largo del evento.</li> <li>Esperamos la colaboración de todos los participantes para ayudar a asegurar un ambiente seguro para todos.</li><li><i>Resumiendo: <u><strong>¡No seas idiota!</strong></u></i></li>"
+    title: Code of conduct
+    code_description: "<li>It is required that all assistants, speakers, sponsors and volunteers of our conference accept the following code of conduct.</li><li>The organizers will make sure this code is met throughout the event.</li> <li>We hope to have the collaboration of all participants in order to help maintain a secure environment for all.</li><li><i>In summary: <u><strong>Don't be an idiot!</strong></u></i></li>"
     short_version:
-      title: La versión corta
-      body: "<p>Nuestra conferencia se dedica a ofrecer una experiencia libre de abusos para todos, independientemente de su género, orientación sexual, discapacidad, apariencia física, talla, raza o religión.</p> <p>No toleramos abusos de los participantes de la conferencia en ninguna de sus formas.</p> <p>El lenguaje e imágenes sexuales no son apropiados para ninguna sala de la conferencia, incluyendo charlas, talleres, fiestas, Twitter y otros medios online.</p> <p>Los participantes de la conferencia que violen estas reglas pueden ser sancionados o expulsados de la misma sin reembolso a discreción de los organizadores.</p>"
+      title: The short version
+      body: "<p>Our conference is dedicated in offering an experience free of abuse for everyone, independent of their gender, sexual orientation, disability, physical appearance, size, race or religion.</p> <p>We do not tolerate abuse from the participants of the conference under any of it's forms.</p> <p>Sexual language and images are not appropriate in any room of the conference, including keynotes, workshops, parties, Twitter and other online media.</p> <p>The participants of the conference that violate these rules can be sanctioned or kicked out of the event without refund at the discretion of the organizers.</p>"
     long_version:
-      title: La versión menos corta
-      body: "<p>Los abusos incluyen: comentarios ofensivos relativos a género, orientación sexual, discapacidad, apariencia física, talla, raza, religión, imágenes sexuales en espacios públicos, intimidación deliberada, acoso, persecución, fotografía o grabación de abusos, interrupciones continuadas de charlas u otros eventos, contacto físico inapropiado y atención sexual no deseada.</p> <p>Se espera que los participantes instados a parar cualquier comportamiento abusivo obedezcan inmediatamente.</p> <p>Los patrocinadores también están sujetos a la política contra abusos. En particular, los patrocinadores no deberían utilizar imágenes, actividades u otro material con contenido sexual. El personal de los puestos (voluntarios incluidos) no deberían usar ropa/uniformes/disfraces sexualizados,
-        o que de otra manera creen un ambiente sexualizado.</p> <p>Si un participante incurre en un comportamiento abusivo, los organizadores de la conferencia pueden
-        tomar cualquier acción que estimen oportuna, incluyendo advertencias al ofensor o su expulsión de la conferencia sin reembolso.</p> <p>Esperamos que los participantes sigan estas reglas en la la conferencia, talleres y eventos sociales relacionados con la conferencia.</p>"
+      title: The not so short version
+      body: "<p>Abuses include: offensive commentary in reference to gender, sexual orientation, disability, physical appearance, size, race, religion, sexual images in public spaces, deliberate intimidation, harassment, persecution, photography or recordings of abuse, continuous interruptions of keynotes or other events, inappropriate physical contact and unwanted sexual attention.</p> <p>It's expected that the participants urged to stop any type of abusive behavior immediately obey.</p> <p>The sponsors are also subject to the policy against abuse. In particular, the sponsors should not use images, activities or other material with sexual content. The personnel at the booths (volunteers included) should not wear clothes/uniforms/sexual disguises,
+        or create in any way a sexualized environment.</p> <p>If a participant incurs in abusive behavior, the organizers of the conference can
+        take any action that they see fit, including warnings to the offender or his expulsion from the conference without refund.</p> <p>We hope the participants follow these rules at the conference, workshops and social events related to the conference.</p>"
     help:
-      title: "¿Necesitas ayuda?"
-      body: "<p>Si estás sufriendo algún abuso, adviertes abusos sobre otra persona o tienes alguna otra preocupación, por favor contacta con algún miembro del personal de la conferencia inmediatamente. El personal de la conferencia puede ser fácilmente identificado, ya que vestirán camisetas del evento.</p><p>Si el problema es urgente podrás contactar a la organización al número +569 94427755 o al +569 8733 9008.</p><p>El personal de la conferencia estará feliz de ayudar a los participates a contactar con la seguridad del hotel/sala o con las autoridades locales, proveer escolta o asistir de otra manera a aquellos que estén sufriendo abusos para que se sientan seguros mientras dure la conferencia.</p>
-        <p>Valoramos tu asistencia.</p>"
-      adv: "<strong>Recuerda</strong> que siempre puedes decir que no a algo que no quieras hacer o escuchar. Si no te escuchan, te ayudamos."
-    credits: "<ul class='credits'><li>Fuente original y créditos:<br> <a href='http://2012.jsconf.us/#/about' target='_blank'>http://2012.jsconf.us/#/about</a> & <a href='http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy'>The
-    Ada Initiative</a></li><li>Por favor, ayuda traduciendo o mejorando: <br><a href='http://github.com/leftlogic/confcodeofconduct.com'>github.com/leftlogic/confcodeofconduct.com</a></li><li>Este
-    trabajo está licenciado bajo <a>Creative Commons Atribución 3.0 Unported License</a>"
+      title: "Need help?"
+      body: "<p>If you're suffering any form of abuse, warn about abuses from another person or have any other type of concern, please contact a member of the conference personnel immediately. Conference personnel can be easily identified, since they'll be wearing shirts of the event.</p><p>If the problem is urgent, you'll be able to contact the organization by calling: +569 94427755 or +569 8733 9008.</p><p>Conference personnel will be happy to help participants contact security of the hotel/room or the local authorities, provide security detail or assist in another way to those that are suffering abuse, so that they feel safe through the duration of the conference.</p>
+        <p>We value your assistance.</p>"
+      adv: "<strong>Remember</strong> that you may always say no to something that you do not want to do o hear. If you're not heard, we'll help."
+    credits: "<ul class='credits'><li>Original source and credits:<br> <a href='http://2012.jsconf.us/#/about' target='_blank'>http://2012.jsconf.us/#/about</a> & <a href='http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy'>The
+    Ada Initiative</a></li><li>Please, help by translating or improving: <br><a href='http://github.com/leftlogic/confcodeofconduct.com'>github.com/leftlogic/confcodeofconduct.com</a></li><li>This
+    work is licensed under <a>Creative Commons Attribution 3.0 Unported License</a>"
   
   footer:
     social:
@@ -119,6 +119,6 @@ en:
     contact:
       text: If you have any question or suggestion, please do not hesitate to contact us <a href='mailto:team@starsconf.com'>team@starsconf.com</a>
     link_codigo:
-      texto: Discipline code
-      url: codigo-de-conducta.html
+      texto: Code of conduct
+      url: en/codigo-de-conducta.html
 
