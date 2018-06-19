@@ -87,16 +87,19 @@
     }
   }
   .call-to-action{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     a{
-      background-color: #444;
-      color: #fff;
+      background-color: transparent;
+      border: #fd0 4px solid;
+      color: black;
       padding: 15px 20px;
-      height: initial;
-      font-size: 0.8em;
-      border-radius: 0px;
+      font-size: 1.6rem;
+      font-weight: bold;
       text-transform: uppercase;
       text-decoration: none;
+      margin-bottom: 30px;
       &:hover,
       &:focus{
         background-color: #fd0;
@@ -273,6 +276,9 @@ and (max-device-width : 480px){
         }
       }
     }
+    .call-to-action{
+      display: none;
+    }
   }
 }
 
@@ -291,6 +297,9 @@ and (max-device-width : 768px) {
           object-fit: cover;
         }
       }
+    }
+    .call-to-action{
+      display: none;
     }
   }
 }
