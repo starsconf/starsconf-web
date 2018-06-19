@@ -47,6 +47,13 @@
           transition: none;
           z-index: 10;
         }
+        &.temp-cta{
+          top: 428px;
+          background-color: #ccc;
+          &.button-fixed{
+            display: none;
+          }
+        }
       }
     }
   }
@@ -84,6 +91,15 @@ and (max-device-width : 480px){
             top: initial;
             bottom: 0;
             z-index: 3;
+            &.temp-cta{
+              display: inline-block;
+              bottom: 65px;
+              top: initial;
+            }
+          }
+          &.temp-cta{
+            bottom: initial;
+            top: 367px;
           }
         }
       }
@@ -123,6 +139,14 @@ and (max-device-width : 768px) {
             top: initial;
             bottom: 0;
             z-index: 3;
+            &.temp-cta{
+              display: inline-block;
+              bottom: 67px;
+              top: initial;
+            }
+          }
+          &.temp-cta{
+            top: 367px;
           }
         }
       }
