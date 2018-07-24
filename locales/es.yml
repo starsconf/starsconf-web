@@ -110,21 +110,29 @@ es:
     gold:
       name: Gold
       logos:
-        miti:
+        welcu:
           link: https://welcu.cl
           image: sponsors/welcu-logo.svg
           alt: Welcu
-        miti2:
+        miti:
           link: http://miti.cl
           image: sponsors/miti-logo.svg
           alt: Miti
+        2brains:
+          link: https://www.2brains.cl/
+          image: sponsors/2brains-logo.svg
+          alt: 2brains
     silver:
       name: Silver
       logos:
-        miti:
+        mediastream:
           link: https://www.mediastre.am/
           image: sponsors/mediastream-logo.svg
-          alt: Mediastre.am  
+          alt: Mediastre.am
+        thoughtworks:
+          link: https://www.thoughtworks.com/
+          image: sponsors/thoughtworks-logo.svg
+          alt: ThoughtWorks  
     drink-up:
       name: Drink-up
       logos:
