@@ -45,43 +45,6 @@ en:
   section_keynoters:
     title: "{keynoters}"
     subtitle: The stars that have already confirmed they'll be with us this year.
-    keynoters:
-      jaimee:
-        foto: keynoters/jaimee_newberry.jpg
-        nombre: Jaimee Newberry
-        bio: Co-Founder + CEO, Picture This Clothing.
-        contacto: "<a href='https://twitter.com/jaimeejaimee' target='_blank'>@jaimeejaimee</a>"
-        switch: 'on'
-        long_bio:
-        keynote:
-          keynote_name:
-          keynote_description:
-        keynote_about: Product & Design
-
-      natasha:
-        foto: keynoters/natasha_jaques.jpg
-        nombre: Natasha Jaques
-        bio: MIT Media Lab, DeepMind (Google)
-        contacto: "<a href='https://twitter.com/natashajaques' target='_blank'>@natashajaques</a>"
-        switch: 'on'
-        long_bio:
-        keynote:
-          keynote_name: 
-          keynote_description: 
-        keynote_about: Exciting Trends
-
-      next:
-        foto: keynoters/nobody.jpg
-        nombre: Coming Soon
-        bio: 
-        contacto:
-        switch: 'on'
-        long_bio:
-        keynote:
-          keynote_name:
-          keynote_description:
-        keynote_about: "?"
-    call-to-speakers: "Posit your talk until June 30"
   
   section_sponsors:
     title: "{sponsored by}"
