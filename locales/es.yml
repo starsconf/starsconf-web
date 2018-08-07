@@ -144,6 +144,10 @@ es:
           link: https://www.thoughtworks.com/
           image: sponsors/thoughtworks-logo.svg
           alt: ThoughtWorks  
+        nichile:
+          link: https://www.nic.cl/
+          image: sponsors/nic-logo.svg
+          alt: Nic Chile  
     drink-up:
       name: Drink-up
       logos:
