@@ -136,7 +136,6 @@ preloader(imagesPath);
       let header = document.querySelector('header');
       let footer = document.querySelector('footer');
       let cta = document.querySelector('.cta');
-      let temp_cta = document.querySelector('.temp-cta');
 
       let headerHeight = header.offsetHeight;
       let sizeFooterHeight = footer.offsetHeight;
@@ -155,17 +154,15 @@ preloader(imagesPath);
 
       if (scroll > 268) {
         cta.classList.add('button-fixed');
-        temp_cta.classList.add('button-fixed');
       } else {
         cta.classList.remove('button-fixed');
-        temp_cta.classList.remove('button-fixed');
       }
 
     }
 
 
     // Listen to scroll event with throttle
-    window.addEventListener('scroll', _.throttle(function() {
+    document.addEventListener('scroll', _.throttle(function() {
       // Sticky navbar on scroll
       //stickyNavbar();
 
