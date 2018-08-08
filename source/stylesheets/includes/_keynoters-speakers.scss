@@ -24,10 +24,17 @@
         overflow: hidden;
         width: 100%;
         margin: 0 auto;
-        img{
-          width: 100%;
+        a{
+          display: block;
+          overflow: hidden;
+          height: 380px;
+          img{
+            width: 100%;
+            object-fit: cover;
+          }
         }
       }
+
       .keynoter-data{
         position: absolute;
         bottom: 0;
@@ -315,9 +322,16 @@ and (max-device-width : 768px) {
         &:nth-child(4){
           margin-left: 1%;
         }
-        .keynoter-image img{
-          height: 100%;
-          object-fit: cover;
+        .keynoter-image{
+          a{
+            display: block;
+            overflow: hidden;
+            height: 310px;
+            img{
+              height: 100%;
+              object-fit: cover;
+            }
+          }
         }
       }
     }
