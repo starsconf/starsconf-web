@@ -286,6 +286,7 @@ and (max-device-width : 480px){
       display: block;
       .keynoter{
         margin-bottom: 2%;
+        width: 100%;
         .keynoter-image img{
           height: 100%;
           object-fit: cover;
@@ -306,8 +307,14 @@ and (max-device-width : 768px) {
       padding: 8%;
     }
     .people{
-      grid-template-columns: repeat(2, 48%);
       .keynoter{
+        width: 48%;
+        margin-left: 1%;
+        margin-bottom: 1%;
+        &:nth-child(1),
+        &:nth-child(4){
+          margin-left: 1%;
+        }
         .keynoter-image img{
           height: 100%;
           object-fit: cover;
