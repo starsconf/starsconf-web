@@ -31,9 +31,6 @@ en:
       blog:
         texto: blog
         url: https://medium.com/starsconf
-      version:
-        texto: v.2017
-        url: http://2017.starsconf.com
     logo:
       url: "/"
       url2: "/"

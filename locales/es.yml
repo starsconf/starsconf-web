@@ -33,9 +33,6 @@ es:
       blog:
         texto: blog
         url: https://medium.com/starsconf
-      version:
-        texto: v.2017
-        url: http://2017.starsconf.com
     logo:
       url: "/"
       url2: "/"
@@ -364,6 +361,10 @@ es:
     contact:
       text: Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto
         con nosotros <a href='mailto:team@starsconf.com'>team@starsconf.com</a>
+    versiones:
+      _2013: https://2013.starsconf.com
+      _2015: https://2015.starsconf.com
+      _2017: https://2017.starsconf.com
     link_codigo:
       texto: Código de conducta
       url: codigo-de-conducta.html
