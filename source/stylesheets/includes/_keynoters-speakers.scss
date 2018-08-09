@@ -24,10 +24,17 @@
         overflow: hidden;
         width: 100%;
         margin: 0 auto;
-        img{
-          width: 100%;
+        a{
+          display: block;
+          overflow: hidden;
+          height: 380px;
+          img{
+            width: 100%;
+            object-fit: cover;
+          }
         }
       }
+
       .keynoter-data{
         position: absolute;
         bottom: 0;
@@ -286,6 +293,7 @@ and (max-device-width : 480px){
       display: block;
       .keynoter{
         margin-bottom: 2%;
+        width: 100%;
         .keynoter-image img{
           height: 100%;
           object-fit: cover;
@@ -300,17 +308,30 @@ and (max-device-width : 480px){
 
 @media only screen 
 and (min-device-width : 460px) 
-and (max-device-width : 768px) {
+and (max-device-width : 1210px) {
   .keynoters{
     .content{
-      padding: 8%;
+      padding: 4%;
     }
     .people{
-      grid-template-columns: repeat(2, 48%);
       .keynoter{
-        .keynoter-image img{
-          height: 100%;
-          object-fit: cover;
+        width: 48%;
+        margin-left: 1%;
+        margin-bottom: 1%;
+        &:nth-child(1),
+        &:nth-child(4){
+          margin-left: 1%;
+        }
+        .keynoter-image{
+          a{
+            display: block;
+            overflow: hidden;
+            height: 310px;
+            img{
+              height: 100%;
+              object-fit: cover;
+            }
+          }
         }
       }
     }

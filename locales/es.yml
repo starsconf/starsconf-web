@@ -49,7 +49,7 @@ es:
 
   section_keynoters:
     title: "{keynoters}"
-    subtitle: Las estrellas que ya confirmaron que estarán con nosotros este año.
+    subtitle: Las estrellas que estarán con nosotros este año.
     keynoters:
       jaimee:
         foto: keynoters/jaimee_newberry.jpg
@@ -91,7 +91,7 @@ es:
         foto: keynoters/jose_casal.jpg
         nombre: José Casal
         bio: Co-founder of Actineo Consulting
-        contacto: "<a href='https://twitter.com/jose_casal'  class='twitter' target='_blank'></a> <a href='https://uk.linkedin.com/in/jcasal class='linkedin' target='_blank'></a>"
+        contacto: "<a href='https://twitter.com/jose_casal' class='twitter' target='_blank'></a> <a href='https://uk.linkedin.com/in/jcasal' class='linkedin' target='_blank'></a>"
         switch: 'on'
         long_bio:
         keynote:
@@ -100,7 +100,7 @@ es:
         keynote_about: Business Agility
 
   section_speakers:
-    title: speakers
+    title: "{speakers}"
     subtitle: Junto a ellos, más de 30 expositores seleccionados.
     speakers:
     
@@ -228,53 +228,27 @@ es:
       img10: 16907978_1849701281954616_2722287595194155008_n.jpg
       img11: 16790232_1810386299286999_3859165816402477056_n.jpg
       img12: 16906453_1388264607911669_8371414090567909376_n.jpg
-    section_six:
-      title: "¿De qué se trata la conferencia?"
-      subtitle: Estos son los temas clave que se abordarán entre diferentes presentaciones
-        y talleres.
-      themes:
-        tema1:
-          title: UX & Design
-          theme_description: La vara es alta cuando tus usuarios conviven a diario con
-            experiencias del nivel de Apple, AirBnb, Uber, etc. Conoce casos de éxito,
-            metodologías y experiencias de los líderes de la industria en Experiencia
-            de Usuario y Service Design.
-        tema2:
-          title: Data Analysis & Visualization
-          theme_description: "¿Big data? ¿Small data? El valor de los datos no está
-            dado por cuántos acumulas, sino por obtener de ellos la mayor información
-            posible. Descubre cómo los equipos de vanguardia analizan, visualizan y
-            extraen inteligencia de sus datasets."
-        tema3:
-          title: Web & Mobile
-          theme_description: Todo es más móvil, pero las tecnologías web contraatacan
-            más vigentes que nunca; lo que sabías hace unos años necesita renovarse
-            por completo. Conoce las tendencias clave en las tecnologías detrás de cualquier
-            canal digital.
-        tema4:
-          title: Cloud & DevOps
-          theme_description: La nube, la automatización y el delivery continuo reemplazan
-            los 'pasos a producción’ y la operación manual, acelerando tus productos.
-            Conéctate con DevOps, el conjunto de prácticas y técnicas que permite que
-            todo funcione.
-        tema5:
-          title: Startups e Innovación
-          theme_description: Comerse el mundo con tecnología no tiene por qué ocurrir
-            sólo en Silicon Valley. Conoce los aprendizajes y las historias de innovadores
-            y emprendedores que han encontrado su propia receta para innovar y generar
-            nuevos negocios y mercados.
-        tema6:
-          title: Developer Tools
-          theme_description: Un tópico especialmente dedicado a esos Lenguajes, Frameworks,
-            Editores, etc. que permiten que algo haga el trabajo tedioso por tí. Y así
-            puedas <strike>leer HackerNews o Twitter</strike> enfocarte en los problemas
-            realmente claves de tu desarrollo.
-        tema7:
-          title: Teams & Culture
-          theme_description: Sin ejecución, las ideas no valen nada. Y con un equipo
-            que trabaja ágil y creativamente, un pensamiento se transforma velozmente
-            en un producto. Aprende de las metodologías, principios, herramientas y
-            experiencias que te ayudarán a organizar equipos de alto rendimiento.
+
+  section_themes:
+    title: "{de qué se trata}"
+    subtitle: Estos son los 4 tópicos centrales que se tratan en esta edición.
+    themes:
+      tema1:
+        theme_title: Product & Design
+        theme_description: Hoy en día, con la velocidad que ocurren los cambios y la inmediatez que permite el canal digital, estás obligado a mejorar y destacarte por tu competencia. En este tópico, encontrar casos de éxito, metodologías y experiencias de líderes de la industria que crean productos innovadores y diseñan una experiencia de usuario y servicios memorables.
+        theme_resume: Desde Product Management hasta Service Design, pasando también por UX y UI Design.
+      tema2:
+        theme_title: Development & Technology
+        theme_description: Con el avance constante de los lenguajes, los marcos, los editores, la Web, los dispositivos móviles y otros, los ingenieros móviles y las personas de la industria se mantienen en un constante aprendizaje, el cual permite generar mejores productos y servicios que ayuden a mejorar nuestro mundo.
+        theme_resume: Temas relacionados con las tecnologías usadas en el desarrollo, es decir, lenguajes de programación, frameworks (sean móviles, backend, frontend u otros), bases de datos, etc.
+      tema3:
+        theme_title: DevOps
+        theme_description: 'La nube, la automatización y el suministro continuo reemplazan los manuales de "pasos a producción" y la operación, "Acelerando tus productos". Conéctate con DevOps, el conjunto de prácticas y técnicas que permite que todo funcione.'
+        theme_resume: Sobre equipos que integran el desarrollo con la operación y la tecnología que habilita esta integración. Este tópico cubre contenedores, automatización, alta disponibilidad, escalabilidad, tuberías, etc.
+      tema4:
+        theme_title: Exciting Trends
+        theme_description: Aquí hay temas geniales que han sido publicados este último año, como las criptomonedas, Machine Learning, Artificial Intelligence, entre otros.
+        theme_resume: Un espacio separado para destacar las nuevas tendencias y las tecnologías con potencial para cambiar el mundo (ya les queda un poco más de ello).
   
   workshops:
   - foto: assets/img/square-continuum-logo.svg
