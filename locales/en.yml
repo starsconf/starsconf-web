@@ -59,7 +59,7 @@ en:
 
   section_themes:
     title: "{about this conference}"
-    subtitle: These are the 4 central topics about it will be speak in this edition.
+    subtitle: These are the 4 central topics that will be spoken of in this edition.
     themes:
       tema1:
         theme_title: Product & Design
