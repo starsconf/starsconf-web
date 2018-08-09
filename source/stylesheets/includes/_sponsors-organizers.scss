@@ -90,13 +90,17 @@ and (max-device-width : 480px){
           }
         }
       }
+      .organizers-all a{
+        width: 100%;
+        margin: 0 20%;
+      }
     }
   }
 }
 
 @media only screen 
 and (min-device-width : 460px) 
-and (max-device-width : 768px) {
+and (max-device-width : 1210px) {
   .sponsors, .organizers{
     .content{
       padding: 8%;

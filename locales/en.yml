@@ -41,7 +41,7 @@ en:
 
   section_keynoters:
     title: "{keynoters}"
-    subtitle: The stars that have already confirmed they'll be with us this year.
+    subtitle: The stars that will be with us this year.
   
   section_sponsors:
     title: "{sponsored by}"
@@ -50,9 +50,30 @@ en:
     title: "{organizers}"
 
   section_place:
-    title: "{Venue}"
+    title: "{venue}"
     subtitle: We will once again be located at the Central House of the Pontificia Universidad Católica
     reference: Located at Av. Libertador Bernardo O'Higgins 390, Metro Universidad Católica, L1
+
+  section_themes:
+    title: "{about this conference}"
+    subtitle: These are the 4 central topics that will be spoken of in this edition.
+    themes:
+      tema1:
+        theme_title: Product & Design
+        theme_description: Nowadays, with the speed at which changes occur and the immediacy that digital channels allow, you're obligated to get better and stand out due to your competence. In this topic, finding success stories, methodologies and experiences from industry leaders that create innovative products and design memorable user experiences and services.
+        theme_resume: From Product Management to Service Design, also going through UX and UI Design.
+      tema2:
+        theme_title: Development & Technology
+        theme_description: With the constant advance of languages, frameworks, editors, the Web, mobile devices and others, mobile engineers and people in the industry maintain themselves in a state of constant learning, which allows the generation of better products and services that help the betterment of our world.
+        theme_resume: Topics related to the technologies used in development, that is, programming languages, frameworks (whether they be mobile, backend, frontend or others), databases, etc.
+      tema3:
+        theme_title: DevOps
+        theme_description: 'The cloud, automatization and continuos supply replace "deployment steps" manuals and operation, "Accelerating your products". Connect with DevOps, the combination of practices and techniques that allow everything to work'
+        theme_resume: About teams that integrate development with operation and the technology that sets up this integration. This topic covers containers, automatization, high availability, scalability, pipes, etc.
+      tema4:
+        theme_title: Exciting Trends
+        theme_description: Here are some great topics that have been published this past year, like criptocurrency, Machine Learning, Artificial Intelligence, among others.
+        theme_resume: A separate space to highlight new trends and technologies with potential to change the world.
   
   codigo_conducta:
     title: Code of conduct

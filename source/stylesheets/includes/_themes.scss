@@ -1,0 +1,106 @@
+/*CONF THEMES*
+------------------------*/
+.themes{
+  color: $main-text-color;
+  .content{
+    padding: 5% 0;
+  }
+  .topics{
+    display: grid;
+    grid-template-columns: repeat(2, 48%);
+    grid-template-rows: auto;
+    grid-gap: 40px;
+    padding-top: 30px;
+  }
+  .topic-square{
+    font-size: 2rem;
+    .topic-square-title{
+      display: inline-block;
+      background: #000;
+      color: #FFF;
+      font-size: 3rem;
+      padding: 8px;
+    }
+    .topic-square-description{
+      font-family: 'PT Sans', Arial, sans-serif;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .topic-square-resume{
+      font-family: 'PT Sans', Arial, sans-serif;
+      font-weight: 800;
+      line-height: 130%;
+    }
+  }
+  a{
+    color: #fd0;
+  }
+}
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px){
+
+  .themes{
+    .content{
+      padding: 5%;
+    }
+    .topics{
+      display: block;
+    }
+    .content{
+      .titles, .subtitles{
+        display: block;
+        text-align: center;
+      }
+      .titles{
+        font-size: 3rem;
+        &:after{
+          content: initial;
+        }
+      }
+    }
+    .topic-square{
+      text-align: center;
+      margin-bottom: 14%;
+      .topic-square-title{
+        font-size: 2rem;
+      }
+      .topic-square-description,
+      .topic-square-resume{
+        font-size: 1.8rem;
+        line-height: 120%;
+      }
+    }
+  }
+}
+
+@media only screen 
+and (min-device-width : 481px) 
+and (max-device-width : 1210px) {
+  .themes .content{
+    
+  }
+  .themes{
+    .content{
+      padding: 5%;
+    }
+    .topic-square{
+
+      .topic-square-title{
+        font-size: 1.8rem;
+      }
+      .topic-square-description,
+      .topic-square-resume{
+
+      }
+    }
+  }
+}
+
+@media (min-width: 768px)
+and (max-width: 1200px) {
+  
+}
+
