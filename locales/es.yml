@@ -100,7 +100,7 @@ es:
         keynote_about: Business Agility
 
   section_speakers:
-    title: speakers
+    title: "{speakers}"
     subtitle: Junto a ellos, más de 30 expositores seleccionados.
     speakers:
     
@@ -230,7 +230,7 @@ es:
       img12: 16906453_1388264607911669_8371414090567909376_n.jpg
 
   section_themes:
-    title: "{De qué se trata}"
+    title: "{de qué se trata}"
     subtitle: Estos son los 4 tópicos centrales que se tratan en esta edición.
     themes:
       tema1:
