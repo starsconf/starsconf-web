@@ -98,8 +98,259 @@ es:
 
   section_speakers:
     title: "{speakers}"
-    subtitle: Junto a ellos, más de 30 expositores seleccionados.
+    subtitle: Junto a ellos, más de 20 expositores seleccionados.
     speakers:
+      agustin:
+        foto: speakers/agustin_feuerhake.jpg
+        nombre: Agustin Feuerhake
+        bio: "Co-founder de Platanus, Buda.com y Fintual."
+        contacto: "<a href='https://twitter.com/agustinf' class='twitter' target='_blank'></a> <a href='https://cl.linkedin.com/in/agustinfeuerhake/' class='linkedin' target='_blank'></a>"
+        long_bio: "Agustín es Ingeniero Civil de la Universidad Católica, es co-fundador de Platanus, desde donde co-fundó el mayor exchange de criptomonedas de sudamérica Buda.com y la primera startup chilena en entrar en Y-Combinator: Fintual.com"
+        keynote:
+          keynote_name: "Por qué tengo 8 socios."
+          keynote_description: ""
+        keynote_about: Product & Design
+      alba:
+        foto: speakers/alba_cardenas.jpg
+        nombre: "Alba Cárdenas"
+        bio: "Frontend, Backend y Mobile Developer en Continuum Chile."
+        contacto: "<a href='https://twitter.com/a1b4' class='twitter' target='_blank'></a> <a href='https://cl.linkedin.com/in/alba-c%C3%A1rdenas-andrade-70307560/' class='linkedin' target='_blank'></a>"
+        long_bio: ""
+        keynote:
+          keynote_name: ""
+          keynote_description: ""
+        keynote_about: Product & Design
+      alejandro:
+        foto: speakers/alejandro_parodi.jpg
+        nombre: "Alejandro Parodi"
+        bio: "Co-Founder & CISO at Hackmetrix"
+        contacto: "<a href='https://twitter.com/secsignal' class='twitter' target='_blank'></a> <a href='https://cl.linkedin.com/in/alejandroparodi/' class='linkedin' target='_blank'></a>"
+        long_bio: ""
+        keynote:
+          keynote_name: ""
+          keynote_description: ""
+        keynote_about: "Development & Technology"
+      andres:
+        foto: speakers/andres_marinkovic.jpg
+        nombre: "Andres Marinkovic"
+        bio: "CTO en Fintual"
+        contacto: "<a href='https://twitter.com/asmarinkovic' class='twitter' target='_blank'></a> <a href='https://cl.linkedin.com/in/andresmarinkovic/' class='linkedin' target='_blank'></a>"
+        long_bio: ""
+        keynote:
+          keynote_name: ""
+          keynote_description: ""
+        keynote_about: "Product & Design"
+      chihau:
+        foto: speakers/chihau.jpg
+        nombre: "Chihau Chau"
+        bio: "Ingeniero de Software, Consultor y Profesor Fundador de QBO"
+        contacto: "<a href='https://twitter.com/chihau' class='twitter' target='_blank'></a> <a href='https://cl.linkedin.com/in/chihau/' class='linkedin' target='_blank'></a>"
+        long_bio: ""
+        keynote:
+          keynote_name: ""
+          keynote_description: ""
+        keynote_about: "Development & Technology"
+      consuelo:
+        foto: speakers/consuelo_olivares.jpg
+        nombre: "Consuelo Olivares"
+        bio: "UX Designer en Continuum Chile"
+        contacto: "<a href='https://twitter.com/conaresa' class='twitter' target='_blank'></a> <a href='https://cl.linkedin.com/in/consuelo-olivares-%C3%A1brego-962b8826/' class='linkedin' target='_blank'></a>"
+        long_bio: ""
+        keynote:
+          keynote_name: ""
+          keynote_description: ""
+        keynote_about: "Product & Design"
+      daniel:
+        foto: speakers/daniel_perez.jpg
+        nombre: "Daniel Pérez Rada"
+        bio: "Co-Fundador/CTO de Epistemonikos"
+        contacto: "<a href='https://twitter.com/dperezrada' class='twitter' target='_blank'></a> <a href='https://cl.linkedin.com/in/dperezrada/' class='linkedin' target='_blank'></a>"
+        long_bio: ""
+        keynote:
+          keynote_name: ""
+          keynote_description: ""
+        keynote_about: "Development & Technology"
+      eduardo:
+        foto: speakers/eduardo_graells.jpg
+        nombre: "Eduardo Graells-Garrido"
+        bio: "Research Scientist. Profesor asistente en Data Science Institute UDD"
+        contacto: "<a href='https://twitter.com/carnby' class='twitter' target='_blank'></a> <a href='https://cl.linkedin.com/in/egraellsg/' class='linkedin' target='_blank'></a>"
+        long_bio: ""
+        keynote:
+          keynote_name: ""
+          keynote_description: ""
+        keynote_about: "Development & Technology"
+      ignacio_a:
+        foto: speakers/ignacio_abarca.jpg
+        nombre: "Ignacio Abarca"
+        bio: "CTO en TeleDx"
+        contacto: "<a href='https://cl.linkedin.com/in/iabarcamesa/' class='linkedin' target='_blank'></a>"
+        long_bio: ""
+        keynote:
+          keynote_name: ""
+          keynote_description: ""
+        keynote_about: "Exciting Trends"
+      ignacio_p:
+        foto: speakers/ignacio_perez.jpg
+        nombre: "Ignacio Pérez"
+        bio: "Fellow de Informática Clínica en Clínica Alemana de Santiago"
+        contacto: ""
+        long_bio: ""
+        keynote:
+          keynote_name: ""
+          keynote_description: ""
+        keynote_about: "Exciting Trends"
+      jonathan:
+        foto: speakers/jonathan_gonzalez.jpg
+        nombre: "Jonathan González"
+        bio: "Devops en Gobierno Digital del Ministerio Secretaria General de la Presidencia"
+        contacto: "<a href='https://twitter.com/sxd' class='twitter' target='_blank'></a> <a href='https://cl.linkedin.com/in/jagonzalezv/' class='linkedin' target='_blank'></a>"
+        long_bio: ""
+        keynote:
+          keynote_name: ""
+          keynote_description: ""
+        keynote_about: "DevOps"
+      juan:
+        foto: speakers/juan_correa.jpg
+        nombre: "Juan Correa Poblete"
+        bio: "Web Developer at Medios Regionales (El Mercurio)"
+        contacto: "<a href='https://twitter.com/pottersys' class='twitter' target='_blank'></a> <a href='https://cl.linkedin.com/in/pottersys/' class='linkedin' target='_blank'></a>"
+        long_bio: ""
+        keynote:
+          keynote_name: ""
+          keynote_description: ""
+        keynote_about: "DevOps"
+      leonardo_a:
+        foto: speakers/leonardo_alvarez.jpg
+        nombre: "Leonardo Álvarez"
+        bio: "CEO & Co-founder en Geaenzymes"
+        contacto: "<a href='https://cl.linkedin.com/in/leonardo-alvarez-030756b1/' class='linkedin' target='_blank'></a>"
+        long_bio: ""
+        keynote:
+          keynote_name: ""
+          keynote_description: ""
+        keynote_about: "Exciting Trends"
+      leonardo_g:
+        foto: speakers/leonardo_graterol.jpg
+        nombre: "Leonardo Graterol"
+        bio: "Web UI Engineer en Globant"
+        contacto: "<a href='https://twitter.com/pankas87' class='twitter' target='_blank'></a> <a href='https://cl.linkedin.com/in/leonardo-graterol-24863223/' class='linkedin' target='_blank'></a>"
+        long_bio: ""
+        keynote:
+          keynote_name: ""
+          keynote_description: ""
+        keynote_about: "Exciting Trends"
+      lorena:
+        foto: speakers/lorena_duarte.jpg
+        nombre: "Lorena Duarte"
+        bio: "Consultora y diseñadora de UX & Service Design en Continuum Perú"
+        contacto: "<a href='https://cl.linkedin.com/in/lorena-duarte-54b57597/' class='linkedin' target='_blank'></a>"
+        long_bio: ""
+        keynote:
+          keynote_name: ""
+          keynote_description: ""
+        keynote_about: "Product & Design"
+      luis:
+        foto: speakers/luis_sanchez.jpg
+        nombre: "Luis Sánchez"
+        bio: "DevOps & Cloud Architect de PreyProject"
+        contacto: "<a href='https://twitter.com/luisra51' class='twitter' target='_blank'></a> <a href='https://cl.linkedin.com/in/luisra51/' class='linkedin' target='_blank'></a>"
+        long_bio: ""
+        keynote:
+          keynote_name: ""
+          keynote_description: ""
+        keynote_about: "Devops"
+      mauro:
+        foto: speakers/mauro_strione.jpg
+        nombre: "Mauricio Strione"
+        bio: "Agile Coach & Trainer en el COE de Everis"
+        contacto: "<a href='https://twitter.com/MauroStrione' class='twitter' target='_blank'></a> <a href='https://cl.linkedin.com/in/maurostrione/' class='linkedin' target='_blank'></a>"
+        long_bio: ""
+        keynote:
+          keynote_name: ""
+          keynote_description: ""
+        keynote_about: "Product & Design"
+      maximiliano:
+        foto: speakers/maximiliano_osorio.jpg
+        nombre: "Maximiliano Osorio"
+        bio: "Ingeniero Civil en Informática, candidato a Magister y profesor en la UTSFM."
+        contacto: "<a href='https://twitter.com/SirSpock/' class='twitter' target='_blank'></a> <a href='https://cl.linkedin.com/in/maximilianoosorio/' class='linkedin' target='_blank'></a>"
+        long_bio: ""
+        keynote:
+          keynote_name: ""
+          keynote_description: ""
+        keynote_about: "DevOps"
+      miguel:
+        foto: speakers/miguel_gonzalez.jpg
+        nombre: "Miguel González"
+        bio: "Arquitecto de software y líder técnico en el área TI de Previred"
+        contacto: "</a> <a href='https://cl.linkedin.com/in/miguel-gonzalez-4b5588b/' class='linkedin' target='_blank'></a>"
+        long_bio: ""
+        keynote:
+          keynote_name: ""
+          keynote_description: ""
+        keynote_about: "Development & Technology"
+      paula:
+        foto: speakers/paula_vasquez.jpg
+        nombre: "Paula Vásquez"
+        bio: "Ingenieria Civil Industrial, candidata a Magister en Ciencias de la Ingeniería UDD."
+        contacto: "<a href='https://twitter.com/pauvasquezh' class='twitter' target='_blank'></a> <a href='https://cl.linkedin.com/in/pvasquezh/' class='linkedin' target='_blank'></a>"
+        long_bio: ""
+        keynote:
+          keynote_name: ""
+          keynote_description: ""
+        keynote_about: "Exciting Trends"
+      riva:
+        foto: speakers/riva_quiroga.jpg
+        nombre: "Riva Quiroga"
+        bio: "Lingüista. Co-fundadora de R-Ladies Santiago y R-Ladies Valparaíso."
+        contacto: "<a href='https://twitter.com/rivaquiroga' class='twitter' target='_blank'></a>"
+        long_bio: ""
+        keynote:
+          keynote_name: ""
+          keynote_description: ""
+        keynote_about: "Development & Technology"
+      sebastian:
+        foto: speakers/sebastian_osses.jpg
+        nombre: "Sebastián Ossés"
+        bio: "Músico, sociólogo y diseñador. Director en Continuum Perú"
+        contacto: "<a href='https://twitter.com/sebastianosses' class='twitter' target='_blank'></a> <a href='https://cl.linkedin.com/in/sebastianosses/' class='linkedin' target='_blank'></a>"
+        long_bio: ""
+        keynote:
+          keynote_name: ""
+          keynote_description: ""
+        keynote_about: "Product & Design"
+      silvia:
+        foto: speakers/silvia_angulo.jpg
+        nombre: "Silvia Angulo"
+        bio: "Comunicadora, consultora de UX y Service Design en Continuum Perú"
+        contacto: "<a href='https://cl.linkedin.com/in/sebastianossessilvia-angulo-7541b560/' class='linkedin' target='_blank'></a>"
+        long_bio: ""
+        keynote:
+          keynote_name: ""
+          keynote_description: ""
+        keynote_about: "Product & Design"
+      yerka:
+        foto: speakers/yerka_freire.jpg
+        nombre: "Yerka Freire"
+        bio: "Física, doctorada en el Centro de Investigación en Complejidad Social UDD."
+        contacto: "<a href='https://twitter.com/yerka_freire' class='twitter' target='_blank'></a>yerka_freire"
+        long_bio: ""
+        keynote:
+          keynote_name: ""
+          keynote_description: ""
+        keynote_about: "Exciting Trends"
+      ubaldo:
+        foto: speakers/ubaldo_taladriz.jpg
+        nombre: "Ubaldo Taladriz"
+        bio: "CEO de EXE y Vicepresidente de Chiletec."
+        contacto: "<a href='https://twitter.com/utaladriz' class='twitter' target='_blank'></a> <a href='https://cl.linkedin.com/in/ubaldo-taladriz-9647bb4/' class='linkedin' target='_blank'></a>"
+        long_bio: ""
+        keynote:
+          keynote_name: ""
+          keynote_description: ""
+        keynote_about: "Devops"
+
     
   section_knt_spk:
     boton: Detalle de todos los keynoters y speakers
