@@ -14,5 +14,20 @@
             .keynoter-data-contact= (keynoter[:contacto])
           .keynoter-data-topic
             = link_to keynoter[:keynote_about], '#whatis'
+
+    %h2.titles= t('section_speakers.title')
+    %h3.subtitles= t('section_speakers.subtitle')
+    .people
+      - Hash[t('section_speakers.speakers')].each do |key, speaker|
+        .keynoter.speaker
+          .keynoter-image
+            = link_to nil do
+              = image_tag speaker[:foto]
+          .keynoter-data
+            .keynoter-data-name= (speaker[:nombre])
+            .keynoter-data-bio= (speaker[:bio])
+            .keynoter-data-contact= (speaker[:contacto])
+          .keynoter-data-topic
+            = link_to speaker[:keynote_about], '#whatis'
               
 -#%section.speakers
