@@ -31,6 +31,16 @@
 
     %link{href: "//fonts.googleapis.com/icon?family=Material+Icons", rel: "stylesheet"}/
     = stylesheet_link_tag "application"
+
+    / Global site tag (gtag.js) - Google Analytics
+    %script{:async => "", :src => "“https://www.googletagmanager.com/gtag/js?id=UA-123723139-1“"}
+    :javascript
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag(‘js’, new Date());
+
+      gtag(‘config’, ‘UA-123723139-1’);
+
   %body
     = yield
     = javascript_include_tag "jquery-3.3.1.min.js"
