@@ -193,7 +193,7 @@ es:
       ignacio_p:
         foto: speakers/ignacio_perez.jpg
         nombre: "Ignacio Pérez"
-        bio: "Fellow de Informática Clínica en Clínica Alemana de Santiago"
+        bio: "Fellow de Informática en Clínica Alemana de Santiago"
         contacto: ""
         long_bio: ""
         keynote:
@@ -213,7 +213,7 @@ es:
       juan:
         foto: speakers/juan_correa.jpg
         nombre: "Juan Correa Poblete"
-        bio: "Web Developer at Medios Regionales (El Mercurio)"
+        bio: "Web Developer en Medios Regionales (El Mercurio)"
         contacto: "<a href='https://twitter.com/pottersys' class='twitter' target='_blank'></a> <a href='https://cl.linkedin.com/in/pottersys/' class='linkedin' target='_blank'></a>"
         long_bio: ""
         keynote:
@@ -293,7 +293,7 @@ es:
       paula:
         foto: speakers/paula_vasquez.jpg
         nombre: "Paula Vásquez"
-        bio: "Ingenieria Civil Industrial, candidata a Magister en Ciencias de la Ingeniería UDD."
+        bio: "Ingeniera Civil Industrial, candidata a Magister en Ciencias de la Ingeniería UDD."
         contacto: "<a href='https://twitter.com/pauvasquezh' class='twitter' target='_blank'></a> <a href='https://cl.linkedin.com/in/pvasquezh/' class='linkedin' target='_blank'></a>"
         long_bio: ""
         keynote:
