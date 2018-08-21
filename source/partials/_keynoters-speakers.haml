@@ -15,7 +15,7 @@
           .keynoter-data-topic
             = link_to keynoter[:keynote_about], '#whatis'
 
-    %h2.titles= t('section_speakers.title')
+    %h2.titles.scrollspy#speakers= t('section_speakers.title')
     %h3.subtitles= t('section_speakers.subtitle')
     .people
       - Hash[t('section_speakers.speakers')].each do |key, speaker|
