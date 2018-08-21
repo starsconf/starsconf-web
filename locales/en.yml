@@ -12,8 +12,7 @@ en:
         url: '/en/#keynoters'
       speakers:
         texto: speakers
-        url: ''
-        clase: deactivated
+        url: '/en/#speakers'
       program:
         texto: program
         url: ''

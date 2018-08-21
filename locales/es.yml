@@ -11,11 +11,10 @@ es:
     menu_options:
       keynoters:
         texto: keynoters
-        url: '/#keynoters'
+        url: '#keynoters'
       speakers:
         texto: speakers
-        url: ''
-        clase: deactivated
+        url: '#speakers'
       program:
         texto: programa
         url: ''
@@ -26,10 +25,10 @@ es:
         clase: deactivated
       place:
         texto: lugar
-        url: '/#place'
+        url: '#place'
       sponsors:
         texto: auspiciadores
-        url: '/#sponsors'
+        url: '#sponsors'
       blog:
         texto: blog
         url: https://medium.com/starsconf
