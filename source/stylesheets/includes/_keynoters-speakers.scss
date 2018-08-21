@@ -11,103 +11,6 @@
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    .keynoter{
-      position: relative;
-      width: 32.4%;
-      margin-left: 1%;
-      margin-bottom: 1%;
-      &:nth-child(1),
-      &:nth-child(4){
-        margin-left: 0;
-      }
-      .keynoter-image{
-        overflow: hidden;
-        width: 100%;
-        margin: 0 auto;
-        a{
-          display: block;
-          overflow: hidden;
-          height: 380px;
-          img{
-            width: 100%;
-            object-fit: cover;
-          }
-        }
-      }
-
-      .keynoter-data{
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        background: linear-gradient(rgba(0,0,0,0.01), rgba(0,0,0,0.4));
-        color: #fff;
-        text-align: left;
-        padding: 40px 20px 20px;
-        font-size: 2rem;
-        .keynoter-data-name{
-          font-size: 2rem;
-          font-family: "Lato";
-          font-weight: bold;
-          line-height: 110%;
-          text-transform: uppercase;
-        }
-        .keynoter-data-bio,
-        .keynoter-data-contact{
-          font-size: 1.4rem;
-          font-weight: bold;
-          line-height: 130%;
-          display: block;
-          a{
-            display: inline-block;
-            padding: 2px;
-            color: #FFF;
-            margin-top: 5px;
-            &:before{
-              content: '';
-              display: inline-block;
-              width: 18px;
-              height: 18px;
-              background: image_url('sprite_social.svg') no-repeat;
-              filter: invert(100%);
-              margin: 3px;
-              vertical-align: middle;
-              background-size: cover;
-            }
-            &.twitter{
-              background-color: #41a7ff;
-              &:before{
-                background-position: -23px;
-              }
-            }
-            &.linkedin{
-              background-color: #0073b1;
-              &:before{
-                background-position: -96px;
-              }
-            }
-          }
-        }
-      }
-      .keynoter-data-topic{
-        position: absolute;
-        top: 3%;
-        left: 1%;
-        a{
-          background-color: #ffdd00;
-          color: black;
-          padding: 5px;
-          font-size: 1.2rem;
-        }
-      }
-      &.off{
-        opacity: 0.3;
-        pointer-events: none;
-        cursor: default;
-        .image{
-          border-color: #999;
-        }
-      }
-    }
   }
   .call-to-action{
     display: flex;
@@ -127,6 +30,126 @@
       &:focus{
         background-color: #fd0;
         color: black;
+      }
+    }
+  }
+  .keynoter{
+    position: relative;
+    width: 49%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    height: 550px;
+    &:nth-child(1),
+    &:nth-child(3){
+      margin-left: 0;
+    }
+    &.speaker{
+      width: 24%;
+      height: 320px;
+      &:nth-child(1),
+      &:nth-child(5),
+      &:nth-child(9),
+      &:nth-child(13),
+      &:nth-child(17),
+      &:nth-child(21){
+        margin-left: 0;
+      }
+      &:nth-child(3){
+        margin-left: 1%;
+      }
+      .keynoter-data .keynoter-data-name{
+        font-size: 1.6rem;
+      }
+      .keynoter-data .keynoter-data-bio{
+        font-size: 1.2rem;
+      }
+    }
+    .keynoter-image{
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+      a{
+        display: block;
+        overflow: hidden;
+        height: 100%;
+        img{
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+    .keynoter-data{
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      background: linear-gradient(rgba(0,0,0,0.01), rgba(0,0,0,0.55));
+      color: #fff;
+      text-align: left;
+      padding: 40px 20px 20px;
+      font-size: 2rem;
+      .keynoter-data-name{
+        font-size: 2rem;
+        font-family: "Lato";
+        font-weight: bold;
+        line-height: 110%;
+        text-transform: uppercase;
+        text-shadow: 0 0 30px rgba(0,0,0,0.4);
+      }
+      .keynoter-data-bio,
+      .keynoter-data-contact{
+        font-size: 1.4rem;
+        font-weight: bold;
+        line-height: 130%;
+        display: block;
+        a{
+          display: inline-block;
+          padding: 2px;
+          color: #FFF;
+          margin-top: 5px;
+          &:before{
+            content: '';
+            display: inline-block;
+            width: 18px;
+            height: 18px;
+            background: image_url('sprite_social.svg') no-repeat;
+            filter: invert(100%);
+            margin: 3px;
+            vertical-align: middle;
+            background-size: cover;
+          }
+          &.twitter{
+            background-color: #41a7ff;
+            &:before{
+              background-position: -23px;
+            }
+          }
+          &.linkedin{
+            background-color: #0073b1;
+            &:before{
+              background-position: -96px;
+            }
+          }
+        }
+      }
+    }
+    .keynoter-data-topic{
+      position: absolute;
+      top: 3%;
+      left: 1%;
+      a{
+        background-color: #ffdd00;
+        color: black;
+        padding: 5px;
+        font-size: 1.2rem;
+      }
+    }
+    &.off{
+      opacity: 0.3;
+      pointer-events: none;
+      cursor: default;
+      .image{
+        border-color: #999;
       }
     }
   }
