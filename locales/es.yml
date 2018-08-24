@@ -58,6 +58,7 @@ es:
           keynote_name:
           keynote_description:
         keynote_about: Product & Design
+        effect: fade-right
 
       natasha:
         foto: keynoters/natasha_jaques.jpg
@@ -70,6 +71,7 @@ es:
           keynote_name: 
           keynote_description: 
         keynote_about: Exciting Trends
+        effect: fade-left
 
       mike:
         foto: keynoters/mike_mcneil.jpg
@@ -82,6 +84,7 @@ es:
           keynote_name: 
           keynote_description: 
         keynote_about: Development & Technology
+        effect: fade-right
 
       jose:
         foto: keynoters/jose_casal.jpg
@@ -94,6 +97,7 @@ es:
           keynote_name: 
           keynote_description: 
         keynote_about: Business Agility
+        effect: fade-left
 
   section_speakers:
     title: "{speakers}"
