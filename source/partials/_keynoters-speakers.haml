@@ -4,7 +4,7 @@
     %h3.subtitles= t('section_keynoters.subtitle')
     .people
       - Hash[t('section_keynoters.keynoters')].each do |key, keynoter|
-        .keynoter
+        .keynoter{'data-aos': keynoter[:effect]}
           .keynoter-image
             = link_to nil do
               = image_tag keynoter[:foto]
@@ -19,7 +19,7 @@
     %h3.subtitles= t('section_speakers.subtitle')
     .people
       - Hash[t('section_speakers.speakers')].each do |key, speaker|
-        .keynoter.speaker
+        .keynoter.speaker{'data-aos': 'fade-up'}
           .keynoter-image
             = link_to nil do
               = image_tag speaker[:foto]
