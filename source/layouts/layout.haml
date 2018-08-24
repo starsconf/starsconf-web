@@ -31,11 +31,6 @@
 
     %link{href: "//fonts.googleapis.com/icon?family=Material+Icons", rel: "stylesheet"}/
 
-    / AOS Animate Scroll
-    %script{:src => "https://unpkg.com/aos@next/dist/aos.js"}
-    :javascript
-        AOS.init();
-
     = stylesheet_link_tag "application"
 
     / Global site tag (gtag.js) - Google Analytics
@@ -53,4 +48,11 @@
     %script{src: '//cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js', crossorigin: 'anonymous'}
     = javascript_include_tag "lodash.min.js"
     = javascript_include_tag "imagesloaded.min.js"
+    / AOS Animate Scroll
+    %script{:src => "https://unpkg.com/aos@next/dist/aos.js"}
+    :javascript
+        AOS.init({
+            startEvent: 'DOMContentLoaded'
+        });
+        
     = javascript_include_tag "site"
