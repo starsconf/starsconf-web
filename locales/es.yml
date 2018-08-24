@@ -101,7 +101,7 @@ es:
     speakers:
       agustin:
         foto: speakers/agustin_feuerhake.jpg
-        nombre: Agustin Feuerhake
+        nombre: Agustín Feuerhake
         bio: "Co-founder de Platanus, Buda.com y Fintual."
         contacto: "<a href='https://twitter.com/agustinf' class='twitter' target='_blank'></a> <a href='https://cl.linkedin.com/in/agustinfeuerhake/' class='linkedin' target='_blank'></a>"
         long_bio: "Agustín es Ingeniero Civil de la Universidad Católica, es co-fundador de Platanus, desde donde co-fundó el mayor exchange de criptomonedas de sudamérica Buda.com y la primera startup chilena en entrar en Y-Combinator: Fintual.com"
@@ -131,7 +131,7 @@ es:
         keynote_about: "Development & Technology"
       andres:
         foto: speakers/andres_marinkovic.jpg
-        nombre: "Andres Marinkovic"
+        nombre: "Andrés Marinkovic"
         bio: "CTO en Fintual"
         contacto: "<a href='https://twitter.com/asmarinkovic' class='twitter' target='_blank'></a> <a href='https://cl.linkedin.com/in/andresmarinkovic/' class='linkedin' target='_blank'></a>"
         long_bio: ""
@@ -329,16 +329,6 @@ es:
           keynote_name: ""
           keynote_description: ""
         keynote_about: "Product & Design"
-      yerka:
-        foto: speakers/yerka_freire.jpg
-        nombre: "Yerka Freire"
-        bio: "Física, doctorada en el Centro de Investigación en Complejidad Social UDD."
-        contacto: "<a href='https://twitter.com/yerka_freire' class='twitter' target='_blank'></a>yerka_freire"
-        long_bio: ""
-        keynote:
-          keynote_name: ""
-          keynote_description: ""
-        keynote_about: "Exciting Trends"
       ubaldo:
         foto: speakers/ubaldo_taladriz.jpg
         nombre: "Ubaldo Taladriz"
@@ -349,6 +339,16 @@ es:
           keynote_name: ""
           keynote_description: ""
         keynote_about: "Devops"
+      yerka:
+        foto: speakers/yerka_freire.jpg
+        nombre: "Yerka Freire"
+        bio: "Física, doctorada en el Centro de Investigación en Complejidad Social UDD."
+        contacto: "<a href='https://twitter.com/yerka_freire' class='twitter' target='_blank'></a>"
+        long_bio: ""
+        keynote:
+          keynote_name: ""
+          keynote_description: ""
+        keynote_about: "Exciting Trends"
 
     
   section_knt_spk:
