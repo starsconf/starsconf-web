@@ -51,7 +51,7 @@ es:
         foto: keynoters/jaimee_newberry.jpg
         nombre: Jaimee Newberry
         bio: Co-Founder + CEO, Picture This Clothing.
-        contacto: "<a href='https://twitter.com/jaimeejaimee' class='twitter' target='_blank'></a> <a href='https://linkedin.com' class='linkedin' target='_blank'></a>"
+        contacto: "<a href='https://twitter.com/jaimeejaimee' class='twitter' target='_blank'></a> <a href='https://www.linkedin.com/in/jaimeenewberry/' class='linkedin' target='_blank'></a>"
         switch: 'on'
         long_bio:
         keynote:
@@ -64,7 +64,7 @@ es:
         foto: keynoters/natasha_jaques.jpg
         nombre: Natasha Jaques
         bio: MIT Media Lab, DeepMind (Google)
-        contacto: "<a href='https://twitter.com/natashajaques' class='twitter' target='_blank'></a> <a href='https://linkedin.com' class='linkedin' target='_blank'></a>"
+        contacto: "<a href='https://twitter.com/natashajaques' class='twitter' target='_blank'></a> <a href='https://www.linkedin.com/in/natashajaques/' class='linkedin' target='_blank'></a>"
         switch: 'on'
         long_bio:
         keynote:
