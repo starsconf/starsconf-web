@@ -71,4 +71,10 @@ and (max-device-width : 1210px) {
 }
 
 @media (min-width: 769px)
-and (max-width: 1200px) {}
+and (max-width: 1200px) {
+  .place{
+    .content{
+      max-width: 90%;
+    }
+  }
+}
