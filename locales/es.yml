@@ -51,25 +51,27 @@ es:
         foto: keynoters/jaimee_newberry.jpg
         nombre: Jaimee Newberry
         bio: Co-Founder + CEO, Picture This Clothing.
-        contacto: "<a href='https://twitter.com/jaimeejaimee' class='twitter' target='_blank'></a> <a href='https://linkedin.com' class='linkedin' target='_blank'></a>"
+        contacto: "<a href='https://twitter.com/jaimeejaimee' class='twitter' target='_blank'></a> <a href='https://www.linkedin.com/in/jaimeenewberry/' class='linkedin' target='_blank'></a>"
         switch: 'on'
         long_bio:
         keynote:
           keynote_name:
           keynote_description:
         keynote_about: Product & Design
+        effect: fade-right
 
       natasha:
         foto: keynoters/natasha_jaques.jpg
         nombre: Natasha Jaques
         bio: MIT Media Lab, DeepMind (Google)
-        contacto: "<a href='https://twitter.com/natashajaques' class='twitter' target='_blank'></a> <a href='https://linkedin.com' class='linkedin' target='_blank'></a>"
+        contacto: "<a href='https://twitter.com/natashajaques' class='twitter' target='_blank'></a> <a href='https://www.linkedin.com/in/natashajaques/' class='linkedin' target='_blank'></a>"
         switch: 'on'
         long_bio:
         keynote:
           keynote_name: 
           keynote_description: 
         keynote_about: Exciting Trends
+        effect: fade-left
 
       mike:
         foto: keynoters/mike_mcneil.jpg
@@ -82,6 +84,7 @@ es:
           keynote_name: 
           keynote_description: 
         keynote_about: Development & Technology
+        effect: fade-right
 
       jose:
         foto: keynoters/jose_casal.jpg
@@ -94,6 +97,7 @@ es:
           keynote_name: 
           keynote_description: 
         keynote_about: Business Agility
+        effect: fade-left
 
   section_speakers:
     title: "{speakers}"
@@ -101,7 +105,7 @@ es:
     speakers:
       agustin:
         foto: speakers/agustin_feuerhake.jpg
-        nombre: Agustin Feuerhake
+        nombre: Agustín Feuerhake
         bio: "Co-founder de Platanus, Buda.com y Fintual."
         contacto: "<a href='https://twitter.com/agustinf' class='twitter' target='_blank'></a> <a href='https://cl.linkedin.com/in/agustinfeuerhake/' class='linkedin' target='_blank'></a>"
         long_bio: "Agustín es Ingeniero Civil de la Universidad Católica, es co-fundador de Platanus, desde donde co-fundó el mayor exchange de criptomonedas de sudamérica Buda.com y la primera startup chilena en entrar en Y-Combinator: Fintual.com"
@@ -131,7 +135,7 @@ es:
         keynote_about: "Development & Technology"
       andres:
         foto: speakers/andres_marinkovic.jpg
-        nombre: "Andres Marinkovic"
+        nombre: "Andrés Marinkovic"
         bio: "CTO en Fintual"
         contacto: "<a href='https://twitter.com/asmarinkovic' class='twitter' target='_blank'></a> <a href='https://cl.linkedin.com/in/andresmarinkovic/' class='linkedin' target='_blank'></a>"
         long_bio: ""
@@ -329,16 +333,6 @@ es:
           keynote_name: ""
           keynote_description: ""
         keynote_about: "Product & Design"
-      yerka:
-        foto: speakers/yerka_freire.jpg
-        nombre: "Yerka Freire"
-        bio: "Física, doctorada en el Centro de Investigación en Complejidad Social UDD."
-        contacto: "<a href='https://twitter.com/yerka_freire' class='twitter' target='_blank'></a>yerka_freire"
-        long_bio: ""
-        keynote:
-          keynote_name: ""
-          keynote_description: ""
-        keynote_about: "Exciting Trends"
       ubaldo:
         foto: speakers/ubaldo_taladriz.jpg
         nombre: "Ubaldo Taladriz"
@@ -349,6 +343,16 @@ es:
           keynote_name: ""
           keynote_description: ""
         keynote_about: "Devops"
+      yerka:
+        foto: speakers/yerka_freire.jpg
+        nombre: "Yerka Freire"
+        bio: "Física, doctorada en el Centro de Investigación en Complejidad Social UDD."
+        contacto: "<a href='https://twitter.com/yerka_freire' class='twitter' target='_blank'></a>"
+        long_bio: ""
+        keynote:
+          keynote_name: ""
+          keynote_description: ""
+        keynote_about: "Exciting Trends"
 
     
   section_knt_spk:

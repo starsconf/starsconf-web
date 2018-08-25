@@ -132,4 +132,11 @@ and (max-device-width : 1210px) {
 }
 
 @media (min-width: 768px)
-and (max-width: 1200px) {}
+and (max-width: 1200px) {
+  .sponsors,
+  .organizers{
+    .content{
+      max-width: 90%;
+    }
+  }
+}
