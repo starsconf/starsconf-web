@@ -499,7 +499,7 @@ es:
       tema4:
         theme_title: Exciting Trends
         theme_description: Aquí hay temas geniales que han sido publicados este último año, como las criptomonedas, Machine Learning, Artificial Intelligence, entre otros.
-        theme_resume: Un espacio separado para destacar las nuevas tendencias y las tecnologías con potencial para cambiar el mundo (ya les queda un poco más de ello).
+        theme_resume: Un espacio separado para destacar las nuevas tendencias y las tecnologías con potencial para cambiar el mundo.
   
   workshops:
   - foto: assets/img/square-continuum-logo.svg
