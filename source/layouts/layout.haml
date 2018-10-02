@@ -34,13 +34,12 @@
     = stylesheet_link_tag "application"
 
     / Global site tag (gtag.js) - Google Analytics
-    %script{:async => "", :src => "“https://www.googletagmanager.com/gtag/js?id=UA-123723139-1“"}
+    %script{:async => "", :src => "https://www.googletagmanager.com/gtag/js?id=UA-123723139-1"}
     :javascript
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
-      gtag(‘js’, new Date());
-
-      gtag(‘config’, ‘UA-123723139-1’);
+      gtag('js', new Date());
+      gtag('config', 'UA-123723139-1');
 
   %body
     = yield
