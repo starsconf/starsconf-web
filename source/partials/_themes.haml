@@ -4,7 +4,7 @@
     %h3.subtitles= t('section_themes.subtitle') 
     .topics
       - Hash[t('section_themes.themes')].each do |key, theme|
-        .topic-square{'data-aos': 'zoom-in'}
+        .topic-square
           %h4.topic-square-title= (theme[:theme_title])
           %p.topic-square-description= (theme[:theme_description])
           %p.topic-square-resume= (theme[:theme_resume])

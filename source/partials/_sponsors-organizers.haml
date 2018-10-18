@@ -3,24 +3,24 @@
     %h2.titles= t('section_sponsors.title')
     .categories
       %h4= t('section_sponsors.platinuum.name')
-      .platinuum{'data-aos': 'fade-up'}
+      .platinuum
         - Hash[t('section_sponsors.platinuum.logos')].each do |key, logo|
           = link_to logo[:link], title: logo[:alt] do
             = image_tag logo[:image]
       %h4= t('section_sponsors.gold.name')
-      .gold{'data-aos': 'fade-up'}
+      .gold
         - Hash[t('section_sponsors.gold.logos')].each do |key, logo|
           = link_to logo[:link], title: logo[:alt] do
             = image_tag logo[:image]
       
       %h4= t('section_sponsors.silver.name')
-      .silver{'data-aos': 'fade-up'}
+      .silver
         - Hash[t('section_sponsors.silver.logos')].each do |key, logo|
           = link_to logo[:link], title: logo[:alt] do
             = image_tag logo[:image]
       
       %h4= t('section_sponsors.drink-up.name')
-      .drink-up{'data-aos': 'fade-up'}
+      .drink-up
         - Hash[t('section_sponsors.drink-up.logos')].each do |key, logo|
           = link_to logo[:link], title: logo[:alt] do
             = image_tag logo[:image]
