@@ -99,6 +99,18 @@ es:
         keynote_about: Business Agility
         effect: fade-left
 
+      alistair:
+        foto: keynoters/alistair.jpg
+        nombre: "Alistair Cockburn"
+        bio: "Uno de los autores del Manifiesto Ágil (http://agilemanifesto.org/). Experto en ingeniería de software y desarrollo ágil."
+        contacto: "<a href='https://twitter.com/totheralistair' class='twitter' target='_blank'></a> <a href='https://www.linkedin.com/in/alistaircockburn/' class='linkedin' target='_blank'></a>"
+        long_bio: ""
+        keynote:
+          keynote_name: ""
+          keynote_description: ""
+        keynote_about: Business Agility
+        effect: fade-up
+
   section_speakers:
     title: "{speakers}"
     subtitle: Junto a ellos, más de 20 expositores seleccionados.
@@ -265,7 +277,7 @@ es:
         keynote_about: "Devops"
       mauro:
         foto: speakers/mauro_strione.jpg
-        nombre: "Mauricio Strione"
+        nombre: "Mauro Strione"
         bio: "Agile Coach & Trainer en el COE de Everis"
         contacto: "<a href='https://twitter.com/MauroStrione' class='twitter' target='_blank'></a> <a href='https://cl.linkedin.com/in/maurostrione/' class='linkedin' target='_blank'></a>"
         long_bio: ""
@@ -273,6 +285,16 @@ es:
           keynote_name: ""
           keynote_description: ""
         keynote_about: "Product & Design"
+      mauricio:
+        foto: speakers/mauricio_castro.jpg
+        nombre: "Mauricio Castro"
+        bio: "CTO y Co-fundador de Magnet.cl"
+        contacto: "<a href='https://www.linkedin.com/in/mauricio-castro-garc%C3%ADa-332214aa/' class='linkedin' target='_blank'></a>"
+        long_bio: ""
+        keynote:
+          keynote_name: ""
+          keynote_description: ""
+        keynote_about: "Development & Technology"
       maximiliano:
         foto: speakers/maximiliano_osorio.jpg
         nombre: "Maximiliano Osorio"
@@ -384,6 +406,10 @@ es:
           link: https://www.2brains.cl/
           image: sponsors/2brains-logo.svg
           alt: 2brains
+        bcilabs:
+          link: https://bcilabs.cl/
+          image: sponsors/bcilabs-logo.svg
+          alt: Bci Labs
     silver:
       name: Silver
       logos:
@@ -398,7 +424,11 @@ es:
         nichile:
           link: https://www.nic.cl/
           image: sponsors/nic-logo.svg
-          alt: Nic Chile  
+          alt: Nic Chile
+        leansight:
+          link: https://leansight.com/
+          image: sponsors/leansight-logo.svg
+          alt: Leansight  
     drink-up:
       name: Drink-up
       logos:
