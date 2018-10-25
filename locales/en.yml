@@ -14,13 +14,8 @@ en:
         texto: speakers
         url: '/en/#speakers'
       program:
-        texto: program
-        url: ''
-        clase: deactivated
-      talleres:
-        texto: workshops
-        url: ''
-        clase: deactivated
+        texto: schedule & workshops
+        url: 'https://starsconf2018a.sched.com/grid/'
       place:
         texto: venue
         url: '/en/#place'
