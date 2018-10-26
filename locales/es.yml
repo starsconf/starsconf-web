@@ -16,13 +16,8 @@ es:
         texto: speakers
         url: '#speakers'
       program:
-        texto: programa
-        url: ''
-        clase: deactivated
-      talleres:
-        texto: talleres
-        url: ''
-        clase: deactivated
+        texto: programa y talleres
+        url: 'https://starsconf2018a.sched.com/grid/'
       place:
         texto: lugar
         url: '#place'
