@@ -9,7 +9,7 @@ end
 activate :i18n, :mount_at_root => :es
 
 # Pretty URLs 
-# activate :directory_indexes
+activate :directory_indexes
 
 # Live Reloaded
 activate :livereload
