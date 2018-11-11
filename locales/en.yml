@@ -15,7 +15,7 @@ en:
         url: '/en/#speakers'
       program:
         texto: schedule & workshops
-        url: 'https://starsconf2018a.sched.com/grid/'
+        url: 'https://starsconf2018a.sched.com/'
       place:
         texto: venue
         url: '/en/#place'
