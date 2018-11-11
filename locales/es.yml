@@ -17,7 +17,7 @@ es:
         url: '#speakers'
       program:
         texto: programa y talleres
-        url: 'https://starsconf2018a.sched.com/grid/'
+        url: 'https://starsconf2018a.sched.com/'
       place:
         texto: lugar
         url: '#place'
