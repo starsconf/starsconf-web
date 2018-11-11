@@ -1,0 +1,87 @@
+/*GRID PROGRAM*
+------------------------*/
+.grid-program{
+  color: $main-text-color;
+  .content{
+    padding: 10% 0 5%;
+  }
+  .program{
+    display: block;
+    padding-top: 5%;
+  }
+  a{
+    color: #fd0;
+  }
+}
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px){
+
+  .themes{
+    .content{
+      padding: 5%;
+    }
+    .topics{
+      display: block;
+    }
+    .content{
+      .titles, .subtitles{
+        display: block;
+        text-align: center;
+      }
+      .titles{
+        font-size: 3rem;
+        &:after{
+          content: initial;
+        }
+      }
+    }
+    .topic-square{
+      text-align: center;
+      margin-bottom: 14%;
+      .topic-square-title{
+        font-size: 2rem;
+      }
+      .topic-square-description,
+      .topic-square-resume{
+        font-size: 1.8rem;
+        line-height: 120%;
+      }
+    }
+  }
+}
+
+@media only screen 
+and (min-device-width : 481px) 
+and (max-device-width : 1210px) {
+  .themes .content{
+    max-width: 90%;
+  }
+  .themes{
+    .content{
+      padding: 5%;
+    }
+    .topic-square{
+
+      .topic-square-title{
+        font-size: 1.8rem;
+      }
+      .topic-square-description,
+      .topic-square-resume{
+
+      }
+    }
+  }
+}
+
+@media (min-width: 768px)
+and (max-width: 1200px) {
+  .themes{
+    .content{
+      max-width: 90%;
+    }
+  }
+}
+
