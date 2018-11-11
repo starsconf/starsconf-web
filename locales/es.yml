@@ -17,13 +17,33 @@ es:
         url: '#speakers'
       program:
         texto: programa y talleres
-        url: 'https://starsconf2018a.sched.com/'
+        url: '/programa'
       place:
         texto: lugar
         url: '#place'
       sponsors:
         texto: auspiciadores
         url: '#sponsors'
+      blog:
+        texto: blog
+        url: https://medium.com/starsconf
+  header2:
+    menu_options:
+      keynoters:
+        texto: keynoters
+        url: '/#keynoters'
+      speakers:
+        texto: speakers
+        url: '/#speakers'
+      program:
+        texto: programa y talleres
+        url: '/programa'
+      place:
+        texto: lugar
+        url: '/#place'
+      sponsors:
+        texto: auspiciadores
+        url: '/#sponsors'
       blog:
         texto: blog
         url: https://medium.com/starsconf
@@ -42,18 +62,6 @@ es:
     title: "{keynoters}"
     subtitle: Las estrellas que estarán con nosotros este año.
     keynoters:
-      jaimee:
-        foto: keynoters/jaimee_newberry.jpg
-        nombre: Jaimee Newberry
-        bio: Co-Founder + CEO, Picture This Clothing.
-        contacto: "<a href='https://twitter.com/jaimeejaimee' class='twitter' target='_blank'></a> <a href='https://www.linkedin.com/in/jaimeenewberry/' class='linkedin' target='_blank'></a>"
-        switch: 'on'
-        long_bio:
-        keynote:
-          keynote_name:
-          keynote_description:
-        keynote_about: Product & Design
-        effect: fade-right
 
       natasha:
         foto: keynoters/natasha_jaques.jpg
@@ -104,7 +112,7 @@ es:
           keynote_name: ""
           keynote_description: ""
         keynote_about: Business Agility
-        effect: fade-up
+        effect: fade-right
 
   section_speakers:
     title: "{speakers}"
@@ -376,6 +384,10 @@ es:
     boton: Detalle de todos los keynoters y speakers
     boton_short: Detalle de charlas
     url_boton: keynoters-speakers.html
+
+  section_grid:
+    title: "{programa}"
+    subtitle: "El detalle de todas las charlas y talleres con sus horarios."
   
   section_sponsors:
     title: "{auspician}"

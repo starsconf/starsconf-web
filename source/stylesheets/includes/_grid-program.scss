@@ -1,0 +1,69 @@
+/*GRID PROGRAM*
+------------------------*/
+.grid-program{
+  color: $main-text-color;
+  .content{
+    padding: 10% 0 5%;
+  }
+  .program{
+    display: block;
+    padding-top: 5%;
+  }
+  a{
+    color: #fd0;
+  }
+}
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px){
+
+  .grid-program{
+    .content{
+      padding: 25% 5% 5%;
+      .titles{
+        font-size: 3rem;
+        &:after{
+          display: none;
+        }
+      }
+      .subtitles{
+        font-size: 1.6rem;
+      }
+    }
+    .program{
+      display: block;
+      padding-top: 5%;
+    }
+  }
+
+}
+
+@media only screen 
+and (min-device-width : 481px) 
+and (max-device-width : 1210px) {
+  .grid-program .content{
+    max-width: 90%;
+  }
+  .grid-program{
+    .content{
+      padding: 25% 5% 5%;
+    }
+    .program{
+      display: block;
+      padding-top: 5%;
+    }
+  }
+}
+
+@media (min-width: 768px)
+and (max-width: 1200px) {
+  .grid-program{
+    .content{
+      max-width: 90%;
+      padding: 10% 0 5%;
+    }
+  }
+}
+
