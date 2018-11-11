@@ -8,22 +8,45 @@ en:
   header:
     menu_options:
       keynoters:
-        texto: keynoters
+        texto: Keynoters
+        url: '#keynoters'
+      speakers:
+        texto: Speakers
+        url: '#speakers'
+      program:
+        texto: Schedule & Workshops
+        url: '/en/schedule'
+      place:
+        texto: Venue
+        url: '#place'
+      sponsors:
+        texto: Sponsors
+        url: '#sponsors'
+      blog:
+        texto: Blog
+        url: https://medium.com/starsconf
+    logo:
+      url: "/"
+      url2: "/"
+  header2:
+    menu_options:
+      keynoters:
+        texto: Keynoters
         url: '/en/#keynoters'
       speakers:
-        texto: speakers
+        texto: Speakers
         url: '/en/#speakers'
       program:
-        texto: schedule & workshops
-        url: 'https://starsconf2018a.sched.com/'
+        texto: Schedule & Workshops
+        url: '/en/schedule'
       place:
-        texto: venue
+        texto: Venue
         url: '/en/#place'
       sponsors:
-        texto: sponsors
+        texto: Sponsors
         url: '/en/#sponsors'
       blog:
-        texto: blog
+        texto: Blog
         url: https://medium.com/starsconf
     logo:
       url: "/"
@@ -88,6 +111,10 @@ en:
     credits: "<ul class='credits'><li>Original source and credits:<br> <a href='http://2012.jsconf.us/#/about' target='_blank'>http://2012.jsconf.us/#/about</a> & <a href='http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy'>The
     Ada Initiative</a></li><li>Please, help by translating or improving: <br><a href='http://github.com/leftlogic/confcodeofconduct.com'>github.com/leftlogic/confcodeofconduct.com</a></li><li>This
     work is licensed under <a>Creative Commons Attribution 3.0 Unported License</a>"
+
+  section_grid:
+    title: "{Schedule}"
+    subtitle: "All talks and workshops with their times."
   
   footer:
     social:
@@ -96,5 +123,4 @@ en:
       text: If you have any question or suggestion, please do not hesitate to contact us <a href='mailto:team@starsconf.com'>team@starsconf.com</a>
     link_codigo:
       texto: Code of conduct
-      url: /en/codigo-de-conducta
-
+      url: /en/code-of-conduct
