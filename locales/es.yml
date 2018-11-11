@@ -42,18 +42,6 @@ es:
     title: "{keynoters}"
     subtitle: Las estrellas que estarán con nosotros este año.
     keynoters:
-      jaimee:
-        foto: keynoters/jaimee_newberry.jpg
-        nombre: Jaimee Newberry
-        bio: Co-Founder + CEO, Picture This Clothing.
-        contacto: "<a href='https://twitter.com/jaimeejaimee' class='twitter' target='_blank'></a> <a href='https://www.linkedin.com/in/jaimeenewberry/' class='linkedin' target='_blank'></a>"
-        switch: 'on'
-        long_bio:
-        keynote:
-          keynote_name:
-          keynote_description:
-        keynote_about: Product & Design
-        effect: fade-right
 
       natasha:
         foto: keynoters/natasha_jaques.jpg
@@ -104,7 +92,7 @@ es:
           keynote_name: ""
           keynote_description: ""
         keynote_about: Business Agility
-        effect: fade-up
+        effect: fade-right
 
   section_speakers:
     title: "{speakers}"
