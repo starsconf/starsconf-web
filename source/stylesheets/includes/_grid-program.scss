@@ -19,68 +19,50 @@
 and (min-device-width : 320px) 
 and (max-device-width : 480px){
 
-  .themes{
+  .grid-program{
     .content{
-      padding: 5%;
-    }
-    .topics{
-      display: block;
-    }
-    .content{
-      .titles, .subtitles{
-        display: block;
-        text-align: center;
-      }
+      padding: 25% 5% 5%;
       .titles{
         font-size: 3rem;
         &:after{
-          content: initial;
+          display: none;
         }
       }
+      .subtitles{
+        font-size: 1.6rem;
+      }
     }
-    .topic-square{
-      text-align: center;
-      margin-bottom: 14%;
-      .topic-square-title{
-        font-size: 2rem;
-      }
-      .topic-square-description,
-      .topic-square-resume{
-        font-size: 1.8rem;
-        line-height: 120%;
-      }
+    .program{
+      display: block;
+      padding-top: 5%;
     }
   }
+
 }
 
 @media only screen 
 and (min-device-width : 481px) 
 and (max-device-width : 1210px) {
-  .themes .content{
+  .grid-program .content{
     max-width: 90%;
   }
-  .themes{
+  .grid-program{
     .content{
-      padding: 5%;
+      padding: 25% 5% 5%;
     }
-    .topic-square{
-
-      .topic-square-title{
-        font-size: 1.8rem;
-      }
-      .topic-square-description,
-      .topic-square-resume{
-
-      }
+    .program{
+      display: block;
+      padding-top: 5%;
     }
   }
 }
 
 @media (min-width: 768px)
 and (max-width: 1200px) {
-  .themes{
+  .grid-program{
     .content{
       max-width: 90%;
+      padding: 10% 0 5%;
     }
   }
 }
