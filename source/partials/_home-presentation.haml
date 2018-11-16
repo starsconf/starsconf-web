@@ -3,5 +3,7 @@
     .content
       %h2= t('homepage.fecha')
       %h1= t('homepage.description_home')
-      = link_to 'https://welcu.com/startechconf/starsconf-2018', title: t('homepage.button_buy_tickets'), class: 'cta' do
-        = t('homepage.button_buy_tickets')
+      
+  .streaming
+    .content
+      %iframe{:allowfullscreen => "", :allowscriptaccess => "always", :frameborder => "0", :scrolling => "no", :src => "https://sandbox.mediastre.am/eventos/cl/Starconf"}
