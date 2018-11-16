@@ -6,7 +6,7 @@
   background-blend-mode: multiply;
   background-size: cover;
   background-position: center 200px;
-  height: 100vh;
+  //height: 100vh;
   display: flex;
   align-self: flex-start;
   flex-direction: column;
@@ -70,7 +70,7 @@
       position: relative;
       iframe{
         width: 100%;
-        height: calc(100vh - 420px);
+        height: 660px;
         background-color: black;
       }
     }
