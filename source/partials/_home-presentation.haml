@@ -3,7 +3,7 @@
     .content
       %h2= t('homepage.fecha')
       %h1= t('homepage.description_home')
+  -#= partial "partials/streaming"
+  = partial "partials/videos"
       
-  .streaming
-    .content
-      %iframe{:allowfullscreen => "", :allowscriptaccess => "always", :frameborder => "0", :scrolling => "no", :src => "https://sandbox.mediastre.am/eventos/cl/Starconf"}
+  
